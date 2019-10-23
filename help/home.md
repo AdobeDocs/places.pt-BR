@@ -4,7 +4,7 @@ seo-title: Visão geral do Adobe Places
 description: 'O Adobe Places é um contexto importante para entender o envolvimento dos usuários móveis. Ao usar esse contexto, os desenvolvedores de aplicativos móveis podem melhorar o design do aplicativo e torná-lo uma experiência mais personalizada e envolvente. '
 seo-description: 'Os locais são um contexto importante para entender o envolvimento dos usuários móveis. Ao usar esse contexto, os desenvolvedores de aplicativos móveis podem melhorar o design do aplicativo e torná-lo uma experiência mais personalizada e envolvente. '
 translation-type: tm+mt
-source-git-commit: ef3d77eba407013e1f701ed001ef9ab7b3818e07
+source-git-commit: fdfeb8c17820c4eb0eae249da39be4eebece22d3
 
 ---
 
@@ -30,13 +30,19 @@ Estas são algumas das maneiras de usar os Locais:
 * Segmentar um público-alvo com base no comportamento offline usando perfis de público-alvo com contexto de localização.
 * Direcione um usuário com uma experiência na loja quando relevante.
 
+## Adicionar um espaço reservado para o vídeo "Places intro" do Brandon
+
+## Casos de uso de locais
+
+Melhore esta seção com
+
 ## Componentes do Places
 
 Os locais são compostos pelos seguintes componentes:
 
 * **Serviço Web de locais**
 
-   Você pode criar e gerenciar POIs usando REST APIs. Para obter mais informações sobre REST APIs, consulte [Locais Web services](/help/places-rest-apis/api-usage/api-usage.md).
+   Você pode criar e gerenciar POIs usando as APIs REST do Places. Para obter mais informações sobre REST APIs, consulte [Gerenciar bibliotecas](/help/places-web-service-api/api-usage/manage-libraries/manage-libraries.md) e [gerenciar POIs](/help/places-web-service-api/api-usage/manage-pois/manage-pois.md).
 
 * **Interface do usuário do Places**
 
@@ -44,7 +50,7 @@ Os locais são compostos pelos seguintes componentes:
 
 * **Places SDK**
 
-   A interface da API móvel de várias plataformas para integrar o contexto de localização em seus aplicativos móveis. Para obter mais informações sobre os SDKs, consulte a extensão [](/help/configure-places-in-the-sdk/places-extension/places-extension.md)Locais.
+   A interface da API móvel de várias plataformas para integrar o contexto de localização em seus aplicativos móveis. Para obter mais informações sobre os SDKs, consulte a extensão [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Locais.
 
 * **Regras de locais**
 
@@ -52,7 +58,7 @@ Os locais são compostos pelos seguintes componentes:
 
 * **Monitor de locais**
 
-   O SDK móvel multiplataforma que pode ser incorporado no aplicativo móvel para monitorar automaticamente as alterações de localização do usuário e acionar as regras de Locais. Para obter mais informações, consulte a extensão [do Monitor de](/help/configure-places-in-the-sdk/places-monitor-extension/places-monitor-extension.md)locais.
+   O SDK móvel multiplataforma que pode ser incorporado no aplicativo móvel para monitorar automaticamente as alterações de localização do usuário e acionar as regras de Locais. Para obter mais informações, consulte a extensão [do Monitor de](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)locais.
 
 ## Terminologia
 
@@ -87,23 +93,3 @@ Estes são alguns termos comuns usados nesta documentação:
 * The **Experience Cloud ID** service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud.
 
    For more information, see [Overview](https://docs.adobe.com/content/help/en/id-service/using/intro/overview.html).
-
-## Compreensão da interface do usuário do Places
-
-Para acessar a interface do usuário do Places, em um navegador, vá para a interface do usuário [do](https://places.adobe.com) Places e faça logon com sua Adobe ID.
-
-Estas são algumas informações básicas para ajudá-lo a se familiarizar com a interface do usuário:
-
-* No canto superior direito, há botões nos quais você pode clicar para criar uma biblioteca, POIs e filtrar sua pesquisa.
-* No canto inferior direito da tela, há botões para aumentar e diminuir o zoom, centralizar no local atual **[!UICONTROL Find Me]** e alternar entre a exibição do mapa e a exibição por satélite.
-* Clique duas vezes para ampliar ou clique e arraste para entrar novamente no mapa.
-* Você também pode usar as teclas de seta para rolar o mapa.
-
-![](assets/location-services.png)
-
-
-## O fluxo de trabalho dos locais
-
-Esta é uma exibição de alto nível do fluxo de trabalho Locais:
-
-![](/help/assets/places-workflow-diagram-lc-1.png)
