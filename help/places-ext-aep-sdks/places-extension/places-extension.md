@@ -4,7 +4,7 @@ seo-title: Extensão de locais
 description: A extensão Locais permite que você atue com base na localização dos usuários.
 seo-description: A extensão Locais permite que você atue com base na localização dos usuários.
 translation-type: tm+mt
-source-git-commit: ef720c112bc0de386e070094629c5bab69938e76
+source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
 
 ---
 
@@ -16,7 +16,7 @@ A extensão Locais permite que você atue com base na localização dos usuário
 ## Instale a extensão Locais no Adobe Experience Platform Launch
 
 1. Em Experience Platform Launch, clique na **[!UICONTROL Extensions]** guia.
-2. Na **[!UICONTROL Catalog]** guia, localize a **[!UICONTROL Adobe Places]** extensão e clique em **[!UICONTROL Install]**.
+2. Na **[!UICONTROL Catalog]** guia, localize a **[!UICONTROL Places]** extensão e clique em **[!UICONTROL Install]**.
 3. Selecione as bibliotecas Locais que deseja usar nesta propriedade. Essas são as bibliotecas que estarão acessíveis no seu aplicativo.
 4. Clique em **[!UICONTROL Save]**.
 
