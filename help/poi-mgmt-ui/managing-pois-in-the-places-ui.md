@@ -4,7 +4,7 @@ seo-title: Gerenciar POIs na interface do usuário do Places
 description: Use a interface do usuário do Places para gerenciar seus POIs.
 seo-description: Use a interface do usuário do Places para gerenciar seus POIs.
 translation-type: tm+mt
-source-git-commit: fdfeb8c17820c4eb0eae249da39be4eebece22d3
+source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
 
 ---
 
@@ -37,7 +37,7 @@ Geofences são um tipo de POI e são definidos no banco de dados com base nas se
 ## Editar um POI
 
 1. Faça logon nos locais usando sua Adobe ID.
-1. Faça logon no Adobe Places Service usando sua Adobe ID.
+1. Faça logon no Serviço de locais usando sua Adobe ID.
 1. No lado superior direito, clique no ícone que se parece com uma lista com marcadores.
 1. Localize o POI que deseja editar.
 1. Clique **[!UICONTROL ...]** e selecione **[!UICONTROL View Details]**.
@@ -46,14 +46,14 @@ Geofences são um tipo de POI e são definidos no banco de dados com base nas se
 ## Excluir um POI
 
 1. Faça logon nos locais usando sua Adobe ID.
-1. Faça logon no Adobe Places Service usando sua Adobe ID.
+1. Faça logon no Serviço de locais usando sua Adobe ID.
 1. No lado superior direito, clique no ícone que se parece com uma lista com marcadores.
 1. Localize o POI que deseja excluir.
 1. Clique **[!UICONTROL ...]** e selecione **[!UICONTROL Delete]**.
 
 ## Filtrar POIs por cidade, estado, país ou metadados
 
-1. Faça logon no Adobe Places Service usando sua Adobe ID.
+1. Faça logon no Serviço de locais usando sua Adobe ID.
 1. No lado superior direito, clique no ícone de filtragem.
 1. É possível filtrar POIs de uma das seguintes maneiras:
 
