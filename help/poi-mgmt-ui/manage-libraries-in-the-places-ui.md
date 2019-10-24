@@ -4,7 +4,7 @@ seo-title: Gerenciar bibliotecas na interface do usuário do Places
 description: Gerencie suas bibliotecas usando a interface do usuário do Places.
 seo-description: Gerencie suas bibliotecas usando a interface do usuário do Places.
 translation-type: tm+mt
-source-git-commit: fdfeb8c17820c4eb0eae249da39be4eebece22d3
+source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
 
 ---
 
@@ -25,7 +25,7 @@ As bibliotecas são definidas pelo seguinte:
 
 ## Criar uma biblioteca
 
-1. Faça logon no Adobe Places com sua Adobe ID.
+1. Faça logon em locais com sua Adobe ID.
 2. No lado superior direito, clique em **[!UICONTROL ...]** &gt; **[!UICONTROL Manage Libraries]**.
 3. Clique em **[!UICONTROL New]**.
 4. Digite o nome.
@@ -33,13 +33,13 @@ As bibliotecas são definidas pelo seguinte:
 
 ## Alterar a classificação de uma biblioteca na interface do usuário do Places
 
-1. Faça logon no Adobe Places com sua Adobe ID.
+1. Faça logon em Locais com sua Adobe ID.
 2. No lado superior direito, clique em **[!UICONTROL ...]** &gt; **[!UICONTROL Manage Libraries]**.
 3. Clique no ícone à esquerda do nome da biblioteca e arraste a biblioteca para a nova classificação.
 
 ## Renomear uma biblioteca
 
-1. Faça logon no Adobe Places com sua Adobe ID.
+1. Faça logon em Locais com sua Adobe ID.
 2. No lado superior direito, clique em **[!UICONTROL ...]** &gt; **[!UICONTROL Manage Libraries]**.
 3. Localize a biblioteca que deseja excluir.
 4. Clique **[!UICONTROL ...]** e selecione **[!UICONTROL Rename]**.
@@ -47,7 +47,7 @@ As bibliotecas são definidas pelo seguinte:
 
 ## Excluir uma biblioteca
 
-1. Faça logon no Adobe Places com sua Adobe ID.
+1. Faça logon em Locais com sua Adobe ID.
 2. No lado superior direito, clique em **[!UICONTROL ...]** &gt; **[!UICONTROL Manage Libraries]**.
 3. Localize a biblioteca que deseja excluir.
 4. Clique **[!UICONTROL ...]** e selecione **[!UICONTROL Delete]**.
