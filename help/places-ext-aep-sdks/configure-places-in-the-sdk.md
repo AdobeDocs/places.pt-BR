@@ -4,7 +4,7 @@ seo-title: Configurar o SDK com a extensão de Locais
 description: 'Você pode configurar o SDK com a extensão Locais para ativar o reconhecimento de localização no aplicativo móvel. '
 seo-description: 'Você pode configurar o SDK com a extensão Locais para ativar o reconhecimento de localização no aplicativo móvel. '
 translation-type: tm+mt
-source-git-commit: ef720c112bc0de386e070094629c5bab69938e76
+source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
 
 ---
 
@@ -19,15 +19,15 @@ Para configurar a extensão de Locais:
 
 1. Configure a extensão Locais no Launch.
 
-   Para obter mais informações, consulte *Configurar a extensão Locais no Launch*.
+   Para obter mais informações, consulte *Configurar a extensão Locais na extensão* Iniciar em [Locais](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 1. Adicione a extensão Locais ao seu aplicativo móvel.
 
-   Para obter mais informações, consulte *Adicionar a extensão Locais ao seu aplicativo*.
+   Para obter mais informações, consulte *Adicionar a extensão Locais ao aplicativo* na extensão [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Locais.
 
 1. Registre locais com a extensão Mobile Core.
 
-   Para obter mais informações, consulte *Registrar Adobe Places com o núcleo* móvel.
+   Para obter mais informações, consulte *Registrar locais com núcleo* móvel na extensão [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Locais.
 
 ## Configuração da extensão do Monitor de locais
 
