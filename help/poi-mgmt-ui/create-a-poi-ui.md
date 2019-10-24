@@ -4,7 +4,7 @@ seo-title: Crie um POI
 description: Crie um POI usando a interface do usuário do Places.
 seo-description: Crie um POI usando a interface do usuário do Places.
 translation-type: tm+mt
-source-git-commit: fdfeb8c17820c4eb0eae249da39be4eebece22d3
+source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: fdfeb8c17820c4eb0eae249da39be4eebece22d3
 
 Um ponto de interesse (POI) é um local ou ponto em um mapa que é de seu interesse. Pode incluir locais como cafés, restaurantes e assim por diante.
 
-1. Faça logon no Adobe Places com sua Adobe ID.
+1. Faça logon em Locais com sua Adobe ID.
 2. No lado superior direito, clique no ícone que se parece com uma lista com marcadores e clique em **[!UICONTROL New]**.
 3. Digite um nome para seu POI.
 4. Selecione ou adicione uma biblioteca.
