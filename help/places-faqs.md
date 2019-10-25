@@ -1,17 +1,17 @@
 ---
-title: Perguntas frequentes sobre locais
-seo-title: Perguntas frequentes sobre locais
-description: Este tópico fornece informações adicionais sobre algumas perguntas frequentes sobre os Locais.
-seo-description: Este tópico fornece informações adicionais sobre algumas perguntas frequentes sobre os Locais.
+title: Perguntas frequentes
+seo-title: Perguntas frequentes
+description: Este tópico fornece informações adicionais sobre algumas perguntas frequentes.
+seo-description: Este tópico fornece informações adicionais sobre algumas perguntas frequentes.
 translation-type: tm+mt
-source-git-commit: 26b0cab7bdada26a7598b20623095b72f7c8d334
+source-git-commit: 6ae0c8d90cad4c437e1db7f562a0bc9c6b072ce6
 
 ---
 
 
-# Perguntas frequentes sobre locais
+# Perguntas frequentes
 
-Estas são algumas informações e perguntas frequentes sobre o Places.
+Estas são algumas informações e perguntas frequentes sobre o Serviço de Localização.
 
 ## Tamanho e confiabilidade
 
@@ -25,7 +25,7 @@ Quando o SDK (Places Monitor) recebe uma nova lista de POIs próximos, ele regis
 
 Se o sistema operacional não puder fornecer um evento exit quando o dispositivo sair de uma região, é mais seguro para o SDK omitir o evento exit. Se o SDK fabricar um evento de saída sem que o evento seja acionado pelo sistema operacional, há um risco de que o evento exit possa ser processado bem fora do período durante o qual o dispositivo estava perto do POI.
 
-## Adicionar um usuário ao Places e ao Experience Platform Launch {#adding-user-launch-places}
+## Adicionando um usuário ao Serviço de localização e ao Experience Platform Launch {#adding-user-launch-places}
 
 Para permitir que os usuários acessem a interface do usuário [do](https://places.adobe.com)Serviço de inicialização, eles precisam ser adicionados ao Serviço principal do Places no Admin Console como um usuário. Para permitir que os usuários tenham acesso ao Experience Platform Launch, configurem propriedades móveis e usem o SDK do Adobe Experience Platform, eles precisam ser adicionados ao Experience Platform Launch no Admin Console e receber as seguintes permissões para o Experience Platform Launch:
 
@@ -37,15 +37,15 @@ Para permitir que os usuários acessem a interface do usuário [do](https://plac
    * Gerenciar ambientes
 * Permissão Gerenciar propriedades sob direitos da empresa
 
-Se esta for a primeira vez que você estiver adicionando um usuário, complete as etapas a seguir para adicionar usuários ao Experience Platform Launch e aos Places. Se você tiver adicionado usuários antes, vários perfis poderão ser exibidos, portanto, certifique-se de selecionar o perfil correto.
+Se esta for a primeira vez que você estiver adicionando um usuário, conclua as etapas a seguir para adicionar usuários ao Serviço de Localização e Inicialização da plataforma Experience. Se você tiver adicionado usuários antes, vários perfis poderão ser exibidos, portanto, certifique-se de selecionar o perfil correto.
 
 >[!IMPORTANT]
 >
 >Somente administradores de organizações podem acessar o Admin Console e adicionar os usuários.
 
-### 1. Verifique se o Places e o Experience Platform Launch foram provisionados
+### 1. Verifique se o Serviço de localização e o Experience Platform Launch foram provisionados
 
-Para verificar se o Places e o Experience Platform Launch foram provisionados:
+Para verificar se o Serviço de localização e o Experience Platform Launch foram provisionados:
 
 1. Faça logon na organização da Experience Cloud.
 1. No lado superior direito, clique no alternador de shell da Experience Cloud.
@@ -70,7 +70,7 @@ Para verificar se o Places e o Experience Platform Launch foram provisionados:
 
    ![](/help/assets/places_provisioned1.png)
 
-   Se forem exibidos, o Places e o Experience Platform Launch foram provisionados para sua organização. Se não forem exibidos, eles precisarão ser provisionados para sua organização.
+   Se forem exibidos, o Serviço de localização e o lançamento da plataforma de experiência foram provisionados para sua organização. Se não forem exibidos, eles precisarão ser provisionados para sua organização.
 
    >[!IMPORTANT]
    >
@@ -111,17 +111,17 @@ Para configurar o perfil e adicionar as permissões:
 
 >[!IMPORTANT]
 >
->Em Locais, há um perfil padrão, mas você não precisa adicionar permissões.
+>Para o Serviço de localização, há um perfil padrão, mas você não precisa adicionar permissões.
 
 Você adicionou com êxito permissões ao perfil criado.
 
-### 3. Adicione um usuário ou desenvolvedor aos seus perfis Places e Experience Platform Launch
+### 3. Adicione um usuário ou desenvolvedor aos seus perfis Serviço de localização e Inicialização da plataforma Experience
 
-Você pode adicionar um usuário e/ou um desenvolvedor aos seus perfis Places e Experience Platform Launch.
+Você pode adicionar um usuário e/ou desenvolvedor aos perfis de Serviço de localização e Inicialização da plataforma de experiência.
 
 ### Adicionar um usuário
 
-Para adicionar um usuário aos seus perfis Places e Experience Platform Launch:
+Para adicionar um usuário aos perfis Local Service e Experience Platform Launch:
 
 1. Adicione um usuário ao perfil do Experience Platform Launch.
 
@@ -149,7 +149,7 @@ Para adicionar um usuário aos seus perfis Places e Experience Platform Launch:
 
    >[!TIP]
    >
-   >Atualmente, todos os usuários do Local têm as mesmas permissões, portanto, não é necessário editar as permissões.
+   >Atualmente, todos os usuários do Serviço de Localização têm as mesmas permissões, portanto, não é necessário editar as permissões.
 
    a. Na **[!UICONTROL Places Core Services]** placa, verifique o seguinte:
 
@@ -169,7 +169,7 @@ Para adicionar um usuário aos seus perfis Places e Experience Platform Launch:
 
 ### Adicionar um desenvolvedor
 
-Para usuários que também precisam de acesso à API REST do Places, é necessário adicioná-los como um desenvolvedor.
+Para usuários que também precisam de acesso à API de serviço da Web, é necessário adicioná-los como um Desenvolvedor.
 
 Para adicionar um desenvolvedor:
 
