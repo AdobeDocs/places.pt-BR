@@ -1,19 +1,19 @@
 ---
-title: Locais da plataforma Adobe Experience
-seo-title: Locais da plataforma Adobe Experience
-description: 'Os locais são um contexto importante para entender o envolvimento dos usuários móveis. Ao usar esse contexto, os desenvolvedores de aplicativos móveis podem melhorar o design do aplicativo e torná-lo uma experiência mais personalizada e envolvente. '
-seo-description: 'Os locais são um contexto importante para entender o envolvimento dos usuários móveis. Ao usar esse contexto, os desenvolvedores de aplicativos móveis podem melhorar o design do aplicativo e torná-lo uma experiência mais personalizada e envolvente. '
+title: Serviço de localização da plataforma Adobe Experience
+seo-title: Serviço de localização da plataforma Adobe Experience
+description: 'O Serviço de localização é um contexto importante para entender o envolvimento de usuários móveis. Ao usar esse contexto, os desenvolvedores de aplicativos móveis podem melhorar o design do aplicativo e torná-lo uma experiência mais personalizada e envolvente. '
+seo-description: 'O Serviço de localização é um contexto importante para entender o envolvimento de usuários móveis. Ao usar esse contexto, os desenvolvedores de aplicativos móveis podem melhorar o design do aplicativo e torná-lo uma experiência mais personalizada e envolvente. '
 translation-type: tm+mt
-source-git-commit: 6ff72eb72ce3ae1abf805b7b542721a7e4915824
+source-git-commit: 85ce31329ad155e5c835be286c18e6609b88167b
 
 ---
 
 
 # Visão geral {#home}
 
-O Adobe Experience Platform Places (Places) é um contexto importante para entender o envolvimento de usuários móveis. Ao usar esse contexto, os desenvolvedores de aplicativos móveis podem melhorar o design do aplicativo e torná-lo uma experiência mais personalizada e envolvente. O Places é um serviço de localização geográfica que permite aos desenvolvedores de aplicativos móveis compreender o contexto de localização usando interfaces SDK avançadas e fáceis de usar acompanhadas por um banco de dados flexível de pontos de interesse (POIs).
+O Adobe Experience Platform Location Service (Location Service) é um contexto importante para entender o envolvimento de usuários móveis. Ao usar esse contexto, os desenvolvedores de aplicativos móveis podem melhorar o design do aplicativo e torná-lo uma experiência mais personalizada e envolvente. O Places é um serviço de localização geográfica que permite aos desenvolvedores de aplicativos móveis compreender o contexto de localização usando interfaces SDK avançadas e fáceis de usar acompanhadas por um banco de dados flexível de pontos de interesse (POIs).
 
-Os locais permitem que você atinja o seguinte:
+O Serviço de localização permite que você atinja o seguinte:
 
 * Crie e gerencie um banco de dados com POIs que podem ser aproveitados com outras soluções da Adobe Experience Cloud.
 * Anexe metadados personalizados aos POIs para torná-los mais ricos e mais significativos ao especificar atributos adicionais.
@@ -30,21 +30,21 @@ Estas são algumas das maneiras de usar os Locais:
 * Segmentar um público-alvo com base no comportamento offline usando perfis de público-alvo com contexto de localização.
 * Direcione um usuário com uma experiência na loja quando relevante.
 
-## Adicionar um espaço reservado para o vídeo "Places intro" do Brandon
+## Adição de um espaço reservado para o vídeo "Introdução ao serviço de localização" da Brandon
 
-## Casos de uso de locais
+## Casos de uso do serviço de localização
 
 Melhore esta seção com
 
-## Componentes do Places
+## Componentes do Serviço de localização
 
-Os locais são compostos pelos seguintes componentes:
+O Serviço de Localização inclui os seguintes componentes:
 
 * **Serviço Web de locais**
 
    Você pode criar e gerenciar POIs usando as APIs REST do Places. Para obter mais informações sobre REST APIs, consulte [Gerenciar bibliotecas](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) e [gerenciar POIs](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
 
-* **Interface do usuário do Places**
+* **Interface do usuário do Serviço de Localização**
 
    Visualize POIs em um mapa para entender o contexto espacial e adicionar/editar POIs e seus metadados personalizados.
 
