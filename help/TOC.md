@@ -3,14 +3,14 @@ product: Serviço de localização da plataforma Adobe Experience
 audience: usuário final
 user-guide-title: Serviço de localização da plataforma Adobe Experience
 translation-type: tm+mt
-source-git-commit: 717250d3d6b11badde74df7e85ac5cce8cf0ef80
+source-git-commit: 5cb539b41426b177f17ff1ff44988ff646259d3f
 
 ---
 
 
 # Ajuda do serviço de localização da plataforma Adobe Experience {#using}
 
-+ [Visão geral do Adobe Experience Platform Places](home.md)
++ [Visão geral do Serviço de localização da plataforma Adobe Experience Platform](home.md)
 + [Notas de versão](release-notes.md)
 + [Introdução](getting-started.md)
 + Interface de gerenciamento de pontos de interesse {#poi-mgmt-ui}
@@ -64,8 +64,8 @@ source-git-commit: 717250d3d6b11badde74df7e85ac5cce8cf0ef80
    + [Criar regras de entrada e saída](use-places-launch-workflow/create-rule-places-property.md)
 + Usar o Serviço de Localização com outras Soluções da Adobe {#use-places-with-other-solutions}
    + Adobe Analytics {#places-adobe-analytics}
-      + [Enviar dados de locais para o Adobe Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
-      + [Executar relatórios no Adobe Analytics que incluem dados do Local](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
+      + [Enviar dados do Serviço de localização para o Adobe Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
+      + [Executar relatórios no Adobe Analytics que incluem dados do Serviço de localização](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
    + Mobile Services for Messaging {#places-mobile-svcs-messaging}
       + [Mobile Services for Messaging](use-places-with-other-solutions/places-mobile-svcs-for-messaging/use-places-mobie-svcs-messaging.md)
       + [Mensagens por push](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-push.md)
@@ -74,7 +74,7 @@ source-git-commit: 717250d3d6b11badde74df7e85ac5cce8cf0ef80
       + [Notificações por push](use-places-with-other-solutions/places-acs/places-acs-push-notifications.md)
       + [Mensagens no aplicativo](use-places-with-other-solutions/places-acs/places-acs-in-app-messages.md)
    + Adobe Target {#places-target}
-      + [Usar locais com o Adobe Target](use-places-with-other-solutions/places-target/places-target.md)
+      + [Usar o Serviço de Localização com o Adobe Target](use-places-with-other-solutions/places-target/places-target.md)
 + Testing and validation {#places-testing-validation}
    + [Testar e validar locais](places-testing-validation/test-validate-places.md)
 + [Perguntas frequentes](places-faqs.md)
