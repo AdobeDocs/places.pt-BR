@@ -4,7 +4,7 @@ seo-title: 'Visão geral da API de serviços da Web '
 description: O Places é o conjunto de serviços que facilita para os clientes da Adobe a hidratação das soluções da Adobe Experience Cloud e da Adobe Experience Platform com os dados de localização e a experiência certa para a pessoa certa no momento certo e no lugar certo.
 seo-description: O Places é o conjunto de serviços que facilita para os clientes da Adobe a hidratação das soluções da Adobe Experience Cloud e da Adobe Experience Platform com os dados de localização e a experiência certa para a pessoa certa no momento certo e no lugar certo.
 translation-type: tm+mt
-source-git-commit: e204958ac3acbf5fb45d2347987f35557be70e43
+source-git-commit: e899cde6230353c8b34090c793983dc570e8115e
 
 ---
 
@@ -39,17 +39,3 @@ Informações adicionais:
 
 * Para obter mais informações sobre as APIs disponíveis e como usá-las, consulte [Gerenciar bibliotecas](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) e [gerenciar POIs](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
 * Para obter mais informações sobre os cabeçalhos e parâmetros nessas APIs, consulte [Cabeçalhos e parâmetros](/help/web-service-api/api-usage/headers-and-parameters.md).
-
-## Requisitos organizacionais {#org-requirements}
-
-Para acessar as APIs REST de serviços da Web, verifique com o administrador do sistema se as seguintes tarefas foram concluídas:
-
-* Os locais foram provisionados e aparecem na organização.
-* Você foi adicionado à organização.
-* Você foi adicionado aos Locais em sua organização.
-
-   Para obter mais informações, consulte *Adicionar um usuário ao Places e ao lançamento* da plataforma de experiência em perguntas [](/help/places-faqs.md)frequentes.
-
-* Você foi adicionado como um desenvolvedor do Places à sua organização.
-
-   Para obter mais informações sobre a função de desenvolvedor, consulte [Gerenciar desenvolvedores](https://helpx.adobe.com/enterprise/using/manage-developers.html).
