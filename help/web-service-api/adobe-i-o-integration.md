@@ -4,12 +4,32 @@ seo-title: Visão geral da integração de E/S da Adobe
 description: Informações sobre como criar uma integração de E/S da Adobe.
 seo-description: Informações sobre como criar uma integração de E/S da Adobe.
 translation-type: tm+mt
-source-git-commit: 6ff72eb72ce3ae1abf805b7b542721a7e4915824
+source-git-commit: 3a9653dcc7f5d18b717c4bb59424b8cad7104dd7
 
 ---
 
 
-# Visão geral da integração de E/S da Adobe {#adobeio-integration}
+# Integração de E/S da Adobe {#adobeio-integration}
+
+Estas informações mostram como criar uma integração de E/S da Adobe e de um local.
+
+## Pré-requisitos para acesso do usuário
+
+Verifique com o administrador do sistema de sua organização se as seguintes tarefas foram concluídas:
+
+* O Local Core Service é exibido no console de administração da sua organização.
+* Você foi adicionado à organização.
+* Você foi adicionado como um Usuário ao Serviço Principal do Places em sua organização.
+
+   Para obter mais informações, consulte *Adicionar um usuário ou desenvolvedor aos perfis* do Serviço de localização e do Experience Platform Launch em perguntas [](/help/places-faqs.md)frequentes.
+
+* Você foi adicionado como desenvolvedor ao Places Core Service em sua organização.
+
+   Para obter mais informações sobre como adicionar desenvolvedores, consulte *Adicionar um usuário ou desenvolvedor aos perfis* do Serviço de localização e do Launch da plataforma Experience em perguntas [](/help/places-faqs.md)frequentes.
+
+   Para obter mais informações sobre a função de desenvolvedor, consulte [Gerenciar desenvolvedores](https://helpx.adobe.com/enterprise/using/manage-developers.html).
+
+### Solicitações REST API
 
 Cada solicitação para a API REST do Places requer os seguintes itens:
 
@@ -19,8 +39,6 @@ Cada solicitação para a API REST do Places requer os seguintes itens:
 
 Uma integração com a E/S da Adobe fornece esses itens e uma maneira de solicitar o token do portador usando um JSON Web Token (JWT).
 
-## Informações adicionais
-
 * Para obter mais informações sobre JWTs, consulte [Introdução aos tokens](https://jwt.io/introduction/)da Web JSON.
 * Para criar uma integração para locais, consulte a seção *Criação de uma integração* de locais abaixo.
 * Para entender a integração de chave da API, gerando um JWT e certificados de chave pública, consulte Visão geral [da autenticação de E/S da](https://www.adobe.io/apis/cloudplatform/console/authentication/gettingstarted.html)Adobe.
@@ -29,7 +47,7 @@ Uma integração com a E/S da Adobe fornece esses itens e uma maneira de solicit
 >
 >Se você não conseguir fazer logon no console de E/S da Adobe ou se o Serviço de localização da plataforma de experiência não for uma opção na página ** Criar integrações, consulte Requisitos *da* organização na visão geral [da API de serviços](/help/web-service-api/places-web-services.md)da Web.
 
-## Criar uma integração de locais {#create-places-integration}
+## Criar uma integração de locais
 
 Para criar uma integração de Locais, conclua as seguintes tarefas:
 
@@ -75,7 +93,7 @@ Para gerar suas próprias chaves autoassinadas:
 
 O vídeo a seguir guia você pelo processo de geração do par de chaves:
 
-![](/help/assets/places_integration_video.gif)
+![vídeo de integração](/help/assets/places_integration_video.gif)
 
 ### Criar uma integração de Locais no console de E/S da Adobe
 
@@ -125,4 +143,3 @@ Para gerar um token JWT:
 >[!IMPORTANT]
 >
 >Os tokens de acesso da Adobe são válidos **apenas** por 24 horas, portanto, salve o comando CURL de amostra (etapa 5). Se o token de acesso não for mais válido, será necessário gerar o token novamente.
-
