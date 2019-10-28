@@ -4,14 +4,12 @@ seo-title: Mensagens no aplicativo com o Serviço de localização
 description: Esta seção fornece informações sobre como usar as mensagens de push no Campaign Standard com mensagens no aplicativo no Campaign Standard.
 seo-description: 'Esta seção fornece informações sobre como usar "Mensagens de push no Campaign Standard" com mensagens no aplicativo no Campaign Standard. '
 translation-type: tm+mt
-source-git-commit: 0612e2fb06e45ff25ad580e3336be3eb48bb39b9
+source-git-commit: fd98249c01fba93250dc7111798c76f3c96c6e20
 
 ---
 
 
 # Mensagens no aplicativo com o Serviço de localização {#in-app-messages-loc-service}
-
-(vídeo de Ivan.)
 
 Essas informações ajudam você a entender como usar as informações do Serviço de localização da plataforma Adobe Experience para enviar mensagens no aplicativo ou notificações locais.
 
