@@ -4,7 +4,7 @@ seo-title: Serviço de localização da plataforma Adobe Experience
 description: 'O Serviço de localização é um contexto importante para entender o envolvimento de usuários móveis. Ao usar esse contexto, os desenvolvedores de aplicativos móveis podem melhorar o design do aplicativo e torná-lo uma experiência mais personalizada e envolvente. '
 seo-description: 'O Serviço de localização é um contexto importante para entender o envolvimento de usuários móveis. Ao usar esse contexto, os desenvolvedores de aplicativos móveis podem melhorar o design do aplicativo e torná-lo uma experiência mais personalizada e envolvente. '
 translation-type: tm+mt
-source-git-commit: 85ce31329ad155e5c835be286c18e6609b88167b
+source-git-commit: fd98249c01fba93250dc7111798c76f3c96c6e20
 
 ---
 
@@ -29,8 +29,6 @@ Estas são algumas das maneiras de usar os Locais:
 * Analise o tráfego de pés de suas próprias lojas em relação às lojas concorrentes.
 * Segmentar um público-alvo com base no comportamento offline usando perfis de público-alvo com contexto de localização.
 * Direcione um usuário com uma experiência na loja quando relevante.
-
-## Adição de um espaço reservado para o vídeo "Introdução ao serviço de localização" da Brandon
 
 ## Casos de uso do serviço de localização
 
