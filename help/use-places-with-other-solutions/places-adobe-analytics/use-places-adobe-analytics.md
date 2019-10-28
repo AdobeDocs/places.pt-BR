@@ -4,15 +4,13 @@ seo-title: Enviar dados de locais para o Adobe Analytics
 description: Esta seção fornece informações sobre como enviar dados do Local para o Analytics.
 seo-description: 'Esta seção fornece informações sobre como enviar dados do Local para o Analytics. '
 translation-type: tm+mt
-source-git-commit: 0612e2fb06e45ff25ad580e3336be3eb48bb39b9
+source-git-commit: fd98249c01fba93250dc7111798c76f3c96c6e20
 
 ---
 
 
 # Enviar dados de locais para o Adobe Analytics {#places-data-analytics}
 
-
-(Espaço reservado para o vídeo de Steve.)
 
 >[!IMPORTANT]
 >
