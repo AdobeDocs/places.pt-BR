@@ -4,7 +4,7 @@ seo-title: Definir elementos de dados
 description: Esta seção fornece informações sobre como criar, usar e publicar elementos de dados no Experience Platform Launch for Places.
 seo-description: 'Esta seção fornece informações sobre como criar, usar e publicar elementos de dados no Experience Platform Launch for Places. '
 translation-type: tm+mt
-source-git-commit: fd98249c01fba93250dc7111798c76f3c96c6e20
+source-git-commit: 573f2bb368bd8384f5b465819600a1668b0bdda8
 
 ---
 
@@ -30,10 +30,10 @@ Com a extensão Locais, você pode fazer referência a valores dos seguintes des
 Cada POI contém as seguintes referências de dados:
 
 * **[!UICONTROL Category]**: categoria do POI
-* **[!IUICONTROL Cidade]**: cidade do POI
+* **[!UICONTROL City]**: cidade do POI
 * **[!UICONTROL Country]**: país do POI
-* **[Latitude]** UICONTROL: latitude do POI
-* **[Longitude]** UICONTROL: longitude do POI
+* **[!UICONTROL Latitude]**: latitude do POI
+* **[!UICONTROL Longitude]**: longitude do POI
 * **[!UICONTROL Metadata]**: metadados personalizados do POI
 * **[!UICONTROL Name]**: região do POI
 * **[!UICONTROL Radius]**: raio do POI
