@@ -4,12 +4,12 @@ seo-title: Visão geral da integração de E/S da Adobe
 description: Informações sobre como criar uma integração de E/S da Adobe.
 seo-description: Informações sobre como criar uma integração de E/S da Adobe.
 translation-type: tm+mt
-source-git-commit: f99930325a3d94bcc60595e69306c51d6b81caa6
+source-git-commit: 95c29df19f61e7854e39b47e39471f7f1e94b736
 
 ---
 
 
-# Integração de E/S da Adobe {#adobeio-integration}
+# Visão geral e pré-requisitos da integração {#integration-prereqs}
 
 Estas informações mostram como criar uma integração de E/S da Adobe e de um local.
 
