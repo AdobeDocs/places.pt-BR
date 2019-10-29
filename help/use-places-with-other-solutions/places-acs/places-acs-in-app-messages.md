@@ -4,7 +4,7 @@ seo-title: Mensagens no aplicativo com o Serviço de localização
 description: Esta seção fornece informações sobre como usar as mensagens de push no Campaign Standard com mensagens no aplicativo no Campaign Standard.
 seo-description: 'Esta seção fornece informações sobre como usar "Mensagens de push no Campaign Standard" com mensagens no aplicativo no Campaign Standard. '
 translation-type: tm+mt
-source-git-commit: fd98249c01fba93250dc7111798c76f3c96c6e20
+source-git-commit: 95c29df19f61e7854e39b47e39471f7f1e94b736
 
 ---
 
@@ -54,6 +54,4 @@ Essas informações ajudam você a entender como usar as informações do Servi�
 
 Usar os serviços de localização com o Adobe Campaign Standard oferece uma ferramenta poderosa para segmentar e direcionar suas mensagens aos usuários com base em entradas e saídas de fronteira geográfica. Essa simples integração abre a porta para criar casos de uso mais personalizados e contextuais.
 
-## Criar acionadores diferentes no Campaign Standard com base nos metadados do Local
-
-(essas informações estão vindo?)
+>[!VIDEO](https://www.youtube.com/watch?v=ikiTTQw9c-o)
