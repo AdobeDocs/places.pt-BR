@@ -1,69 +1,86 @@
 ---
-title: Mensagens no aplicativo
-seo-title: Mensagens no aplicativo
+title: Notificações no aplicativo
+seo-title: Notificações no aplicativo
 description: Esta seção mostra como usar os Locais com mensagens no aplicativo.
 seo-description: Esta seção mostra como usar os Locais com mensagens no aplicativo.
 translation-type: tm+mt
-source-git-commit: 7985943cef606525401983c4c80862c277f41bf0
+source-git-commit: 95c29df19f61e7854e39b47e39471f7f1e94b736
 
 ---
 
 
 # Notificações no aplicativo (#place-push-messaging)
 
-Como configurar mensagens no aplicativo para disparar de eventos do Places; as mensagens devem estar em uma ocorrência do Analytics.
+As informações a seguir mostram como configurar mensagens no aplicativo para disparar dos eventos Locais.
+
+>[!IMPORTANT]
+>
+>As mensagens devem estar em uma ocorrência do Analytics.
 
 ## Mensagem no aplicativo
 
-O AMS permite que você use dados de localização que estão sendo enviados para o Analytics como evento(s) de disparo e/ou condição para uma mensagem no aplicativo. As mensagens no aplicativo podem ser exibidas ao usuário em tempo real assim que o acionador é acionado do SDK e não é necessário aguardar o processamento dos dados pelo Analytics.
+O Mobile Services permite que você use dados de localização que estão sendo enviados ao Analytics como evento(s) de disparo e/ou condição para uma mensagem no aplicativo. Se as mensagens no aplicativo forem disparadas do SDK e não precisarem aguardar o processamento dos dados pelo Analytics, elas poderão aparecer em tempo real assim que o acionador ocorrer.
 
-Notificações locais: As mensagens no aplicativo têm três tipos diferentes:
+### Notificações locais
+
+Esta é uma lista dos tipos de mensagens disponíveis no aplicativo:
 
 * Tela cheia
 * Alerta
-* Notificações locais.
+* Notificações locais
 
-Esses tipos se qualificam como mensagens no aplicativo porque são acionadas pelo SDK, mas é importante observar que as notificações locais parecem notificações por push à medida que aparecem enquanto o aplicativo não está em primeiro plano. As notificações locais são uma excelente opção para fornecer notificações em tempo real aos usuários quando eles entram ou saem do POI enquanto o aplicativo está em segundo plano. Consulte a documentação de extensão do Monitor de locais para entender o monitoramento de locais (https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-monitor-extension).
+Esses tipos são mensagens no aplicativo porque são acionados pelo SDK. As notificações locais parecem notificações por push, pois são exibidas quando o aplicativo está em segundo plano. Essas notificações também fornecem notificações em tempo real à medida que os usuários entram ou saem de seus POIs enquanto o aplicativo está em segundo plano. Para obter mais informações, consulte a extensão [do Monitor de locais.](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)
 
 ### Pré-requisitos
 
-* Saiba como enviar e criar uma mensagem no aplicativo no AMS e como os Acionadores funcionam.
+Antes de começar, você entende como enviar e criar uma mensagem no aplicativo no Mobile Services e como os acionadores funcionam. Para obter mais informações, consulte [Criar uma mensagem no aplicativo.](https://docs.adobe.com/content/help/en/mobile-services/using/messaging-ug/inapp-messages/t-in-app-message.html)
 
-   Para obter mais informações, consulte [Criar uma mensagem no aplicativo](https://docs.adobe.com/content/help/en/mobile-services/using/messaging-ug/inapp-messages/t-in-app-message.html).
+## Regras do Experience Platform Launch
 
+É possível criar regras de inicialização que enviem os dados que você deseja que possam ser usados como parte das regras de Acionador de mensagem no aplicativo para o Analytics. Você pode usar dados das extensões Locais nas regras de lançamento como eventos e/ou condições, dependendo do caso de uso.
 
-## Criar uma regra no Experience Platform Launch
+* Usar dados de localização como evento de acionamento.
 
-Crie regras de lançamento que enviem os dados corretos para o Analytics que você deseja que possam ser usados como parte das regras de disparador de mensagens no aplicativo. Você pode usar dados das extensões Locais nas regras de lançamento como eventos e/ou condições, dependendo do caso de uso.
+   Por exemplo, você pode enviar dados para o Analytics quando um usuário digitar um POI.
 
-* Usar dados de localização como evento de acionamento. Por exemplo, se você deseja enviar dados para o Analytics quando um usuário entra em um POI.
+* Uso de dados de localização como uma Condição para um evento de acionamento.
 
-* Uso de dados de localização como uma Condição para um evento de acionamento. Por exemplo, se você tiver criado uma tag de metadados personalizada no Serviço de localização para o tempo em POIs diferentes, poderá usar esses metadados como parâmetro para a condição Regra, como mostrado abaixo. Embora seja possível usar essa condição para o evento de entrada POI descrito anteriormente, também é possível usá-la como contexto para qualquer evento.
+   Por exemplo, se você tiver criado uma tag de metadados personalizada no Serviço de localização para o tempo em POIs diferentes, poderá usar esses metadados como parâmetro para a condição Regra. Embora seja possível usar essa condição com um evento de entrada POI descrito anteriormente, também é possível usar a condição como contexto para qualquer evento.
 
-Depois que a regra for configurada com os parâmetros de evento e condição apropriados, conclua a configuração da regra configurando a ação para enviar dados ao Analytics. Para fazer isso:
+Depois que a regra for configurada com os parâmetros de evento e condição apropriados, conclua a configuração da regra configurando a ação para enviar dados ao Analytics.
 
-* Selecione o Adobe Analytics como extensão
-* Escolha "Rastrear" como o tipo de ação
-* Determine um nome para sua ação
-* Defina Dados de contexto para serem enviados com o evento. Use a interface Dados de contexto para mapear Elementos de dados de inicialização para os nomes de chave que deseja enviar ao Analytics.
+## Criar uma ação
 
-Observe que as Regras de processamento do Analytics podem ser definidas para coletar esses dados de contexto. Consulte Regras de processamento do Analytics, se necessário (https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-processing-rules.html)Por exemplo, esta ação está enviando o ponteiro como contexto para descrever o evento POIentry que está sendo enviado ao Analytics.
+Para fazer isso:
+
+1. Selecione a extensão do **.[!UICONTROL Adobe Analytics]**
+1. Na lista **[!UICONTROL Action type]** suspensa, selecione **[!UICONTROL Track.]**
+1. Digite um nome para sua ação.
+1. No painel direito, em **[!UICONTROL Context Data]**, selecione o par de chave e valor para definir os dados de contexto que serão enviados para o Analytics.
+
+Por exemplo, você pode selecionar **[!UICONTROL poiname]** como a chave e **[!UICONTROL `{%%Last Entered POI Name}`.]
+
+>[!TIP]
+>
+>As Regras de processamento do Analytics podem ser definidas para coletar esses dados de contexto. For more information, see [Processing Rules](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-processing-rules.html). No exemplo em *Criar uma ação*, a Ação enviará o `poiname` como o contexto para descrever o evento de entrada POI que está sendo enviado para o Analytics.
 
 ![criação de uma ação](/help/assets/configure-action.png)
 
-Este é um exemplo de como a regra finalizada poderia ser.
+Este é um exemplo da regra completa:
 
 ![regra concluída](/help/assets/create-a-rule.png)
 
-## Criação de uma mensagem no aplicativo no AMS:
+## Criar uma mensagem no aplicativo no AMS
 
-Você criará o público-alvo da mensagem com dados do Serviço de localização como parte dos parâmetros do Acionador.
+Como parte dos parâmetros do Acionador, você pode criar o público-alvo para a mensagem com dados do Serviço de localização de uma das seguintes maneiras:
 
-* Uso de ações específicas de localização, como entrada ou saída
-* Usar metadados POI enviados como dados de contexto para restringir o destino do seu público-alvo. Isso pode ser usado com uma ação específica do local, como entrada, ou pode ser usado como contexto para outro evento, como Iniciar ou clicar no botão.
+* Usando ações específicas de localização, como uma entrada ou uma saída.
+* Usar metadados POI enviados como dados de contexto para restringir a meta do seu público-alvo.
 
-   Este é um exemplo de como você pode configurar uma mensagem no aplicativo para receber usuários que digitam um POI que tenha "Adobe" no nome:
+   Essa opção pode ser usada com uma ação específica do local, como entrada, ou pode ser usada como contexto para outro evento, como uma inicialização ou um clique de botão.
+
+   Este é um exemplo de como configurar uma mensagem no aplicativo para receber usuários que digitam um POI que tenha **[!UICONTROL Adobe]** o nome:
 
    ![parâmetros de acionamento](/help/assets/trigger-parameters.png)
 
-* Os parâmetros encontrados nos cabeçalhos "Locais" nos AMS Triggers e Traits não funcionam com dados do Serviço de Localização. Esses parâmetros são para o banco de dados herdado Places criado no AMS.
+* Os parâmetros nos cabeçalhos Locais na página *Acionadores e Características* no Mobile Services não funcionam com dados do Serviço de Localização. Esses parâmetros são apenas para o banco de dados herdado do Places criado no Mobile Services.
