@@ -4,7 +4,7 @@ seo-title: POIs de upload em massa
 description: Esta seção fornece informações sobre como fazer upload em massa dos POIs.
 seo-description: Esta seção fornece informações sobre como fazer upload em massa dos POIs.
 translation-type: tm+mt
-source-git-commit: 3a9653dcc7f5d18b717c4bb59424b8cad7104dd7
+source-git-commit: 31462861efa807583c245963d8496eecdd3cf92e
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 3a9653dcc7f5d18b717c4bb59424b8cad7104dd7
 
 Um conjunto de scripts Python foi criado para simplificar a importação em lote de POIs de um arquivo .csv para um banco de dados POI usando as APIs de serviço da Web. Esses scripts podem ser baixados deste [git repo](https://github.com/adobe/places-scripts)de código aberto.
 
-Antes de executar esses scripts, para garantir o acesso às APIs de serviço da Web, consulte *Pré-requisitos para acesso* do usuário na visão geral [de integração de E/S da](/help/web-service-api/adobe-i-o-integration.md)Adobe.
+Antes de executar esses scripts, para acessar as APIs de serviço da Web, consulte *Pré-requisitos de acesso* do usuário na visão geral [de integração de E/S da](/help/web-service-api/adobe-i-o-integration.md)Adobe.
 
 Estas são algumas informações sobre os scripts:
 
@@ -23,7 +23,7 @@ Estas são algumas informações sobre os scripts:
 
 ## Arquivo CSV
 
-Um arquivo .csv de amostra `places_sample.csv`faz parte deste pacote e inclui os cabeçalhos necessários e uma linha de dados de amostra. Esses cabeçalhos estão todos em minúsculas e correspondem às chaves de metadados reservadas usadas no banco de dados Locais. Quando você adiciona cabeçalhos, as colunas adicionais são adicionadas ao banco de dados POI em uma seção de metadados separada para cada POI como pares de chave/valor.
+Um arquivo .csv de amostra `places_sample.csv`faz parte deste pacote e inclui os cabeçalhos necessários e uma linha de dados de amostra. Esses cabeçalhos estão todos em minúsculas e correspondem às chaves de metadados reservadas usadas no banco de dados Locais. As colunas que você adicionar ao arquivo .csv serão adicionadas ao banco de dados POI em uma seção de metadados separada para cada POI como pares de chave/valor, e o valor do cabeçalho será usado como a chave.
 
 Esta é uma lista das colunas e dos valores que você precisa usar:
 
@@ -55,17 +55,18 @@ Os valores das seguintes colunas são usados na interface do usuário do Serviç
    * Os valores válidos são "", #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B e #3DC8DE.
    * Se o valor for deixado em branco, a interface do usuário do Serviço de localização usará azul como a cor padrão.
 
-      Os valores correspondem a azul, roxo, fuschia, laranja, laranja claro, amarelo, verde claro, verde e azul claro, respectivamente.
+      Os valores correspondem a azul (#3E76D0), roxo (#AA99E8), fuschia (#DC2ABA), laranja (#FC685B), laranja claro (#FC962E), amarelo (#F6C436), verde claro (#BECE5D), verde (#6 1B56B) e azul claro (#3DC8DE), respectivamente.
 
 * ícone, que é usado como o ícone no pino que representa o local do POI no mapa da interface do usuário do Serviço de Localização
-   * Os valores válidos são "", âncora, beaker, bell, browmer, book, pincel, edifício, calculadora, câmera, shopping, clock, box, flashlight, follow, bid, faixa, Education, hammer, coração, casa, chave, mailbox, masculino, promove, dinheiro, armadilha, jogo, presente, lançamento, estrela, lâmpada, pin, alvo, bule, thumbDown, thumbUp, pasta, troféu, fêmea e chave inglesa.
+
+   * Os valores válidos são "", loja, hotelbed, carro, avião, avião, trem, navio, estádio, parque de diversões, âncora, beaker, campainha, sino, bico, livro, caixa, pasta, browse, pincel, edifício, calculadora, câmera, relógio, relógio, luz, acompanhar, jogo, mulher, homem, presente, martelo, coração, casa, chave, lançamento, lâmpada, caixa de correio, dinheiro promover, fita, shoppingCart, estrela, alvo, bule, thumbDown, thumbUp, armadilha, troféu, chave inglesa.
    * Se o valor for deixado em branco, a interface do usuário usará star como o ícone padrão.
 
 * As colunas não mencionadas podem ser deixadas em branco.
 
 ## Execução do script
 
-1. Baixe os arquivos no diretório apropriado.
+1. Baixe arquivos do [git repo](https://github.com/adobe/places-scripts) para o diretório local.
 1. Em um editor de texto, abra o `config.py` arquivo e conclua as seguintes tarefas:
 
    a. Edite os seguintes valores de variável como strings:
@@ -76,15 +77,15 @@ Os valores das seguintes colunas são usados na interface do usuário do Serviç
 
    * `access_code`
 
-      Esse é o código de acesso obtido da chamada para o Adobe IMS.
+      Esse é o código de acesso obtido da chamada para o Adobe IMS. Para obter informações sobre como obter esse código de acesso, consulte [Pré-requisitos para acesso](/help/web-service-api/adobe-i-o-integration.md) do usuário.
 
    * `org_id`
 
-      A orgID da Experience Cloud na qual os POIs devem ser importados.
+      A orgID da Experience Cloud na qual os POIs devem ser importados. Para obter informações sobre como obter a ID da organização, consulte [Pré-requisitos para acesso do usuário.](/help/web-service-api/adobe-i-o-integration.md).
 
    * `api_key`
 
-      Esta é a chave da API REST do Places obtida da Integração de E/S do Adobe.
+      Esta é a chave da API REST do Places obtida da Integração de E/S do Adobe. Para obter informações sobre como obter a chave da API, consulte [Pré-requisitos para acesso do usuário.](/help/web-service-api/adobe-i-o-integration.md).
    b.Salve as alterações.
 
 1. Em uma janela de terminal, navegue até o `…/places-scripts/import/` diretório.
@@ -112,6 +113,3 @@ Se forem encontrados erros, o script imprimirá os erros e será abortado. Se ne
 ## Testes de unidade
 
 Os testes de unidade estão no `tests.py` arquivo, devem ser executados antes de cada solicitação e todos devem ser aprovados. Testes adicionais devem ser adicionados com um novo código. Para executar os testes, navegue até o `…/places-scripts/import/` diretório e insira `python ./places_import.py` no terminal.
-
-
-
