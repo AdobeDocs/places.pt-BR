@@ -1,16 +1,16 @@
 ---
 cloud: experience-cloud
 product: localidades
-solution-title: Aprendizagem e Suporte
+solution-title: Aprendizagem e suporte
 solution-hub-url: https://helpx.adobe.com/br/support/experience-cloud/core-services.html
 getting-started-title: Introdução
 getting-started-url: https://www.adobe.com/br
 tutorials-title: Tutoriais
 tutorials-url: https://www.adobe.com/br
 git-repo: https://git.corp.adobe.com/AdobeDocs/places.en
-index: false
+index: true
 translation-type: tm+mt
-source-git-commit: befe48b14946d047f331d07d7707cb070af5ff46
+source-git-commit: 39374c1457d33f4cd4014c78fb8daaaa59e5d62d
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: befe48b14946d047f331d07d7707cb070af5ff46
 
 # Metadados para uso interno
 
-O arquivo metadata. md inclui metadados de nível de reposição transmitidos para os arquivos TOC. md do guia do usuário na reposição. Se desejar alterar o conteúdo metadata. md para qualquer guia do usuário, faça isso em qualquer arquivo TOC. md.
+O arquivo metadata.md inclui metadados de nível de repositório transmitidos para os arquivos TOC.md do guia do usuário no repositório. Se desejar alterar o conteúdo metadata. md para qualquer guia do usuário, faça isso em qualquer arquivo TOC. md.
 
 | metadata | o que faz |
 |--- |--- |
@@ -31,7 +31,7 @@ O arquivo metadata. md inclui metadados de nível de reposição transmitidos pa
 | tutorials-title | Raramente usado quando os tutoriais não são apropriados |
 | tutorials-url | Link para tutoriais em vídeo—tutoriais helpx ou tutoriais do KT |
 | mini-toc-levels | Determina o número de níveis de cabeçalho que aparecem no painel à direita. o padrão é 2 |
-| git-repo | Especifica o local do repo de colaboração. Use o espelhamento github.com para documentos lidos pelo público |
+| git-repo | Especifica o local do repositório de colaboração. Use o espelhamento github.com para documentos lidos pelo público |
 | índice | definir index=no para inicialização suave |
 
 No arquivo TOC.md
