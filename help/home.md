@@ -4,7 +4,7 @@ seo-title: Serviço de localização da plataforma Adobe Experience
 description: 'O Serviço de localização é um contexto importante para entender o envolvimento de usuários móveis. Ao usar esse contexto, os desenvolvedores de aplicativos móveis podem melhorar o design do aplicativo e torná-lo uma experiência mais personalizada e envolvente. '
 seo-description: 'O Serviço de localização é um contexto importante para entender o envolvimento de usuários móveis. Ao usar esse contexto, os desenvolvedores de aplicativos móveis podem melhorar o design do aplicativo e torná-lo uma experiência mais personalizada e envolvente. '
 translation-type: tm+mt
-source-git-commit: fd98249c01fba93250dc7111798c76f3c96c6e20
+source-git-commit: a5eee2378475885a2aef9867ff2c38a8881c9bbe
 
 ---
 
@@ -19,7 +19,7 @@ O Serviço de localização permite que você atinja o seguinte:
 * Anexe metadados personalizados aos POIs para torná-los mais ricos e mais significativos ao especificar atributos adicionais.
 * Visualize os POIs em um mapa para entender facilmente o contexto espacial e adicionar/editar atributos de metadados.
 * Configure o SDK no Adobe Experience Platform Launch para definir suas regras acionadas por localização e condições baseadas em metadados.
-* Reduza o código que você precisa gravar no local de um dispositivo de monitor e use o monitor de localização da Adobe para acionar automaticamente as regras específicas de localização.
+* Reduza o código que você precisa gravar no local de um dispositivo de monitor e use a extensão Locais para acionar automaticamente as regras específicas de localização.
 
 Isso permitirá que você tome ações dos sinais de localização em tempo real, quando e onde isso importa. O contexto correto fornece uma experiência de envolvimento móvel mais enriquecedora.
 
@@ -76,7 +76,7 @@ Estes são alguns termos comuns usados nesta documentação:
 
 * Uma **biblioteca** é uma coleção de POIs, que são agrupados para anexar facilmente regras a um conjunto em vez de um POI.
 
-* Uma **extensão** do SDK é a extensão do Experience Platform Launch necessária para integrar o SDK do Places nos aplicativos móveis.
+* A **extensão** do SDK do Places é a extensão do Experience Platform Launch necessária para integrar o SDK do Places aos aplicativos móveis.
 
    A extensão usada com outros SDKs móveis para adicionar o contexto de localização às suas experiências.
 
