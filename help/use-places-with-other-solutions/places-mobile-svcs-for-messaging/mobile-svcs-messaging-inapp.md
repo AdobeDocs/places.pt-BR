@@ -4,7 +4,7 @@ seo-title: Notificações no aplicativo
 description: Esta seção mostra como usar os Locais com mensagens no aplicativo.
 seo-description: Esta seção mostra como usar os Locais com mensagens no aplicativo.
 translation-type: tm+mt
-source-git-commit: 95c29df19f61e7854e39b47e39471f7f1e94b736
+source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
 
 ---
 
@@ -29,7 +29,7 @@ Esta é uma lista dos tipos de mensagens disponíveis no aplicativo:
 * Alerta
 * Notificações locais
 
-Esses tipos são mensagens no aplicativo porque são acionados pelo SDK. As notificações locais parecem notificações por push, pois são exibidas quando o aplicativo está em segundo plano. Essas notificações também fornecem notificações em tempo real à medida que os usuários entram ou saem de seus POIs enquanto o aplicativo está em segundo plano. Para obter mais informações, consulte a extensão [do Monitor de locais.](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)
+Esses tipos são mensagens no aplicativo porque são acionados pelo SDK. As notificações locais parecem notificações por push, pois são exibidas quando o aplicativo está em segundo plano. Essas notificações também fornecem notificações em tempo real à medida que os usuários entram ou saem de seus POIs enquanto o aplicativo está em segundo plano. Para obter mais informações, consulte a extensão [do Monitor de](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)locais.
 
 ### Pré-requisitos
 
@@ -51,14 +51,14 @@ Depois que a regra for configurada com os parâmetros de evento e condição apr
 
 ## Criar uma ação
 
-Para fazer isso:
+Para criar uma ação:
 
 1. Selecione a extensão do **.[!UICONTROL Adobe Analytics]**
 1. Na lista **[!UICONTROL Action type]** suspensa, selecione **[!UICONTROL Track.]**
 1. Digite um nome para sua ação.
-1. No painel direito, em **[!UICONTROL Context Data]**, selecione o par de chave e valor para definir os dados de contexto que serão enviados para o Analytics.
+1. No painel direito, em **[!UICONTROL Context Data]**, selecione o par de valores chave para definir os dados de contexto que serão enviados para o Analytics.
 
-Por exemplo, você pode selecionar **[!UICONTROL poiname]** como a chave e **[!UICONTROL `{%%Last Entered POI Name}`.]
+Por exemplo, você pode selecionar `poiname` como a chave e `{%%Last Entered POI Name}` o valor.
 
 >[!TIP]
 >
@@ -70,7 +70,7 @@ Este é um exemplo da regra completa:
 
 ![regra concluída](/help/assets/create-a-rule.png)
 
-## Criar uma mensagem no aplicativo no AMS
+## Criar uma mensagem no aplicativo no Mobile Services
 
 Como parte dos parâmetros do Acionador, você pode criar o público-alvo para a mensagem com dados do Serviço de localização de uma das seguintes maneiras:
 
@@ -83,4 +83,6 @@ Como parte dos parâmetros do Acionador, você pode criar o público-alvo para a
 
    ![parâmetros de acionamento](/help/assets/trigger-parameters.png)
 
-* Os parâmetros nos cabeçalhos Locais na página *Acionadores e Características* no Mobile Services não funcionam com dados do Serviço de Localização. Esses parâmetros são apenas para o banco de dados herdado do Places criado no Mobile Services.
+* Os parâmetros nos cabeçalhos Locais na página *Acionadores e Características* no Mobile Services não funcionam com dados do Serviço de Localização.
+
+   Esses parâmetros são apenas para o banco de dados herdado do Places criado no Mobile Services.
