@@ -4,14 +4,14 @@ seo-title: Criação de uma regra para sua propriedade Locais
 description: 'O SDK de Locais controla o local atual, monitora os POIs configurados em torno do local atual e rastreia os eventos de entrada e saída desses POIs. '
 seo-description: 'O SDK de Locais controla o local atual, monitora os POIs configurados em torno do local atual e rastreia os eventos de entrada e saída desses POIs. '
 translation-type: tm+mt
-source-git-commit: f6c92bbd4fb21999f5c96ea0df8ede6919d1bc79
+source-git-commit: 9feb88f1ccec83c96d08ac5bd48e43d7d9c247c8
 
 ---
 
 
-# Criar uma regra para sua propriedade Locais {#creating-rule-places-property}
+# Criar regras de entrada e saída {#create-entry-exit-rules}
 
-O SDK do Serviço de Localização controla o local atual, monitora os POIs configurados em torno do local atual e acompanha os eventos de entrada e saída desses POIs.
+Com as extensões do Monitor de Locais e Locais instaladas no aplicativo móvel, você pode criar regras no Adobe Experience Platform Launch que são acionadas ou condicionadas pelos dados de localização, incluindo os eventos de entrada e saída de Locais.
 
 ## Regras
 
@@ -21,18 +21,18 @@ Você pode configurar uma regra, que é composta de um evento, uma condição e 
 * (Opcional) condições
 * Uma ou mais ações
 
-### Eventos
+### Eventos de local
 
 Os locais oferecem os seguintes eventos nos quais você pode executar uma regra:
 
-* **[!UICONTROL Enter POI]**, que é acionada pelo SDK de Locais quando o cliente entra no POI configurado.
-* **[!UICONTROL Exit POI]**, que é acionada pelo SDK de Locais quando seu cliente sai do POI configurado.
+* **Insira o POI**, que é acionado pelo SDK de Locais quando o cliente entra no POI configurado.
+* **Saia do POI**, que é acionado pelo SDK de Locais quando seu cliente sai do POI configurado.
 
-### Condições
+### Condições de locais
 
 As condições definem os critérios que os dados associados ao evento, ou o estado compartilhado de uma extensão nessa instância, devem atender para que a ação seja tomada. Por exemplo, você pode definir uma condição para acionar uma ação em uma entrada em uma cafeteria somente na cidade de São Francisco.
 
-O SDK do Serviço de Localização mantém os seguintes estados:
+O SDK de Locais mantém os seguintes estados:
 
 * POI atual, que se refere ao POI no qual seu cliente está localizado no momento.
 * Último POI encerrado, que se refere ao POI mais recente que seu cliente saiu.
@@ -54,37 +54,37 @@ As ações definem o que o aplicativo fará em resposta à condição para a reg
 
 >[!CAUTION]
 >
->Este exemplo supõe que você tenha criado uma biblioteca POI de todas as cafeterias nos Estados Unidos. Para obter mais informações sobre como criar POIs e bibliotecas, consulte [Criar um POI](/help/poi-mgmt-ui/create-a-poi-ui.md) e consulte *Criar uma biblioteca* em [Gerenciar bibliotecas na interface do usuário](/help/poi-mgmt-ui/manage-libraries-in-the-places-ui.md)do Places.
+>Este exemplo supõe que você tenha criado uma biblioteca POI de todas as cafeterias nos Estados Unidos. Para obter mais informações sobre como criar POIs e bibliotecas, consulte [Criar um POI](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi) e [Criar uma biblioteca](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/manage-libraries#create-a-library).
 
 O procedimento a seguir é um exemplo de como criar uma regra que envie uma publicação de volta para a Esquerda quando você entra em uma cafeteria em São Francisco.
 
 O evento, a condição e a ação são definidos das seguintes maneiras:
 
-* **Evento**: Evento de entrada do Serviço de Localização.
+* **Evento**: Insere o evento de entrada.
 * **Condição**: A cidade do POI **atual** é São Francisco
 * **Ação**: Envie um postback para a Sunders o nome da cafeteria que seu cliente inseriu.
 
 ### Pré-requisitos
 
-Antes de criar uma regra, você deve criar um elemento de dados no Experience Platform Launch. Os elementos de dados preenchem automaticamente as informações necessárias sobre seu POI na mensagem de postback.
+Antes de criar uma regra, você deve criar um elemento de dados no Adobe Experience Platform Launch. Os elementos de dados preenchem automaticamente as informações necessárias sobre seu POI na mensagem de postback.
 
 Para criar um elemento de dados no Experience Platform Launch:
 
-1. Click the **[!UICONTROL Data Elements]** tab.
-2. Clique em **[!UICONTROL Add Data Element]**.
-3. Type a name, for example, **[!UICONTROL Current coffee shop name]**.
-4. Na lista **[!UICONTROL Extension]** suspensa, selecione **[!UICONTROL Places – Beta]**.
-5. Em **[!UICONTROL Data Element]**, selecione **[!UICONTROL City]**.
+1. Clique na guia Elementos **de** dados.
+2. Click **Add Data Element**.
+3. Digite um nome, por exemplo, o nome **atual da cafeteria**.
+4. Na lista suspensa **Extensão** , selecione **Locais - Beta**.
+5. Em Elemento **de dados**, selecione **Cidade**.
 6. No painel direito, selecione POI **atual**.
-7. Clique em **[!UICONTROL Save]**.
+7. Clique em **Salvar**.
 
-### Criar uma regra no Experience Platform Launch for Location Service
+### Criar uma regra no Experience Platform Launch for Places
 
-![](//help/assets/create-a-rule.png)
+![criação de uma regra](/help/assets/placesrule.png)
 
 1. Em Experience Platform Launch, clique na **[!UICONTROL Rules]** guia.
-2. Clique em **Adicionar regra**.
-3. Digite um nome para a regra, por exemplo, **Rastrear entrada para cafeteria no SF**.
+2. Clique em **[!UICONTROL Add Rule]**.
+3. Digite um nome para a regra, por exemplo, **[!UICONTROL Track entry for coffee shop in SF]**.
 
 ### Criar um evento
 
@@ -98,7 +98,7 @@ Para criar um elemento de dados no Experience Platform Launch:
 
 1. Na seção Condições, clique em **[!UICONTROL +Add]**. As condições determinam os critérios a cumprir para a ação a empreender.
 2. Em **[!UICONTROL Logic Type]**, selecione Regular, o que permite que as ações sejam executadas se a condição for atendida.
-3. Na lista suspensa **Extensão** , selecione **[!UICONTROL Places – Beta]**.
+3. Na lista **[!UICONTROL Extension]** suspensa, selecione **[!UICONTROL Places – Beta]**.
 4. Em **[!UICONTROL Condition Type]**, selecione **[!UICONTROL City]**.
 5. Type a condition name, for example, **[!UICONTROL Coffee shop in SF]**.
 6. No painel direito, clique em **[!UICONTROL Current POI]** e, na lista suspensa, selecione **[!UICONTROL San Francisco]** como uma de suas cidades.
@@ -106,22 +106,28 @@ Para criar um elemento de dados no Experience Platform Launch:
 
 ### Criar uma ação
 
-1. Na **[!UICONTROL Actions]** seção, clique em **[!UICONTRO+ Adicionar]**.
-2. Na lista suspensa **[!UICONTRO Extensão]** , deixe a opção padrão **[!UICONTRO Mobile Core]** selecionada.
-3. Selecione um tipo de ação, por exemplo, **[!UICONTRO Enviar postback]**.
+1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL + Add]**.
+2. Na lista **[!UICONTROL Extension]** suspensa, deixe a opção padrão **[!UICONTROL Mobile Core]** selecionada.
+3. Selecione um tipo de ação, por exemplo, **[!UICONTROL Send Postback]**.
 
    a. Em **[!UICONTROL URL]**, digite o URL de postback para a falta, por exemplo, `https://hooks.slack.com/services/`.
 
-   b. Para enviar um corpo da publicação, marque a caixa de seleção **[!UICONTRO Adicionar corpo]** da publicação.
+   b. Para enviar um corpo de publicação, marque a caixa de **[!UICONTROL Add Post Body]** seleção.
 
-   c. No corpo da **[!UICONTRO postagem]**, adicione o corpo da postagem, por exemplo: `{ "text": "A customer has entered" }`
+   c. Em **[!UICONTROL Post Body]**, adicione o corpo da publicação, por exemplo: `{ "text": "A customer has entered" }`
 
-   c. Digite um tipo de conteúdo, por exemplo, **[!UICONTRO application/json]**.
+   c. Digite um tipo de conteúdo, por exemplo **[!UICONTROL application/json]**.
 
-   d. Selecione um valor de tempo limite, por exemplo, **5**.
+   d. Selecione um valor de tempo limite, por exemplo, **[!UICONTROL 5]**.
 
-4. Click **[!UICONTRO Keep Changes]**.
+4. Clique em **[!UICONTROL Keep Changes]**.
 
 ### Publicar a regra
 
 1. Para ativar a regra, é necessário publicá-la. Para obter mais informações sobre como publicar sua regra no Experience Platform Launch, consulte [Publicação](https://docs.adobelaunch.com/launch-reference/publishing).
+
+### Pensando além das entradas e saídas
+
+O uso de entradas e saídas de geolocalização do Places para acionar regras no Launch é incrivelmente poderoso, mas você também pode usar os dados de localização como condição para que outros eventos sejam acionados. Por exemplo, você pode ter um acionador de evento Mobile Core Track Action pronto para disparar com base em um evento de chamada trackAction específico dentro do aplicativo. Com base nesse evento, você pode colocar condições de localização adicionais ao evento antes que uma ação seja executada. Por exemplo, abra uma pesquisa no aplicativo quando um `trackAction` evento de compra ocorrer, mas **somente** se o local atual do usuário incluir metadados específicos do Serviço de localização.
+
+![criar uma condição](/help/assets/places-condition.png)
