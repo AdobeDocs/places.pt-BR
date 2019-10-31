@@ -4,12 +4,12 @@ seo-title: Gerenciar bibliotecas na interface do usuário do Places
 description: Gerencie suas bibliotecas usando a interface do usuário do Places.
 seo-description: Gerencie suas bibliotecas usando a interface do usuário do Places.
 translation-type: tm+mt
-source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
+source-git-commit: 84b23934a6e9f9fd61c068693bae3daca24de253
 
 ---
 
 
-# Gerenciar bibliotecas na interface do usuário do Places {#manage-libraries-places-ui}
+# Manage libraries {#manage-libraries-places-ui}
 
 Uma biblioteca é uma coleção de POIs. Você pode ter até 150.000 POIs em uma biblioteca e pode haver até 100 bibliotecas por organização da Experience Cloud.
 
