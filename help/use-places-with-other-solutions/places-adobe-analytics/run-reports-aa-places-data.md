@@ -4,7 +4,7 @@ seo-title: Executar relatórios no Adobe Analytics que incluem dados do Local
 description: Esta seção fornece informações sobre como executar relatórios no Analytics que incluem dados de Locais.
 seo-description: Esta seção fornece informações sobre como executar relatórios no Analytics que incluem dados de Locais.
 translation-type: tm+mt
-source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
+source-git-commit: fc1dd9e36bf45a2e7c17c3d9dbbed66b28cb8b07
 
 ---
 
@@ -39,7 +39,7 @@ Depois que o Places enviar os eventos de entrada e saída, você pode criar regr
 
 Agora você pode determinar os acionadores que deseja incluir para esta Regra. Neste exemplo, o acionador se baseia em todas as `TrackAction` chamadas. Depois de configurar o Evento, clique em **[!UICONTROL Keep Changes]**.
 
-!["criar um evento"](/help/assets/ad-setEvent.png)
+!["criar um evento"](/help/assets/pt-selectEvent.png)
 
 
 ## 2. Adicionar condições
@@ -60,7 +60,7 @@ Neste exemplo, é criada uma Condição que faz com que a Regra seja acionada so
 
 5. Clique em **[!UICONTROL Keep Changes]**.
 
-!["criar uma condição"](/help/assets/ad-setCondition.png)
+!["criar uma condição"](/help/assets/pt-setCondition.png)
 
 ## 3. Definir a ação
 
