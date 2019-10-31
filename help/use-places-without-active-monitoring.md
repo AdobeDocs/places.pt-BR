@@ -1,21 +1,23 @@
 ---
-title: 'Usar locais sem monitoramento de região ativa '
-seo-title: 'Usar locais sem monitoramento de região ativa '
-description: Esta seção fornece informações sobre como Usar locais sem monitoramento de região ativa.
-seo-description: Esta seção fornece informações sobre como Usar locais sem monitoramento de região ativa.
+title: 'Usar Serviço de Localização sem monitoramento de região ativa '
+seo-title: 'Usar Serviço de Localização sem monitoramento de região ativa '
+description: Esta seção fornece informações sobre como usar o Location ServicePlaces sem monitoramento de região ativa.
+seo-description: Esta seção fornece informações sobre como usar o Serviço de Localização sem monitoramento de região ativa.
 translation-type: tm+mt
-source-git-commit: ba918bfdb989ba4037409b17d799ef596064b676
+source-git-commit: 84b23934a6e9f9fd61c068693bae3daca24de253
 
 ---
 
 
-# Usar locais sem monitoramento de região ativa {#use-places-without-active-monitoring}
+# Usar Serviço de Localização sem monitoramento de região ativa {#use-places-without-active-monitoring}
 
 Casos de uso para seu aplicativo podem não exigir monitoramento de região ativa. O Adobe Places ainda pode ser usado para integrar os dados de localização dos usuários a outros produtos da plataforma de experiência.
 
 Esta seção explica como concluir uma verificação de associação POI somente no momento da coleta da localização do usuário (latitude e longitude).
 
-****Pré-requisito:
+## Pré-requisitos
+
+
 O desenvolvedor coletará a localização do dispositivo usando as APIs fornecidas pelo sistema operacional da plataforma de destino.
 
 >[!TIP]
@@ -81,7 +83,6 @@ public class LocationBroadcastReceiver extends BroadcastReceiver {
     }
 }
 ```
-
 
 ### Objetive-C
 
@@ -230,9 +231,11 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 
 ## Concluir implementação de amostra
 
-As amostras de código a seguir mostram como recuperar o local atual do dispositivo, acionar os eventos necessários e garantir que você não obtenha várias entradas para o mesmo local em uma visita:
+As amostras de código abaixo mostram como recuperar o local atual do dispositivo, acionar os eventos necessários e garantir que você não obtenha várias entradas para o mesmo local em uma visita.
 
 >[!IMPORTANT]
+>
+>
 Estes trechos são **apenas** exemplos. Os desenvolvedores devem determinar como desejam implementar a funcionalidade, e a decisão deve considerar as práticas recomendadas conforme recomendado pelo sistema operacional de destino.
 
 ### Android
