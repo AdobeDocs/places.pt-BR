@@ -4,25 +4,34 @@ seo-title: Crie um POI
 description: Crie um POI usando a interface do usuário do Places.
 seo-description: Crie um POI usando a interface do usuário do Places.
 translation-type: tm+mt
-source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
+source-git-commit: 32c670773421406591ba85a628760553ce6ad840
 
 ---
 
 
 # Crie um POI {#create-a-poi}
 
-Um ponto de interesse (POI) é um local ou ponto em um mapa que é de seu interesse. Pode incluir locais como cafés, restaurantes e assim por diante.
+Um ponto de interesse \(POI\) é um local ou ponto em um mapa que é importante para sua organização ou empresa. Pode incluir locais como cafés, restaurantes, locais de varejo, estádios e assim por diante. As empresas podem definir pontos de interesse para ajudar a personalizar a experiência móvel de um usuário quando eles entraram em uma região delimitada geograficamente para um ponto de interesse específico. Além de experiências personalizadas, as empresas também podem criar pontos de interesse para ajudá-las a analisar e entender melhor os padrões de tráfego de localização. Uma grande cadeia de varejo pode optar por criar POIs para todos os locais de sua loja para obter análises em usuários que têm seu aplicativo móvel E visitar um local de loja.
 
-1. Faça logon em Locais com sua Adobe ID.
-2. No lado superior direito, clique no ícone que se parece com uma lista com marcadores e clique em **[!UICONTROL New]**.
+1. Faça logon no Serviço de localização com sua Adobe ID.
+2. No lado superior direito, clique em **[!UICONTROL New]**.
 3. Digite um nome para seu POI.
-4. Selecione ou adicione uma biblioteca.
+4.  Selecione uma biblioteca.
 5. Insira ou selecione um raio.
 
-   a. Selecione um ícone para seu POI.
-b.b. Selecione uma cor para o ícone.
+   O raio é a distância mínima e o valor recomendado é 100 metros.
 
-6. Expanda a **[!UICONTROL Location]** seção.
+   ![definir um POI](/help/assets/define_poi.png)
+
+6. As etapas a seguir são opcionais:
+
+   a. Selecione um ícone para seu POI.
+
+   b. Selecione uma cor para o ícone.
+
+   c. Especifique uma categoria para seu POI.
+
+7. Expanda a **[!UICONTROL Location]** seção.
 
    a. Digite um endereço.
 
@@ -36,10 +45,14 @@ b.b. Selecione uma cor para o ícone.
 
    f.Clique em **[!UICONTROL Drop Pin on Map]**.
 
-7. Expanda a **[!UICONTROL Metadata]** seção e clique em **[!UICONTROL Add Metadata]**.
+   Se você não souber a latitude e a longitude exatas, soltar um pino é útil.
+
+8. Expanda a **[!UICONTROL Metadata]** seção e clique em **[!UICONTROL Add Metadata]**.
+
+   Os metadados podem ajudar você a definir um local e podem ser usados em outros fluxos de trabalho de solução da Adobe para refinar ainda mais seu público-alvo.
 
    a. Digite o nome da chave.
 
    b. Digite o valor da chave.
 
-8. Clique em **[!UICONTROL Confirm]** e em **[!UICONTROL  Save]**.
+9. Clique em **[!UICONTROL Confirm]** e em **[!UICONTROL  Save]**.
