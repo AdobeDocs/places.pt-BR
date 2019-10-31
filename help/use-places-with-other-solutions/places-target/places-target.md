@@ -4,7 +4,7 @@ seo-title: Adobe Target
 description: Esta seção fornece informações sobre como usar o Serviço de localização com o Adobe Target.
 seo-description: 'Esta seção fornece informações sobre como usar o Serviço de Localização com o Adobe Target. '
 translation-type: tm+mt
-source-git-commit: 7ca51580a4cfa9c00431ad3972bd10e2a12dfbd1
+source-git-commit: 84b23934a6e9f9fd61c068693bae3daca24de253
 
 ---
 
@@ -82,7 +82,7 @@ No exemplo a seguir, `poiCity` os valores são adicionados ao `poiName` **[!UICO
 >
 >A notação de `request[*]` pode ser lida em voz alta como _para cada objeto na `request` matriz.
 
-![adicionar um evento](/help/assets/ad-setCondition_target.png)
+![adicionar um evento](/help/assets/ad-setAction_target.png)
 
 ## 5. Salve a regra e recrie sua propriedade
 
