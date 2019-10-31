@@ -4,14 +4,14 @@ seo-title: Notificações por push
 description: Esta seção mostra como usar Locais com notificações por push.
 seo-description: Esta seção mostra como usar Locais com notificações por push.
 translation-type: tm+mt
-source-git-commit: 95c29df19f61e7854e39b47e39471f7f1e94b736
+source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
 
 ---
 
 
 # Notificações por push (#place-push-messaging)
 
-O Mobile Services permite enviar notificações por push para segmentos do Adobe Analytics. No Serviço de localização, você pode segmentar o público-alvo da mensagem de push por meio de suas interações históricas com seus POIs. Por exemplo, você pode enviar uma mensagem para usuários que estiveram em uma de suas lojas nos últimos 30 dias.
+O Mobile Services permite enviar notificações por push para segmentos do Adobe Analytics. No Serviço de localização, você pode segmentar o público-alvo da sua mensagem de push usando suas interações históricas com seus POIs. Por exemplo, você pode enviar uma mensagem para usuários que estiveram em uma de suas lojas nos últimos 30 dias.
 
 Antes de começar, verifique se você concluiu as seguintes tarefas:
 
@@ -36,4 +36,3 @@ Na **[!UICONTROL Audience]** guia *Criar fluxo de trabalho de notificação* por
 * Na **[!UICONTROL Custom Segment]** seção, crie um público-alvo usando os parâmetros de segmento personalizados disponíveis.
 
 ![configurar uma mensagem de push](/help/assets/push-set-up.png)
-
