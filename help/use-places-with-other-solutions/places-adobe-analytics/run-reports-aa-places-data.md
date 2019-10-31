@@ -4,7 +4,7 @@ seo-title: Executar relatórios no Adobe Analytics que incluem dados do Local
 description: Esta seção fornece informações sobre como executar relatórios no Analytics que incluem dados de Locais.
 seo-description: Esta seção fornece informações sobre como executar relatórios no Analytics que incluem dados de Locais.
 translation-type: tm+mt
-source-git-commit: fc1dd9e36bf45a2e7c17c3d9dbbed66b28cb8b07
+source-git-commit: 7ca51580a4cfa9c00431ad3972bd10e2a12dfbd1
 
 ---
 
@@ -25,7 +25,7 @@ Depois que o Places enviar os eventos de entrada e saída, você pode criar regr
    * Se você não tiver regras existentes para essa propriedade, o **[!UICONTROL Create New Rule]** botão estará no meio da tela.
    * Se sua propriedade tiver regras, o **[!UICONTROL Create New Rule]** botão estará no canto superior direito da tela.
 
-## 1.Selecione um evento
+## 2.Selecione um evento
 
 1. Dê um nome significativo à sua regra para que ela seja facilmente reconhecível na sua lista de Regras.
 
@@ -42,7 +42,7 @@ Agora você pode determinar os acionadores que deseja incluir para esta Regra. N
 !["criar um evento"](/help/assets/pt-selectEvent.png)
 
 
-## 2. Adicionar condições
+## 3. Adicionar condições
 
 >[!IMPORTANT]
 >
@@ -62,7 +62,7 @@ Neste exemplo, é criada uma Condição que faz com que a Regra seja acionada so
 
 !["criar uma condição"](/help/assets/pt-setCondition.png)
 
-## 3. Definir a ação
+## 4. Definir a ação
 
 1. Na **[!UICONTROL Actions]** seção, clique em **[!UICONTROL Add]**.
 
@@ -80,7 +80,7 @@ No exemplo a seguir, `poi.city` e `poi.name` os valores são adicionados aos dad
 
 !["criar uma ação"](/help/assets/pt-setAction.png)
 
-## 4. Salve a regra e recrie sua propriedade
+## 5. Salve a regra e recrie sua propriedade
 
 Após concluir a configuração, verifique se a Regra se parece com a seguinte imagem:
 
