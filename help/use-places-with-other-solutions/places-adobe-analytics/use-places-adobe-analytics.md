@@ -4,7 +4,7 @@ seo-title: Enviar dados de locais para o Adobe Analytics
 description: Esta seção fornece informações sobre como enviar dados do Local para o Analytics.
 seo-description: 'Esta seção fornece informações sobre como enviar dados do Local para o Analytics. '
 translation-type: tm+mt
-source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
+source-git-commit: fc1dd9e36bf45a2e7c17c3d9dbbed66b28cb8b07
 
 ---
 
@@ -41,7 +41,7 @@ Depois que o Places enviar os eventos de entrada e saída, você pode criar regr
 
 5. Clique em **[!UICONTROL Keep Changes]**.
 
-   !["selecionar um evento"](/help/assets/pt-selectEvent.png)
+   !["selecionar um evento"](/help/assets/ad-setEvent.png)
 
 
 ## 3. Adicionar condições
@@ -81,13 +81,13 @@ Neste exemplo, é criada uma Condição que faz com que a Regra seja acionada so
 
    No exemplo a seguir, uma `TrackAction` chamada é enviada ao Analytics com dados de contexto adicionais `poi.name` iguais ao nome do POI que acionou esse evento de entrada:
 
-   !["definir uma ação"](/help/assets/pt-setAction.png)
+   !["definir uma ação"](/help/assets/ad-setAction.png)
 
 ## 5. Salve a regra e recrie sua propriedade
 
 Após concluir a configuração, verifique se a Regra se parece com a seguinte imagem:
 
-!["regra é criada"](/help/assets/pt-ruleComplete.png)
+!["regra é criada"](/help/assets/ad-ruleComplete.png)
 
 1. Clique em **[!UICONTROL Save]**
 
