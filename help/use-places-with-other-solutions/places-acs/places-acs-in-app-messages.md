@@ -4,7 +4,7 @@ seo-title: Mensagens no aplicativo com o Serviço de localização
 description: Esta seção fornece informações sobre como usar as mensagens de push no Campaign Standard com mensagens no aplicativo no Campaign Standard.
 seo-description: 'Esta seção fornece informações sobre como usar "Mensagens de push no Campaign Standard" com mensagens no aplicativo no Campaign Standard. '
 translation-type: tm+mt
-source-git-commit: 95c29df19f61e7854e39b47e39471f7f1e94b736
+source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
 
 ---
 
@@ -13,33 +13,29 @@ source-git-commit: 95c29df19f61e7854e39b47e39471f7f1e94b736
 
 Essas informações ajudam você a entender como usar as informações do Serviço de localização da plataforma Adobe Experience para enviar mensagens no aplicativo ou notificações locais.
 
->[!IMPORTANT]
->
->Antes de começar, conclua as seguintes tarefas:
->
->* Tenha um aplicativo móvel configurado com o SDK do Adobe Experience Platform Mobile, incluindo a extensão [do](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)Adobe Campaign Standard.
-   >
-   >
-* Integre o SDK [do](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) Adobe Experience Platform Mobile ao seu aplicativo.
->* Adicione o [Adobe Campaign Standard Extension](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) à configuração do aplicativo móvel.
-   >
-   >
-* [Crie um POI](/help/poi-mgmt-ui/create-a-poi-ui.md) na interface de gerenciamento POI do Places.
-   >
-   >
-* Instale e configure a extensão [](/help/places-ext-aep-sdks/places-extension/places-extension.md) Places e as extensões [do monitor](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md) Places no aplicativo móvel.
+## Pré-requisitos
 
+Antes de começar, conclua as seguintes tarefas:
+
+* Tenha um aplicativo móvel configurado com o SDK do Adobe Experience Platform Mobile, incluindo a extensão [do](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)Adobe Campaign Standard.
+
+* Integre o SDK [do](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) Adobe Experience Platform Mobile ao seu aplicativo.
+* Adicione o [Adobe Campaign Standard Extension](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) à configuração do aplicativo móvel.
+
+* [Crie um POI](/help/poi-mgmt-ui/create-a-poi-ui.md) na interface de gerenciamento POI do Places.
+
+* Instale e configure a extensão [](/help/places-ext-aep-sdks/places-extension/places-extension.md) Places e as extensões [do monitor](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md) Places no aplicativo móvel.
 
 ## Enviar uma mensagem no aplicativo com base em uma entrada ou saída de fronteira geográfica
 
 1. Na instância do Adobe Campaign Standard, clique em **[!UICONTROL Create In-App message]**.
 2. Para o tipo de mensagem, selecione **[!UICONTROL Target all users of a Mobile application]**.
 3. Clique **[!UICONTROL Next]** e digite os detalhes gerais.
-4. No painel esquerdo, verifique se agora é possível usar vários acionadores relacionados aos serviços de localização.
+4. No painel esquerdo, verifique se você pode usar vários acionadores relacionados aos serviços de localização.
 
    * Você pode optar por exibir a mensagem no aplicativo se o usuário tiver inserido uma fronteira geográfica POI.
    * Você também pode usar metadados definidos na interface do usuário do Location Services para filtrar o público-alvo.
-   No exemplo no gráfico a seguir, é possível disparar uma mensagem no aplicativo que é exibida somente para os usuários que entraram em um dos resorts de férias que participam de um programa de bebida gratuita, você deseja enviar aos usuários um cupom quando eles chegarem.
+   No exemplo abaixo, você pode disparar uma mensagem no aplicativo que é exibida somente para usuários que entram em um dos resorts de férias que participam de um programa de bebida gratuita e deseja enviar a esses usuários um cupom quando chegam.
 
    !["Metadados de locais de mensagens no aplicativo"](/help/assets/last-entered-vacation.png)
 
@@ -51,7 +47,6 @@ Essas informações ajudam você a entender como usar as informações do Servi�
 
    !["beba cupom"](/help/assets/drink-coupon-on-app.png)
 
-
-Usar os serviços de localização com o Adobe Campaign Standard oferece uma ferramenta poderosa para segmentar e direcionar suas mensagens aos usuários com base em entradas e saídas de fronteira geográfica. Essa simples integração abre a porta para criar casos de uso mais personalizados e contextuais.
+Usar os serviços de localização com o Adobe Campaign Standard oferece uma ferramenta poderosa para segmentar e direcionar suas mensagens aos usuários com base em entradas e saídas de fronteira geográfica. Essa integração permite criar casos de uso mais personalizados e contextuais.
 
 >[!VIDEO](https://www.youtube.com/watch?v=ikiTTQw9c-o)
