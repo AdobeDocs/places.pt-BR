@@ -4,7 +4,7 @@ seo-title: POIs de upload em massa
 description: Esta seção fornece informações sobre como fazer upload em massa dos POIs.
 seo-description: Esta seção fornece informações sobre como fazer upload em massa dos POIs.
 translation-type: tm+mt
-source-git-commit: 31462861efa807583c245963d8496eecdd3cf92e
+source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 31462861efa807583c245963d8496eecdd3cf92e
 
 Um conjunto de scripts Python foi criado para simplificar a importação em lote de POIs de um arquivo .csv para um banco de dados POI usando as APIs de serviço da Web. Esses scripts podem ser baixados deste [git repo](https://github.com/adobe/places-scripts)de código aberto.
 
-Antes de executar esses scripts, para acessar as APIs de serviço da Web, consulte *Pré-requisitos de acesso* do usuário na visão geral [de integração de E/S da](/help/web-service-api/adobe-i-o-integration.md)Adobe.
+Antes de executar esses scripts, para acessar as APIs de serviço da Web, consulte *Pré-requisitos para acesso* do usuário na visão geral e pré-requisitos [da](/help/web-service-api/adobe-i-o-integration.md)integração.
 
 Estas são algumas informações sobre os scripts:
 
@@ -52,7 +52,7 @@ Esta é uma lista das colunas e dos valores que você precisa usar:
 Os valores das seguintes colunas são usados na interface do usuário do Serviço de Localização:
 
 * cor, que é usada como a cor do pino que representa a localização do POI no mapa da interface do usuário do Serviço de localização.
-   * Os valores válidos são "", #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B e #3DC8DE.
+   * Os valores válidos são "", #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B e #3DC8DE e "".
    * Se o valor for deixado em branco, a interface do usuário do Serviço de localização usará azul como a cor padrão.
 
       Os valores correspondem a azul (#3E76D0), roxo (#AA99E8), fuschia (#DC2ABA), laranja (#FC685B), laranja claro (#FC962E), amarelo (#F6C436), verde claro (#BECE5D), verde (#6 1B56B) e azul claro (#3DC8DE), respectivamente.
@@ -60,6 +60,11 @@ Os valores das seguintes colunas são usados na interface do usuário do Serviç
 * ícone, que é usado como o ícone no pino que representa o local do POI no mapa da interface do usuário do Serviço de Localização
 
    * Os valores válidos são "", loja, hotelbed, carro, avião, avião, trem, navio, estádio, parque de diversões, âncora, beaker, campainha, sino, bico, livro, caixa, pasta, browse, pincel, edifício, calculadora, câmera, relógio, relógio, luz, acompanhar, jogo, mulher, homem, presente, martelo, coração, casa, chave, lançamento, lâmpada, caixa de correio, dinheiro promover, fita, shoppingCart, estrela, alvo, bule, thumbDown, thumbUp, armadilha, troféu, chave inglesa.
+
+      Os valores dos ícones são listados na ordem em que aparecem na ilustração a seguir:
+
+      ![ícones na interface do usuário](/help/assets/UI_icons.png)
+
    * Se o valor for deixado em branco, a interface do usuário usará star como o ícone padrão.
 
 * As colunas não mencionadas podem ser deixadas em branco.
@@ -73,19 +78,19 @@ Os valores das seguintes colunas são usados na interface do usuário do Serviç
 
    * `csv_file_path`
 
-      O caminho para o seu `.csv` arquivo.
+      Este é o caminho para o seu `.csv` arquivo.
 
    * `access_code`
 
-      Esse é o código de acesso obtido da chamada para o Adobe IMS. Para obter informações sobre como obter esse código de acesso, consulte [Pré-requisitos para acesso](/help/web-service-api/adobe-i-o-integration.md) do usuário.
+      Esse é o código de acesso obtido da chamada para o Adobe IMS. Para obter informações sobre como obter esse código de acesso, consulte *Pré-requisitos para acesso* do usuário na visão geral e pré-requisitos [da](/help/web-service-api/adobe-i-o-integration.md)integração.
 
    * `org_id`
 
-      A orgID da Experience Cloud na qual os POIs devem ser importados. Para obter informações sobre como obter a ID da organização, consulte [Pré-requisitos para acesso do usuário.](/help/web-service-api/adobe-i-o-integration.md).
+      A orgID da Experience Cloud na qual os POIs devem ser importados. Para obter informações sobre como obter a ID da organização, consulte *Pré-requisitos para acesso* do usuário na visão geral e pré-requisitos [da](/help/web-service-api/adobe-i-o-integration.md)integração.
 
    * `api_key`
 
-      Esta é a chave da API REST do Places obtida da Integração de E/S do Adobe. Para obter informações sobre como obter a chave da API, consulte [Pré-requisitos para acesso do usuário.](/help/web-service-api/adobe-i-o-integration.md).
+      Esta é a chave da API REST do Places obtida da Integração de E/S do Adobe. Para obter informações sobre como obter a chave da API, consulte *Pré-requisitos para acesso* do usuário na visão geral e pré-requisitos [da](/help/web-service-api/adobe-i-o-integration.md)integração.
    b.Salve as alterações.
 
 1. Em uma janela de terminal, navegue até o `…/places-scripts/import/` diretório.
