@@ -4,7 +4,7 @@ seo-title: Executar relatórios no Adobe Analytics que incluem dados do Local
 description: Esta seção fornece informações sobre como executar relatórios no Analytics que incluem dados de Locais.
 seo-description: Esta seção fornece informações sobre como executar relatórios no Analytics que incluem dados de Locais.
 translation-type: tm+mt
-source-git-commit: 0612e2fb06e45ff25ad580e3336be3eb48bb39b9
+source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
 
 ---
 
@@ -22,14 +22,14 @@ Depois que o Places enviar os eventos de entrada e saída, você pode criar regr
 1. Na **[!UICONTROL Rules]** guia, clique em **[!UICONTROL Create New Rule]**.
 
    Lembre-se das seguintes informações:
-   * Se você não tiver regras existentes para essa propriedade, o botão estará no meio da tela.
-   * Se sua propriedade tiver regras, o botão estará no canto superior direito da tela.
+   * Se você não tiver regras existentes para essa propriedade, o **[!UICONTROL Create New Rule]** botão estará no meio da tela.
+   * Se sua propriedade tiver regras, o **[!UICONTROL Create New Rule]** botão estará no canto superior direito da tela.
 
 ## 1.Selecione um evento
 
 1. Dê um nome significativo à sua regra para que ela seja facilmente reconhecível na sua lista de Regras.
 
-   Neste exemplo, a regra é chamada de **Anexar dados de locais aos eventos** de ação de rastreamento do Analytics.
+   Neste exemplo, a Regra é nomeada **[!UICONTROL Attach Places Data to Analytics Track Action Events]**.
 
 2. Na **[!UICONTROL Events]** seção, clique em **[!UICONTROL Add]**.
 
@@ -46,7 +46,7 @@ Agora você pode determinar os acionadores que deseja incluir para esta Regra. N
 
 >[!IMPORTANT]
 >
->Conclua esta etapa se desejar adicionar Condições à sua regra. Caso contrário, pule para a seção *Definir a ação* abaixo.
+>Conclua este procedimento para adicionar Condições à sua regra. Caso contrário, pule para a seção *Definir a ação* abaixo.
 
 Neste exemplo, é criada uma Condição que faz com que a Regra seja acionada somente para clientes AT&amp;T.
 
