@@ -4,7 +4,7 @@ seo-title: Testar e validar locais
 description: Esta seção fornece informações sobre como testar e validar locais.
 seo-description: Esta seção fornece informações sobre como testar e validar locais.
 translation-type: tm+mt
-source-git-commit: 39374c1457d33f4cd4014c78fb8daaaa59e5d62d
+source-git-commit: 181185d441a6a4740b2e8770adcb71e81e2e816e
 
 ---
 
@@ -33,8 +33,8 @@ Depois que os eventos de localização são validados corretamente, as integraç
 | 5 | Confirme se os ambientes corretos estão configurados para teste. A ID do ambiente do Launch deve corresponder ao ambiente de desenvolvimento do Launch. | Confirmado |
 | 6 | Crie arquivos GPX para cada POI que você deseja testar. Os arquivos GPX podem ser usados no ambiente de desenvolvimento local para simular uma entrada de local. Para obter informações sobre como criar e usar arquivos GPX, consulte o seguinte: Arquivos <br>[GPX para o Simulador iOS [fechado]](https://stackoverflow.com/questions/17292783/gpx-files-for-ios-simulator)<br>[https://mapstogpx.com/mobiledev.](https://mapstogpx.com/mobiledev.php)<br>[phpLOCATION TESTING EM APLICATIVOS MÓVEIS](https://qacumtester.wordpress.com/2014/02/27/location-testing-in-mobile-apps/) | Arquivos GPX são criados e carregados no projeto do aplicativo. |
 | 7 | Sem fazer mais nada, você deve ser capaz de iniciar o aplicativo do Android Studio ou XCode e ver o alerta apropriado para solicitar acesso ao local de rastreamento. Clique na permissão *Sempre permitir* .<br><br>Recomendamos que você use um dispositivo real conectado ao seu computador em vez de usar o simulador de dispositivo. | A solicitação de localização deve ser exibida no aplicativo carregado por meio do IDE |
-| 8 | Depois que a permissão Local for aceita, no console do aplicativo, você deverá ver as mensagens que indicam `ACPExtensionEventName : requestgetnearbyplaces`, que foram chamadas. A alternância entre diferentes locais no estúdio XCode ou Android deve produzir eventos de entrada para POIs específicos | `ACPExtensionEventName : requestgetnearbyplaces` devem ser exibidos à medida que você simula diferentes locais. |
-| 9 | Se o Local selecionado estiver próximo a POIs próximos, a extensão Monitor começará a monitorar os 20 POIs mais próximos do local atual. A mensagem no console será semelhante ao seguinte: `[AdobeExperienceSDK DEBUG <com.adobe.placesMonitor>]: Received a new list of POIs from Places:`. | A alternância entre diferentes locais no estúdio XCode ou Android deve produzir eventos de entrada para POIs específicos. |
+| 8 | Depois que a permissão Local for aceita. O SDK de locais recuperará o local atual do dispositivo e a extensão do Monitor de locais começará a monitorar os 20 POIs mais próximos do local atual | Consulte a amostra de log abaixo da tabela. |
+| 9 | A alternância entre diferentes locais no estúdio XCode ou Android deve produzir eventos de entrada para POIs específicos. Os registros abaixo são esperados na entrada de um POI. | Consulte a amostra de log abaixo da tabela. |
 | 10 | Depois de ver o Monitor de locais localizado perto de POIs, você deve testar enviando os ping de localização. Em Iniciar, crie uma nova regra que use a extensão Locais para acionar com base em uma entrada de fronteira geográfica. Em seguida, crie uma nova ação usando o Mobile Core para enviar um Postback. A criação de um aplicativo Webhook em falta ajuda você a ver as entradas e saídas de localização. Para obter informações sobre como criar um aplicativo Slow Webhook, consulte [Enviar mensagens usando Webhooks de entrada.](https://api.slack.com/messaging/webhooks) |  |
 | 10a | Em Iniciar, certifique-se de ter adicionado elementos de dados para a extensão Locais, incluindo o seguinte: Nome do POI <br>atual<br>Nome do POI atual<br>LatAtual POI<br>longLast<br>Last Entered<br>nameLast Entered lat<br>Last Entered longLast Exited<br>nameLast Exited<br>latLast Exited<br>longTimestamp |  |
 | 10b | Criar uma nova regra com um Evento = Locais → Inserir POI |  |
@@ -71,3 +71,47 @@ Depois que os eventos de localização são validados corretamente, as integraç
 | 19 | Realize o teste apenas com o celular ativado e com o Wi-Fi desligado. |  |
 | 20 | Realize testes com celular e Wi-Fi ligados. |  |
 |  | **RESUMO PONTO** Os testes <br>no local devem corresponder aos testes de desenvolvimento. Lembre-se de que existem alguns fatores ambientais que podem entrar em cena ao determinar a localização dos usuários, como a duração do tempo gasto em uma cerca geográfica POI, a disponibilidade do sinal celular e a força dos pontos de acesso wifi próximos. |  |
+
+## Amostras de registro
+
+**** Etapa 8: Registros do iOS e Android esperados durante uma atualização de localização
+
+**iOS**
+
+```
+[AdobeExperienceSDK DEBUG <com.adobe.placesMonitor>]: Authorization status changed: Always
+[AdobeExperienceSDK DEBUG <Places>]: Requesting 20 nearby POIs for device location (<lat>, <longitude>)
+[AdobeExperienceSDK DEBUG <Places>]: Response from Places Query Service contained <n> nearby POIs
+[AdobeExperienceSDK DEBUG <com.adobe.placesMonitor>]: Received a new list of POIs from Places: (
+<ACPPlacePoi: 0x600002b75a40> Name: <poi name>; ID:<poi id>; Center: (<lat>, <long>); Radius: <radius>
+..
+..)   
+```
+
+**Android**
+
+```
+PlacesMonitor - All location settings are satisfied to monitor location
+PlacesMonitor - PlacesMonitorInternal : New location obtained: <latitude> <longitude> Attempting to get the near by pois
+PlacesExtension - Dispatching nearby places event with n POIs
+PlacesMonitor - Attempting to Monitor POI with id <poi id> name <poi name> latitude <lat> longitude <longitude>
+PlacesMonitor - Attempting to Monitor POI with id <poi id> name <poi name> latitude <lat> longitude <longitude>
+PlacesMonitor - Attempting to Monitor POI with id <poi id> name <poi name> latitude <lat> longitude <longitude>
+...
+...
+PlacesMonitor - Successfully added n fences for monitoring
+```
+
+**** Etapa 9 : Registros esperados do iOS e Android durante um evento
+
+**iOS**
+
+```
+[AdobeExperienceSDK TRACE <Places>]: Dispatching Places region entry event for place ID <poiId>
+```
+
+**Android**
+
+```
+PlacesExtension -  Dispatching Places Region Event for <poi name> with eventType entry
+```
