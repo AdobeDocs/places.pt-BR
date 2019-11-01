@@ -4,7 +4,7 @@ seo-title: Usando seu próprio monitor
 description: 'Você também pode usar seus serviços de monitoramento e fazer a integração com o Places usando as APIs de extensão do Places. '
 seo-description: 'Você também pode usar seus serviços de monitoramento e fazer a integração com o Places usando as APIs de extensão do Places. '
 translation-type: tm+mt
-source-git-commit: 5d558755d816f4aa05a7a76cad12bab45c1dc282
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -23,7 +23,7 @@ No iOS, conclua as seguintes etapas:
 
 1. Passe as atualizações de localização obtidas dos principais serviços de localização do iOS para a extensão de Locais.
 
-2. Use a API de extensão `getNearbyPointsOfInterest` Locais para obter a matriz de *n* `ACPPlacesPoi` objetos em torno do local atual.
+1. Use a API de extensão `getNearbyPointsOfInterest` Locais para obter a matriz de *n* `ACPPlacesPoi` objetos em torno do local atual.
 
    ```objective-c
    - (void) locationManager: (CLLocationManager*) manager didUpdateLocations: (NSArray<CLLocation*>*) locations {
@@ -35,7 +35,7 @@ No iOS, conclua as seguintes etapas:
    }
    ```
 
-3. Extraia as informações dos `ACPPlacesPOI` objetos obtidos e comece a monitorar esses POIs.
+1. Extraia as informações dos `ACPPlacesPOI` objetos obtidos e comece a monitorar esses POIs.
 
    ```objective-c
    - (void) startMonitoringGeoFences: (NSArray*) newGeoFences {
@@ -60,7 +60,7 @@ No iOS, conclua as seguintes etapas:
 
 1. Passe as atualizações de localização obtidas dos serviços do Google Play ou dos serviços de localização do Android para a Extensão de locais.
 
-2. Use a API de extensão de `getNearbyPointsOfInterest` locais para obter a lista de n `PlacesPoi` objetos em torno do local atual.
+1. Use a API de extensão de `getNearbyPointsOfInterest` locais para obter a lista de n `PlacesPoi` objetos em torno do local atual.
 
    ```java
        LocationCallback callback = new LocationCallback() {
@@ -79,7 +79,7 @@ No iOS, conclua as seguintes etapas:
            };
    ```
 
-3. Extraia os dados dos `PlacesPOI` objetos obtidos e comece a monitorar esses POIs.
+1. Extraia os dados dos `PlacesPOI` objetos obtidos e comece a monitorar esses POIs.
 
    ```java
    private void startMonitoringFences(final List<PlacesPOI> nearByPOIs) {
