@@ -4,7 +4,7 @@ seo-title: Extensão de locais
 description: A extensão Locais permite que você atue com base na localização dos usuários.
 seo-description: A extensão Locais permite que você atue com base na localização dos usuários.
 translation-type: tm+mt
-source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -16,13 +16,13 @@ A extensão Locais permite que você atue com base na localização dos usuário
 ## Instale a extensão Locais no Adobe Experience Platform Launch
 
 1. Em Experience Platform Launch, clique na **[!UICONTROL Extensions]** guia.
-2. Na **[!UICONTROL Catalog]** guia, localize a **[!UICONTROL Places]** extensão e clique em **[!UICONTROL Install]**.
-3. Selecione as bibliotecas Locais que deseja usar nesta propriedade. Essas são as bibliotecas que estarão acessíveis no seu aplicativo.
-4. Clique em **[!UICONTROL Save]**.
+1. Na **[!UICONTROL Catalog]** guia, localize a **[!UICONTROL Places]** extensão e clique em **[!UICONTROL Install]**.
+1. Selecione as bibliotecas Locais que deseja usar nesta propriedade. Essas são as bibliotecas que estarão acessíveis no seu aplicativo.
+1. Clique em **[!UICONTROL Save]**.
 
    Quando você clica **[!UICONTROL Save]**, o SDK da plataforma da experiência pesquisa POIs nos serviços do local nas bibliotecas selecionadas. Os dados de POI não são incluídos no download da biblioteca quando você cria o aplicativo, mas um subconjunto baseado em localização de POIs é baixado para o dispositivo do usuário final em tempo de execução e é baseado nas coordenadas GPS do usuário.
 
-5. Conclua o processo de publicação para atualizar a configuração do SDK.
+1. Conclua o processo de publicação para atualizar a configuração do SDK.
 
    Para obter mais informações sobre a publicação no Experience Platform Launch, consulte [Publicação](https://docs.adobelaunch.com/launch-reference/publishing).
 
@@ -45,7 +45,7 @@ Para adicionar a extensão Locais ao seu aplicativo usando Java:
    implementation 'com.adobe.marketing.mobile:sdk-core:1.+'
    ```
 
-2. Importe a extensão de Locais na atividade principal do seu aplicativo.
+1. Importe a extensão de Locais na atividade principal do seu aplicativo.
 
    ```java
    import com.adobe.marketing.mobile.Places;
@@ -65,13 +65,13 @@ Para adicionar a extensão de Locais ao aplicativo usando Objetive-C ou Swift:
 
    Como alternativa, se você não estiver usando o Cocoapods, poderá incluir manualmente as bibliotecas do Mobile Core e do Places da nossa página [de](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) lançamentos no Github.
 
-2. Atualize seus Cocoapods:
+1. Atualize seus Cocoapods:
 
    ```objective-c
    pod update
    ```
 
-3. Abra o Xcode e, na classe AppDelegate, importe os cabeçalhos Principais e Locais:
+1. Abra o Xcode e, na classe AppDelegate, importe os cabeçalhos Principais e Locais:
 
    **Objetive-C**
 
