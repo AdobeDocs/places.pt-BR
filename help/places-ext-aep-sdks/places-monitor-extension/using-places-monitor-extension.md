@@ -4,7 +4,7 @@ seo-title: Uso da extensão do Monitor de locais
 description: Informações sobre como instalar, configurar e usar a extensão do Places Monitor.
 seo-description: 'Informações sobre como instalar, configurar e usar a extensão do Places Monitor. '
 translation-type: tm+mt
-source-git-commit: ef720c112bc0de386e070094629c5bab69938e76
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -16,9 +16,9 @@ Para usar a extensão do Monitor de locais, conclua as seguintes tarefas:
 ## Instale a extensão do Monitor de locais no Experience Platform Launch
 
 1. Em Experience Platform Launch, clique na **[!UICONTROL Extensions]** guia.
-2. Na **[!UICONTROL Catalog]** guia, localize a **[!UICONTROL Places Monitor]** extensão e clique em **Instalar**.
-3. Clique em **[!UICONTROL Save]**.
-4. Siga o processo de publicação para atualizar a configuração do SDK.
+1. Na **[!UICONTROL Catalog]** guia, localize a **[!UICONTROL Places Monitor]** extensão e clique em **Instalar**.
+1. Clique em **[!UICONTROL Save]**.
+1. Siga o processo de publicação para atualizar a configuração do SDK.
 
 ### Configurar a extensão do Monitor de locais {#configure-places-monitor-extension}
 
@@ -38,7 +38,7 @@ No Android, execute as seguintes etapas:
 
 1. Adicione a extensão do Places Monitor e a extensão Places ao seu projeto usando o arquivo gradle do aplicativo.
 
-2. Inclua também os serviços mais recentes do Google Location no arquivo gradle.
+1. Inclua também os serviços mais recentes do Google Location no arquivo gradle.
 
    ```java
    implementation 'com.adobe.marketing.mobile:places:1.+'
@@ -47,7 +47,7 @@ No Android, execute as seguintes etapas:
    implementation 'com.google.android.gms:play-services-location:16.0.0'
    ```
 
-3. Importe a extensão do Monitor de locais na atividade principal do seu aplicativo.
+1. Importe a extensão do Monitor de locais na atividade principal do seu aplicativo.
 
    ```java
    import com.adobe.marketing.mobile.PlacesMonitor;
@@ -58,7 +58,7 @@ No Android, execute as seguintes etapas:
 No iOS, conclua as seguintes etapas:
 
 1. Adicione a biblioteca ao seu projeto por meio dos Cocoapods `Podfile` adicionando `pod 'ACPPlacesMonitor'`.
-2. Importe as bibliotecas do Monitor de locais e locais:
+1. Importe as bibliotecas do Monitor de locais e locais:
 
 #### Objetive-C
 
