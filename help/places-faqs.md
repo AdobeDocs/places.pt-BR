@@ -4,7 +4,7 @@ seo-title: Perguntas frequentes
 description: Este tópico fornece informações adicionais sobre algumas perguntas frequentes.
 seo-description: Este tópico fornece informações adicionais sobre algumas perguntas frequentes.
 translation-type: tm+mt
-source-git-commit: 6ae0c8d90cad4c437e1db7f562a0bc9c6b072ce6
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -91,7 +91,7 @@ Para configurar o perfil e adicionar as permissões:
 
       Se você adicionou usuários anteriormente ao Experience Platform Launch, você pode ver vários perfis listados.
 
-2. Selecione o perfil correto:
+1. Selecione o perfil correto:
 
    a. Clique no nome do perfil padrão.
 
@@ -145,7 +145,7 @@ Para adicionar um usuário aos perfis Local Service e Experience Platform Launch
 
    g.Clique em **[!UICONTROL Save]**.
 
-2. Adicionar um usuário a **[!UICONTROL Places Core Services]**.
+1. Adicionar um usuário a **[!UICONTROL Places Core Services]**.
 
    >[!TIP]
    >
