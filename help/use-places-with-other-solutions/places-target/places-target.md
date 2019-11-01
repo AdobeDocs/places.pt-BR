@@ -4,7 +4,7 @@ seo-title: Adobe Target
 description: Esta seção fornece informações sobre como usar o Serviço de localização com o Adobe Target.
 seo-description: 'Esta seção fornece informações sobre como usar o Serviço de Localização com o Adobe Target. '
 translation-type: tm+mt
-source-git-commit: 84b23934a6e9f9fd61c068693bae3daca24de253
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -30,13 +30,13 @@ Depois que a extensão Locais estiver enviando eventos para entradas e saídas, 
 
    Neste exemplo, a Regra é nomeada **[!UICONTROL Attach Places Data to Target Content Requested]**.
 
-2. Na **[!UICONTROL Events]** seção, clique em **[!UICONTROL Add]**.
+1. Na **[!UICONTROL Events]** seção, clique em **[!UICONTROL Add]**.
 
-3. Na lista **[!UICONTROL Extension]** suspensa, selecione **[!UICONTROL Adobe Target]**.
+1. Na lista **[!UICONTROL Extension]** suspensa, selecione **[!UICONTROL Adobe Target]**.
 
-4. Na lista **[!UICONTROL Event Type]** suspensa, selecione **[!UICONTROL Content Requested]**.
+1. Na lista **[!UICONTROL Event Type]** suspensa, selecione **[!UICONTROL Content Requested]**.
 
-5. Clique em **[!UICONTROL Keep Changes]**.
+1. Clique em **[!UICONTROL Keep Changes]**.
 
 ![adicionar um evento](/help/assets/ad-setEvent_target.png)
 
@@ -50,13 +50,13 @@ No exemplo a seguir, é criada uma Condição que faz com que a Regra seja acion
 
 1. Na **[!UICONTROL Conditions]** seção, clique em **[!UICONTROL Add]**.
 
-2. Na lista **[!UICONTROL Extension]** suspensa, selecione **[!UICONTROL Mobile Core]**.
+1. Na lista **[!UICONTROL Extension]** suspensa, selecione **[!UICONTROL Mobile Core]**.
 
-3. Na lista **[!UICONTROL Condition Type]** suspensa, selecione **[!UICONTROL Launches]**.
+1. Na lista **[!UICONTROL Condition Type]** suspensa, selecione **[!UICONTROL Launches]**.
 
-4. No painel direito, modifique a lista suspensa e os controles de número para que a condição leia **[!UICONTROL Usuário inicializou o aplicativo maior ou igual a 5 vezes**.
+1. No painel direito, modifique a lista suspensa e os controles de número para que a condição leia **[!UICONTROL Usuário inicializou o aplicativo maior ou igual a 5 vezes**.
 
-5. Clique em **[!UICONTROL Keep Changes]**.
+1. Clique em **[!UICONTROL Keep Changes]**.
 
 ![adicionar um evento](/help/assets/ad-setCondition_target.png)
 
@@ -64,13 +64,13 @@ No exemplo a seguir, é criada uma Condição que faz com que a Regra seja acion
 
 1. Na **[!UICONTROL Actions]** seção, clique em **[!UICONTROL Add]**.
 
-2. Na lista **[!UICONTROL Extension]** suspensa, selecione **[!UICONTROL Mobile Core]**.
+1. Na lista **[!UICONTROL Extension]** suspensa, selecione **[!UICONTROL Mobile Core]**.
 
-3. Na lista **[!UICONTROL Action Type]** suspensa, selecione **[!UICONTROL Attach Data]**.
+1. Na lista **[!UICONTROL Action Type]** suspensa, selecione **[!UICONTROL Attach Data]**.
 
-4. No painel direito, no **[!UICONTROL JSON Payload]** campo, digite os dados que serão adicionados a este Evento.
+1. No painel direito, no **[!UICONTROL JSON Payload]** campo, digite os dados que serão adicionados a este Evento.
 
-5. Clique em **[!UICONTROL Keep Changes]**.
+1. Clique em **[!UICONTROL Keep Changes]**.
 
 No painel direito, é possível adicionar uma carga JSON de forma livre que adicione dados a um evento SDK antes que as extensões que acompanham esse evento o ouçam.
 
@@ -92,4 +92,4 @@ Após concluir a configuração, verifique se a Regra se parece com a seguinte i
 
 1. Clique em **[!UICONTROL Save]**
 
-2. Recrie a propriedade Launch e implante-a no Ambiente correto.
+1. Recrie a propriedade Launch e implante-a no Ambiente correto.
