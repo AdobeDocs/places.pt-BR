@@ -4,7 +4,7 @@ seo-title: Configurar o SDK com a extensão de Locais
 description: 'Você pode configurar o SDK com a extensão Locais para ativar o reconhecimento de localização no aplicativo móvel. '
 seo-description: 'Você pode configurar o SDK com a extensão Locais para ativar o reconhecimento de localização no aplicativo móvel. '
 translation-type: tm+mt
-source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -37,14 +37,14 @@ Para configurar a extensão do Monitor de locais no Launch:
 
    Para obter mais informações, consulte *Configurar a extensão de monitoramento de locais no Launch*.
 
-2. Adicione a extensão do Places Monitor ao seu aplicativo móvel.
+1. Adicione a extensão do Places Monitor ao seu aplicativo móvel.
 
    Para obter mais informações, consulte *Adicionar a extensão do Monitor de locais ao seu aplicativo*.
 
-3. Registre o Monitor de locais com a extensão Mobile Core.
+1. Registre o Monitor de locais com a extensão Mobile Core.
 
    Para obter mais informações, consulte Registrar o monitor de *locais com núcleo* móvel.
 
-4. Ative as atualizações de localização em segundo plano.
+1. Ative as atualizações de localização em segundo plano.
 
    Para obter mais informações, consulte *Ativar atualizações de localização em segundo plano*.
