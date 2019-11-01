@@ -4,7 +4,7 @@ seo-title: Mensagens no aplicativo com o Serviço de localização
 description: Esta seção fornece informações sobre como usar as mensagens de push no Campaign Standard com mensagens no aplicativo no Campaign Standard.
 seo-description: 'Esta seção fornece informações sobre como usar "Mensagens de push no Campaign Standard" com mensagens no aplicativo no Campaign Standard. '
 translation-type: tm+mt
-source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -29,9 +29,9 @@ Antes de começar, conclua as seguintes tarefas:
 ## Enviar uma mensagem no aplicativo com base em uma entrada ou saída de fronteira geográfica
 
 1. Na instância do Adobe Campaign Standard, clique em **[!UICONTROL Create In-App message]**.
-2. Para o tipo de mensagem, selecione **[!UICONTROL Target all users of a Mobile application]**.
-3. Clique **[!UICONTROL Next]** e digite os detalhes gerais.
-4. No painel esquerdo, verifique se você pode usar vários acionadores relacionados aos serviços de localização.
+1. Para o tipo de mensagem, selecione **[!UICONTROL Target all users of a Mobile application]**.
+1. Clique **[!UICONTROL Next]** e digite os detalhes gerais.
+1. No painel esquerdo, verifique se você pode usar vários acionadores relacionados aos serviços de localização.
 
    * Você pode optar por exibir a mensagem no aplicativo se o usuário tiver inserido uma fronteira geográfica POI.
    * Você também pode usar metadados definidos na interface do usuário do Location Services para filtrar o público-alvo.
@@ -39,7 +39,7 @@ Antes de começar, conclua as seguintes tarefas:
 
    !["Metadados de locais de mensagens no aplicativo"](/help/assets/last-entered-vacation.png)
 
-5. Clique no botão **[!UICONTROL Next]** para concluir a criação da mensagem no aplicativo para entrega.
+1. Clique no botão **[!UICONTROL Next]** para concluir a criação da mensagem no aplicativo para entrega.
 
    !["criar um evento"](/help/assets/prepare-ACS.png)
 
