@@ -4,7 +4,7 @@ seo-title: Visão geral da integração de E/S da Adobe
 description: Informações sobre como criar uma integração de E/S da Adobe.
 seo-description: Informações sobre como criar uma integração de E/S da Adobe.
 translation-type: tm+mt
-source-git-commit: 95c29df19f61e7854e39b47e39471f7f1e94b736
+source-git-commit: ec2b0f8ba94cecc5709d4d700490913978454ef1
 
 ---
 
@@ -69,7 +69,7 @@ Para gerar suas próprias chaves autoassinadas:
    >
    >Recomendamos que você nomeie suas chaves para facilitar a referência e armazene-as em uma pasta. Se você criar várias integrações, poderá identificar e gerenciar facilmente quais chaves pertencem a qual integração.
 
-2. Digite as informações solicitadas pelo OpenSSL:
+1. Digite as informações solicitadas pelo OpenSSL:
 
    ```text
    Country Name (2 letter code:  // Example: US
@@ -87,7 +87,7 @@ Para gerar suas próprias chaves autoassinadas:
    >
    >As informações fornecidas são incorporadas às chaves.
 
-3. Navegue até o diretório onde os arquivos `.key` e `.crt` .
+1. Navegue até o diretório onde os arquivos `.key` e `.crt` .
 
    Por exemplo, no iOS, vá para **[!UICONTROL Macintosh HD]** &gt; **[!UICONTROL users]** &gt; **[!UICONTROL (your user name)]** &gt; **[!UICONTROL Keys]**.
 
@@ -100,32 +100,32 @@ O vídeo a seguir guia você pelo processo de geração do par de chaves:
 Para criar uma integração de Locais:
 
 1. Acesse [https://console.adobe.io](https://console.adobe.io) e faça logon com sua Adobe ID.
-2. na seção **Início** rápido, clique em **Criar integração**.
-3. Selecione **[!UICONTROL Access an API]** e clique em **[!UICONTROL Continue]**.
+1. Na seção **Início** rápido, clique em **Criar integração**.
+1. Selecione **[!UICONTROL Access an API]** e clique em **[!UICONTROL Continue]**.
 
    **[!UICONTROL Access an API]** é o local padrão.
 
-4. Se você tiver acesso a mais de uma organização da Experience Cloud, selecione-a na lista suspensa no canto superior direito.
-5. Em **[!UICONTROL Experience Cloud]**, selecione **[!UICONTROL Places]** o serviço Adobe ao qual deseja integrar e clique em **[!UICONTROL Continue]**.
-6. Selecione **[!UICONTROL New integration]** e clique em **[!UICONTROL Continue]**.
-7. Na tela Criar uma nova integração, digite um nome e uma descrição.
-8. Arraste e solte seu `xxxx_public.crt` arquivo, criado acima, na área **[!UICONTROL Public keys certificates]** solta.
-9. Selecione um perfil de produto.
+1. Se você tiver acesso a mais de uma organização da Experience Cloud, selecione-a na lista suspensa no canto superior direito.
+1. Em **[!UICONTROL Experience Cloud]**, selecione **[!UICONTROL Places]** o serviço Adobe ao qual deseja integrar e clique em **[!UICONTROL Continue]**.
+1. Selecione **[!UICONTROL New integration]** e clique em **[!UICONTROL Continue]**.
+1. Na tela Criar uma nova integração, digite um nome e uma descrição.
+1. Arraste e solte seu `xxxx_public.crt` arquivo, criado acima, na área **[!UICONTROL Public keys certificates]** solta.
+1. Selecione um perfil de produto.
 
    Se não tiver certeza de qual perfil selecionar, entre em contato com o administrador do sistema.
-10. At the bottom of the page, click **[!UICONTROL Create integration]**.
-11. Após alguns segundos, na tela *Integração criada* , verifique se a seguinte mensagem é exibida:
+1. At the bottom of the page, click **[!UICONTROL Create integration]**.
+1. Após alguns segundos, na tela *Integração criada* , verifique se a seguinte mensagem é exibida:
 
    `Your integration has been created.`
 
-12. A página de detalhes da integração é exibida com o nome da integração na parte superior.
+1. A página de detalhes da integração é exibida com o nome da integração na parte superior.
 
    A **[!UICONTROL Overview]** guia é exibida por padrão e exibe a chave da API, a ID da organização, a ID da conta técnica e outros detalhes sobre as integrações.
 
 ### Registre a ID da empresa e a chave da API
 
 1. Na página de detalhes da integração, clique na **[!UICONTROL Services]** guia e confirme se ela **[!UICONTROL Places]** é exibida em **[!UICONTROL Configured Services]**.
-2. Na **[!UICONTROL Overview]** guia, localize e registre a chave da API (ID do cliente) e a ID da organização.
+1. Na **[!UICONTROL Overview]** guia, localize e registre a chave da API (ID do cliente) e a ID da organização.
 
    Essas IDs são necessárias para cada solicitação de API REST do Places.
 
@@ -138,11 +138,11 @@ Na página de detalhes da integração, clique na **[!UICONTROL JWT]** guia para
 Para gerar um token JWT:
 
 1. Em um editor de texto, abra seu `private.key` arquivo criado acima.
-2. Na **[!UICONTROL JWT]** guia, copie o conteúdo da chave e cole-a no **[!UICONTROL Paste private key]** campo.
-3. Clique em **[!UICONTROL Generate JWT]**.
-4. Na **[!UICONTROL Sample CURL command]** seção, clique **[!UICONTROL Copy]** e cole o conteúdo no prompt de comando ou na janela terminal.
-5. Execute o comando pressionando **[!UICONTROL Enter]** no teclado.
-6. Localize o `"token_type": "bearer"` e o `"access_token"` valor.
+1. Na **[!UICONTROL JWT]** guia, copie o conteúdo da chave e cole-a no **[!UICONTROL Paste private key]** campo.
+1. Clique em **[!UICONTROL Generate JWT]**.
+1. Na **[!UICONTROL Sample CURL command]** seção, clique **[!UICONTROL Copy]** e cole o conteúdo no prompt de comando ou na janela terminal.
+1. Execute o comando pressionando **[!UICONTROL Enter]** no teclado.
+1. Localize o `"token_type": "bearer"` e o `"access_token"` valor.
 
    O valor do token de acesso do portador é o que você usará nas solicitações da API do Places.
 
