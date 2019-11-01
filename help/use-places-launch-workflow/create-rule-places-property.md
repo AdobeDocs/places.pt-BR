@@ -4,7 +4,7 @@ seo-title: Criação de uma regra para sua propriedade Locais
 description: 'O SDK de Locais controla o local atual, monitora os POIs configurados em torno do local atual e rastreia os eventos de entrada e saída desses POIs. '
 seo-description: 'O SDK de Locais controla o local atual, monitora os POIs configurados em torno do local atual e rastreia os eventos de entrada e saída desses POIs. '
 translation-type: tm+mt
-source-git-commit: 84b23934a6e9f9fd61c068693bae3daca24de253
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -71,44 +71,44 @@ Antes de criar uma regra, você deve criar um elemento de dados no Adobe Experie
 Para criar um elemento de dados no Experience Platform Launch:
 
 1. Clique na guia Elementos **de** dados.
-2. Click **Add Data Element**.
-3. Digite um nome, por exemplo, o nome **atual da cafeteria**.
-4. Na lista suspensa **Extensão** , selecione **Locais - Beta**.
-5. Em Elemento **de dados**, selecione **Cidade**.
-6. No painel direito, selecione POI **atual**.
-7. Clique em **Salvar**.
+1. Click **Add Data Element**.
+1. Digite um nome, por exemplo, o nome **atual da cafeteria**.
+1. Na lista suspensa **Extensão** , selecione **Locais - Beta**.
+1. Em Elemento **de dados**, selecione **Cidade**.
+1. No painel direito, selecione POI **atual**.
+1. Clique em **Salvar**.
 
 ### Criar uma regra no Experience Platform Launch for Places
 
 ![criação de uma regra](/help/assets/placesrule.png)
 
 1. Em Experience Platform Launch, clique na **[!UICONTROL Rules]** guia.
-2. Clique em **[!UICONTROL Add Rule]**.
-3. Digite um nome para a regra, por exemplo, **[!UICONTROL Track entry for coffee shop in SF]**.
+1. Clique em **[!UICONTROL Add Rule]**.
+1. Digite um nome para a regra, por exemplo, **[!UICONTROL Track entry for coffee shop in SF]**.
 
 ### Criar um evento
 
 1. Na seção Eventos, clique em **[!UICONTROL + Add]**. Os eventos determinam quando você deseja que a regra seja acionada.
-2. Na lista **[!UICONTROL Extension]** suspensa, selecione **[!UICONTROL Places – Beta]**.
-3. Na lista **[!UICONTROL Event Type]** suspensa, selecione **[!UICONTROL Enter POI]**.
-4. Em **[!UICONTROL Name]**, digite um nome para o evento, por exemplo, **[!UICONTROL Entering a coffee shop]**.
-5. Clique em **[!UICONTROL Keep Changes]**.
+1. Na lista **[!UICONTROL Extension]** suspensa, selecione **[!UICONTROL Places – Beta]**.
+1. Na lista **[!UICONTROL Event Type]** suspensa, selecione **[!UICONTROL Enter POI]**.
+1. Em **[!UICONTROL Name]**, digite um nome para o evento, por exemplo, **[!UICONTROL Entering a coffee shop]**.
+1. Clique em **[!UICONTROL Keep Changes]**.
 
 ### Criar uma condição
 
 1. Na seção Condições, clique em **[!UICONTROL +Add]**. As condições determinam os critérios a cumprir para a ação a empreender.
-2. Em **[!UICONTROL Logic Type]**, selecione Regular, o que permite que as ações sejam executadas se a condição for atendida.
-3. Na lista **[!UICONTROL Extension]** suspensa, selecione **[!UICONTROL Places – Beta]**.
-4. Em **[!UICONTROL Condition Type]**, selecione **[!UICONTROL City]**.
-5. Type a condition name, for example, **[!UICONTROL Coffee shop in SF]**.
-6. No painel direito, clique em **[!UICONTROL Current POI]** e, na lista suspensa, selecione **[!UICONTROL San Francisco]** como uma de suas cidades.
-7. Clique em **[!UICONTROL Keep Changes]**.
+1. Em **[!UICONTROL Logic Type]**, selecione Regular, o que permite que as ações sejam executadas se a condição for atendida.
+1. Na lista **[!UICONTROL Extension]** suspensa, selecione **[!UICONTROL Places – Beta]**.
+1. Em **[!UICONTROL Condition Type]**, selecione **[!UICONTROL City]**.
+1. Type a condition name, for example, **[!UICONTROL Coffee shop in SF]**.
+1. No painel direito, clique em **[!UICONTROL Current POI]** e, na lista suspensa, selecione **[!UICONTROL San Francisco]** como uma de suas cidades.
+1. Clique em **[!UICONTROL Keep Changes]**.
 
 ### Criar uma ação
 
 1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL + Add]**.
-2. Na lista **[!UICONTROL Extension]** suspensa, deixe a opção padrão **[!UICONTROL Mobile Core]** selecionada.
-3. Selecione um tipo de ação, por exemplo, **[!UICONTROL Send Postback]**.
+1. Na lista **[!UICONTROL Extension]** suspensa, deixe a opção padrão **[!UICONTROL Mobile Core]** selecionada.
+1. Selecione um tipo de ação, por exemplo, **[!UICONTROL Send Postback]**.
 
    a. Em **[!UICONTROL URL]**, digite o URL de postback para a falta, por exemplo, `https://hooks.slack.com/services/`.
 
@@ -120,7 +120,7 @@ Para criar um elemento de dados no Experience Platform Launch:
 
    d. Selecione um valor de tempo limite, por exemplo, **[!UICONTROL 5]**.
 
-4. Clique em **[!UICONTROL Keep Changes]**.
+1. Clique em **[!UICONTROL Keep Changes]**.
 
 ### Publicar a regra
 
