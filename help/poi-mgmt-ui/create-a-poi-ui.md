@@ -4,7 +4,7 @@ seo-title: Crie um POI
 description: Crie um POI usando a interface do usuário do Places.
 seo-description: Crie um POI usando a interface do usuário do Places.
 translation-type: tm+mt
-source-git-commit: 32c670773421406591ba85a628760553ce6ad840
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -14,16 +14,16 @@ source-git-commit: 32c670773421406591ba85a628760553ce6ad840
 Um ponto de interesse \(POI\) é um local ou ponto em um mapa que é importante para sua organização ou empresa. Pode incluir locais como cafés, restaurantes, locais de varejo, estádios e assim por diante. As empresas podem definir pontos de interesse para ajudar a personalizar a experiência móvel de um usuário quando eles entraram em uma região delimitada geograficamente para um ponto de interesse específico. Além de experiências personalizadas, as empresas também podem criar pontos de interesse para ajudá-las a analisar e entender melhor os padrões de tráfego de localização. Uma grande cadeia de varejo pode optar por criar POIs para todos os locais de sua loja para obter análises em usuários que têm seu aplicativo móvel E visitar um local de loja.
 
 1. Faça logon no Serviço de localização com sua Adobe ID.
-2. No lado superior direito, clique em **[!UICONTROL New]**.
-3. Digite um nome para seu POI.
-4.  Selecione uma biblioteca.
-5. Insira ou selecione um raio.
+1. No lado superior direito, clique em **[!UICONTROL New]**.
+1. Digite um nome para seu POI.
+1.  Selecione uma biblioteca.
+1. Insira ou selecione um raio.
 
    O raio é a distância mínima e o valor recomendado é 100 metros.
 
    ![definir um POI](/help/assets/define_poi.png)
 
-6. As etapas a seguir são opcionais:
+1. As etapas a seguir são opcionais:
 
    a. Selecione um ícone para seu POI.
 
@@ -31,7 +31,7 @@ Um ponto de interesse \(POI\) é um local ou ponto em um mapa que é importante 
 
    c. Especifique uma categoria para seu POI.
 
-7. Expanda a **[!UICONTROL Location]** seção.
+1. Expanda a **[!UICONTROL Location]** seção.
 
    a. Digite um endereço.
 
@@ -47,7 +47,7 @@ Um ponto de interesse \(POI\) é um local ou ponto em um mapa que é importante 
 
    Se você não souber a latitude e a longitude exatas, soltar um pino é útil.
 
-8. Expanda a **[!UICONTROL Metadata]** seção e clique em **[!UICONTROL Add Metadata]**.
+1. Expanda a **[!UICONTROL Metadata]** seção e clique em **[!UICONTROL Add Metadata]**.
 
    Os metadados podem ajudar você a definir um local e podem ser usados em outros fluxos de trabalho de solução da Adobe para refinar ainda mais seu público-alvo.
 
@@ -55,4 +55,4 @@ Um ponto de interesse \(POI\) é um local ou ponto em um mapa que é importante 
 
    b. Digite o valor da chave.
 
-9. Clique em **[!UICONTROL Confirm]** e em **[!UICONTROL  Save]**.
+1. Clique em **[!UICONTROL Confirm]** e em **[!UICONTROL  Save]**.
