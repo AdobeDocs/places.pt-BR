@@ -11,7 +11,7 @@ source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 # Configurar a extensão SDK com Locais {#configure-sdk-places-extension}
 
-Para ativar o reconhecimento de localização em seu aplicativo móvel, configure o SDK com as extensões Places e, opcionalmente, a extensão de monitoramento de locais. Para obter mais informações, incluindo a configuração do SDK, consulte [Places (Beta) extension](/help/configure-place-in-the-sdk/places-extension/places-extension.md).
+Para ativar o reconhecimento de localização em seu aplicativo móvel, configure o SDK com as extensões Places e, opcionalmente, a extensão de monitoramento de locais. Para obter mais informações, incluindo a configuração do SDK, consulte [Places (Beta) extension](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 ## Configuração da extensão Places
 
