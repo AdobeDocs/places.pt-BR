@@ -2,9 +2,9 @@
 title: Adobe Target
 seo-title: Adobe Target
 description: Esta seção fornece informações sobre como usar o Serviço de localização com o Adobe Target.
-seo-description: 'Esta seção fornece informações sobre como usar o Serviço de Localização com o Adobe Target. '
+seo-description: Esta seção fornece informações sobre como usar o Serviço de Localização com o Adobe Target.
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
 
 ---
 
@@ -54,7 +54,7 @@ No exemplo a seguir, é criada uma Condição que faz com que a Regra seja acion
 
 1. Na lista **[!UICONTROL Condition Type]** suspensa, selecione **[!UICONTROL Launches]**.
 
-1. No painel direito, modifique a lista suspensa e os controles de número para que a condição leia **[!UICONTROL Usuário inicializou o aplicativo maior ou igual a 5 vezes**.
+1. No painel direito, modifique a lista suspensa e os controles de número para que a condição seja lida **[!UICONTROL User has launched the app greater than or equal to 5 times]**.
 
 1. Clique em **[!UICONTROL Keep Changes]**.
 
@@ -76,11 +76,11 @@ No painel direito, é possível adicionar uma carga JSON de forma livre que adic
 
 No exemplo a seguir, `poiCity` os valores são adicionados ao `poiName` **[!UICONTROL mboxparameters]** para cada solicitação processada no evento do Target. Os valores das novas chaves são determinados dinamicamente pelo SDK no momento em que esse evento é processado.
 
->[!TIP
->]
+>[!TIP]
+>
 >Essa carga JSON usa uma notação especial para o `request` objeto. No evento original, `request` é uma matriz de objetos anônimos. Ao anexar dados a todos os objetos em um storage usando Anexar dados, a `[*]` notação em uma chave que é conhecida por conter um storage faz com que a carga seja aplicada a todos os objetos nesse storage.
 >
->A notação de `request[*]` pode ser lida em voz alta como _para cada objeto na `request` matriz.
+>A notação de `request[*]` pode ser lida em voz alta _para cada objeto na`request`matriz_.
 
 ![adicionar um evento](/help/assets/ad-setAction_target.png)
 
