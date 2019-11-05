@@ -2,9 +2,9 @@
 title: Enviar dados de locais para o Adobe Analytics
 seo-title: Enviar dados de locais para o Adobe Analytics
 description: Esta seção fornece informações sobre como enviar dados do Local para o Analytics.
-seo-description: 'Esta seção fornece informações sobre como enviar dados do Local para o Analytics. '
+seo-description: Esta seção fornece informações sobre como enviar dados do Local para o Analytics.
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
 
 ---
 
@@ -41,7 +41,7 @@ Depois que o Places enviar os eventos de entrada e saída, você pode criar regr
 
 1. Clique em **[!UICONTROL Keep Changes]**.
 
-   !["selecionar um evento"](/help/assets/ad-setEvent_use-analytics-data.png)
+   !["selecionar um evento"](/help/assets/pt-selectEvent.png)
 
 
 ## 3. Adicionar condições
@@ -62,7 +62,7 @@ Neste exemplo, é criada uma Condição que faz com que a Regra seja acionada so
 
 1. Clique em **[!UICONTROL Keep Changes]**.
 
-   !["definir uma condição"](/help/assets/ad-setCondition_use-analytics-data.png)
+   !["definir uma condição"](/help/assets/pt-setCondition.png)
 
 
 ## 4. Definir a ação
@@ -81,15 +81,14 @@ Neste exemplo, é criada uma Condição que faz com que a Regra seja acionada so
 
    No exemplo a seguir, uma `TrackAction` chamada é enviada ao Analytics com dados de contexto adicionais `poi.name` iguais ao nome do POI que acionou esse evento de entrada:
 
-   !["definir uma ação"](/help/assets/ad-setAction_use-analytics-data.png)
+   !["definir uma ação"](/help/assets/pt-setAction.png)
 
 ## 5. Salve a regra e recrie sua propriedade
 
 Após concluir a configuração, verifique se a Regra se parece com a seguinte imagem:
 
-!["regra é criada"](/help/assets/ad-ruleComplete_use-analytics-data.png)
+!["regra é criada"](/help/assets/pt-ruleComplete.png)
 
 1. Clique em **[!UICONTROL Save]**
 
 1. Recrie a propriedade Launch e implante-a no ambiente correto.
-
