@@ -1,10 +1,10 @@
 ---
 title: Usando seu próprio monitor
 seo-title: Usando seu próprio monitor
-description: 'Você também pode usar seus serviços de monitoramento e fazer a integração com o Places usando as APIs de extensão do Places. '
-seo-description: 'Você também pode usar seus serviços de monitoramento e fazer a integração com o Places usando as APIs de extensão do Places. '
+description: Você também pode usar seus serviços de monitoramento e fazer a integração com o Places usando as APIs de extensão do Places.
+seo-description: Você também pode usar seus serviços de monitoramento e fazer a integração com o Places usando as APIs de extensão do Places.
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
 
 ---
 
@@ -27,11 +27,9 @@ No iOS, conclua as seguintes etapas:
 
    ```objective-c
    - (void) locationManager: (CLLocationManager*) manager didUpdateLocations: (NSArray<CLLocation*>*) locations {
-   
-          [ACPPlaces getNearbyPointsOfInterest:currentLocation limit:10 callback: ^ (NSArray<ACPPlacesPoi*>* _Nullable nearbyPoi) {
-              [self startMonitoringGeoFences:nearbyPoi];
-      }];
-   
+       [ACPPlaces getNearbyPointsOfInterest:currentLocation limit:10 callback: ^ (NSArray<ACPPlacesPoi*>* _Nullable nearbyPoi) {
+           [self startMonitoringGeoFences:nearbyPoi];
+       }];
    }
    ```
 
