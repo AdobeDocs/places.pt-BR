@@ -4,7 +4,7 @@ seo-title: Executar relatórios no Adobe Analytics que incluem dados do Local
 description: Esta seção fornece informações sobre como executar relatórios no Analytics que incluem dados de Locais.
 seo-description: Esta seção fornece informações sobre como executar relatórios no Analytics que incluem dados de Locais.
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
 
 ---
 
@@ -39,7 +39,7 @@ Depois que o Places enviar os eventos de entrada e saída, você pode criar regr
 
 Agora você pode determinar os acionadores que deseja incluir para esta Regra. Neste exemplo, o acionador se baseia em todas as `TrackAction` chamadas. Depois de configurar o Evento, clique em **[!UICONTROL Keep Changes]**.
 
-!["criar um evento"](/help/assets/pt-selectEvent.png)
+!["criar um evento"](/help/assets/ad-setEvent_use-analytics-data.png)
 
 
 ## 3. Adicionar condições
@@ -60,7 +60,7 @@ Neste exemplo, é criada uma Condição que faz com que a Regra seja acionada so
 
 1. Clique em **[!UICONTROL Keep Changes]**.
 
-!["criar uma condição"](/help/assets/pt-setCondition.png)
+!["criar uma condição"](/help/assets/ad-setCondition_use-analytics-data.png)
 
 ## 4. Definir a ação
 
@@ -78,13 +78,13 @@ No painel direito, é possível adicionar uma carga JSON de forma livre que adic
 
 No exemplo a seguir, `poi.city` e `poi.name` os valores são adicionados aos dados de contexto do evento do Analytics. Os valores das novas chaves são determinados dinamicamente pelo SDK quando esse evento é processado.
 
-!["criar uma ação"](/help/assets/pt-setAction.png)
+!["criar uma ação"](/help/assets/ad-setAction_use-analytics-data.png)
 
 ## 5. Salve a regra e recrie sua propriedade
 
 Após concluir a configuração, verifique se a Regra se parece com a seguinte imagem:
 
-!["a regra está completa."](/help/assets/pt-ruleComplete.png)
+!["a regra está completa."](/help/assets/ad-ruleComplete_use-analytics-data.png)
 
 1. Clique em **[!UICONTROL Save]**
 
