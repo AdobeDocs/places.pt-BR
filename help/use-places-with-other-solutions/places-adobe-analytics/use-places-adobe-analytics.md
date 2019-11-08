@@ -1,15 +1,15 @@
 ---
-title: Enviar dados de locais para o Adobe Analytics
-seo-title: Enviar dados de locais para o Adobe Analytics
-description: Esta seção fornece informações sobre como enviar dados do Local para o Analytics.
-seo-description: Esta seção fornece informações sobre como enviar dados do Local para o Analytics.
+title: Enviar dados de entrada e saída do POI para o Analytics
+seo-title: Enviar dados de entrada e saída do POI para o Analytics
+description: Esta seção fornece informações sobre como enviar dados de entrada e saída do POI ao Analytics.
+seo-description: Esta seção fornece informações sobre como enviar dados de entrada e saída do POI ao Analytics.
 translation-type: tm+mt
-source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
+source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
 
 ---
 
 
-# Enviar dados de locais para o Adobe Analytics {#places-data-analytics}
+# Enviar dados de entrada e saída do POI para o Analytics {#places-data-analytics}
 
 
 >[!IMPORTANT]
