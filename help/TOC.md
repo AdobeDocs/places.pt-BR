@@ -3,7 +3,7 @@ product: Serviço de localização da plataforma Adobe Experience
 audience: usuário final
 user-guide-title: Serviço de localização da plataforma Adobe Experience
 translation-type: tm+mt
-source-git-commit: 419df41a0abeac1ac2a77f32bfa818b4edf3baeb
+source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
 
 ---
 
@@ -66,6 +66,7 @@ source-git-commit: 419df41a0abeac1ac2a77f32bfa818b4edf3baeb
    + Adobe Analytics {#places-adobe-analytics}
       + [Enviar dados de entrada e saída do POI para o Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
       + [Adicionar contexto de localização às solicitações do Analytics](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
+      + [Relatório de dados de localização no Analytics Workspace](use-places-with-other-solutions/places-adobe-analytics/places-in-workspace.md)
    + Adobe Mobile Services {#places-mobile-svcs-messaging}
       + [Adobe Mobile Services](use-places-with-other-solutions/places-mobile-svcs-for-messaging/use-places-mobie-svcs-messaging.md)
       + [Notificações por push](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-push.md)
