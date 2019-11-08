@@ -1,15 +1,15 @@
 ---
-title: Executar relatórios no Adobe Analytics que incluem dados do Local
-seo-title: Executar relatórios no Adobe Analytics que incluem dados do Local
-description: Esta seção fornece informações sobre como executar relatórios no Analytics que incluem dados de Locais.
-seo-description: Esta seção fornece informações sobre como executar relatórios no Analytics que incluem dados de Locais.
+title: Adicionar contexto de localização às solicitações do Analytics
+seo-title: Adicionar contexto de localização às solicitações do Analytics
+description: Esta seção fornece informações sobre como adicionar o contexto de localização às solicitações do Analytics.
+seo-description: Esta seção fornece informações sobre como adicionar o contexto de localização às solicitações do Analytics.
 translation-type: tm+mt
-source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
+source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
 
 ---
 
 
-# Executar relatórios no Adobe Analytics que incluem dados do Local {#run-reports-aa-locserv-data}
+# Adicionar contexto de localização às solicitações do Analytics {#run-reports-aa-locserv-data}
 
 >[!IMPORTANT]
 >
