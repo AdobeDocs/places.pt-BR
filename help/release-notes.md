@@ -4,12 +4,21 @@ seo-title: Notas de versão
 description: Notas de versão do Adobe Experience Platform Location Service.
 seo-description: Notas de versão do Adobe Experience Platform Location Service.
 translation-type: tm+mt
-source-git-commit: a5e5d5792d1a0368936f5f54e86a7ce9726a9122
+source-git-commit: 7fd44ab0135ec77f4b235cc65b943b40d535717c
 
 ---
 
 
 # Notas de versão {#release-notes}
+
+## 22 de novembro de 2019
+
+* **PlacesMonitor 2.1.1**
+
+   * **Android**
+
+      * O monitor agora reconhece a inicialização de um dispositivo Android e, se necessário, registra as geofences novamente com o SO com base no local atual do dispositivo.
+      * Corrigida uma condição de corrida que às vezes fazia com que os eventos de entrada/saída fossem descartados.
 
 ## 9 de outubro de 2019
 
@@ -210,7 +219,7 @@ Na extensão Locais:
 * Eventos de regras que acionam na entrada ou saída do POI.
 * Crie elementos de dados que apontem para o POI atual do usuário.
 
-Para obter mais informações sobre a extensão Locais, consulte a extensão [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Locais.
+For more information about the Places extension, see [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 #### Coloca APIs
 
