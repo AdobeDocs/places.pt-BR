@@ -4,14 +4,14 @@ seo-title: Relatório de dados de localização no Analytics Workspace
 description: Esta seção fornece informações sobre como relatar os dados de localização no Analytics Workspace.
 seo-description: Esta seção fornece informações sobre como relatar os dados de localização no Analytics Workspace.
 translation-type: tm+mt
-source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
+source-git-commit: 4ee8adb73f6dec15030a160c27edbeca71d3507b
 
 ---
 
 
-# Relatório de dados de localização no Analytics Workspace {#places-in-workspace}
+# Relatório dos dados de localização na Analysis Workspace {#places-in-workspace}
 
-Este documento mostra um exemplo de como relatar os dados de sua localização no Analytics Workspace. Cada etapa conterá um resumo de alto nível, com detalhes fornecidos por referência a outras páginas de documentação.
+Este documento mostra um exemplo de como relatar os dados de localização na Analysis Workspace. Cada etapa conterá um resumo de alto nível, com detalhes fornecidos por referência a outras páginas de documentação.
 
 ## Pré-requisitos
 
@@ -21,7 +21,7 @@ Este documento presume o seguinte:
 
 1. O usuário do Adobe Analytics é um administrador e tem acesso às regras de processamento. Para obter mais informações sobre regras de processamento, consulte [Visão geral das regras de processamento](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
-1. Na propriedade Launch, os elementos de dados foram criados para as variáveis do Serviço de localização desejadas. Para obter mais informações sobre elementos de dados no Launch, consulte [Definir um elemento](/help/use-places-launch-workflow/define-data-elements.md)de dados.
+1. Na propriedade Launch, os elementos de dados foram criados para as variáveis do Serviço de localização desejado. Para obter mais informações sobre elementos de dados no Launch, consulte [Definir um elemento](/help/use-places-launch-workflow/define-data-elements.md)de dados.
 
 
 ## 1. Criar uma regra de inicialização
