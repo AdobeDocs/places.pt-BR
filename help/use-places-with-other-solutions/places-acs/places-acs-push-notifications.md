@@ -4,12 +4,12 @@ seo-title: Notificações por push
 description: Esta seção fornece informações sobre como usar Locais com notificações por push no Campaign Standard.
 seo-description: 'Esta seção fornece informações sobre como usar Locais com notificações por push no Campaign Standard. '
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 4ee8adb73f6dec15030a160c27edbeca71d3507b
 
 ---
 
 
-# Notificações por push com o Serviço de localização da plataforma de experiência {#push-notifications}
+# Notificações por push com Serviço de localização {#push-notifications}
 
 Neste guia, mostraremos como você pode usar informações históricas de localização geográfica para direcionar notificações por push fornecidas pelo Adobe Campaign Standard.
 
@@ -42,7 +42,7 @@ Para criar um elemento de dados:
 
    !["Mensagens de push no Campaign Standard"](/help/assets/ACS_Push1.png)
 
-1. Repita as etapas 1 a 4 acima e crie elementos de dados para Latitude *com POI* inserido pela última vez, Longitude *de POI inserido pela*&#x200B;última vez e Raio ** de POI inserido pela última vez.
+1. Repeat the steps 1-4 above and create data elements for *Last Entered POI Latitude*, *Last Entered POI Longitude*, and *Last Entered POI Radius*.
 
 Além dos elementos de dados do Serviço de localização, certifique-se de criar elementos de dados do Mobile Core para a ID *do* aplicativo e a *Experience Cloud ID*.
 
@@ -120,7 +120,7 @@ Agora que temos dados de localização preenchidos no Campaign, podemos usar POI
 
    Se você não vir a atualização da contagem, talvez tenha inserido um nome POI para o qual nenhum dispositivo disparou uma entrada. Ter o gancho da Web Slow torna-se valioso nesta situação, porque você pode ver uma lista de entradas de POI de vários dispositivos de teste.
 1. Você pode arrastar outros filtros de localização de POI para incluir vários POIs na sua mensagem.
-1. Clique **[!UICONTROL Next]** para concluir a criação da notificação por push para entrega.
+1. Click **[!UICONTROL Next]** to finish creating the push notification for delivery.
 
    !["Mensagens de push 3 em ACS"](/help/assets/ACS_push3.html)
 
