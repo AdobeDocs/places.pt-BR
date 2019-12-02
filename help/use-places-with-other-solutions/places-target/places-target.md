@@ -2,14 +2,14 @@
 title: Adobe Target
 seo-title: Adobe Target
 description: Esta seção fornece informações sobre como usar o Serviço de localização com o Adobe Target.
-seo-description: Esta seção fornece informações sobre como usar o Serviço de Localização com o Adobe Target.
+seo-description: Esta seção fornece informações sobre como usar o Serviço de localização com o Adobe Target.
 translation-type: tm+mt
-source-git-commit: 27f4e5397caf14e24bcbc4a2d276647e72a6d115
+source-git-commit: 4ee8adb73f6dec15030a160c27edbeca71d3507b
 
 ---
 
 
-# Adobe Target {#places-target}
+# Usar o Serviço de Localização com o Adobe Target {#places-target}
 
 Este documento supõe que você tenha a extensão Locais implementada em seu aplicativo. Se precisar de ajuda para implementar a extensão de Locais, consulte Extensões [de](/help/places-ext-aep-sdks/places-extension/places-extension.md)Locais.
 
