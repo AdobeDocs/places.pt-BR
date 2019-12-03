@@ -4,12 +4,20 @@ seo-title: Notas de versão
 description: Notas de versão do Adobe Experience Platform Location Service.
 seo-description: Notas de versão do Adobe Experience Platform Location Service.
 translation-type: tm+mt
-source-git-commit: 7fd44ab0135ec77f4b235cc65b943b40d535717c
+source-git-commit: ef129b7b168444edaf58ef55331efdf2f55a993f
 
 ---
 
 
 # Notas de versão {#release-notes}
+
+## 3 de dezembro de 2019
+
+* **ACPPlaces 1.3.0**
+
+   * **iOS**
+
+      * Adicionada uma nova API `setAuthorizationStatus`, para definir o status de autorização do dispositivo para serviços de localização. O valor é armazenado e usado no estado compartilhado Locais.
 
 ## 22 de novembro de 2019
 
@@ -229,7 +237,7 @@ Você pode usar as APIs do Places para fazer o seguinte:
 * Crie sua própria interface do usuário ou integre-a a um banco de dados de POI existente.
 * Use os pontos finais de lote da API Locais para fazer uma importação em massa de POIs.
 
-   Um utilitário python é fornecido com as APIs.
+   Você pode usar o utilitário Python fornecido para concluir a importação em massa.
 
 Para obter mais informações sobre as APIs do Places, consulte API [do serviço](/help/web-service-api/places-web-services.md)da Web.
 
@@ -238,4 +246,3 @@ Para obter mais informações sobre as APIs do Places, consulte API [do serviço
 #### Integração do Analytics
 
 A extensão do Analytics está sendo atualizada para adicionar automaticamente dados de contexto de localização do seu banco de dados do Places a todas as chamadas de saída do Analytics quando um usuário está em um POI (Chamadas Passivas). Essa atualização também permitirá que a criação de regras acione chamadas de rastreamento do Analytics diretamente na entrada ou saída do POI (chamadas ativas).
-
