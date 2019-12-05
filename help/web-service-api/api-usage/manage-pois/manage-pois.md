@@ -1,10 +1,8 @@
 ---
 title: Visão geral de gerenciamento de POIs
-seo-title: Visão geral de gerenciamento de POIs
 description: 'Entenda e trabalhe com POIs. '
-seo-description: 'Entenda e trabalhe com POIs. '
 translation-type: tm+mt
-source-git-commit: e204958ac3acbf5fb45d2347987f35557be70e43
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
