@@ -1,10 +1,8 @@
 ---
 title: Perguntas frequentes
-seo-title: Perguntas frequentes
 description: Este tópico fornece informações adicionais sobre algumas perguntas frequentes.
-seo-description: Este tópico fornece informações adicionais sobre algumas perguntas frequentes.
 translation-type: tm+mt
-source-git-commit: f4b8bccc154df346e67ef17295d7c6b42c68b26d
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
