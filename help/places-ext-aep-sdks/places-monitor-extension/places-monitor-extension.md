@@ -1,10 +1,8 @@
 ---
 title: Extensão do monitor de locais
-seo-title: Extensão do monitor de locais
 description: A extensão do Monitor de locais lida com as interações com o sistema operacional para registrar e monitorar os POIs mais próximos do usuário.
-seo-description: 'A extensão do Monitor de locais lida com as interações com o sistema operacional para registrar e monitorar os POIs mais próximos do usuário. '
 translation-type: tm+mt
-source-git-commit: ef720c112bc0de386e070094629c5bab69938e76
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
