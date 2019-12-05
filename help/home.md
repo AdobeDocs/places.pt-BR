@@ -1,10 +1,8 @@
 ---
 title: Serviço de localização da plataforma Adobe Experience
-seo-title: Serviço de localização da plataforma Adobe Experience
 description: 'O Serviço de localização é um contexto importante para entender o envolvimento de usuários móveis. Ao usar esse contexto, os desenvolvedores de aplicativos móveis podem melhorar o design do aplicativo e torná-lo uma experiência mais personalizada e envolvente. '
-seo-description: 'O Serviço de localização é um contexto importante para entender o envolvimento de usuários móveis. Ao usar esse contexto, os desenvolvedores de aplicativos móveis podem melhorar o design do aplicativo e torná-lo uma experiência mais personalizada e envolvente. '
 translation-type: tm+mt
-source-git-commit: ecb059400d9203884faab6fd2f627251eeaeea38
+source-git-commit: c20e720d23121970bb2fa1c63a2fd1e81c84b977
 
 ---
 
