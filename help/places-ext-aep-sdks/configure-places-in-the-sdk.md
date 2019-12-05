@@ -1,10 +1,8 @@
 ---
 title: Configurar o SDK com a extensão de Locais
-seo-title: Configurar o SDK com a extensão de Locais
 description: 'Você pode configurar o SDK com a extensão Locais para ativar o reconhecimento de localização no aplicativo móvel. '
-seo-description: 'Você pode configurar o SDK com a extensão Locais para ativar o reconhecimento de localização no aplicativo móvel. '
 translation-type: tm+mt
-source-git-commit: 61256ee0f01775bf09a3aee06b6e7253527fc383
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
