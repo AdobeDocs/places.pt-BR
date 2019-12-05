@@ -1,10 +1,8 @@
 ---
 title: Mensagens no aplicativo com o Serviço de localização
-seo-title: Mensagens no aplicativo com o Serviço de localização
 description: Esta seção fornece informações sobre como usar as mensagens de push no Campaign Standard com mensagens no aplicativo no Campaign Standard.
-seo-description: 'Esta seção fornece informações sobre como usar "Mensagens de push no Campaign Standard" com mensagens no aplicativo no Campaign Standard. '
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -39,7 +37,7 @@ Antes de começar, conclua as seguintes tarefas:
 
    !["Metadados de locais de mensagens no aplicativo"](/help/assets/last-entered-vacation.png)
 
-1. Clique no botão **[!UICONTROL Next]** para concluir a criação da mensagem no aplicativo para entrega.
+1. Click the **[!UICONTROL Next]** to finish creating the In-app message for delivery.
 
    !["criar um evento"](/help/assets/prepare-ACS.png)
 
