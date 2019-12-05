@@ -1,10 +1,8 @@
 ---
 title: APIs em lote
-seo-title: APIs em lote
 description: Com APIs em lote, você pode criar, atualizar e excluir vários POIs.
-seo-description: Com APIs em lote, você pode criar, atualizar e excluir vários POIs.
 translation-type: tm+mt
-source-git-commit: 6ff72eb72ce3ae1abf805b7b542721a7e4915824
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
