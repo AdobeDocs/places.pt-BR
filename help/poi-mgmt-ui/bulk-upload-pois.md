@@ -1,10 +1,8 @@
 ---
 title: POIs de upload em massa
-seo-title: POIs de upload em massa
 description: Esta seção fornece informações sobre como fazer upload em massa dos POIs.
-seo-description: Esta seção fornece informações sobre como fazer upload em massa dos POIs.
 translation-type: tm+mt
-source-git-commit: 3e2bf2ce011f9770209af08bd0abf0b16f84fbc0
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -91,7 +89,7 @@ Os valores das seguintes colunas são usados na interface do usuário do Serviç
    * `api_key`
 
       Esta é a chave da API REST do Places obtida da Integração de E/S do Adobe. Para obter informações sobre como obter a chave da API, consulte *Pré-requisitos para acesso* do usuário na visão geral e pré-requisitos [da](/help/web-service-api/adobe-i-o-integration.md)integração.
-   b. Salve as alterações.
+   b.Salve as alterações.
 
 1. Em uma janela de terminal, navegue até o `…/places-scripts/import/` diretório.
 1. Digite `python ./places_import.py` e pressione a tecla **[!UICONTROL enter]** (**[!UICONTROL return]**).
