@@ -1,10 +1,8 @@
 ---
 title: Gerenciar POIs existentes
-seo-title: Gerenciar POIs existentes
 description: Na interface do usuário do Serviço de Localização, é possível editar, excluir ou filtrar POIs existentes.
-seo-description: Na interface do usuário do Serviço de Localização, é possível editar, excluir ou filtrar POIs existentes.
 translation-type: tm+mt
-source-git-commit: 8d6b796326c5fbb3f2af996766fc9c05046ec653
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
