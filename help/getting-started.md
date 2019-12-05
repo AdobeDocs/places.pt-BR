@@ -4,7 +4,7 @@ seo-title: Introdução
 description: Introdução ao Serviço de Localização.
 seo-description: Introdução ao Serviço de Localização.
 translation-type: tm+mt
-source-git-commit: accfa6ba009ad3419481d9bd3b498143228099fc
+source-git-commit: 66472aa1800bcf36fb1d7f7129da70a573f355ab
 
 ---
 
@@ -27,10 +27,6 @@ O contexto do produto Serviço de localização está disponível em todas as or
 
    Para obter mais informações, consulte *Adicionar um usuário ao Serviço* de localização e inicialização da plataforma Experience em perguntas [](/help/places-faqs.md)frequentes.
 
-* Certifique-se de que a extensão Locais esteja instalada na propriedade do aplicativo móvel no Experience Platform Launch.
-
-   Para usar o monitoramento regional fornecido pela Adobe para suas fronteiras geográficas, instale a extensão do Places Monitor. Para obter mais informações, consulte Extensão [do monitor](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)Locais.
-
 
 ### 2. Criar seus POIs
 
@@ -49,5 +45,5 @@ Os Pontos de interesse (POI) são fronteiras geográficas que você cria para su
 
 Para obter mais informações sobre como configurar a extensão Locais e a extensão do Monitor, consulte as seguintes informações:
 
-* [Extensão de locais](/help/places-ext-aep-sdks/places-extension/places-extension.md)
+* [Extensão do Places](/help/places-ext-aep-sdks/places-extension/places-extension.md)
 * [Extensão](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)do monitor de locais.
