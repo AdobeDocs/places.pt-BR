@@ -1,21 +1,19 @@
 ---
-title: Extensão de locais
-seo-title: Extensão de locais
+title: Extensão do Places
 description: A extensão Locais permite que você atue com base na localização dos usuários.
-seo-description: A extensão Locais permite que você atue com base na localização dos usuários.
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
 
-# Extensão de locais {#places-extension}
+# Extensão do Places {#places-extension}
 
 A extensão Locais permite que você atue com base na localização dos usuários. Essa extensão é a interface das APIs do Serviço de Consulta de Locais. Ao acompanhar eventos que contêm coordenadas GPS e eventos de região geofence, essa extensão despacha novos eventos processados pelo Mecanismo de regras. A extensão Locais também recupera e fornece uma lista do POI mais próximo para os dados do aplicativo que são recuperados das APIs. As regiões retornadas pelas APIs são armazenadas em cache e persistência, o que permite um processamento offline limitado.
 
 ## Instale a extensão Locais no Adobe Experience Platform Launch
 
-1. Em Experience Platform Launch, clique na **[!UICONTROL Extensions]** guia.
+1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
 1. Na **[!UICONTROL Catalog]** guia, localize a **[!UICONTROL Places]** extensão e clique em **[!UICONTROL Install]**.
 1. Selecione as bibliotecas Locais que deseja usar nesta propriedade. Essas são as bibliotecas que estarão acessíveis no seu aplicativo.
 1. Clique em **[!UICONTROL Save]**.
