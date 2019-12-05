@@ -1,10 +1,8 @@
 ---
 title: Notificações por push
-seo-title: Notificações por push
 description: Esta seção mostra como usar Locais com notificações por push.
-seo-description: Esta seção mostra como usar Locais com notificações por push.
 translation-type: tm+mt
-source-git-commit: 60c274c309a2c86b67d6c19ea28ae300a37d723a
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
