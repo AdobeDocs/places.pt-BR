@@ -1,10 +1,8 @@
 ---
 title: Criação de uma regra para sua propriedade Locais
-seo-title: Criação de uma regra para sua propriedade Locais
 description: 'O SDK de Locais controla o local atual, monitora os POIs configurados em torno do local atual e rastreia os eventos de entrada e saída desses POIs. '
-seo-description: 'O SDK de Locais controla o local atual, monitora os POIs configurados em torno do local atual e rastreia os eventos de entrada e saída desses POIs. '
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -54,14 +52,14 @@ As ações definem o que o aplicativo fará em resposta à condição para a reg
 
 >[!CAUTION]
 >
->Este exemplo supõe que você tenha criado uma biblioteca POI de todas as cafeterias nos Estados Unidos. Para obter mais informações sobre como criar POIs e bibliotecas, consulte [Criar um POI](/help/poi-mgmt-ui/create-a-poi-ui.md) e *Criar uma biblioteca* em [Gerenciar várias bibliotecas](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
+>Este exemplo pressupõe que você criou uma biblioteca de POI de todas as cafeterias dos Estados Unidos. For more information about creating POIs and libraries, see [Create a POI](/help/poi-mgmt-ui/create-a-poi-ui.md) and *Create a Library* in [Manage multiple libraries](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
 
 O procedimento a seguir é um exemplo de como criar uma regra que envie uma publicação de volta para a Esquerda quando você entra em uma cafeteria em São Francisco.
 
 O evento, a condição e a ação são definidos das seguintes maneiras:
 
 * **Evento**: Insere o evento de entrada.
-* **Condição**: A cidade do POI **atual** é São Francisco
+* **Condição**: a cidade do **POI atual** é São Francisco
 * **Ação**: Envie um postback para a Sunders o nome da cafeteria que seu cliente inseriu.
 
 ### Pré-requisitos
@@ -74,7 +72,7 @@ Para criar um elemento de dados no Experience Platform Launch:
 1. Click **Add Data Element**.
 1. Digite um nome, por exemplo, o nome **atual da cafeteria**.
 1. Na lista suspensa **Extensão** , selecione **Locais - Beta**.
-1. Em Elemento **de dados**, selecione **Cidade**.
+1. Em **Elemento de dados**, selecione **Cidade**.
 1. No painel direito, selecione POI **atual**.
 1. Clique em **Salvar**.
 
@@ -82,7 +80,7 @@ Para criar um elemento de dados no Experience Platform Launch:
 
 ![criação de uma regra](/help/assets/placesrule.png)
 
-1. Em Experience Platform Launch, clique na **[!UICONTROL Rules]** guia.
+1. In Experience Platform Launch, click the **[!UICONTROL Rules]** tab.
 1. Clique em **[!UICONTROL Add Rule]**.
 1. Digite um nome para a regra, por exemplo, **[!UICONTROL Track entry for coffee shop in SF]**.
 
@@ -97,11 +95,11 @@ Para criar um elemento de dados no Experience Platform Launch:
 ### Criar uma condição
 
 1. Na seção Condições, clique em **[!UICONTROL +Add]**. As condições determinam os critérios a cumprir para a ação a empreender.
-1. Em **[!UICONTROL Logic Type]**, selecione Regular, o que permite que as ações sejam executadas se a condição for atendida.
+1. In **[!UICONTROL Logic Type]**, select Regular, which allows actions to execute if the condition is met.
 1. Na lista **[!UICONTROL Extension]** suspensa, selecione **[!UICONTROL Places – Beta]**.
 1. Em **[!UICONTROL Condition Type]**, selecione **[!UICONTROL City]**.
 1. Type a condition name, for example, **[!UICONTROL Coffee shop in SF]**.
-1. No painel direito, clique em **[!UICONTROL Current POI]** e, na lista suspensa, selecione **[!UICONTROL San Francisco]** como uma de suas cidades.
+1. In the right pane, click **[!UICONTROL Current POI]**, and in the drop-down list, select **[!UICONTROL San Francisco]** as one of your cities.
 1. Clique em **[!UICONTROL Keep Changes]**.
 
 ### Criar uma ação
