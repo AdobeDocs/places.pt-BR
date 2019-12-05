@@ -1,10 +1,8 @@
 ---
 title: Usar o Serviço de localização com o Adobe Analytics
-seo-title: Usar o Serviço de localização com o Adobe Analytics
 description: Esta seção fornece informações sobre como usar o Serviço de localização com o Adobe Analytics.
-seo-description: Esta seção fornece informações sobre como usar o Serviço de localização com o Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 4ee8adb73f6dec15030a160c27edbeca71d3507b
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
