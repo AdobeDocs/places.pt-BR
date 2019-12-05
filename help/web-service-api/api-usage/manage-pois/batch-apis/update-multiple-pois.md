@@ -1,10 +1,8 @@
 ---
 title: Atualizar vários POIs
-seo-title: Atualizar vários POIs
 description: Use as APIs em lote para atualizar vários POIs.
-seo-description: Use as APIs em lote para atualizar vários POIs.
 translation-type: tm+mt
-source-git-commit: 6ae0c8d90cad4c437e1db7f562a0bc9c6b072ce6
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
