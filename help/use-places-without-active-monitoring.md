@@ -1,10 +1,8 @@
 ---
 title: Usar Serviço de Localização sem monitoramento de região ativa
-seo-title: Usar Serviço de Localização sem monitoramento de região ativa
 description: Esta seção fornece informações sobre como usar o Location ServicePlaces sem monitoramento de região ativa.
-seo-description: Esta seção fornece informações sobre como usar o Serviço de Localização sem monitoramento de região ativa.
 translation-type: tm+mt
-source-git-commit: 419df41a0abeac1ac2a77f32bfa818b4edf3baeb
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -16,7 +14,6 @@ Casos de uso para seu aplicativo podem não exigir monitoramento de região ativ
 Esta seção explica como concluir uma verificação de associação POI somente no momento da coleta da localização do usuário (latitude e longitude).
 
 ## Pré-requisitos
-
 
 O desenvolvedor coletará a localização do dispositivo usando as APIs fornecidas pelo sistema operacional da plataforma de destino.
 
@@ -236,8 +233,7 @@ As amostras de código abaixo mostram como recuperar o local atual do dispositiv
 
 >[!IMPORTANT]
 >
->
-Estes trechos são **apenas** exemplos. Os desenvolvedores devem determinar como desejam implementar a funcionalidade, e a decisão deve considerar as práticas recomendadas conforme recomendado pelo sistema operacional de destino.
+>Estes trechos são **apenas** exemplos. Os desenvolvedores devem determinar como desejam implementar a funcionalidade, e a decisão deve considerar as práticas recomendadas conforme recomendado pelo sistema operacional de destino.
 
 ### Android
 
