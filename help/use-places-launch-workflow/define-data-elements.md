@@ -1,10 +1,8 @@
 ---
 title: Definir elementos de dados
-seo-title: Definir elementos de dados
 description: Esta seção fornece informações sobre como criar, usar e publicar elementos de dados no Experience Platform Launch for Places.
-seo-description: 'Esta seção fornece informações sobre como criar, usar e publicar elementos de dados no Experience Platform Launch for Places. '
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
