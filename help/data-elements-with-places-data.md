@@ -1,10 +1,8 @@
 ---
 title: Elementos de dados de lançamento da plataforma Experience com dados do local
-seo-title: Elementos de dados de lançamento da plataforma Experience com dados do local
 description: 'Os elementos de dados são os blocos fundamentais do seu dicionário de dados (ou mapa de dados). '
-seo-description: 'Os elementos de dados são os blocos fundamentais do seu dicionário de dados (ou mapa de dados). '
 translation-type: tm+mt
-source-git-commit: ef3d77eba407013e1f701ed001ef9ab7b3818e07
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
