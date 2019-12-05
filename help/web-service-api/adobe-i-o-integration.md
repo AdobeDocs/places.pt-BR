@@ -1,10 +1,8 @@
 ---
 title: Visão geral da integração de E/S da Adobe
-seo-title: Visão geral da integração de E/S da Adobe
 description: Informações sobre como criar uma integração de E/S da Adobe.
-seo-description: Informações sobre como criar uma integração de E/S da Adobe.
 translation-type: tm+mt
-source-git-commit: ec2b0f8ba94cecc5709d4d700490913978454ef1
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -106,7 +104,7 @@ Para criar uma integração de Locais:
    **[!UICONTROL Access an API]** é o local padrão.
 
 1. Se você tiver acesso a mais de uma organização da Experience Cloud, selecione-a na lista suspensa no canto superior direito.
-1. Em **[!UICONTROL Experience Cloud]**, selecione **[!UICONTROL Places]** o serviço Adobe ao qual deseja integrar e clique em **[!UICONTROL Continue]**.
+1. Under **[!UICONTROL Experience Cloud]**, select **[!UICONTROL Places]** as the Adobe service to which you want to integrate and click **[!UICONTROL Continue]**.
 1. Selecione **[!UICONTROL New integration]** e clique em **[!UICONTROL Continue]**.
 1. Na tela Criar uma nova integração, digite um nome e uma descrição.
 1. Arraste e solte seu `xxxx_public.crt` arquivo, criado acima, na área **[!UICONTROL Public keys certificates]** solta.
@@ -138,9 +136,9 @@ Na página de detalhes da integração, clique na **[!UICONTROL JWT]** guia para
 Para gerar um token JWT:
 
 1. Em um editor de texto, abra seu `private.key` arquivo criado acima.
-1. Na **[!UICONTROL JWT]** guia, copie o conteúdo da chave e cole-a no **[!UICONTROL Paste private key]** campo.
+1. On the **[!UICONTROL JWT]** tab, copy the contents of the key and paste it in the **[!UICONTROL Paste private key]** field.
 1. Clique em **[!UICONTROL Generate JWT]**.
-1. Na **[!UICONTROL Sample CURL command]** seção, clique **[!UICONTROL Copy]** e cole o conteúdo no prompt de comando ou na janela terminal.
+1. In the **[!UICONTROL Sample CURL command]** section, click **[!UICONTROL Copy]** and paste the contents in your command prompt or terminal window.
 1. Execute o comando pressionando **[!UICONTROL Enter]** no teclado.
 1. Localize o `"token_type": "bearer"` e o `"access_token"` valor.
 
