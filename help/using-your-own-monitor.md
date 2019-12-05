@@ -1,10 +1,8 @@
 ---
 title: Usando seu próprio monitor
-seo-title: Usando seu próprio monitor
 description: Você também pode usar seus serviços de monitoramento e fazer a integração com o Places usando as APIs de extensão do Places.
-seo-description: Você também pode usar seus serviços de monitoramento e fazer a integração com o Places usando as APIs de extensão do Places.
 translation-type: tm+mt
-source-git-commit: 419df41a0abeac1ac2a77f32bfa818b4edf3baeb
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
