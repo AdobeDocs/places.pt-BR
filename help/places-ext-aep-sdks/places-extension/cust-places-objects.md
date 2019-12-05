@@ -1,9 +1,7 @@
 ---
 title: Objetos de locais personalizados
-seo-title: Classes nativas personalizadas a serem usadas com as APIs do Places.
-seo-description: Classes nativas personalizadas a serem usadas com as APIs do Places.
 translation-type: tm+mt
-source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
