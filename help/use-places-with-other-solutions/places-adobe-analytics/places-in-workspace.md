@@ -1,10 +1,8 @@
 ---
 title: Relatório de dados de localização no Analytics Workspace
-seo-title: Relatório de dados de localização no Analytics Workspace
 description: Esta seção fornece informações sobre como relatar os dados de localização no Analytics Workspace.
-seo-description: Esta seção fornece informações sobre como relatar os dados de localização no Analytics Workspace.
 translation-type: tm+mt
-source-git-commit: 4ee8adb73f6dec15030a160c27edbeca71d3507b
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
