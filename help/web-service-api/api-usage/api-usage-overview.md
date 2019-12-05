@@ -1,10 +1,8 @@
 ---
 title: Visão geral de uso da API
-seo-title: Visão geral de uso da API
 description: Esta seção fornece informações sobre as REST APIs disponíveis para o Serviço de localização.
-seo-description: Esta seção fornece informações sobre as REST APIs disponíveis para o Serviço de localização.
 translation-type: tm+mt
-source-git-commit: 885cc8c9b306cf6e25381a355898a0229670a696
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
