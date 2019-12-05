@@ -1,10 +1,8 @@
 ---
 title: Referência da API de locais
-seo-title: Referência da API de locais
 description: Informações sobre as referências da API em Locais.
-seo-description: Informações sobre as referências da API em Locais.
 translation-type: tm+mt
-source-git-commit: 379278f7677d7d3cdc697d78c54693d0a3c62e02
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
