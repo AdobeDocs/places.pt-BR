@@ -1,10 +1,8 @@
 ---
 title: Visão geral do Places Service
-seo-title: Visão geral do Places Service
 description: 'Esta seção fornece informações sobre como criar e usar pontos de interesse (POIs). '
-seo-description: 'Esta seção fornece informações sobre como criar e usar pontos de interesse (POIs).  '
 translation-type: tm+mt
-source-git-commit: f6c92bbd4fb21999f5c96ea0df8ede6919d1bc79
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
