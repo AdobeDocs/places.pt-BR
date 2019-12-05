@@ -4,12 +4,14 @@ seo-title: Serviço de localização da plataforma Adobe Experience
 description: 'O Serviço de localização é um contexto importante para entender o envolvimento de usuários móveis. Ao usar esse contexto, os desenvolvedores de aplicativos móveis podem melhorar o design do aplicativo e torná-lo uma experiência mais personalizada e envolvente. '
 seo-description: 'O Serviço de localização é um contexto importante para entender o envolvimento de usuários móveis. Ao usar esse contexto, os desenvolvedores de aplicativos móveis podem melhorar o design do aplicativo e torná-lo uma experiência mais personalizada e envolvente. '
 translation-type: tm+mt
-source-git-commit: 9fd6c1fdd740a021d7612aa33693c392bff53994
+source-git-commit: ecb059400d9203884faab6fd2f627251eeaeea38
 
 ---
 
 
 # Visão geral do Serviço de localização da plataforma Adobe Experience Platform {#home}
+
+!["Adobe Experience Platform Location Service"](/help/assets/LocationHeader.png)
 
 A localização é um contexto importante para entender e se envolver com usuários móveis. Ao usar esse contexto, os desenvolvedores de aplicativos móveis podem melhorar o design do aplicativo e torná-lo uma experiência mais personalizada e envolvente.
 
@@ -44,7 +46,7 @@ O Serviço de Localização inclui os seguintes componentes:
 
    Visualize POIs em um mapa para entender o contexto espacial e adicionar/editar POIs e seus metadados personalizados.
 
-* **Extensão de locais**
+* **Extensão do Places**
 
    A interface da API móvel de várias plataformas para integrar o contexto de localização em seus aplicativos móveis. Para obter mais informações sobre os SDKs, consulte a extensão [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Locais.
 
@@ -72,17 +74,17 @@ Estes são alguns termos comuns usados nesta documentação:
 
    Este tipo de POI é um dispositivo físico que representa um local emitindo um sinal de bluetooth de baixa energia. O suporte a beacons será lançado em uma versão futura.
 
-* Uma **biblioteca** é uma coleção de POIs, que são agrupados para anexar facilmente regras a um conjunto em vez de um POI.
+* Uma **biblioteca** é uma coleção de POIs que são agrupados para atribuir regras facilmente a um conjunto, em vez de um POI.
 
 * Uma **extensão** é a extensão do Experience Platform Launch necessária para integrar o SDK do Places nos aplicativos móveis.
 
    A extensão usada com outros SDKs móveis para adicionar o contexto de localização às suas experiências.
 
-* Uma **organização** é a entidade da Adobe que identifica sua empresa na Adobe Experience Cloud.
+* Uma **organização** é a entidade da Adobe que identifica a empresa na Adobe Experience Cloud.
 
    Normalmente, uma organização é o nome da sua empresa. No entanto, uma empresa pode ter mais de uma organização. O administrador da organização pode configurar grupos e usuários e configurar a funcionalidade de logon único.
 
-* A **orgID** é a ID que representa sua organização na Adobe Experience Platform.
+* A **orgID** é a ID que representa a organização na Adobe Experience Platform.
 
    Para obter mais informações, consulte [Localizando sua orgID](https://forums.adobe.com/thread/2339895).
 
