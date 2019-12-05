@@ -1,10 +1,8 @@
 ---
 title: Usar locais com Mobile Services para mensagens
-seo-title: Usar locais com Mobile Services para mensagens
 description: Esta seção mostra como usar os Locais com Mobile Services para mensagens.
-seo-description: Esta seção mostra como usar os Locais com Mobile Services para mensagens.
 translation-type: tm+mt
-source-git-commit: accfa6ba009ad3419481d9bd3b498143228099fc
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
