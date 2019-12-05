@@ -1,10 +1,8 @@
 ---
 title: Testar e validar locais
-seo-title: Testar e validar locais
 description: Esta seção fornece informações sobre como testar e validar locais.
-seo-description: Esta seção fornece informações sobre como testar e validar locais.
 translation-type: tm+mt
-source-git-commit: 181185d441a6a4740b2e8770adcb71e81e2e816e
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
