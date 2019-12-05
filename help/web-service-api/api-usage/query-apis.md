@@ -1,10 +1,8 @@
 ---
 title: Visão geral
-seo-title: APIs de consulta
 description: Compreensão e uso das APIs de consulta.
-seo-description: Compreensão e uso das APIs de consulta.
 translation-type: tm+mt
-source-git-commit: e2070c629b5a4e4bcf3a364023e0f87b526ed4cb
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
