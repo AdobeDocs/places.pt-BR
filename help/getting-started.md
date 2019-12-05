@@ -4,7 +4,7 @@ seo-title: Introdução
 description: Introdução ao Serviço de Localização.
 seo-description: Introdução ao Serviço de Localização.
 translation-type: tm+mt
-source-git-commit: 66472aa1800bcf36fb1d7f7129da70a573f355ab
+source-git-commit: 1c5a63b6f7eb56be2240756c31d6ca03a0bfb0da
 
 ---
 
@@ -25,7 +25,7 @@ O contexto do produto Serviço de localização está disponível em todas as or
 
 * Certifique-se de que você esteja listado como um usuário nos contextos do produto Location Service e Experience Platform Launch no Admin Console.
 
-   Para obter mais informações, consulte *Adicionar um usuário ao Serviço* de localização e inicialização da plataforma Experience em perguntas [](/help/places-faqs.md)frequentes.
+   Para obter mais informações, consulte *Adicionar um usuário ao Serviço* de localização e inicialização da plataforma Experience em [Obter acesso ao Serviço](/help/places-gain-access.md)de localização.
 
 
 ### 2. Criar seus POIs
