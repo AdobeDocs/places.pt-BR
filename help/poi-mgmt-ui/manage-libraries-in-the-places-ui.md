@@ -1,10 +1,8 @@
 ---
 title: Gerenciar bibliotecas na interface do usuário do Places
-seo-title: Gerenciar bibliotecas na interface do usuário do Places
 description: Gerencie suas bibliotecas usando a interface do usuário do Places.
-seo-description: Gerencie suas bibliotecas usando a interface do usuário do Places.
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -21,7 +19,7 @@ As bibliotecas são definidas pelo seguinte:
 | :--- | :--- |
 | ID | um identificador exclusivo atribuído à biblioteca na criação |
 | Nome | um nome amigável dado a uma biblioteca |
-| Classificação | Essas classificações podem ser ignoradas se não houver geofences sobrepostas em sua organização. Se houver POIs sobrepostos, recomendamos que você coloque cada uma das geofences em bibliotecas separadas, para que possam ser ponderadas entre si. Um usuário só pode estar em uma geofence de cada vez. <br><br>A classificação mais alta das geofences em que um usuário está determina sua atual associação à geofence. Se houver geofences com a mesma classificação de biblioteca, a menor geofence será a geofence atual do usuário. <br><br>O SDK também está ciente dos *Últimos POIs inseridos* e dos *Últimos POIs de saída* , portanto, você tem controle total sobre como deseja que suas regras sejam acionadas com base na interação do usuário com seus POIs. |
+| Classificação | Essas classificações podem ser ignoradas se não houver geofences sobrepostas em sua organização. Se houver POIs sobrepostos, recomendamos colocar cada uma das geofences em bibliotecas separadas, para que possam ser calculadas uma em relação à outra. Um usuário pode estar somente em uma geofence de cada vez. <br><br>A classificação mais alta das geofences em que um usuário está determina sua atual associação à geofence. Se houver geofences com a mesma classificação de biblioteca, a menor geofence será a geofence atual do usuário. <br><br>O SDK também tem conhecimento dos *Últimos POIs de entrada* e dos *Últimos POIs de saída*, portanto, você tem controle total sobre como deseja que as regras sejam acionadas com base na interação do usuário com os POIs. |
 
 ## Criar uma biblioteca
 
