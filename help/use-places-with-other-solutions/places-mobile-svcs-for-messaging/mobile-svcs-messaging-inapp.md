@@ -1,10 +1,8 @@
 ---
 title: Notificações no aplicativo
-seo-title: Notificações no aplicativo
 description: Esta seção mostra como usar os Locais com mensagens no aplicativo.
-seo-description: Esta seção mostra como usar os Locais com mensagens no aplicativo.
 translation-type: tm+mt
-source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -62,7 +60,7 @@ Por exemplo, você pode selecionar `poiname` como a chave e `{%%Last Entered POI
 
 >[!TIP]
 >
->As Regras de processamento do Analytics podem ser definidas para coletar esses dados de contexto. For more information, see [Processing Rules](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-processing-rules.html). No exemplo em *Criar uma ação*, a Ação enviará o `poiname` como o contexto para descrever o evento de entrada POI que está sendo enviado para o Analytics.
+>As Regras de processamento do Analytics podem ser definidas para coletar esses dados de contexto. Para obter mais informações, consulte [Regras de processamento](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-processing-rules.html). No exemplo em *Criar uma ação*, a Ação enviará o `poiname` como o contexto para descrever o evento de entrada POI que está sendo enviado para o Analytics.
 
 ![criação de uma ação](/help/assets/configure-action.png)
 
