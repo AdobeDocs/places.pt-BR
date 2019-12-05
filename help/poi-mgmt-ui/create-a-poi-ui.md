@@ -1,10 +1,8 @@
 ---
 title: Crie um POI
-seo-title: Crie um POI
 description: Crie um POI usando a interface do usuário do Places.
-seo-description: Crie um POI usando a interface do usuário do Places.
 translation-type: tm+mt
-source-git-commit: 58218dac5df3fdb1ff660368af52e43409f99c95
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -25,16 +23,16 @@ Um ponto de interesse (POI) é um local ou ponto em um mapa que é importante pa
 1. Etapas opcionais:
 1. As etapas a seguir são opcionais:
 
-   1.  Selecione um ícone para seu POI.
-   1.  Selecione uma cor para o ícone.
-   1.  Especifique uma categoria para seu POI.
+   1. Selecione um ícone para seu POI.
+   1. Selecione uma cor para o ícone.
+   1. Especifique uma categoria para seu POI.
 
 1. Expanda a **[!UICONTROL Location]** seção.
 
-   1.  Digite um endereço.
-   1.  Digite a cidade.
-   1.  Digite o nome do estado.
-   1.  Digite o nome do país.
+   1. Digite um endereço.
+   1. Digite a cidade.
+   1. Digite o nome do estado.
+   1. Digite o nome do país.
    1. Selecione ou insira uma latitude ou longitude (obrigatório).
    1. Clique em **[!UICONTROL Drop Pin on Map]**.
    Se você não souber a latitude e a longitude exatas, soltar um pino é útil.
@@ -43,7 +41,7 @@ Um ponto de interesse (POI) é um local ou ponto em um mapa que é importante pa
 
    Os metadados podem ajudar você a definir um local e podem ser usados em outros fluxos de trabalho de solução da Adobe para refinar ainda mais seu público-alvo.
 
-   1.  Digite o nome da chave.
-   1.  Digite o valor da chave.
+   1. Digite o nome da chave.
+   1. Digite o valor da chave.
 
 1. Clique em **[!UICONTROL  Save]**.
