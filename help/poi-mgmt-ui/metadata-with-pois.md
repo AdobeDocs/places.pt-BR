@@ -1,10 +1,8 @@
 ---
 title: Uso de metadados com POIs
-seo-title: Uso de metadados com POIs
 description: Esta seção fornece informações e estratégias sobre como usar metadados com POIs.
-seo-description: 'Esta seção fornece informações e estratégias sobre como usar metadados com POIs. '
 translation-type: tm+mt
-source-git-commit: 6a01c7c2c573baf572fdc27f47f8fc62322cfd02
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
