@@ -1,10 +1,8 @@
 ---
 title: Definir uma classificação em suas bibliotecas
-seo-title: Definir uma classificação em suas bibliotecas
 description: Defina uma classificação em suas bibliotecas usando a API REST do Places.
-seo-description: Defina uma classificação em suas bibliotecas usando a API REST do Places.
 translation-type: tm+mt
-source-git-commit: 6ae0c8d90cad4c437e1db7f562a0bc9c6b072ce6
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
