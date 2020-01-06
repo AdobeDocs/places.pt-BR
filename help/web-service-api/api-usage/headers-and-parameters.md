@@ -41,7 +41,7 @@ Estes são os detalhes sobre os cabeçalhos e parâmetros que estão disponívei
 | `name` | Nome do POI | string | 512 caracteres | ambos, opcional\* | `"name": "My Favorite Place"` |
 | `description` | Descrição do IPC | string | 512 caracteres | ambos, opcional\* | `"description": "This is a very good place."` |
 | `location` | Matriz do tipo e coordenadas do POI | array (misto) | n/a | both | `"location": {"type": "Point", "coordinates": [-122.201007, 37.604713]` |
-| `type` | Tipo de POI | string | apenas "Ponto" atualmente suportado | ambos, obrigatório na solicitação | `"type": "Point"` |
+| `type` | Tipo de POI | string | apenas &quot;Ponto&quot; atualmente suportado | ambos, obrigatório na solicitação | `"type": "Point"` |
 | `coordinates` | Matriz de longitude e latitude do POI | array (flutuante) | longitude: -180 a 180, latitude -85 a 85 | ambos, obrigatório na solicitação | `"coordinates": [-122.201007, 37.604713]` |
 | `radius` | Tamanho da geofence circular em torno do POI | flutuante | 10 - 2000 metros | ambos, obrigatório na solicitação | `"radius": 100` |
 | `country` | País para o POI | string | 32 caracteres | ambos, opcional* | `"country": "United States"` |
