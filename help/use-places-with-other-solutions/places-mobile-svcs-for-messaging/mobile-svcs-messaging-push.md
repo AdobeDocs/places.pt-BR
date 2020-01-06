@@ -27,10 +27,10 @@ Antes de começar, verifique se você concluiu as seguintes tarefas:
 
 ## Enviar uma notificação
 
-Na **[!UICONTROL Audience]** guia *Criar fluxo de trabalho de notificação* por push, é possível criar o público-alvo para essa mensagem de uma das seguintes maneiras:
+Na **[!UICONTROL Audience]**guia *Criar fluxo de trabalho de notificação*por push, é possível criar o público-alvo para essa mensagem de uma das seguintes maneiras:
 
-* Na lista **[!UICONTROL Analytics Segments]** suspensa, selecione um segmento criado anteriormente pelo Adobe Analytics.
+* Na lista **[!UICONTROL Analytics Segments]**suspensa, selecione um segmento criado anteriormente pelo Adobe Analytics.
 
-* Na **[!UICONTROL Custom Segment]** seção, crie um público-alvo usando os parâmetros de segmento personalizados disponíveis.
+* Na **[!UICONTROL Custom Segment]**seção, crie um público-alvo usando os parâmetros de segmento personalizados disponíveis.
 
 ![configurar uma mensagem de push](/help/assets/push-set-up.png)
