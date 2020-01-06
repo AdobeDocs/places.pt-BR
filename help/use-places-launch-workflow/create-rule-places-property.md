@@ -80,39 +80,39 @@ Para criar um elemento de dados no Experience Platform Launch:
 
 ![criação de uma regra](/help/assets/placesrule.png)
 
-1. In Experience Platform Launch, click the **[!UICONTROL Rules]** tab.
+1. In Experience Platform Launch, click the **[!UICONTROL Rules]**tab.
 1. Clique em **[!UICONTROL Add Rule]**.
 1. Digite um nome para a regra, por exemplo, **[!UICONTROL Track entry for coffee shop in SF]**.
 
 ### Criar um evento
 
 1. Na seção Eventos, clique em **[!UICONTROL + Add]**. Os eventos determinam quando você deseja que a regra seja acionada.
-1. Na lista **[!UICONTROL Extension]** suspensa, selecione **[!UICONTROL Places – Beta]**.
-1. Na lista **[!UICONTROL Event Type]** suspensa, selecione **[!UICONTROL Enter POI]**.
-1. Em **[!UICONTROL Name]**, digite um nome para o evento, por exemplo, **[!UICONTROL Entering a coffee shop]**.
+1. Na lista **[!UICONTROL Extension]**suspensa, selecione**[!UICONTROL Places – Beta]**.
+1. Na lista **[!UICONTROL Event Type]**suspensa, selecione**[!UICONTROL Enter POI]**.
+1. Em **[!UICONTROL Name]**, digite um nome para o evento, por exemplo,**[!UICONTROL Entering a coffee shop]**.
 1. Clique em **[!UICONTROL Keep Changes]**.
 
 ### Criar uma condição
 
 1. Na seção Condições, clique em **[!UICONTROL +Add]**. As condições determinam os critérios a cumprir para a ação a empreender.
 1. In **[!UICONTROL Logic Type]**, select Regular, which allows actions to execute if the condition is met.
-1. Na lista **[!UICONTROL Extension]** suspensa, selecione **[!UICONTROL Places – Beta]**.
-1. Em **[!UICONTROL Condition Type]**, selecione **[!UICONTROL City]**.
+1. Na lista **[!UICONTROL Extension]**suspensa, selecione**[!UICONTROL Places – Beta]**.
+1. Em **[!UICONTROL Condition Type]**, selecione**[!UICONTROL City]**.
 1. Type a condition name, for example, **[!UICONTROL Coffee shop in SF]**.
-1. In the right pane, click **[!UICONTROL Current POI]**, and in the drop-down list, select **[!UICONTROL San Francisco]** as one of your cities.
+1. In the right pane, click **[!UICONTROL Current POI]**, and in the drop-down list, select**[!UICONTROL San Francisco]** as one of your cities.
 1. Clique em **[!UICONTROL Keep Changes]**.
 
 ### Criar uma ação
 
-1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL + Add]**.
-1. Na lista **[!UICONTROL Extension]** suspensa, deixe a opção padrão **[!UICONTROL Mobile Core]** selecionada.
+1. In the **[!UICONTROL Actions]**section, click**[!UICONTROL + Add]**.
+1. Na lista **[!UICONTROL Extension]**suspensa, deixe a opção padrão**[!UICONTROL Mobile Core]** selecionada.
 1. Selecione um tipo de ação, por exemplo, **[!UICONTROL Send Postback]**.
 
-   a. Em **[!UICONTROL URL]**, digite o URL de postback para a falta, por exemplo, `https://hooks.slack.com/services/`.
+   a. Em **[!UICONTROL URL]**, digite o URL de postback para a falta, por exemplo,`https://hooks.slack.com/services/`.
 
-   b. Para enviar um corpo de publicação, marque a caixa de **[!UICONTROL Add Post Body]** seleção.
+   b. Para enviar um corpo de publicação, marque a caixa de **[!UICONTROL Add Post Body]**seleção.
 
-   c. Em **[!UICONTROL Post Body]**, adicione o corpo da publicação, por exemplo: `{ "text": "A customer has entered" }`
+   c. Em **[!UICONTROL Post Body]**, adicione o corpo da publicação, por exemplo:`{ "text": "A customer has entered" }`
 
    c. Digite um tipo de conteúdo, por exemplo **[!UICONTROL application/json]**.
 
