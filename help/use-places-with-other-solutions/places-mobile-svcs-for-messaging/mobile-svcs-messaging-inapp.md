@@ -51,8 +51,8 @@ Depois que a regra for configurada com os parâmetros de evento e condição apr
 
 Para criar uma ação:
 
-1. Selecione a extensão do **.[!UICONTROL Adobe Analytics]**
-1. Na lista **[!UICONTROL Action type]** suspensa, selecione **[!UICONTROL Track.]**
+1. Selecione a extensão do **[!UICONTROL Adobe Analytics]**.
+1. Na lista **[!UICONTROL Action type]**suspensa, selecione**[!UICONTROL Track.]**
 1. Digite um nome para sua ação.
 1. No painel direito, em **[!UICONTROL Context Data]**, selecione o par de valores chave para definir os dados de contexto que serão enviados para o Analytics.
 
@@ -77,7 +77,7 @@ Como parte dos parâmetros do Acionador, você pode criar o público-alvo para a
 
    Essa opção pode ser usada com uma ação específica do local, como entrada, ou pode ser usada como contexto para outro evento, como uma inicialização ou um clique de botão.
 
-   Este é um exemplo de como configurar uma mensagem no aplicativo para receber usuários que digitam um POI que tenha **[!UICONTROL Adobe]** o nome:
+   Este é um exemplo de como configurar uma mensagem no aplicativo para receber usuários que digitam um POI que tenha **[!UICONTROL Adobe]**o nome:
 
    ![parâmetros de acionamento](/help/assets/trigger-parameters.png)
 
