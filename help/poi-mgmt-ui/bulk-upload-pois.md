@@ -50,14 +50,14 @@ Esta é uma lista das colunas e dos valores que você precisa usar:
 Os valores das seguintes colunas são usados na interface do usuário do Serviço de Localização:
 
 * cor, que é usada como a cor do pino que representa a localização do POI no mapa da interface do usuário do Serviço de localização.
-   * Os valores válidos são "", #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B e #3DC8DE e "".
+   * Os valores válidos são &quot;&quot;, #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B e #3DC8DE e &quot;&quot;.
    * Se o valor for deixado em branco, a interface do usuário do Serviço de localização usará azul como a cor padrão.
 
       Os valores correspondem a azul (#3E76D0), roxo (#AA99E8), fuschia (#DC2ABA), laranja (#FC685B), laranja claro (#FC962E), amarelo (#F6C436), verde claro (#BECE5D), verde (#6 1B56B) e azul claro (#3DC8DE), respectivamente.
 
 * ícone, que é usado como o ícone no pino que representa o local do POI no mapa da interface do usuário do Serviço de Localização
 
-   * Os valores válidos são "", loja, hotelbed, carro, avião, avião, trem, navio, estádio, parque de diversões, âncora, beaker, campainha, sino, bico, livro, caixa, pasta, browse, pincel, edifício, calculadora, câmera, relógio, relógio, luz, acompanhar, jogo, mulher, homem, presente, martelo, coração, casa, chave, lançamento, lâmpada, caixa de correio, dinheiro promover, fita, shoppingCart, estrela, alvo, bule, thumbDown, thumbUp, armadilha, troféu, chave inglesa.
+   * Os valores válidos são &quot;&quot;, loja, hotelbed, carro, avião, avião, trem, navio, estádio, parque de diversões, âncora, beaker, campainha, sino, bico, livro, caixa, pasta, browse, pincel, edifício, calculadora, câmera, relógio, relógio, luz, acompanhar, jogo, mulher, homem, presente, martelo, coração, casa, chave, lançamento, lâmpada, caixa de correio, dinheiro promover, fita, shoppingCart, estrela, alvo, bule, thumbDown, thumbUp, armadilha, troféu, chave inglesa.
 
       Os valores dos ícones são listados na ordem em que aparecem na ilustração a seguir:
 
@@ -89,10 +89,10 @@ Os valores das seguintes colunas são usados na interface do usuário do Serviç
    * `api_key`
 
       Esta é a chave da API REST do Places obtida da Integração de E/S do Adobe. Para obter informações sobre como obter a chave da API, consulte *Pré-requisitos para acesso* do usuário na visão geral e pré-requisitos [da](/help/web-service-api/adobe-i-o-integration.md)integração.
-   b.Salve as alterações.
+   b. Salve as alterações.
 
 1. Em uma janela de terminal, navegue até o `…/places-scripts/import/` diretório.
-1. Digite `python ./places_import.py` e pressione a tecla **[!UICONTROL enter]** (**[!UICONTROL return]**).
+1. Digite `python ./places_import.py` e pressione a tecla **[!UICONTROL enter]**(**[!UICONTROL return]**).
 
 
 ## Verificações CSV pré-importação
