@@ -17,7 +17,7 @@ Os POIs e as bibliotecas são criados e gerenciados no banco de dados Locais usa
 1. Faça logon no Serviço de locais usando sua Adobe ID.
 1. No lado superior direito, clique no ícone que se parece com uma lista com marcadores.
 1. Localize o POI que deseja editar.
-1. Clique **[!UICONTROL ...]** e selecione **[!UICONTROL View Details]**.
+1. Clique **[!UICONTROL ...]**e selecione**[!UICONTROL View Details]**.
 1. Atualize as informações e clique em **[!UICONTROL Save]**.
 
 ## Excluir um POI
@@ -26,7 +26,7 @@ Os POIs e as bibliotecas são criados e gerenciados no banco de dados Locais usa
 1. Faça logon no Serviço de locais usando sua Adobe ID.
 1. No lado superior direito, clique no ícone que se parece com uma lista com marcadores.
 1. Localize o POI que deseja excluir.
-1. Clique **[!UICONTROL ...]** e selecione **[!UICONTROL Delete]**.
+1. Clique **[!UICONTROL ...]**e selecione**[!UICONTROL Delete]**.
 
 ## Filtrar POIs por cidade, estado, país ou metadados
 
@@ -42,11 +42,11 @@ Os POIs e as bibliotecas são criados e gerenciados no banco de dados Locais usa
 
    * Por propriedade:
 
-      a. Na lista suspensa Propriedade, selecione **[!UICONTROL Country]**, **[!UICONTROL State]** ou **[!UICONTROL City]**.
+      a. Na lista suspensa Propriedade, selecione **[!UICONTROL Country]**,**[!UICONTROL State]** ou **[!UICONTROL City]**.
 
       b. Na linha seguinte, insira um valor.
 
-      Por exemplo, você pode selecionar **[!UICONTROL State]** e digitar **[!UICONTROL California]**.
+      Por exemplo, você pode selecionar **[!UICONTROL State]**e digitar**[!UICONTROL California]**.
 
    * Com metadados:
 
