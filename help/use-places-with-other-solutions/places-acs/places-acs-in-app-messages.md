@@ -28,22 +28,22 @@ Antes de começar, conclua as seguintes tarefas:
 
 1. Na instância do Adobe Campaign Standard, clique em **[!UICONTROL Create In-App message]**.
 1. Para o tipo de mensagem, selecione **[!UICONTROL Target all users of a Mobile application]**.
-1. Clique **[!UICONTROL Next]** e digite os detalhes gerais.
+1. Clique **[!UICONTROL Next]**e digite os detalhes gerais.
 1. No painel esquerdo, verifique se você pode usar vários acionadores relacionados aos serviços de localização.
 
    * Você pode optar por exibir a mensagem no aplicativo se o usuário tiver inserido uma fronteira geográfica POI.
    * Você também pode usar metadados definidos na interface do usuário do Location Services para filtrar o público-alvo.
    No exemplo abaixo, você pode disparar uma mensagem no aplicativo que é exibida somente para usuários que entram em um dos resorts de férias que participam de um programa de bebida gratuita e deseja enviar a esses usuários um cupom quando chegam.
 
-   !["Metadados de locais de mensagens no aplicativo"](/help/assets/last-entered-vacation.png)
+   ![&quot;Metadados de locais de mensagens no aplicativo&quot;](/help/assets/last-entered-vacation.png)
 
-1. Click the **[!UICONTROL Next]** to finish creating the In-app message for delivery.
+1. Click the **[!UICONTROL Next]**to finish creating the In-app message for delivery.
 
-   !["criar um evento"](/help/assets/prepare-ACS.png)
+   ![&quot;criar um evento&quot;](/help/assets/prepare-ACS.png)
 
    Para testar a entrega de mensagens no aplicativo, inicie o aplicativo no estúdio Xcode ou Android e use o simulador de localização para selecionar um POI que se ajuste aos critérios de mensagens.
 
-   !["beba cupom"](/help/assets/drink-coupon-on-app.png)
+   ![&quot;beba cupom&quot;](/help/assets/drink-coupon-on-app.png)
 
 Usar os serviços de localização com o Adobe Campaign Standard oferece uma ferramenta poderosa para segmentar e direcionar suas mensagens aos usuários com base em entradas e saídas de fronteira geográfica. Essa integração permite criar casos de uso mais personalizados e contextuais.
 
