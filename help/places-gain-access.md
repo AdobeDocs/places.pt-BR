@@ -1,13 +1,12 @@
 ---
-title: Acesso ao serviço de localização da plataforma Adobe Experience
+title: 'Acesso ao serviço de localização da plataforma Adobe Experience '
 description: Esta seção fornece informações sobre como adicionar um usuário ao Serviço de localização e ao Launch da plataforma Experience, para que o usuário possa acessar o Serviço de localização.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: e5d6c7f9ad1e2c9c37c1537aadc309ee20757156
 
 ---
 
-
-# Acesso ao serviço de localização da plataforma Adobe Experience {#adding-user-launch-places}
+# Obter acesso ao Serviço de Localização {#adding-user-launch-places}
 
 Você pode acessar o Serviço de localização da plataforma no menu de acesso rápido na página inicial [da](https://experience.adobe.com)Adobe Experience Cloud.
 Se sua ID de usuário tiver acesso, você verá o ícone Serviço de localização conforme indicado abaixo:
@@ -47,11 +46,11 @@ Para verificar se o Serviço de localização e o Experience Platform Launch for
 
    ![interruptor de concha](/help/assets/places_shell_switcher1.png)
 
-1. Em **[!UICONTROL Platform]**, clique em **[!UICONTROL Administration]**.
+1. Em **[!UICONTROL Platform]**, clique em**[!UICONTROL Administration]**.
 
    Se não vir **Administração** na lista, você não é um administrador. Você deve entrar em contato com o administrador da organização para concluir este procedimento.
 
-1. Na página Administração da Experience Cloud, no **[!UICONTROL Admin Console]** cartão, clique em **[!UICONTROL Take me there]**.
+1. Na página Administração da Experience Cloud, no **[!UICONTROL Admin Console]**cartão, clique em**[!UICONTROL Take me there]**.
 
 1. No Admin Console, se você tiver acesso a várias organizações, verifique se a organização correta está selecionada no lado superior direito da página.
 
@@ -61,7 +60,7 @@ Para verificar se o Serviço de localização e o Experience Platform Launch for
    >
    >Se você não tiver acesso a uma organização, isso significa que você não tem acesso administrativo a essa organização.
 
-1. Verify that the cards for **[!UICONTROL Adobe Experience Platform Launch]** and **[!UICONTROL Places Core Services]** are displayed.
+1. Verifique se as placas para **[!UICONTROL Adobe Experience Platform Launch]**e**[!UICONTROL Places Core Services]** são exibidas.
 
    ![](/help/assets/places_provisioned1.png)
 
@@ -87,19 +86,19 @@ Para configurar o perfil e adicionar as permissões:
 
    a. Clique no nome do perfil padrão.
 
-   b. Clique na **[!UICONTROL Permissions]** guia.
+   b. Clique na **[!UICONTROL Permissions]**guia.
 
-   c. Clique **[!UICONTROL Edit]** ao lado de **[!UICONTROL Property Rights]**.
+   c. Clique **[!UICONTROL Edit]**ao lado de**[!UICONTROL Property Rights]**.
 
    d. No painel esquerdo, clique em **[!UICONTROL + Add all]**.
 
    Esta etapa move todas as permissões disponíveis para a lista de permissões incluída.
 
-   e.Clique em **[!UICONTROL Company Rights]**.
+   e. Clique em **[!UICONTROL Company Rights]**.
 
    f. No painel esquerdo, clique em **[!UICONTROL + Manage Properties]**.
 
-   g.Clique em **[!UICONTROL Save]**.
+   g. Clique em **[!UICONTROL Save]**.
 
 >[!IMPORTANT]
 >
@@ -119,23 +118,23 @@ Para adicionar um usuário aos perfis Local Service e Experience Platform Launch
 
    a. Na barra de menus, clique em **[!UICONTROL Overview]**.
 
-   b. Na **[!UICONTROL Adobe Experience Platform Launch]** placa, verifique o seguinte:
+   b. Na **[!UICONTROL Adobe Experience Platform Launch]**placa, verifique o seguinte:
 
    * Dois pontos são exibidos na parte inferior do cartão.
    * O ponto à esquerda é preto.
 
       Se o ponto no lado direito estiver preto, você só poderá adicionar desenvolvedores. Para adicionar um usuário, clique no ponto à esquerda.
-   c.Clique em **[!UICONTROL + Add Users]**.
+   c. Clique em **[!UICONTROL + Add Users]**.
 
    d. Insira a Adobe ID do usuário.
 
    e. Conclua uma das seguintes etapas:
 
-   * Se você estiver adicionando um novo usuário, clique em **[!UICONTROL New user]** e insira o nome e sobrenome do usuário.
+   * Se você estiver adicionando um novo usuário, clique em **[!UICONTROL New user]**e insira o nome e sobrenome do usuário.
    * Se você estiver adicionando um usuário existente, clique no nome do usuário exibido.
-   f. Na lista **[!UICONTROL Please select a profile for this product]** suspensa, selecione o perfil editado anteriormente.
+   f. Na lista **[!UICONTROL Please select a profile for this product]**suspensa, selecione o perfil editado anteriormente.
 
-   g.Clique em **[!UICONTROL Save]**.
+   g. Clique em **[!UICONTROL Save]**.
 
 1. Adicionar um usuário a **[!UICONTROL Places Core Services]**.
 
@@ -143,21 +142,21 @@ Para adicionar um usuário aos perfis Local Service e Experience Platform Launch
    >
    >Atualmente, todos os usuários do Serviço de Localização têm as mesmas permissões, portanto, não é necessário editar as permissões.
 
-   a. Na **[!UICONTROL Places Core Services]** placa, verifique o seguinte:
+   a. Na **[!UICONTROL Places Core Services]**placa, verifique o seguinte:
 
    * Dois pontos são exibidos na parte inferior do cartão.
    * O ponto à esquerda é preto.
-   b.Clique em **[!UICONTROL + Assign Users]**.
+   b. Clique em **[!UICONTROL + Assign Users]**.
 
    c. Insira a Adobe ID do usuário.
 
    d. Conclua uma das seguintes etapas:
 
-   * Se você estiver adicionando um novo usuário, clique em **[!UICONTROL New user]** e insira o nome e sobrenome do usuário.
+   * Se você estiver adicionando um novo usuário, clique em **[!UICONTROL New user]**e insira o nome e sobrenome do usuário.
    * Se você estiver adicionando um usuário existente, clique no nome do usuário exibido.
-   e. Na lista **[!UICONTROL Please select a profile for this product]** suspensa, selecione o perfil Locais.
+   e. Na lista **[!UICONTROL Please select a profile for this product]**suspensa, selecione o perfil Locais.
 
-   f.Clique em **[!UICONTROL Save]**.
+   f. Clique em **[!UICONTROL Save]**.
 
 ### Adicionar um desenvolvedor
 
@@ -165,10 +164,10 @@ Para usuários que também precisam de acesso à API de serviço da Web, é nece
 
 Para adicionar um desenvolvedor:
 
-1. On the **[!UICONTROL Places Core Services]** card, verify the following:
+1. On the **[!UICONTROL Places Core Services]**card, verify the following:
 
    * Dois pontos são exibidos na parte inferior do cartão.
-   * Clique no ponto à direita para **[!UICONTROL Assign Developers]** aparecer na parte inferior do cartão.
+   * Clique no ponto à direita para **[!UICONTROL Assign Developers]**aparecer na parte inferior do cartão.
 
 1. Clique em **[!UICONTROL + Assign Developers]**.
 
@@ -176,10 +175,10 @@ Para adicionar um desenvolvedor:
 
 1. Conclua uma das seguintes etapas:
 
-   * Se você estiver adicionando um novo usuário, clique em **[!UICONTROL New user]** e insira o nome e sobrenome do usuário.
+   * Se você estiver adicionando um novo usuário, clique em **[!UICONTROL New user]**e insira o nome e sobrenome do usuário.
    * Se você estiver adicionando um usuário existente, clique no nome do usuário exibido.
 
-1. Na lista **[!UICONTROL Please select a profile for this product]** suspensa, selecione o perfil Local Service.
+1. Na lista **[!UICONTROL Please select a profile for this product]**suspensa, selecione o perfil Local Service.
 
 1. Clique em **Salvar**.
 
