@@ -13,8 +13,8 @@ Para usar a extensão do Monitor de locais, conclua as seguintes tarefas:
 
 ## Instale a extensão do Monitor de locais no Experience Platform Launch
 
-1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
-1. Na **[!UICONTROL Catalog]** guia, localize a **[!UICONTROL Places Monitor]** extensão e clique em **Instalar**.
+1. In Experience Platform Launch, click the **[!UICONTROL Extensions]**tab.
+1. Na **[!UICONTROL Catalog]**guia, localize a**[!UICONTROL Places Monitor]** extensão e clique em **Instalar**.
 1. Clique em **[!UICONTROL Save]**.
 1. Siga o processo de publicação para atualizar a configuração do SDK.
 
