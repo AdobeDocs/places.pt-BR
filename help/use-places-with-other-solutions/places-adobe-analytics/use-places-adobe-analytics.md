@@ -18,12 +18,12 @@ Depois que o Places enviar os eventos de entrada e saída, você pode criar regr
 
 ## 1. Criar uma regra
 
-1. Na **[!UICONTROL Rules]** guia, clique em **[!UICONTROL Create New Rule]**.
+1. Na **[!UICONTROL Rules]**guia, clique em**[!UICONTROL Create New Rule]**.
 
    Lembre-se das seguintes informações:
 
-   * Se você não tiver regras existentes para essa propriedade, o **[!UICONTROL Create New Rule]** botão estará no meio da tela.
-   * Se sua propriedade tiver regras, o **[!UICONTROL Create New Rule]** botão estará no canto superior direito da tela.
+   * Se você não tiver regras existentes para essa propriedade, o **[!UICONTROL Create New Rule]**botão estará no meio da tela.
+   * Se sua propriedade tiver regras, o **[!UICONTROL Create New Rule]**botão estará no canto superior direito da tela.
 
 ## 2. Selecionar um evento
 
@@ -31,15 +31,15 @@ Depois que o Places enviar os eventos de entrada e saída, você pode criar regr
 
    Dessa forma, a regra será facilmente reconhecível em sua lista de Regras. Neste exemplo, a Regra é nomeada **[!UICONTROL Send Data to Analytics]**.
 
-1. In the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
+1. In the **[!UICONTROL Events]**section, click**[!UICONTROL Add]**.
 
-1. Na lista **[!UICONTROL Extension]** suspensa, selecione **[!UICONTROL Places]**.
+1. Na lista **[!UICONTROL Extension]**suspensa, selecione**[!UICONTROL Places]**.
 
-1. Na lista **[!UICONTROL Event Type]** suspensa, selecione **[!UICONTROL Enter POI]**.
+1. Na lista **[!UICONTROL Event Type]**suspensa, selecione**[!UICONTROL Enter POI]**.
 
 1. Clique em **[!UICONTROL Keep Changes]**.
 
-   !["selecionar um evento"](/help/assets/pt-selectEvent.png)
+   ![&quot;selecionar um evento&quot;](/help/assets/pt-selectEvent.png)
 
 
 ## 3. Adicionar condições
@@ -50,26 +50,26 @@ Depois que o Places enviar os eventos de entrada e saída, você pode criar regr
 
 Neste exemplo, é criada uma Condição que faz com que a Regra seja acionada somente quando o nome do POI atual for igual **[!UICONTROL My POI]**.
 
-1. Na **[!UICONTROL Conditions]** seção, clique em **[!UICONTROL Add]**.
+1. Na **[!UICONTROL Conditions]**seção, clique em**[!UICONTROL Add]**.
 
-1. Na lista **[!UICONTROL Extension]** suspensa, selecione **[!UICONTROL Places]**.
+1. Na lista **[!UICONTROL Extension]**suspensa, selecione**[!UICONTROL Places]**.
 
-1. Na lista **[!UICONTROL Condition Type]** suspensa, selecione **[!UICONTROL Name]**.
+1. Na lista **[!UICONTROL Condition Type]**suspensa, selecione**[!UICONTROL Name]**.
 
 1. No painel direito, no campo de texto, digite **[!UICONTROL My POI]**.
 
 1. Clique em **[!UICONTROL Keep Changes]**.
 
-   !["definir uma condição"](/help/assets/pt-setCondition.png)
+   ![&quot;definir uma condição&quot;](/help/assets/pt-setCondition.png)
 
 
 ## 4. Definir a ação
 
-1. Na **[!UICONTROL Actions]** seção, clique em **[!UICONTROL Add]**.
+1. Na **[!UICONTROL Actions]**seção, clique em**[!UICONTROL Add]**.
 
-1. Na lista **[!UICONTROL Extension]** suspensa, selecione **[!UICONTROL Adobe Analytics]**.
+1. Na lista **[!UICONTROL Extension]**suspensa, selecione**[!UICONTROL Adobe Analytics]**.
 
-1. Na lista **[!UICONTROL Action Type]** suspensa, selecione **[!UICONTROL Track]**.
+1. Na lista **[!UICONTROL Action Type]**suspensa, selecione**[!UICONTROL Track]**.
 
 1. No painel direito, adicione a ação ou o estado que deseja enviar ao Analytics.
 
@@ -79,13 +79,13 @@ Neste exemplo, é criada uma Condição que faz com que a Regra seja acionada so
 
    No exemplo a seguir, uma `TrackAction` chamada é enviada ao Analytics com dados de contexto adicionais `poi.name` iguais ao nome do POI que acionou esse evento de entrada:
 
-   !["definir uma ação"](/help/assets/pt-setAction.png)
+   ![&quot;definir uma ação&quot;](/help/assets/pt-setAction.png)
 
 ## 5. Salve a regra e recrie sua propriedade
 
 Após concluir a configuração, verifique se a Regra se parece com a seguinte imagem:
 
-!["regra é criada"](/help/assets/pt-ruleComplete.png)
+![&quot;regra é criada&quot;](/help/assets/pt-ruleComplete.png)
 
 1. Clique em **[!UICONTROL Save]**
 
