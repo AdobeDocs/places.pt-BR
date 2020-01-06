@@ -9,7 +9,7 @@ source-git-commit: c20e720d23121970bb2fa1c63a2fd1e81c84b977
 
 # Visão geral do Serviço de localização da plataforma Adobe Experience Platform {#home}
 
-!["Adobe Experience Platform Location Service"](/help/assets/LocationHeader.png)
+![&quot;Adobe Experience Platform Location Service&quot;](/help/assets/LocationHeader.png)
 
 A localização é um contexto importante para entender e se envolver com usuários móveis. Ao usar esse contexto, os desenvolvedores de aplicativos móveis podem melhorar o design do aplicativo e torná-lo uma experiência mais personalizada e envolvente.
 
@@ -27,7 +27,7 @@ Isso permitirá que você tome ações dos sinais de localização em tempo real
 
 Estas são algumas das maneiras de usar os Locais:
 
-* Envie uma notificação em tempo real quando alguém entrar em um POI, *"Ei...bem-vindo ao estádio."*
+* Envie uma notificação em tempo real quando alguém entrar em um POI, *&quot;Ei...bem-vindo ao estádio.&quot;*
 * Analise o tráfego de pés de suas próprias lojas em relação às lojas concorrentes.
 * Segmentar um público-alvo com base no comportamento offline usando perfis de público-alvo com contexto de localização.
 * Direcione um usuário com uma experiência na loja quando relevante.
