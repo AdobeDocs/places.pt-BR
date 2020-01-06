@@ -15,7 +15,7 @@ Depois que a extensão Locais estiver enviando eventos para entradas e saídas, 
 
 ## 1. Criar uma regra
 
-1. Na **[!UICONTROL Rules]** guia, clique em **[!UICONTROL Create New Rule]**.
+1. Na **[!UICONTROL Rules]**guia, clique em**[!UICONTROL Create New Rule]**.
 
    Lembre-se das seguintes informações:
 
@@ -28,11 +28,11 @@ Depois que a extensão Locais estiver enviando eventos para entradas e saídas, 
 
    Neste exemplo, a Regra é nomeada **[!UICONTROL Attach Places Data to Target Content Requested]**.
 
-1. Na **[!UICONTROL Events]** seção, clique em **[!UICONTROL Add]**.
+1. Na **[!UICONTROL Events]**seção, clique em**[!UICONTROL Add]**.
 
-1. Na lista **[!UICONTROL Extension]** suspensa, selecione **[!UICONTROL Adobe Target]**.
+1. Na lista **[!UICONTROL Extension]**suspensa, selecione**[!UICONTROL Adobe Target]**.
 
-1. Na lista **[!UICONTROL Event Type]** suspensa, selecione **[!UICONTROL Content Requested]**.
+1. Na lista **[!UICONTROL Event Type]**suspensa, selecione**[!UICONTROL Content Requested]**.
 
 1. Clique em **[!UICONTROL Keep Changes]**.
 
@@ -46,11 +46,11 @@ Depois que a extensão Locais estiver enviando eventos para entradas e saídas, 
 
 No exemplo a seguir, é criada uma Condição que faz com que a Regra seja acionada somente para usuários que inicializaram o aplicativo cinco ou mais vezes.
 
-1. Na **[!UICONTROL Conditions]** seção, clique em **[!UICONTROL Add]**.
+1. Na **[!UICONTROL Conditions]**seção, clique em**[!UICONTROL Add]**.
 
-1. Na lista **[!UICONTROL Extension]** suspensa, selecione **[!UICONTROL Mobile Core]**.
+1. Na lista **[!UICONTROL Extension]**suspensa, selecione**[!UICONTROL Mobile Core]**.
 
-1. Na lista **[!UICONTROL Condition Type]** suspensa, selecione **[!UICONTROL Launches]**.
+1. Na lista **[!UICONTROL Condition Type]**suspensa, selecione**[!UICONTROL Launches]**.
 
 1. No painel direito, modifique a lista suspensa e os controles de número para que a condição seja lida **[!UICONTROL User has launched the app greater than or equal to 5 times]**.
 
@@ -60,19 +60,19 @@ No exemplo a seguir, é criada uma Condição que faz com que a Regra seja acion
 
 ## 4. Definir a ação
 
-1. Na **[!UICONTROL Actions]** seção, clique em **[!UICONTROL Add]**.
+1. Na **[!UICONTROL Actions]**seção, clique em**[!UICONTROL Add]**.
 
-1. Na lista **[!UICONTROL Extension]** suspensa, selecione **[!UICONTROL Mobile Core]**.
+1. Na lista **[!UICONTROL Extension]**suspensa, selecione**[!UICONTROL Mobile Core]**.
 
-1. Na lista **[!UICONTROL Action Type]** suspensa, selecione **[!UICONTROL Attach Data]**.
+1. Na lista **[!UICONTROL Action Type]**suspensa, selecione**[!UICONTROL Attach Data]**.
 
-1. No painel direito, no **[!UICONTROL JSON Payload]** campo, digite os dados que serão adicionados a este Evento.
+1. No painel direito, no **[!UICONTROL JSON Payload]**campo, digite os dados que serão adicionados a este Evento.
 
 1. Clique em **[!UICONTROL Keep Changes]**.
 
 No painel direito, é possível adicionar uma carga JSON de forma livre que adicione dados a um evento SDK antes que as extensões que acompanham esse evento o ouçam.
 
-No exemplo a seguir, `poiCity` os valores são adicionados ao `poiName` **[!UICONTROL mboxparameters]** para cada solicitação processada no evento do Target. Os valores das novas chaves são determinados dinamicamente pelo SDK no momento em que esse evento é processado.
+No exemplo a seguir, `poiCity` os valores são adicionados ao `poiName` **[!UICONTROL mboxparameters]**para cada solicitação processada no evento do Target. Os valores das novas chaves são determinados dinamicamente pelo SDK no momento em que esse evento é processado.
 
 >[!TIP]
 >
