@@ -165,5 +165,5 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYI
 
 >[!IMPORTANT]
 >
->Substitua '', `<API KEY>`, `<TOKEN>`e `<ORGID>` pelos valores reais.
+>Substitua &#39;&#39;, `<API KEY>`, `<TOKEN>`e `<ORGID>` pelos valores reais.
 
