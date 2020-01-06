@@ -11,7 +11,7 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 Antes de usar a extensão do Mobile Services para mensagens, reveja os seguintes pré-requisitos:
 
-* Os pontos de interesse foram criados no Serviço de Localização. Consulte Documentação, se necessário. (link para criar um POI)Observação: O Serviço de Localização inclui um banco de dados de ponto de interesse novo e aprimorado para sua organização que existe fora da interface herdada do AMS. Todos os POIs encontrados na navegação "Gerenciar locais" do AMS funcionarão somente na versão 4 do SDK.
+* Os pontos de interesse foram criados no Serviço de Localização. Consulte Documentação, se necessário. (link para criar um POI)Observação: O Serviço de Localização inclui um banco de dados de ponto de interesse novo e aprimorado para sua organização que existe fora da interface herdada do AMS. Todos os POIs encontrados na navegação &quot;Gerenciar locais&quot; do AMS funcionarão somente na versão 4 do SDK.
    * Esta é a interface de gerenciamento herdada do POI Places no AMS para versões mais antigas do SDK:
 
       ![Interface do usuário legada](/help/assets/legacy-location-v4-ui.png)
