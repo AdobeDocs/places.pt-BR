@@ -43,7 +43,7 @@ Este evento é uma solicitação para obter os POIs próximos levando em conside
 
 | Chave | Tipo de valor | Obrigatório | Valor padrão | Descrição |
 | :--- | :--- | :--- | :--- | :--- |
-|  latitude | double | true | n/a | Mantém o valor de latitude para o centro da pesquisa por POIs próximos. |
+| latitude | double | true | n/a | Mantém o valor de latitude para o centro da pesquisa por POIs próximos. |
 | longitude | double | true | n/a | Mantém o valor da longitude do centro da pesquisa por POIs próximos. |
 | raio | integer | false | n/a | Raio, em metros, usado pela busca por POIs próximos. |
 | count | integer | false | 10 | Número máximo de POIs a serem retornados no evento de resposta resultante. |
