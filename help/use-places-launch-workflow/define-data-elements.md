@@ -40,13 +40,13 @@ Cada POI contém as seguintes referências de dados:
 
 ### Criar um elemento de dados
 
-1. Na página Propriedade do aplicativo, clique na **[!UICONTROL Data Elements]** guia.
+1. Na página Propriedade do aplicativo, clique na **[!UICONTROL Data Elements]**guia.
 
 1. Clique em **[!UICONTROL Create New Data Element]**.
 
 1. Na lista de extensões instaladas, localize **[!UICONTROL Places]**.
 
-1. Na lista **[!UICONTROL Data Element Type]** suspensa, selecione uma referência de dados para esse elemento de dados.
+1. Na lista **[!UICONTROL Data Element Type]**suspensa, selecione uma referência de dados para esse elemento de dados.
 
 1. Selecione um destino de POI.
 
@@ -63,8 +63,8 @@ Depois que um elemento de dados é criado, se um seletor de elemento de dados es
 
 ![Usar o elemento de dados](/help/assets/use-de-v2.png)
 
-Se um seletor de elementos de dados não estiver presente no componente de regra, você pode usar o elemento de dados vinculando o nome do elemento de dados aos **[!UICONTROL %%]** tokens.
-Por exemplo, se o nome do elemento de dados for **[!UICONTROL Last POI City]**, você poderá adicionar **[!UICONTROL LAST POI City]** a uma entrada de texto.
+Se um seletor de elementos de dados não estiver presente no componente de regra, você pode usar o elemento de dados vinculando o nome do elemento de dados aos **[!UICONTROL %%]**tokens.
+Por exemplo, se o nome do elemento de dados for**[!UICONTROL Last POI City]**, você poderá adicionar **[!UICONTROL LAST POI City]**a uma entrada de texto.
 
 
 ## Publicar elementos de dados
