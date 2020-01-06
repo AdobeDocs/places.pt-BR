@@ -13,8 +13,8 @@ A extensão Locais permite que você atue com base na localização dos usuário
 
 ## Instale a extensão Locais no Adobe Experience Platform Launch
 
-1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
-1. Na **[!UICONTROL Catalog]** guia, localize a **[!UICONTROL Places]** extensão e clique em **[!UICONTROL Install]**.
+1. In Experience Platform Launch, click the **[!UICONTROL Extensions]**tab.
+1. Na **[!UICONTROL Catalog]**guia, localize a**[!UICONTROL Places]** extensão e clique em **[!UICONTROL Install]**.
 1. Selecione as bibliotecas Locais que deseja usar nesta propriedade. Essas são as bibliotecas que estarão acessíveis no seu aplicativo.
 1. Clique em **[!UICONTROL Save]**.
 
