@@ -28,27 +28,27 @@ Crie uma regra que fará com que o SDK envie dados para o Analytics quando o dis
 
 Neste exemplo, a ação da regra tem os seguintes valores definidos para a solicitação do Analytics:
 
-* **[!UICONTROL Action]** é fornecido um valor de **[!UICONTROL Places Entry]**.
+* **[!UICONTROL Action]**é fornecido um valor de**[!UICONTROL Places Entry]**.
 
-* A chave de dados de contexto **[!UICONTROL poi.name]** é definida como o valor do elemento de dados **[!UICONTROL {%%POI Name%%}]**.
+* A chave de dados de contexto **[!UICONTROL poi.name]**é definida como o valor do elemento de dados**[!UICONTROL {%%POI Name%%}]**.
 
-!["definir uma ação"](/help/assets/pt-setAction.png)
+![&quot;definir uma ação&quot;](/help/assets/pt-setAction.png)
 
 ## 2. Criar variáveis do Analytics
 
 Para mapear os dados de contexto (enviados na etapa 1), as variáveis devem primeiro ser criadas para o conjunto de relatórios do Analytics. Para obter mais informações sobre como criar variáveis no Analytics, consulte Variáveis [de conversão \(eVars\)](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-conversion-variables-evar.html).
 
-Neste exemplo, uma variável de conversão, **[!UICONTROL Evar2]**, foi criada e nomeada **[!UICONTROL Places POI Name]**. Variáveis adicionais precisam ser criadas para cada variável de localização que você deseja expor nos relatórios.
+Neste exemplo, uma variável de conversão, **[!UICONTROL Evar2]**, foi criada e nomeada**[!UICONTROL Places POI Name]**. Variáveis adicionais precisam ser criadas para cada variável de localização que você deseja expor nos relatórios.
 
-!["criar uma variável de análise"](/help/assets/aa-evar.png)
+![&quot;criar uma variável de análise&quot;](/help/assets/aa-evar.png)
 
 ## 3. Criar regras de processamento
 
 Essa etapa é necessária para mapear dados de contexto (etapa 1) para as variáveis do Analytics (etapa 2). For more information on creating processing rules, see [Processing rules overview](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
-Neste exemplo, uma regra de processamento foi criada para mapear o valor de dados de contexto **[!UICONTROL poi.name]** para **[!UICONTROL Places POI Name \(eVar2\)]**. Regras de processamento adicionais precisam ser criadas para cada variável de localização criada.
+Neste exemplo, uma regra de processamento foi criada para mapear o valor de dados de contexto **[!UICONTROL poi.name]**para**[!UICONTROL Places POI Name \(eVar2\)]**. Regras de processamento adicionais precisam ser criadas para cada variável de localização criada.
 
-!["criar uma regra de processamento"](/help/assets/aa-processing-rule.png)
+![&quot;criar uma regra de processamento&quot;](/help/assets/aa-processing-rule.png)
 
 ## 4. Gerar um relatório no Workspace
 
@@ -56,10 +56,10 @@ Esta etapa mostra um relatório básico no Analytics Workspace para exibir os da
 
 Neste exemplo, o relatório tem as seguintes configurações:
 
-* Metric - **[!UICONTROL Occurrences]**
+* Métrica - **[!UICONTROL Occurrences]**
 
-* Dimension - **[!UICONTROL Action Name]**
+* Dimensão - **[!UICONTROL Action Name]**
 
    * Analisado por dimensão - **[!UICONTROL Places POI Name]**
 
-!["criar um relatório no espaço de trabalho"](/help/assets/aa-workspace.png)
+![&quot;criar um relatório no espaço de trabalho&quot;](/help/assets/aa-workspace.png)
