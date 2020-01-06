@@ -31,14 +31,14 @@ Depois de verificar se as extensões do Monitor de locais e locais para serviço
 
 Para criar um elemento de dados:
 
-1. Na propriedade móvel do Experience Platform Launch, clique na **[!UICONTROL Data Elements]** guia e em **[!UICONTROLAAdicionar elemento]** de dados.
-1. Na lista **[!UICONTROL Extension]** suspensa, selecione **[!UICONTROL Places]**.
-1. Na lista **[!UICONTROL Data Element Type]** suspensa, selecione **[!UICONTROL Name]**.
+1. Na propriedade móvel do Experience Platform Launch, clique na **[!UICONTROL Data Elements]**guia e em**[!UICONTROLA Adicionar elemento]**de dados.
+1. Na lista **[!UICONTROL Extension]**suspensa, selecione**[!UICONTROL Places]**.
+1. Na lista **[!UICONTROL Data Element Type]**suspensa, selecione**[!UICONTROL Name]**.
 1. No painel direito, você pode selecionar qual recupera o nome do POI no qual o usuário está localizado no momento. **[!UICONTROL Current POI]**
 
-   **[!UICONTROL Last Entered]** recupera o nome do POI que o usuário inseriu pela última vez e **[!UICONTROL Last Exited]** fornece o nome do POI que o usuário deixou pela última vez. Neste exemplo, selecionaremos **[!UICONTROL Last Entered]** e digitaremos um nome para o elemento de dados, como **[!UICONTROL Last Entered POI Name]** e clicamos **[!UICONTROL Save]**.
+   **[!UICONTROL Last Entered]**recupera o nome do POI que o usuário inseriu pela última vez e**[!UICONTROL Last Exited]** fornece o nome do POI que o usuário deixou pela última vez. Neste exemplo, selecionaremos **[!UICONTROL Last Entered]**e digitaremos um nome para o elemento de dados, como**[!UICONTROL Last Entered POI Name]** e clicamos **[!UICONTROL Save]**.
 
-   !["Mensagens de push no Campaign Standard"](/help/assets/ACS_Push1.png)
+   ![&quot;Mensagens de push no Campaign Standard&quot;](/help/assets/ACS_Push1.png)
 
 1. Repeat the steps 1-4 above and create data elements for *Last Entered POI Latitude*, *Last Entered POI Longitude*, and *Last Entered POI Radius*.
 
@@ -48,17 +48,17 @@ Além dos elementos de dados do Serviço de localização, certifique-se de cria
 
 As regras no Experience Platform Launch permitem criar fluxos de trabalho complexos e de várias soluções com base em acionadores de eventos. Com regras, você pode criar novas regras ou modificar as existentes e ter as atualizações implantadas dinamicamente em seus aplicativos móveis. No exemplo a seguir, a regra será acionada quando um usuário inserir um POI delimitado geograficamente. Depois que a regra é acionada, uma atualização é enviada ao Campaign Standard para gravar uma entrada em um POI específico para um usuário específico com base na Experience Cloud ID.
 
-1. Na propriedade Launch mobile, na **[!UICONTROL Rules]** guia, clique em **[!UICONTROL Add Rule]**.
-1. Na **[!UICONTROL Events]** seção, clique **[!UICONTROL +]** e selecione **[!UICONTROL Places]** como a extensão.
-1. For the **[!UICONTROL Event Type]**, select **[!UICONTROL Enter POI]**.
+1. Na propriedade Launch mobile, na **[!UICONTROL Rules]**guia, clique em**[!UICONTROL Add Rule]**.
+1. Na **[!UICONTROL Events]**seção, clique**[!UICONTROL +]** e selecione **[!UICONTROL Places]**como a extensão.
+1. For the **[!UICONTROL Event Type]**, select**[!UICONTROL Enter POI]**.
 1. Nomeie a regra, por exemplo, POI inserido pelo **usuário**.
 1. Clique em **[!UICONTROL Keep Changes]**.
-1. Deixe a **[!UICONTROL Conditions]** seção em branco.
+1. Deixe a **[!UICONTROL Conditions]**seção em branco.
 
    Esta seção permite que você filtre ou coloque restrições sobre quando esta regra deve ser acionada.
 
-1. Na **[!UICONTROL Actions]** seção, clique em **[!UICONTROL +]**.
-1. Na lista **[!UICONTROL Extension]** suspensa, selecione **[!UICONTROL Mobile Core]** e, na lista **[!UICONTROL Action Type]** suspensa, selecione **[!UICONTROL Send Postback]**.
+1. Na **[!UICONTROL Actions]**seção, clique em**[!UICONTROL +]**.
+1. Na lista **[!UICONTROL Extension]**suspensa, selecione**[!UICONTROL Mobile Core]** e, na lista **[!UICONTROL Action Type]**suspensa, selecione**[!UICONTROL Send Postback]**.
 1. Em **[!UICONTROL URL]**, é necessário construir o terminal de locais do Campaign Standard.
 
    O URL deve ser semelhante ao `https:///rest/head/mobileAppV5//locations/`.
@@ -80,7 +80,7 @@ Certifique-se de usar os elementos de dados corretos que você criou anteriormen
    ```
 
 1. Certifique-se de usar os elementos de dados criados na seção anterior.
-1. Em **[!UICONTROL Content Type]**, digite **[!UICONTROL application/json]**.
+1. Em **[!UICONTROL Content Type]**, digite**[!UICONTROL application/json]**.
 1. Clique em **[!UICONTROL Keep Changes]**.
 
 >[!IMPORTANT]
@@ -97,29 +97,29 @@ Agora que temos dados de localização preenchidos no Campaign, podemos usar POI
 
 1. Na instância do Adobe Campaign Standard, clique em **[!UICONTROL Create Push Notification]**.
 1. Para o tipo de notificação por push, selecione **[!UICONTROL Send push to Campaign profiles]**.
-1. Clique **[!UICONTROL Next]** e digite os detalhes gerais.
-1. Na tela Público-alvo, clique **[!UICONTROL Count]** para determinar quantos usuários estimados a notificação por push será enviada.
+1. Clique **[!UICONTROL Next]**e digite os detalhes gerais.
+1. Na tela Público-alvo, clique **[!UICONTROL Count]**para determinar quantos usuários estimados a notificação por push será enviada.
 
    >[!TIP]
    >
    >Nesse exemplo, a contagem será 3, pois há três dispositivos instalados nos quais o aplicativo está sendo testado.
 
-1. No painel esquerdo, expanda a **[!UICONTROL Profile]** guia e arraste o **[!UICONTROL POI location]** filtro até a área principal.
+1. No painel esquerdo, expanda a **[!UICONTROL Profile]**guia e arraste o**[!UICONTROL POI location]** filtro até a área principal.
 1. Na janela do filtro POI, digite o nome exato do POI que você deseja direcionar.
 
    >[!TIP]
    >
    >Você pode fazer seleções adicionais para determinar o período de tempo desde a visita anterior do usuário a esse POI.
 
-   !["Mensagens de push 2 em ACS"](/help/assets/ACS_push2.png)
+   ![&quot;Mensagens de push 2 em ACS&quot;](/help/assets/ACS_push2.png)
 
 1. Clique em **[!UICONTROL Confirm]**.
 1. Execute a contagem novamente na parte superior para ver o tamanho do seu público-alvo mudar.
 
    Se você não vir a atualização da contagem, talvez tenha inserido um nome POI para o qual nenhum dispositivo disparou uma entrada. Ter o gancho da Web Slow torna-se valioso nesta situação, porque você pode ver uma lista de entradas de POI de vários dispositivos de teste.
 1. Você pode arrastar outros filtros de localização de POI para incluir vários POIs na sua mensagem.
-1. Click **[!UICONTROL Next]** to finish creating the push notification for delivery.
+1. Click **[!UICONTROL Next]**to finish creating the push notification for delivery.
 
-   !["Mensagens de push 3 em ACS"](/help/assets/ACS_push3.html)
+   ![&quot;Mensagens de push 3 em ACS&quot;](/help/assets/ACS_push3.html)
 
 Usar o Serviço de localização com o Adobe Campaign Standard oferece uma ferramenta poderosa para segmentar e direcionar suas mensagens para usuários com base em entradas e saídas de fronteira geográfica. Essa integração ajuda a criar casos de uso mais personalizados e contextuais.
