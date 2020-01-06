@@ -17,11 +17,11 @@ Depois que o Places enviar os eventos de entrada e saída, você pode criar regr
 
 ## 1. Criar uma regra
 
-1. Na **[!UICONTROL Rules]** guia, clique em **[!UICONTROL Create New Rule]**.
+1. Na **[!UICONTROL Rules]**guia, clique em**[!UICONTROL Create New Rule]**.
 
    Lembre-se das seguintes informações:
-   * Se você não tiver regras existentes para essa propriedade, o **[!UICONTROL Create New Rule]** botão estará no meio da tela.
-   * Se sua propriedade tiver regras, o **[!UICONTROL Create New Rule]** botão estará no canto superior direito da tela.
+   * Se você não tiver regras existentes para essa propriedade, o **[!UICONTROL Create New Rule]**botão estará no meio da tela.
+   * Se sua propriedade tiver regras, o **[!UICONTROL Create New Rule]**botão estará no canto superior direito da tela.
 
 ## 2.Selecione um evento
 
@@ -29,15 +29,15 @@ Depois que o Places enviar os eventos de entrada e saída, você pode criar regr
 
    Neste exemplo, a Regra é nomeada **[!UICONTROL Attach Places Data to Analytics Track Action Events]**.
 
-1. Na **[!UICONTROL Events]** seção, clique em **[!UICONTROL Add]**.
+1. Na **[!UICONTROL Events]**seção, clique em**[!UICONTROL Add]**.
 
-1. Na lista **[!UICONTROL Extension]** suspensa, selecione **[!UICONTROL Mobile Core]**.
+1. Na lista **[!UICONTROL Extension]**suspensa, selecione**[!UICONTROL Mobile Core]**.
 
-1. Na lista **[!UICONTROL Event Type]** suspensa, selecione **[!UICONTROL Track Action]**.
+1. Na lista **[!UICONTROL Event Type]**suspensa, selecione**[!UICONTROL Track Action]**.
 
 Agora você pode determinar os acionadores que deseja incluir para esta Regra. Neste exemplo, o acionador se baseia em todas as `TrackAction` chamadas. Depois de configurar o Evento, clique em **[!UICONTROL Keep Changes]**.
 
-!["criar um evento"](/help/assets/ad-setEvent_use-analytics-data.png)
+![&quot;criar um evento&quot;](/help/assets/ad-setEvent_use-analytics-data.png)
 
 
 ## 3. Adicionar condições
@@ -48,27 +48,27 @@ Agora você pode determinar os acionadores que deseja incluir para esta Regra. N
 
 Neste exemplo, é criada uma Condição que faz com que a Regra seja acionada somente para clientes AT&amp;T.
 
-1. Na **[!UICONTROL Conditions]** seção, clique em **[!UICONTROL Add]**.
+1. Na **[!UICONTROL Conditions]**seção, clique em**[!UICONTROL Add]**.
 
-1. Na lista **[!UICONTROL Extension]** suspensa, selecione **[!UICONTORL Mobile Core]**.
+1. Na lista **[!UICONTROL Extension]**suspensa, selecione**[!UICONTORL  Mobile Core]**.
 
-1. Na lista **[!UICONTROL Condition Type]** suspensa, selecione **[!UICONTROL Carrier Name]**.
+1. Na lista **[!UICONTROL Condition Type]**suspensa, selecione**[!UICONTROL Carrier Name]**.
 
-1. Na janela à direita, marque a **[!UICONTROL AT&T]** caixa de seleção.
+1. Na janela à direita, marque a **[!UICONTROL AT&T]**caixa de seleção.
 
 1. Clique em **[!UICONTROL Keep Changes]**.
 
-!["criar uma condição"](/help/assets/ad-setCondition_use-analytics-data.png)
+![&quot;criar uma condição&quot;](/help/assets/ad-setCondition_use-analytics-data.png)
 
 ## 4. Definir a ação
 
-1. Na **[!UICONTROL Actions]** seção, clique em **[!UICONTROL Add]**.
+1. Na **[!UICONTROL Actions]**seção, clique em**[!UICONTROL Add]**.
 
-1. Na lista **[!UICONTROL Extension]** suspensa, selecione **[!UICONTROL Mobile Core]**.
+1. Na lista **[!UICONTROL Extension]**suspensa, selecione**[!UICONTROL Mobile Core]**.
 
-1. Na lista **[!UICONTROL Action Type]** suspensa, selecione **[!UICONTROL Attach Data]**.
+1. Na lista **[!UICONTROL Action Type]**suspensa, selecione**[!UICONTROL Attach Data]**.
 
-1. No painel direito, no **[!UICONTROL JSON Payload]** campo, digite os dados que serão adicionados a este Evento.
+1. No painel direito, no **[!UICONTROL JSON Payload]**campo, digite os dados que serão adicionados a este Evento.
 
 1. Clique em **[!UICONTROL Keep Changes]**.
 
@@ -76,13 +76,13 @@ No painel direito, é possível adicionar uma carga JSON de forma livre que adic
 
 No exemplo a seguir, `poi.city` e `poi.name` os valores são adicionados aos dados de contexto do evento do Analytics. Os valores das novas chaves são determinados dinamicamente pelo SDK quando esse evento é processado.
 
-!["criar uma ação"](/help/assets/ad-setAction_use-analytics-data.png)
+![&quot;criar uma ação&quot;](/help/assets/ad-setAction_use-analytics-data.png)
 
 ## 5. Salve a regra e recrie sua propriedade
 
 Após concluir a configuração, verifique se a Regra se parece com a seguinte imagem:
 
-!["a regra está completa."](/help/assets/ad-ruleComplete_use-analytics-data.png)
+![&quot;a regra está completa.&quot;](/help/assets/ad-ruleComplete_use-analytics-data.png)
 
 1. Clique em **[!UICONTROL Save]**
 
