@@ -2,7 +2,7 @@
 title: Referência da API de locais
 description: Informações sobre as referências da API em Locais.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 23437e28bdfb12f664481d22f9f6df0ba6c30329
 
 ---
 
@@ -351,7 +351,28 @@ Esta é a amostra de código para este método:
 
 ### setAuthorizationStatus (Android)
 
-Em breve
+*Disponível a partir do Places v1.4.0*
+
+Define o status de autorização na extensão Locais.
+
+O status fornecido é armazenado no estado compartilhado Locais e é apenas para referência.
+Chamar esse método não afeta o status real de autorização de localização desse dispositivo.
+
+**Sintaxe**
+
+Esta é a sintaxe para este método:
+
+```java
+public static void setAuthorizationStatus(final PlacesAuthorizationStatus status);
+```
+
+**Exemplo**
+
+Esta é a amostra de código para este método:
+
+```java
+Places.setAuthorizationStatus(PlacesAuthorizationStatus.ALWAYS);
+```
 
 ### setAuthorizationStatus (iOS)
 
