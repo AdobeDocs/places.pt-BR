@@ -45,7 +45,7 @@ Depois que os eventos de localização são validados corretamente, as integraç
 |  | **Testando mensagens no aplicativo do Adobe Campaign Standard com o Serviço de localização.** |  |
 | 12 | No painel principal Campanha, configure uma nova mensagem no aplicativo (tipo = transmissão) |  |
 | 12a | Em acionadores, selecione o tipo de evento **Locais - Entrada como acionador**. |  |
-| 12b | Selecione **[UICONTROL Possui metadados]**personalizados como filtro adicional - use o tipo POI = Último POI inserido.<br>Usamos**[!UICONTROL Last Entered]** o tipo POI porque na maioria dos casos, **[!UICONTROL Last Entered]**será o mesmo que**[!UICONTROL Current POI]**. <br><br>**[!UICONTROL Current POI]** deve ser usado somente em casos em que há sobreposição de fronteiras geográficas POI. Nesse caso, esses POIs precisam ser CLASSIFICADOS e, em seguida, o **[!UICONTROL Current POI]**exibirá o POI classificado no topo das 2 ou 3 fronteiras geográficas em que um usuário pode estar atualmente. |  |
+| 12b | Selecione **[UICONTROL Possui metadados]** personalizados como filtro adicional - use o tipo POI = Último POI inserido.<br>Usamos **[!UICONTROL Last Entered]** o tipo POI porque na maioria dos casos, **[!UICONTROL Last Entered]** será o mesmo que **[!UICONTROL Current POI]**. <br><br>**[!UICONTROL Current POI]** deve ser usado somente em casos em que há sobreposição de fronteiras geográficas POI. Nesse caso, esses POIs precisam ser CLASSIFICADOS e, em seguida, o **[!UICONTROL Current POI]** exibirá o POI classificado no topo das 2 ou 3 fronteiras geográficas em que um usuário pode estar atualmente. |  |
 | 12c | Selecione uma chave de metadados personalizada que o ajudará a restringir quais POIs receberão uma mensagem. |  |
 | 12d | Para frequência e duração, guarde apenas um ou dois dias, para que, se você não gostar dos critérios, possa expirar o acionador em um período de tempo mais curto. |  |
 | 12e | Para clicar em Sempre/Uma vez ou Até, selecione *SEMPRE* para poder testar em vários locais. | Uma mensagem no aplicativo é exibida SEMPRE quando você simula uma alteração de local que atenda aos critérios de metadados apropriados. |
@@ -62,7 +62,7 @@ Depois que os eventos de localização são validados corretamente, as integraç
 | 16e | Para click-through Sempre/Uma ou Até, **[!UICONTROL ALWAYS]**. |  |
 | 16f | Para o tipo de exibição, selecione **[!UICONTROL Local Notification]**. |  |
 | 16g | Prepare/confirme e implante a mensagem no aplicativo. |  |
-| 17 | No ambiente do desenvolvedor, conecte seu dispositivo e pressione **[!UICONTROL Play]**na compilação. Depois de estabelecer que o local está funcionando, coloque o aplicativo em segundo plano e continue alternando os locais no Xcode ou no Android Studio. Você ainda deve ver as leituras do console indicando a alteração de local e também deve ver as notificações locais exibidas dependendo dos critérios definidos no seu acionador. (Pode haver um atraso de 1 a 2 segundos.) | O resultado esperado é que as notificações locais são exibidas sempre que os critérios de correspondência forem atendidos. |
+| 17 | No ambiente do desenvolvedor, conecte seu dispositivo e pressione **[!UICONTROL Play]** na compilação. Depois de estabelecer que o local está funcionando, coloque o aplicativo em segundo plano e continue alternando os locais no Xcode ou no Android Studio. Você ainda deve ver as leituras do console indicando a alteração de local e também deve ver as notificações locais exibidas dependendo dos critérios definidos no seu acionador. (Pode haver um atraso de 1 a 2 segundos.) | O resultado esperado é que as notificações locais são exibidas sempre que os critérios de correspondência forem atendidos. |
 |  | **RESUMO** Nesta <br>fase, deveríamos ver entradas POI no nosso ambiente local. Também devemos ver mensagens do Campaign baseadas no trabalho do POI. Se houver falhas, verifique se uma notificação por falta não foi enviada. Se não houver uma mensagem de falta, verifique o console do aplicativo, pois uma nova entrada de local pode não ter sido registrada. Se os resultados forem bem-sucedidos, então podemos ter certeza de que o aplicativo está funcionando corretamente e de que o Serviço de Localização e o Serviço de Mensagens de Campanha também estão funcionando corretamente. |  |
 |  | **TESTE** NO SITE Pouco <br>deve mudar ao testar a localização. Manter o postback de folga ativo deve ajudar a entender se o dispositivo está recebendo uma entrada e uma saída para o local. |  |
 | 18 | Realize testes com dispositivos que começam com wifi e celular desativados e depois habilitem uma vez na região POI. | Se houver uma falha, observe se você está recebendo uma entrada de cerca geográfica e uma notificação em falta. Qual é o carimbo de data e hora na notificação Slow? |
@@ -72,7 +72,7 @@ Depois que os eventos de localização são validados corretamente, as integraç
 
 ## Amostras de registro
 
-**** Etapa 8: Registros do iOS e Android esperados durante uma atualização de localização
+**Etapa 8:** Registros do iOS e Android esperados durante uma atualização de localização
 
 **iOS**
 
@@ -100,7 +100,7 @@ PlacesMonitor - Attempting to Monitor POI with id <poi id> name <poi name> latit
 PlacesMonitor - Successfully added n fences for monitoring
 ```
 
-**** Etapa 9 : Registros esperados do iOS e Android durante um evento
+**Etapa 9:** Registros esperados do iOS e Android durante um evento
 
 **iOS**
 
