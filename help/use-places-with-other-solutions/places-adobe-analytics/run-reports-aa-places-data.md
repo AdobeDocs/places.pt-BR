@@ -2,7 +2,7 @@
 title: Adicionar contexto de localização às solicitações do Analytics
 description: Esta seção fornece informações sobre como adicionar o contexto de localização às solicitações do Analytics.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
@@ -11,9 +11,9 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 >[!IMPORTANT]
 >
->Este documento presume que você tenha o Adobe Places implementado em seu aplicativo. Para obter mais informações sobre a implementação do Adobe Places, consulte Extensões [do](/help/places-ext-aep-sdks/places-extension/places-extension.md)Places.
+>Este documento supõe que você tenha o Serviço de Locais implementado em seu aplicativo. Para obter mais informações sobre como implementar o Serviço de Locais, consulte [Extensões](/help/places-ext-aep-sdks/places-extension/places-extension.md)de Locais.
 
-Depois que o Places enviar os eventos de entrada e saída, você pode criar regras no Experience Platform Launch e anexar seus dados do Places a todos os eventos do Adobe Analytics. Para criar esse tipo de regra, selecione sua propriedade em Iniciar e conclua as seguintes etapas:
+Depois que o Places Service enviar os eventos de entrada e saída, você pode criar regras no Experience Platform Launch e anexar seus dados do Places Service a todos os eventos do Adobe Analytics. Para criar esse tipo de regra, selecione sua propriedade em Iniciar e conclua as seguintes etapas:
 
 ## 1. Criar uma regra
 
@@ -27,7 +27,7 @@ Depois que o Places enviar os eventos de entrada e saída, você pode criar regr
 
 1. Dê um nome significativo à sua regra para que ela seja facilmente reconhecível na sua lista de Regras.
 
-   Neste exemplo, a Regra é nomeada **[!UICONTROL Attach Places Data to Analytics Track Action Events]**.
+   Neste exemplo, a Regra é nomeada **[!UICONTROL Attach Places Service Data to Analytics Track Action Events]**.
 
 1. Na **[!UICONTROL Events]**seção, clique em**[!UICONTROL Add]**.
 
@@ -50,7 +50,7 @@ Neste exemplo, é criada uma Condição que faz com que a Regra seja acionada so
 
 1. Na **[!UICONTROL Conditions]**seção, clique em**[!UICONTROL Add]**.
 
-1. Na lista **[!UICONTROL Extension]**suspensa, selecione**[!UICONTORL  Mobile Core]**.
+1. Na lista **[!UICONTROL Extension]**suspensa, selecione**[!UICONTROL Mobile Core]**.
 
 1. Na lista **[!UICONTROL Condition Type]**suspensa, selecione**[!UICONTROL Carrier Name]**.
 
