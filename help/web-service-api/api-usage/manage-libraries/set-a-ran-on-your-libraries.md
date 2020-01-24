@@ -2,12 +2,12 @@
 title: Definir uma classificação em suas bibliotecas
 description: Defina uma classificação em suas bibliotecas usando a API REST do Places.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
 
-# Definir uma classificação em suas bibliotecas
+# Definir uma classificação em suas bibliotecas {#set-rank-on-libraries}
 
 Um método PUT que permite definir uma ordem de classificação em todas as bibliotecas.
 
