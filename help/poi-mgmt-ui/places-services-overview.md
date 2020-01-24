@@ -2,14 +2,14 @@
 title: Visão geral do Places Service
 description: 'Esta seção fornece informações sobre como criar e usar pontos de interesse (POIs). '
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
 
 ---
 
 
-# Visão geral do serviço Places {#places-service-overview}
+# Visão geral do Places Service {#places-service-overview}
 
-Os POIs são criados e gerenciados no banco de dados Locais usando a interface do usuário Locais.
+Os POIs são criados e gerenciados no banco de dados do Places Service usando a interface do usuário do Places Service.
 
-* Para criar ou modificar uma biblioteca, consulte [Gerenciar bibliotecas na interface do usuário](/help/poi-mgmt-ui/manage-libraries-in-the-places-ui.md)do Places.
-* Para criar ou modificar um POI, consulte [Gerenciar POIs na interface do usuário](/help/poi-mgmt-ui/managing-pois-in-the-places-ui.md)Locais.
+* Para criar ou modificar uma biblioteca, consulte [Gerenciar bibliotecas](/help/poi-mgmt-ui/manage-libraries-in-the-places-ui.md).
+* Para criar ou modificar um POI, consulte [Gerenciar POIs](/help/poi-mgmt-ui/managing-pois-in-the-places-ui.md).
