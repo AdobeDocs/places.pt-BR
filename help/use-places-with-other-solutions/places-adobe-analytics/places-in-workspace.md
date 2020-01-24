@@ -2,7 +2,7 @@
 title: Relatório de dados de localização no Analytics Workspace
 description: Esta seção fornece informações sobre como relatar os dados de localização no Analytics Workspace.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
@@ -15,11 +15,17 @@ Este documento mostra um exemplo de como relatar os dados de localização na An
 
 Este documento presume o seguinte:
 
-1. A extensão do Adobe Places é implementada em seu aplicativo. Para obter mais informações sobre a implementação do Adobe Places, consulte Extensões [do](/help/places-ext-aep-sdks/places-extension/places-extension.md)Places.
+1. A extensão Locais é implementada em seu aplicativo.
 
-1. O usuário do Adobe Analytics é um administrador e tem acesso às regras de processamento. Para obter mais informações sobre regras de processamento, consulte [Visão geral das regras de processamento](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+   Para obter mais informações sobre como implementar a extensão Locais, consulte Extensões [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Locais.
 
-1. Na propriedade Launch, os elementos de dados foram criados para as variáveis do Serviço de localização desejado. Para obter mais informações sobre elementos de dados no Launch, consulte [Definir um elemento](/help/use-places-launch-workflow/define-data-elements.md)de dados.
+1. O usuário do Adobe Analytics é um administrador e tem acesso às regras de processamento.
+
+   Para obter mais informações sobre regras de processamento, consulte [Visão geral das regras de processamento](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+
+1. Na propriedade Launch, os elementos de dados foram criados para as variáveis do Serviço de Locais desejadas.
+
+   Para obter mais informações sobre elementos de dados no Launch, consulte [Definir um elemento](/help/use-places-launch-workflow/define-data-elements.md)de dados.
 
 
 ## 1. Criar uma regra de inicialização
@@ -36,7 +42,7 @@ Neste exemplo, a ação da regra tem os seguintes valores definidos para a solic
 
 ## 2. Criar variáveis do Analytics
 
-Para mapear os dados de contexto (enviados na etapa 1), as variáveis devem primeiro ser criadas para o conjunto de relatórios do Analytics. Para obter mais informações sobre como criar variáveis no Analytics, consulte Variáveis [de conversão \(eVars\)](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-conversion-variables-evar.html).
+Para mapear os dados de contexto (enviados na etapa 1), as variáveis devem primeiro ser criadas para o conjunto de relatórios do Analytics. Para obter mais informações sobre como criar variáveis no Analytics, consulte Variáveis [de conversão (eVars)](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-conversion-variables-evar.html).
 
 Neste exemplo, uma variável de conversão, **[!UICONTROL Evar2]**, foi criada e nomeada**[!UICONTROL Places POI Name]**. Variáveis adicionais precisam ser criadas para cada variável de localização que você deseja expor nos relatórios.
 
@@ -46,7 +52,7 @@ Neste exemplo, uma variável de conversão, **[!UICONTROL Evar2]**, foi criada e
 
 Essa etapa é necessária para mapear dados de contexto (etapa 1) para as variáveis do Analytics (etapa 2). For more information on creating processing rules, see [Processing rules overview](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
-Neste exemplo, uma regra de processamento foi criada para mapear o valor de dados de contexto **[!UICONTROL poi.name]**para**[!UICONTROL Places POI Name \(eVar2\)]**. Regras de processamento adicionais precisam ser criadas para cada variável de localização criada.
+Neste exemplo, uma regra de processamento foi criada para mapear o valor de dados de contexto **[!UICONTROL poi.name]**para**[!UICONTROL Places POI Name (eVar2)]**. Regras de processamento adicionais precisam ser criadas para cada variável de localização criada.
 
 ![&quot;criar uma regra de processamento&quot;](/help/assets/aa-processing-rule.png)
 
