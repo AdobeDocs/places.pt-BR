@@ -2,12 +2,12 @@
 title: Leia todos os POIs em sua organização
 description: Leia todos os POIs em sua organização usando as APIs REST do Places.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
 
-# Leia todos os POIs em sua organização
+# Leia todos os POIs em sua organização {#read-all-pois-org}
 
 Um método GET que retorna todos os POIs em sua organização.
 
