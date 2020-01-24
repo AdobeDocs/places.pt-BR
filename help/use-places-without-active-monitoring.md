@@ -1,15 +1,15 @@
 ---
-title: Usar Serviço de Localização sem monitoramento de região ativa
-description: Esta seção fornece informações sobre como usar o Location ServicePlaces sem monitoramento de região ativa.
+title: Usar o Serviço de Locais sem monitoramento de região ativa
+description: Esta seção fornece informações sobre como usar o Serviço de Locais sem monitoramento de região ativa.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ---
 
 
-# Usar Serviço de Localização sem monitoramento de região ativa {#use-places-without-active-monitoring}
+# Usar o Serviço de Locais sem monitoramento de região ativa {#use-places-without-active-monitoring}
 
-Casos de uso para seu aplicativo podem não exigir monitoramento de região ativa. O Adobe Places ainda pode ser usado para integrar os dados de localização dos usuários a outros produtos da plataforma de experiência.
+Casos de uso para seu aplicativo podem não exigir monitoramento de região ativa. O Serviço de Locais ainda pode ser usado para obter os dados de localização dos usuários integrados a outros produtos da plataforma Experience.
 
 Esta seção explica como concluir uma verificação de associação POI somente no momento da coleta da localização do usuário (latitude e longitude).
 
@@ -19,9 +19,9 @@ O desenvolvedor coletará a localização do dispositivo usando as APIs fornecid
 
 >[!TIP]
 >
->Se os casos de uso do aplicativo exigirem monitoramento de região ativa, leia [usando a extensão](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)do monitor de locais.
+>Se os casos de uso do aplicativo exigirem monitoramento de região ativa, consulte [Uso da extensão](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)do Monitor de locais.
 
-Para usar Locais sem monitoramento de região ativa:
+Para usar o Serviço de Locais sem monitoramento de região ativa:
 
 ## 1. Coletar a localização do usuário
 
@@ -396,6 +396,6 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 }
 ```
 
-Além de acionar eventos de entrada de Locais no SDK, devido aos eventos de entrada de acionamento, todos os dados que definem seus POIs podem ser usados pelo restante do SDK via `data elements` Launch. Com o Launch `rules`, você pode anexar dinamicamente os dados de Locais aos eventos recebidos que são processados pelo SDK. Por exemplo, você pode anexar os metadados de um POI no qual o usuário está localizado e enviar os dados para o Analytics como dados de contexto.
+Além de disparar os eventos de entrada do Serviço de Locais no SDK, devido aos eventos de entrada de acionamento, todos os dados que definem seus POIs podem ser usados pelo restante do SDK por meio do `data elements` Experience Platform Launch. Com o Experience Platform Launch `rules`, você pode anexar dinamicamente os dados do Serviço de Locais aos eventos recebidos processados pelo SDK. Por exemplo, você pode anexar os metadados de um POI no qual o usuário está localizado e enviar os dados para o Analytics como dados de contexto.
 
-Para obter mais informações, consulte [Uso de locais com outras soluções](/help/use-places-with-other-solutions/use-places-with-other-solutions.md)da Adobe.
+Para obter mais informações, consulte [Uso do serviço Places com outras soluções](/help/use-places-with-other-solutions/use-places-with-other-solutions.md)da Adobe.
