@@ -1,15 +1,15 @@
 ---
 title: Notificações no aplicativo
-description: Esta seção mostra como usar os Locais com mensagens no aplicativo.
+description: Esta seção mostra como usar o Serviço de Locais com mensagens no aplicativo.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 
-# Notificações no aplicativo (#place-push-messaging)
+# Notificações no aplicativo {#places-push-messaging}
 
-As informações a seguir mostram como configurar mensagens no aplicativo para disparar dos eventos Locais.
+As informações a seguir mostram como configurar mensagens no aplicativo para disparar dos eventos do Serviço de Locais.
 
 >[!IMPORTANT]
 >
@@ -35,7 +35,7 @@ Antes de começar, você entende como enviar e criar uma mensagem no aplicativo 
 
 ## Regras do Experience Platform Launch
 
-É possível criar regras de inicialização que enviem os dados que você deseja que possam ser usados como parte das regras de Acionador de mensagem no aplicativo para o Analytics. Você pode usar dados das extensões Locais nas regras de lançamento como eventos e/ou condições, dependendo do caso de uso.
+Você pode criar regras de inicialização da plataforma Experience que enviam os dados que você deseja que possam ser usados como parte das regras de disparador de mensagens no aplicativo para o Analytics. Você pode usar dados das extensões Locais nas regras de lançamento da plataforma da Experience como eventos e/ou condições, dependendo do caso de uso.
 
 * Usar dados de localização como evento de acionamento.
 
@@ -43,7 +43,7 @@ Antes de começar, você entende como enviar e criar uma mensagem no aplicativo 
 
 * Uso de dados de localização como uma Condição para um evento de acionamento.
 
-   Por exemplo, se você tiver criado uma tag de metadados personalizada no Serviço de localização para o tempo em POIs diferentes, poderá usar esses metadados como parâmetro para a condição Regra. Embora seja possível usar essa condição com um evento de entrada POI descrito anteriormente, também é possível usar a condição como contexto para qualquer evento.
+   Por exemplo, se você criou uma tag de metadados personalizada no Serviço de locais para o tempo em POIs diferentes, você pode usar esses metadados como parâmetro para a condição Regra. Embora seja possível usar essa condição com um evento de entrada POI descrito anteriormente, também é possível usar a condição como contexto para qualquer evento.
 
 Depois que a regra for configurada com os parâmetros de evento e condição apropriados, conclua a configuração da regra configurando a ação para enviar dados ao Analytics.
 
@@ -70,7 +70,7 @@ Este é um exemplo da regra completa:
 
 ## Criar uma mensagem no aplicativo no Mobile Services
 
-Como parte dos parâmetros do Acionador, você pode criar o público-alvo para a mensagem com dados do Serviço de localização de uma das seguintes maneiras:
+Como parte dos parâmetros do Acionador, você pode criar o público-alvo para a mensagem com dados do Serviço de Locais de uma das seguintes maneiras:
 
 * Usando ações específicas de localização, como uma entrada ou uma saída.
 * Usar metadados POI enviados como dados de contexto para restringir a meta do seu público-alvo.
@@ -81,6 +81,6 @@ Como parte dos parâmetros do Acionador, você pode criar o público-alvo para a
 
    ![parâmetros de acionamento](/help/assets/trigger-parameters.png)
 
-* Os parâmetros nos cabeçalhos Locais na página *Acionadores e Características* no Mobile Services não funcionam com dados do Serviço de Localização.
+* Os parâmetros nos cabeçalhos do Serviço de Locais na página *Acionadores e Características* no Mobile Services não funcionam com dados do Serviço de Locais.
 
-   Esses parâmetros são apenas para o banco de dados herdado do Places criado no Mobile Services.
+   Esses parâmetros são apenas para o banco de dados herdado do Places Service criado no Mobile Services.
