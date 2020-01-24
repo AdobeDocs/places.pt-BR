@@ -2,14 +2,14 @@
 title: Perguntas frequentes
 description: Este tópico fornece informações adicionais sobre algumas perguntas frequentes.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 
 # Perguntas frequentes
 
-Estas são algumas informações e perguntas frequentes sobre o Serviço de Localização.
+Estas são algumas informações e perguntas frequentes sobre o Serviço Places.
 
 ## Tamanho e confiabilidade
 
