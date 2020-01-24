@@ -2,7 +2,7 @@
 title: Visão geral
 description: Compreensão e uso das APIs de consulta.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
@@ -20,7 +20,7 @@ GET https://query.places.adobe.com/placesedgequery
 
 Com a seguinte entrada, o serviço retorna uma lista dos POIs mais próximos do chamador:
 
-* A posição do chamador \(latitude, longitude\).
+* A posição do chamador (latitude, longitude).
 * As IDs das bibliotecas POI a serem incluídas na pesquisa.
 * O número máximo de POIs a retornar.  O valor padrão é 100.
 
