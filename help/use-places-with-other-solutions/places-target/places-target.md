@@ -1,17 +1,17 @@
 ---
 title: Adobe Target
-description: Esta seção fornece informações sobre como usar o Serviço de localização com o Adobe Target.
+description: Esta seção fornece informações sobre como usar o Serviço de Locais com o Adobe Target.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 
-# Usar o Serviço de Localização com o Adobe Target {#places-target}
+# Usar o Serviço de Locais com o Adobe Target {#places-target}
 
 Este documento supõe que você tenha a extensão Locais implementada em seu aplicativo. Se precisar de ajuda para implementar a extensão de Locais, consulte Extensões [de](/help/places-ext-aep-sdks/places-extension/places-extension.md)Locais.
 
-Depois que a extensão Locais estiver enviando eventos para entradas e saídas, você poderá aproveitar as Regras no Launch para anexar seus dados do Local aos eventos do SDK do Adobe Target. Com a propriedade desejada selecionada em Iniciar, você pode criar esse tipo de regra concluindo as seguintes tarefas:
+Depois que a extensão Locais estiver enviando eventos para entradas e saídas, você poderá aproveitar as Regras no Launch para anexar seus dados do Serviço de Locais aos eventos do SDK do Adobe Target. Com a propriedade desejada selecionada em Iniciar, você pode criar esse tipo de regra concluindo as seguintes tarefas:
 
 ## 1. Criar uma regra
 
@@ -26,7 +26,7 @@ Depois que a extensão Locais estiver enviando eventos para entradas e saídas, 
 
 1. Dê um nome significativo à sua regra para que ela seja facilmente reconhecível na sua lista de Regras.
 
-   Neste exemplo, a Regra é nomeada **[!UICONTROL Attach Places Data to Target Content Requested]**.
+   Neste exemplo, a Regra é nomeada **[!UICONTROL Attach Places Service Data to Target Content Requested]**.
 
 1. Na **[!UICONTROL Events]**seção, clique em**[!UICONTROL Add]**.
 
