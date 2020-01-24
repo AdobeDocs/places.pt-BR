@@ -1,15 +1,15 @@
 ---
-title: Criação de uma regra para sua propriedade Locais
+title: Criação de uma regra para sua propriedade Places Service
 description: 'O SDK de Locais controla o local atual, monitora os POIs configurados em torno do local atual e rastreia os eventos de entrada e saída desses POIs. '
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
 
 ---
 
 
 # Criar regras de entrada e saída {#create-entry-exit-rules}
 
-Com as extensões do Monitor de locais e locais instaladas em seu aplicativo móvel, você pode criar regras no Adobe Experience Platform Launch que são acionadas ou condicionadas pelos dados de localização, incluindo eventos de entrada e saída.
+Com as extensões Places e Places Monitor instaladas em seu aplicativo móvel, você pode criar regras no Adobe Experience Platform Launch que são acionadas ou condicionadas pelos dados de localização, incluindo eventos de entrada e saída.
 
 ## Regras
 
@@ -19,14 +19,14 @@ Você pode configurar uma regra, que é composta de um evento, uma condição e 
 * (Opcional) condições
 * Uma ou mais ações
 
-### Eventos de local
+### Eventos do Serviço Local
 
-Os locais oferecem os seguintes eventos nos quais você pode executar uma regra:
+O Serviço de Locais oferece os seguintes eventos nos quais você pode executar uma regra:
 
 * **Insira o POI**, que é acionado pelo SDK de Locais quando o cliente entra no POI configurado.
 * **Saia do POI**, que é acionado pelo SDK de Locais quando seu cliente sai do POI configurado.
 
-### Condições de locais
+### Condições de serviço de locais
 
 As condições definem os critérios que os dados associados ao evento, ou o estado compartilhado de uma extensão nessa instância, devem atender para que a ação seja tomada. Por exemplo, você pode definir uma condição para acionar uma ação em uma entrada em uma cafeteria somente na cidade de São Francisco.
 
@@ -39,7 +39,7 @@ O SDK de Locais mantém os seguintes estados:
 Cada POI contém os seguintes elementos de dados:
 
 * ID
-* Nome:
+* Nome
 * Latitude/longitude
 * Raio
 * Metadados como cidade, país, estado, categoria
@@ -76,7 +76,7 @@ Para criar um elemento de dados no Experience Platform Launch:
 1. No painel direito, selecione POI **atual**.
 1. Clique em **Salvar**.
 
-### Criar uma regra no Experience Platform Launch for Places
+### Criar uma regra no Experience Platform Launch for Places Service
 
 ![criação de uma regra](/help/assets/placesrule.png)
 
@@ -122,10 +122,10 @@ Para criar um elemento de dados no Experience Platform Launch:
 
 ### Publicar a regra
 
-1. Para ativar a regra, é necessário publicá-la. Para obter mais informações sobre como publicar sua regra no Experience Platform Launch, consulte [Publicação](https://docs.adobelaunch.com/launch-reference/publishing).
+1. Para ativar a regra, é necessário publicá-la. Para obter mais informações sobre como publicar sua regra no Experience Platform Launch, consulte [Publicação](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html).
 
 ### Pensando além das entradas e saídas
 
-O uso de entradas e saídas geográficas do Serviço de Localização para acionar regras no Experience Platform Launch é incrivelmente poderoso, mas você também pode usar os dados de localização como condição para que outros eventos sejam acionados. Por exemplo, você pode ter um acionador de evento Mobile Core Track Action pronto para disparar com base em um evento de chamada trackAction específico dentro do aplicativo. Com base nesse evento, você pode colocar condições de localização adicionais ao evento antes que uma ação seja executada. Por exemplo, abra uma pesquisa no aplicativo quando um `trackAction` evento de compra ocorrer, mas **somente** se o local atual do usuário incluir metadados específicos do Serviço de localização.
+O uso de entradas e saídas geográficas do Serviço de Locais para acionar regras no Experience Platform Launch é incrivelmente poderoso, mas você também pode usar os dados de localização como condição para que outros eventos sejam acionados. Por exemplo, você pode ter um acionador de evento Mobile Core Track Action pronto para disparar com base em um evento de chamada trackAction específico dentro do aplicativo. Com base nesse evento, você pode colocar condições de localização adicionais ao evento antes que uma ação seja executada. Por exemplo, abra uma pesquisa no aplicativo quando um `trackAction` evento de compra ocorrer, mas **somente** se o local atual do usuário incluir metadados específicos do Serviço de Locais.
 
 ![criar uma condição](/help/assets/places-condition.png)
