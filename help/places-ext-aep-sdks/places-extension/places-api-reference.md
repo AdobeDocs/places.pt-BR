@@ -2,18 +2,18 @@
 title: Referência da API de locais
 description: Informações sobre as referências da API em Locais.
 translation-type: tm+mt
-source-git-commit: 23437e28bdfb12f664481d22f9f6df0ba6c30329
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 
 # Referência da API de locais {#places-api-reference}
 
-Estas são informações sobre as referências da API em Locais:
+Estas são informações sobre as referências de API na extensão Locais:
 
 ## Processando um evento de região
 
-Quando um dispositivo ultrapassa um dos limites predefinidos da região Locais do aplicativo, a região e o tipo de evento são passados para o SDK para processamento.
+Quando um dispositivo ultrapassa um dos limites predefinidos da região Places Service do aplicativo, a região e o tipo de evento são passados para o SDK para processamento.
 
 ### ProcessGeofence (Android)
 
@@ -309,7 +309,7 @@ Esta é a amostra de código para este método:
 
 ### Limpar (Android)
 
-Limpa os dados do cliente para Locais em estado compartilhado, armazenamento local e na memória.
+Limpa os dados do lado do cliente para a extensão Locais no estado compartilhado, no armazenamento local e na memória.
 
 **Sintaxe**
 
@@ -329,7 +329,7 @@ Places.clear();
 
 ### clear (iOS)
 
-Limpa os dados do cliente para Locais em estado compartilhado, armazenamento local e na memória.
+Limpa os dados do lado do cliente para a extensão Locais no estado compartilhado, no armazenamento local e na memória.
 
 **Sintaxe**
 
