@@ -1,15 +1,15 @@
 ---
 title: Usando seu próprio monitor
-description: Você também pode usar seus serviços de monitoramento e fazer a integração com o Places usando as APIs de extensão do Places.
+description: Você também pode usar seus serviços de monitoramento e fazer a integração com o Serviço de Locais usando as APIs de extensão do Serviço de Locais.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 
 # Usando seu próprio monitor {#using-your-monitor}
 
-Você também pode usar seus serviços de monitoramento e fazer a integração com o Places usando as APIs de extensão do Places.
+Você também pode usar seus serviços de monitoramento e fazer a integração com o Serviço de Locais usando as APIs de extensão de Locais.
 
 ## Registrando Geofences
 
