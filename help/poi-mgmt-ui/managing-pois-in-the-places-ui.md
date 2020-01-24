@@ -1,8 +1,8 @@
 ---
 title: Gerenciar POIs existentes
-description: Na interface do usuário do Serviço de Localização, é possível editar, excluir ou filtrar POIs existentes.
+description: Na interface do usuário do Serviço de Locais, é possível editar, excluir ou filtrar POIs existentes.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ---
 
@@ -32,7 +32,7 @@ Os POIs e as bibliotecas são criados e gerenciados no banco de dados Locais usa
 
 ![filtrar um POI](/help/assets/filter_poi.png)
 
-1. Faça logon na interface do usuário do Serviço de localização usando sua Adobe ID.
+1. Faça logon na interface do usuário do serviço Places usando sua Adobe ID.
 1. No lado superior direito, clique no ícone de filtragem.
 1. É possível filtrar POIs de uma das seguintes maneiras:
 
@@ -61,6 +61,7 @@ Geofences são um tipo de POI e são definidos no banco de dados com base nas se
 | ID | Identificador exclusivo atribuído a cada POI | Sim |
 | Nome | Nome amigável dado ao POI. | Sim |
 | Biblioteca | Cada POI deve receber uma biblioteca para a organização. | Sim |
+| Raio | O raio do seu POI em metros. | Sim |
 | Ícone | Assistir a visualizações dos POIs. | Sim (padrão atribuído) |
 | Cor do canal | Assistir a visualizações dos POIs. | Sim (padrão atribuído) |
 | Categoria | Atribua uma estrutura comum de categorias comuns em todos os POIs em todas as bibliotecas. | Não |
