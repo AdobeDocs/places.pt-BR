@@ -2,12 +2,12 @@
 title: Criar uma biblioteca
 description: Crie uma biblioteca usando a API REST do Places.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
 
-# Criar uma biblioteca
+# Criar uma biblioteca {#create-a-library}
 
 Um método POST que permite criar uma biblioteca.
 
