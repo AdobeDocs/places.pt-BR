@@ -2,7 +2,7 @@
 title: Extensão do Places
 description: A extensão Locais permite que você atue com base na localização dos usuários.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ---
 
@@ -22,7 +22,7 @@ A extensão Locais permite que você atue com base na localização dos usuário
 
 1. Conclua o processo de publicação para atualizar a configuração do SDK.
 
-   Para obter mais informações sobre a publicação no Experience Platform Launch, consulte [Publicação](https://docs.adobelaunch.com/launch-reference/publishing).
+   Para obter mais informações sobre a publicação no Experience Platform Launch, consulte [Publicação](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html).
 
 ### Configure the Places extension {#configure-places-extension}
 
@@ -61,7 +61,7 @@ Para adicionar a extensão de Locais ao aplicativo usando Objetive-C ou Swift:
    pod 'ACPCore', '~> 2.0'    # minimum Core version for Places is 2.0.3
    ```
 
-   Como alternativa, se você não estiver usando o Cocoapods, poderá incluir manualmente as bibliotecas do Mobile Core e do Places da nossa página [de](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) lançamentos no Github.
+   Como alternativa, se você não estiver usando Cocoapods, poderá incluir manualmente as bibliotecas do Mobile Core e do Places da nossa página [de](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) lançamentos no Github.
 
 1. Atualize seus Cocoapods:
 
@@ -69,7 +69,7 @@ Para adicionar a extensão de Locais ao aplicativo usando Objetive-C ou Swift:
    pod update
    ```
 
-1. Abra o Xcode e, na classe AppDelegate, importe os cabeçalhos Principais e Locais:
+1. Abra o Xcode e, na classe AppDelegate, importe os cabeçalhos Core e Places:
 
    **Objetive-C**
 
@@ -85,13 +85,13 @@ Para adicionar a extensão de Locais ao aplicativo usando Objetive-C ou Swift:
    import ACPPlaces
    ```
 
-### Registre locais com o Mobile Core {#register-places-mobile-core}
+### Registre a extensão Places com o Mobile Core {#register-places-mobile-core}
 
-Você precisa registrar Locais com o Mobile Core no Android e iOS.
+Você precisa registrar a extensão Places no Mobile Core no Android e no iOS.
 
 #### Android
 
-No `OnCreate` método do aplicativo, registre as extensões dos serviços de localização:
+No `OnCreate` método do aplicativo, registre as extensões de Locais:
 
 ```java
 public class PlacesTestApp extends Application {
@@ -137,10 +137,10 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 ## Chaves de configuração
 
-Para atualizar a configuração do SDK programaticamente no tempo de execução, use as seguintes informações para alterar os valores de configuração do Places. Para obter mais informações, consulte Referência [da API de](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/configuration/configuration-api-reference)configuração.
+Para atualizar a configuração do SDK de forma programática em tempo de execução, use as seguintes informações para alterar os valores de configuração da extensão do Places. Para obter mais informações, consulte Referência [da API de](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/configuration/configuration-api-reference)configuração.
 
 | Chave | Obrigatório | Descrição |
 | :--- | :--- | :--- |
-| `places.libraries` | Sim | As bibliotecas de locais do aplicativo móvel. Ela especifica a ID da biblioteca e o nome da biblioteca que o aplicativo móvel suporta. |
-| `places.endpoint` | Sim | O terminal padrão do Serviço de consulta de localização da plataforma Experience, que é usado para obter informações sobre bibliotecas e POIs. |
+| `places.libraries` | Sim | As bibliotecas de extensão do Places para o aplicativo móvel. Ela especifica a ID da biblioteca e o nome da biblioteca que o aplicativo móvel suporta. |
+| `places.endpoint` | Sim | O ponto de extremidade padrão do Serviço de Consulta de Locais, que é usado para obter informações sobre bibliotecas e POIs. |
 
