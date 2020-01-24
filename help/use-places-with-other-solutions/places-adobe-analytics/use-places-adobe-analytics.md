@@ -2,7 +2,7 @@
 title: Enviar dados de entrada e saída do POI para o Analytics
 description: Esta seção fornece informações sobre como enviar dados de entrada e saída do POI ao Analytics.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
@@ -12,9 +12,9 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 >[!IMPORTANT]
 >
->Esta seção presume que você tenha Locais implementados em seu aplicativo. Para obter mais informações sobre como implementar Locais, consulte Extensões [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Locais.
+>Esta seção supõe que você tenha o Serviço de Locais implementado em seu aplicativo. Para obter mais informações sobre como implementar o Serviço de Locais, consulte [Extensões](/help/places-ext-aep-sdks/places-extension/places-extension.md)de Locais.
 
-Depois que o Places enviar os eventos de entrada e saída, você pode criar regras no Experience Platform Launch para enviar os dados do Local ao Adobe Analytics. Para criar esse tipo de regra, selecione sua propriedade em Iniciar e conclua as seguintes etapas:
+Depois que o Places Service enviar os eventos de entrada e saída, você pode criar regras no Experience Platform Launch para enviar os dados do Places Service ao Adobe Analytics. Para criar esse tipo de regra, selecione sua propriedade em Iniciar e conclua as seguintes etapas:
 
 ## 1. Criar uma regra
 
@@ -33,7 +33,7 @@ Depois que o Places enviar os eventos de entrada e saída, você pode criar regr
 
 1. In the **[!UICONTROL Events]**section, click**[!UICONTROL Add]**.
 
-1. Na lista **[!UICONTROL Extension]**suspensa, selecione**[!UICONTROL Places]**.
+1. Na lista **[!UICONTROL Extension]**suspensa, selecione**[!UICONTROL Places Service]**.
 
 1. Na lista **[!UICONTROL Event Type]**suspensa, selecione**[!UICONTROL Enter POI]**.
 
@@ -52,7 +52,7 @@ Neste exemplo, é criada uma Condição que faz com que a Regra seja acionada so
 
 1. Na **[!UICONTROL Conditions]**seção, clique em**[!UICONTROL Add]**.
 
-1. Na lista **[!UICONTROL Extension]**suspensa, selecione**[!UICONTROL Places]**.
+1. Na lista **[!UICONTROL Extension]**suspensa, selecione**[!UICONTROL Places Service]**.
 
 1. Na lista **[!UICONTROL Condition Type]**suspensa, selecione**[!UICONTROL Name]**.
 
