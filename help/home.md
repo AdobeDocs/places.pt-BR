@@ -2,7 +2,7 @@
 title: Serviço de locais
 description: 'O Serviço de Locais é um contexto importante para entender o envolvimento de usuários móveis. Ao usar esse contexto, os desenvolvedores de aplicativos móveis podem melhorar o design do aplicativo e torná-lo uma experiência mais personalizada e envolvente. '
 translation-type: tm+mt
-source-git-commit: 3b78f68d8c5eb79ccf842b629510cc60f4ac52d2
+source-git-commit: 0341e1c818bf61bee01e02c91a67f184c7778c0d
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 3b78f68d8c5eb79ccf842b629510cc60f4ac52d2
 
 ![&quot;Places Service&quot;](/help/assets/LocationHeader.png)
 
-A localização é um contexto importante para entender e se envolver com usuários móveis. Ao usar esse contexto, os desenvolvedores de aplicativos móveis podem melhorar o design do aplicativo e torná-lo uma experiência mais personalizada e envolvente.
+A localização é um contexto importante para entender e interagir com usuários móveis. Ao usar esse contexto, os desenvolvedores de aplicativos móveis podem melhorar o design do aplicativo e torná-lo uma experiência mais personalizada e envolvente.
 
 O Places Service, anteriormente conhecido como Adobe Experience Platform Location Service, é um serviço de localização geográfica que permite que aplicativos móveis com detecção de localização compreendam o contexto de localização usando interfaces SDK avançadas e fáceis de usar acompanhadas por um banco de dados flexível de pontos de interesse (POIs).
 
