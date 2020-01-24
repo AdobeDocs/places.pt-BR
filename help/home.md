@@ -1,21 +1,21 @@
 ---
-title: Serviço de localização da plataforma Adobe Experience
-description: 'O Serviço de localização é um contexto importante para entender o envolvimento de usuários móveis. Ao usar esse contexto, os desenvolvedores de aplicativos móveis podem melhorar o design do aplicativo e torná-lo uma experiência mais personalizada e envolvente. '
+title: Serviço de locais
+description: 'O Serviço de Locais é um contexto importante para entender o envolvimento de usuários móveis. Ao usar esse contexto, os desenvolvedores de aplicativos móveis podem melhorar o design do aplicativo e torná-lo uma experiência mais personalizada e envolvente. '
 translation-type: tm+mt
-source-git-commit: c20e720d23121970bb2fa1c63a2fd1e81c84b977
+source-git-commit: 3b78f68d8c5eb79ccf842b629510cc60f4ac52d2
 
 ---
 
 
-# Visão geral do Serviço de localização da plataforma Adobe Experience Platform {#home}
+# Serviço de locais {#home}
 
-![&quot;Adobe Experience Platform Location Service&quot;](/help/assets/LocationHeader.png)
+![&quot;Places Service&quot;](/help/assets/LocationHeader.png)
 
 A localização é um contexto importante para entender e se envolver com usuários móveis. Ao usar esse contexto, os desenvolvedores de aplicativos móveis podem melhorar o design do aplicativo e torná-lo uma experiência mais personalizada e envolvente.
 
-O Adobe Experience Platform Location Service (Location Service) é um serviço de localização geográfica que permite que aplicativos móveis com detecção de localização compreendam o contexto de localização usando interfaces SDK avançadas e fáceis de usar acompanhadas por um banco de dados flexível de pontos de interesse (POIs).
+O Places Service, anteriormente conhecido como Adobe Experience Platform Location Service, é um serviço de localização geográfica que permite que aplicativos móveis com detecção de localização compreendam o contexto de localização usando interfaces SDK avançadas e fáceis de usar acompanhadas por um banco de dados flexível de pontos de interesse (POIs).
 
-O Serviço de localização permite que você atinja o seguinte:
+O Serviço de Locais permite que você realize o seguinte:
 
 * Crie e gerencie um banco de dados com POIs que podem ser aproveitados com outras soluções da Adobe Experience Cloud.
 * Anexe metadados personalizados aos POIs para torná-los mais ricos e mais significativos ao especificar atributos adicionais.
@@ -32,9 +32,9 @@ Estas são algumas das maneiras de usar os Locais:
 * Segmentar um público-alvo com base no comportamento offline usando perfis de público-alvo com contexto de localização.
 * Direcione um usuário com uma experiência na loja quando relevante.
 
-## Componentes do Serviço de localização
+## Componentes do Places Service
 
-O Serviço de Localização inclui os seguintes componentes:
+O Serviço de Locais inclui os seguintes componentes:
 
 * **Serviço Web**
 
