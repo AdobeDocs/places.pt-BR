@@ -1,15 +1,15 @@
 ---
 title: Cabeçalhos e parâmetros
-description: Cabeçalhos e parâmetros disponíveis nas APIs REST do Places.
+description: Cabeçalhos e parâmetros disponíveis nas APIs REST do Places Service.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 
 # Cabeçalhos e parâmetros {#headers-and-parameters}
 
-Estes são os detalhes sobre os cabeçalhos e parâmetros que estão disponíveis na API REST do Places:
+Estes são os detalhes sobre os cabeçalhos e parâmetros que estão disponíveis na API REST do Places Service:
 
 ## Cabeçalhos suportados
 
