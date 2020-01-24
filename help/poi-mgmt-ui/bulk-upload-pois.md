@@ -2,7 +2,7 @@
 title: POIs de upload em massa
 description: Esta seção fornece informações sobre como fazer upload em massa dos POIs.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
@@ -47,15 +47,15 @@ Esta é uma lista das colunas e dos valores que você precisa usar:
 
 ### Valores da coluna
 
-Os valores das seguintes colunas são usados na interface do usuário do Serviço de Localização:
+Os valores das seguintes colunas são usados na interface do usuário do Serviço de Locais:
 
-* cor, que é usada como a cor do pino que representa a localização do POI no mapa da interface do usuário do Serviço de localização.
+* cor, que é usada como a cor do pino que representa o local do POI no mapa da interface do usuário do Serviço de Locais.
    * Os valores válidos são &quot;&quot;, #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B e #3DC8DE e &quot;&quot;.
-   * Se o valor for deixado em branco, a interface do usuário do Serviço de localização usará azul como a cor padrão.
+   * Se o valor for deixado em branco, a interface do usuário do Places Service usará azul como a cor padrão.
 
       Os valores correspondem a azul (#3E76D0), roxo (#AA99E8), fuschia (#DC2ABA), laranja (#FC685B), laranja claro (#FC962E), amarelo (#F6C436), verde claro (#BECE5D), verde (#6 1B56B) e azul claro (#3DC8DE), respectivamente.
 
-* ícone, que é usado como o ícone no pino que representa o local do POI no mapa da interface do usuário do Serviço de Localização
+* ícone, que é usado como o ícone no pino que representa o local do POI no mapa da interface do usuário do Serviço de Locais.
 
    * Os valores válidos são &quot;&quot;, loja, hotelbed, carro, avião, avião, trem, navio, estádio, parque de diversões, âncora, beaker, campainha, sino, bico, livro, caixa, pasta, browse, pincel, edifício, calculadora, câmera, relógio, relógio, luz, acompanhar, jogo, mulher, homem, presente, martelo, coração, casa, chave, lançamento, lâmpada, caixa de correio, dinheiro promover, fita, shoppingCart, estrela, alvo, bule, thumbDown, thumbUp, armadilha, troféu, chave inglesa.
 
