@@ -1,8 +1,8 @@
 ---
 title: Notas de versão
-description: Notas de versão do Adobe Experience Platform Location Service.
+description: Notas de versão do Places Service.
 translation-type: tm+mt
-source-git-commit: 585bcde256c79b9178a04ff66aa04c92f093c432
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 585bcde256c79b9178a04ff66aa04c92f093c432
 
    * **Android**
 
-      * Adicionada uma nova API `setAuthorizationStatus`, para definir o status de autorização do dispositivo para serviços de localização. O valor é armazenado e usado no estado compartilhado Locais.
+      * Adição de uma nova API `setAuthorizationStatus`, para definir o status de autorização do dispositivo para os Serviços locais. O valor é armazenado e usado no estado compartilhado Locais.
 
 
 ## 3 de dezembro de 2019
@@ -24,7 +24,7 @@ source-git-commit: 585bcde256c79b9178a04ff66aa04c92f093c432
 
    * **iOS**
 
-      * Adicionada uma nova API `setAuthorizationStatus`, para definir o status de autorização do dispositivo para serviços de localização. O valor é armazenado e usado no estado compartilhado Locais.
+      * Adição de uma nova API `setAuthorizationStatus`, para definir o status de autorização do dispositivo para os Serviços locais. O valor é armazenado e usado no estado compartilhado Locais.
 
 ## 22 de novembro de 2019
 
@@ -211,13 +211,13 @@ O Monitor de locais gerencia as APIs de localização no nível do SO e se comun
 
 ### Versão beta
 
-Esta é a primeira versão do Places, um conjunto de ferramentas que permite aos clientes enriquecer as experiências dos usuários com dados de localização reais. Na primeira versão, nosso caso de uso principal é permitir que aplicativos móveis recuperem dados de localização personalizados e atuem sobre esses dados por meio do Adobe Experience Platform Launch.
+Esta é a primeira versão do Places Service, um conjunto de ferramentas que permite aos clientes enriquecer as experiências dos usuários com dados de localização reais. Na primeira versão, nosso caso de uso principal é permitir que aplicativos móveis recuperem dados de localização personalizados e atuem sobre esses dados por meio do Adobe Experience Platform Launch.
 
 ### Recursos principais
 
 Estes são os principais recursos desta versão:
 
-#### Interface do usuário do Serviço de Localização
+#### Interface do usuário do serviço do Places
 
 Lançamos uma interface de usuário de gerenciamento na qual você pode visualizar e gerenciar seus pontos de interesse (POIs). Você também pode organizar seus POIs em bibliotecas. Além dos metadados padrão, como cidade, estado e categoria, também oferecemos suporte à capacidade de adicionar metadados personalizados aos POIs.
 
@@ -226,7 +226,7 @@ Lançamos uma interface de usuário de gerenciamento na qual você pode visualiz
 
 #### Extensão de locais
 
-Usando a Extensão de locais, você pode adicionar as bibliotecas de locais ao seu aplicativo móvel e agir conforme os POIs deles. Usando o construtor de regras no Experience Platform Launch, é possível acionar ações para serem acionadas quando os usuários entram e saem dos POIs.
+Usando a Extensão de locais, você pode adicionar as bibliotecas do Serviço de locais ao seu aplicativo móvel e agir de acordo com seus POIs. Usando o construtor de regras no Experience Platform Launch, é possível acionar ações para serem acionadas quando os usuários entram e saem dos POIs.
 
 Na extensão Locais:
 
@@ -252,4 +252,4 @@ Para obter mais informações sobre as APIs do Places, consulte API [do serviço
 
 #### Integração do Analytics
 
-A extensão do Analytics está sendo atualizada para adicionar automaticamente dados de contexto de localização do seu banco de dados do Places a todas as chamadas de saída do Analytics quando um usuário está em um POI (Chamadas Passivas). Essa atualização também permitirá que a criação de regras acione chamadas de rastreamento do Analytics diretamente na entrada ou saída do POI (chamadas ativas).
+A extensão do Analytics está sendo atualizada para adicionar automaticamente dados de contexto de localização do banco de dados do Places Service a todas as chamadas de saída do Analytics quando um usuário está em um POI (Chamadas Passivas). Essa atualização também permitirá que a criação de regras acione chamadas de rastreamento do Analytics diretamente na entrada ou saída do POI (chamadas ativas).
