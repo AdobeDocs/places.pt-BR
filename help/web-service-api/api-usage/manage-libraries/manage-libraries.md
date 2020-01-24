@@ -1,14 +1,14 @@
 ---
 title: Gerenciar bibliotecas
-description: Gerenciando as bibliotecas da API REST do Places.
+description: Gerenciando as bibliotecas da API REST do Places Service.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 # Visão geral do gerenciamento de bibliotecas {#manage-libraries}
 
-Você pode usar as APIs REST do Places para concluir as seguintes tarefas:
+Você pode usar as APIs REST do Places Service para concluir as seguintes tarefas:
 
 * [Criar uma biblioteca](/help/web-service-api/api-usage/manage-libraries/create-a-library.md)
 * [Ler uma biblioteca](/help/web-service-api/api-usage/manage-libraries/read-a-library.md)
