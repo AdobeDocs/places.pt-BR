@@ -1,8 +1,8 @@
 ---
-title: Gerenciar bibliotecas na interface do usuário do Places
-description: Gerencie suas bibliotecas usando a interface do usuário do Places.
+title: Gerenciar bibliotecas na interface do usuário do serviço Places
+description: Gerencie suas bibliotecas usando a interface do usuário do serviço Places.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ---
 
