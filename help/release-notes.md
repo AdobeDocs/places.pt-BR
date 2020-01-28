@@ -2,12 +2,21 @@
 title: Notas de versão
 description: Notas de versão do Places Service.
 translation-type: tm+mt
-source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+source-git-commit: 04644763a40898432c4b821ca24366c19dda0437
 
 ---
 
 
 # Notas de versão {#release-notes}
+
+## 27 de janeiro de 2020
+
+* **PlacesMonitor 2.2.0**
+
+   * **Android**
+
+      * Chame a nova API de locais para coletar o status de autorização de localização quando o aplicativo for iniciado e a autorização for alterada enquanto o aplicativo estiver em execução.
+      * Adicionada a API setRequestLocationPermission e a API setLocationPermission obsoleta.
 
 ## 9 de janeiro de 2020
 
@@ -17,6 +26,13 @@ source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
       * Adição de uma nova API `setAuthorizationStatus`, para definir o status de autorização do dispositivo para os Serviços locais. O valor é armazenado e usado no estado compartilhado Locais.
 
+## 4 de dezembro de 2019
+
+* **PlacesMonitor 2.1.2**
+
+   * **iOS**
+
+      * Chame a API Places para coletar CLAuthorizationStatus do dispositivo quando ele é alterado.
 
 ## 3 de dezembro de 2019
 
@@ -25,6 +41,14 @@ source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
    * **iOS**
 
       * Adição de uma nova API `setAuthorizationStatus`, para definir o status de autorização do dispositivo para os Serviços locais. O valor é armazenado e usado no estado compartilhado Locais.
+
+## 25 de novembro de 2019
+
+* **PlacesMonitor 2.1.1**
+
+   * **iOS**
+
+      * Correção de declarações de importação para projetos do Cocoapods usando a opção de vários projetos do pod.
 
 ## 22 de novembro de 2019
 
