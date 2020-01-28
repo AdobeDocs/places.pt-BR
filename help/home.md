@@ -2,14 +2,14 @@
 title: Serviço de locais
 description: 'O Serviço de Locais é um contexto importante para entender o envolvimento de usuários móveis. Ao usar esse contexto, os desenvolvedores de aplicativos móveis podem melhorar o design do aplicativo e torná-lo uma experiência mais personalizada e envolvente. '
 translation-type: tm+mt
-source-git-commit: 0341e1c818bf61bee01e02c91a67f184c7778c0d
+source-git-commit: 05b4d29aa7925f7a43e70c644e3cb88045cbe446
 
 ---
 
 
 # Serviço de locais {#home}
 
-![&quot;Places Service&quot;](/help/assets/LocationHeader.png)
+![&quot;Places Service&quot;](/help/assets/places-service-header.png)
 
 A localização é um contexto importante para entender e interagir com usuários móveis. Ao usar esse contexto, os desenvolvedores de aplicativos móveis podem melhorar o design do aplicativo e torná-lo uma experiência mais personalizada e envolvente.
 
