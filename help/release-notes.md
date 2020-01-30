@@ -2,7 +2,7 @@
 title: Notas de versão
 description: Notas de versão do Places Service.
 translation-type: tm+mt
-source-git-commit: 04644763a40898432c4b821ca24366c19dda0437
+source-git-commit: 4038972cc56c144c0e7d702d0f80c7f76f275aa4
 
 ---
 
@@ -170,7 +170,7 @@ As seguintes atualizações foram feitas nesta versão:
 * Correção de um problema que, após uma primeira inicialização, às vezes fazia com que os eventos do Places fossem perdidos devido a condições de rede ruins.
 * Correção de um problema em que, ao processar eventos de entrada POI em sucessão rápida, a substituição de token via Mecanismo de regras às vezes referenciava o POI incorreto.
 
-## 30 de maio de 2019 (locais)
+## 30 de maio de 2019
 
 **Android Places Monitor 1.0.1**
 
@@ -185,7 +185,7 @@ Correção dos seguintes problemas na interface do usuário do Places:
 * O raio mínimo permitido na interface do usuário foi aumentado para 10 metros.
 * Correção de um problema em que, se todos os números do campo forem excluídos, o campo de raio redefinirá 20 metros.
 
-## 17 de maio de 2019 (locais)
+## 17 de maio de 2019
 
 As seguintes atualizações foram feitas nesta versão:
 
