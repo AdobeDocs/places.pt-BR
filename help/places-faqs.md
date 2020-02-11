@@ -2,7 +2,7 @@
 title: Perguntas frequentes
 description: Este tópico fornece informações adicionais sobre algumas perguntas frequentes.
 translation-type: tm+mt
-source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+source-git-commit: 8691dbf061ac020a60d3880fe16951dcc79040cb
 
 ---
 
@@ -22,3 +22,16 @@ Além disso, a precisão e a confiabilidade podem ser reduzidas com base em cond
 Quando o SDK (Places Monitor) recebe uma nova lista de POIs próximos, ele registra uma região com o sistema operacional para cada POI. O sistema operacional agora é responsável por notificar o SDK quando o dispositivo atravessa um limite (entrada ou saída) para uma das regiões monitoradas. O SDK aciona apenas um evento exit quando o sistema operacional notifica o SDK de que o evento ocorreu. A principal razão para esta notificação é a sensibilidade temporal dos dados de localização.
 
 Se o sistema operacional não puder fornecer um evento exit quando o dispositivo sair de uma região, é mais seguro para o SDK omitir o evento exit. Se o SDK fabricar um evento de saída sem que o evento seja acionado pelo sistema operacional, há um risco de que o evento exit possa ser processado bem fora do período durante o qual o dispositivo estava perto do POI.
+
+## Número de POIs
+
+Na interface de gerenciamento de POI do Places Service, os clientes podem somar até 150 mil pontos de interesse em uma biblioteca específica. Se desejado, os clientes podem definir várias bibliotecas para agrupar segmentos de POIs.
+
+## Algumas observações sobre a alteração de localização e o monitoramento de região ativa
+
+O monitoramento de uma região geográfica começa imediatamente após o registro para aplicativos autorizados. No entanto, não espere receber um evento imediatamente, pois somente os cruzamentos de limite geram um evento. Especificamente, se a localização do usuário já estiver dentro da região no momento do registro, o gerenciador de locais não gera automaticamente um evento. Em vez disso, seu aplicativo deve aguardar que o usuário ultrapasse o limite da região antes que um evento seja gerado e enviado ao delegado.
+
+Tenha cuidado ao especificar o conjunto de regiões a serem monitoradas. As regiões são um recurso de sistema compartilhado e o número total de regiões disponíveis no sistema é limitado. Por esse motivo, a Localização principal limita a 20 o número de regiões que podem ser monitoradas simultaneamente por um único aplicativo. Para contornar esse limite, considere registrar apenas essas regiões na proximidade imediata do usuário.
+
+[Consulte informações adicionais no site] de desenvolvedores da Apple (https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/LocationAwarenessPG/RegionMonitoring/RegionMonitoring.html#//apple_ref/doc/uid/TP40009497-CH9-SW11)
+
