@@ -2,12 +2,25 @@
 title: Notas de versão
 description: Notas de versão do Places Service.
 translation-type: tm+mt
-source-git-commit: 4038972cc56c144c0e7d702d0f80c7f76f275aa4
+source-git-commit: 36ea8616aa05f5b825a2a4c791a00c5b3f332e9f
 
 ---
 
 
 # Notas de versão {#release-notes}
+
+## 20 de fevereiro de 2020
+
+* **ACPPlaces 1.3.1 (iOS)**
+
+   * A extensão de locais agora relata informações da versão para o hub de eventos no SDK principal.
+   * As informações de associação de POI do dispositivo agora têm um tempo de vida padrão de uma hora a partir do momento em que são coletadas. Para obter mais informações, consulte [Modificação do tempo de vida da associação aos locais](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
+
+
+* **Locais 1.4.1 (Android)**
+
+   * A extensão de locais agora relata informações da versão para o hub de eventos no SDK principal.
+   * As informações de associação de POI do dispositivo agora têm um tempo de vida padrão de uma hora a partir do momento em que são coletadas. Para obter mais informações, consulte [Modificação do tempo de vida da associação aos locais](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
 
 ## 27 de janeiro de 2020
 
@@ -20,7 +33,7 @@ source-git-commit: 4038972cc56c144c0e7d702d0f80c7f76f275aa4
 
 ## 9 de janeiro de 2020
 
-* **ACPPlaces 1.4.0**
+* **Locais 1.4.0**
 
    * **Android**
 
