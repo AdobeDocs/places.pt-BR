@@ -2,7 +2,7 @@
 title: Usar o Serviço de Locais sem monitoramento de região ativa
 description: Esta seção fornece informações sobre como usar o Serviço de Locais sem monitoramento de região ativa.
 translation-type: tm+mt
-source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
+source-git-commit: d123d16c822c48d8727de3c0c22bff8ea7c66981
 
 ---
 
@@ -120,7 +120,7 @@ O SDK retorna uma lista de POIs próximos, incluindo se o usuário está atualme
 
 >[!IMPORTANT]
 >
->Para impedir que seu aplicativo dispare vários eventos de entrada em uma visita, mantenha uma lista das regiões nas quais você sabe que o usuário entrou. Ao processar a resposta de POIs próximos do SDK, dispare um evento de entrada somente quando a região não estiver na lista.
+>Para impedir que seu aplicativo dispare vários eventos de entrada em uma visita, mantenha uma lista das regiões nas quais você sabe que o usuário entrou. Ao processar a resposta de POIs próximos do SDK, dispare um evento de entrada somente quando a região não estiver em sua lista.
 >
 >Na amostra de código a seguir, `NSUserDefaults` (iOS) e `SharedPreferences` (Android) são usados para gerenciar a lista de regiões:
 
@@ -396,6 +396,6 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 }
 ```
 
-Além de disparar os eventos de entrada do Serviço de Locais no SDK, devido aos eventos de entrada de acionamento, todos os dados que definem seus POIs podem ser usados pelo restante do SDK por meio do `data elements` Experience Platform Launch. Com o Experience Platform Launch `rules`, você pode anexar dinamicamente os dados do Serviço de Locais aos eventos recebidos processados pelo SDK. Por exemplo, você pode anexar os metadados de um POI no qual o usuário está localizado e enviar os dados para o Analytics como dados de contexto.
+Além de disparar os eventos de entrada do Serviço de Locais no SDK, devido aos eventos de entrada de acionamento, todos os dados que definem seus POIs podem ser usados pelo restante do SDK por meio do `data elements` Experience Platform Launch. Com o Experience Platform Launch `rules`, você pode anexar dinamicamente os dados do Serviço de Locais aos eventos recebidos que são processados pelo SDK. Por exemplo, você pode anexar os metadados de um POI no qual o usuário está localizado e enviar os dados para o Analytics como dados de contexto.
 
-Para obter mais informações, consulte [Uso do serviço Places com outras soluções](/help/use-places-with-other-solutions/use-places-with-other-solutions.md)da Adobe.
+Para obter mais informações, consulte [Uso do serviço Places com outras soluções](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)da Adobe.
