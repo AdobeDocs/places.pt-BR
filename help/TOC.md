@@ -1,14 +1,18 @@
 ---
 product: Places Service
 audience: end-user
-user-guide-title: Places Service
+user-guide-title: Serviço Places
+user-guide-description: Places Service is a geo-location service that enables mobile apps with location awareness to understand the location context.
 translation-type: tm+mt
-source-git-commit: b0b48dcc7179e603ae403449a0f7c5441c987767
+source-git-commit: 43b1eb0d384e2e75e444b737c0ab15798492d0a8
+workflow-type: tm+mt
+source-wordcount: '297'
+ht-degree: 14%
 
 ---
 
 
-# Serviço de locais {#using}
+# Serviço Places {#using}
 
 + [Visão geral do Places Service](home.md)
 + [Notas de versão](release-notes.md)
@@ -16,7 +20,7 @@ source-git-commit: b0b48dcc7179e603ae403449a0f7c5441c987767
 + [Obter acesso ao Serviço de Locais](places-gain-access.md)
 + Interface do usuário do serviço do Places {#poi-mgmt-ui}
    + [Visão geral da interface do usuário do Places Service](poi-mgmt-ui/poi-mgmt-ui-overview.md)
-   + [Crie um POI](poi-mgmt-ui/create-a-poi-ui.md)
+   + [Criar um POI](poi-mgmt-ui/create-a-poi-ui.md)
    + [Gerenciar POIs criados anteriormente](poi-mgmt-ui/managing-pois-in-the-places-ui.md)
    + [Estratégias para usar metadados com POIs](poi-mgmt-ui/metadata-with-pois.md)
    + [Upload em massa de POIs](poi-mgmt-ui/bulk-upload-pois.md)
@@ -27,7 +31,7 @@ source-git-commit: b0b48dcc7179e603ae403449a0f7c5441c987767
    + Uso da API {#api-usage}
       + [Visão geral de uso da API](web-service-api/api-usage/api-usage-overview.md)
       + [Cabeçalhos e parâmetros](web-service-api/api-usage/headers-and-parameters.md)
-      + Manage libraries {#manage-libraries}
+      + Gerenciar bibliotecas {#manage-libraries}
          + [Visão geral do gerenciamento de bibliotecas](web-service-api/api-usage/manage-libraries/manage-libraries.md)
          + [Criar uma biblioteca](web-service-api/api-usage/manage-libraries/create-a-library.md)
          + [Ler uma biblioteca](web-service-api/api-usage/manage-libraries/read-a-library.md)
@@ -38,7 +42,7 @@ source-git-commit: b0b48dcc7179e603ae403449a0f7c5441c987767
          + [Obter a classificação de uma biblioteca](web-service-api/api-usage/manage-libraries/get-a-librarys-rank.md)
       + Gerenciar pontos de interesse {#manage-pois}
          + [Visão geral de gerenciamento de POIs](web-service-api/api-usage/manage-pois/manage-pois.md)
-         + [Crie um POI](web-service-api/api-usage/manage-pois/create-a-poi.md)
+         + [Criar um POI](web-service-api/api-usage/manage-pois/create-a-poi.md)
          + [Ler um POI](web-service-api/api-usage/manage-pois/read-a-poi.md)
          + [Atualizar um POI](web-service-api/api-usage/manage-pois/update-a-poi.md)
          + [Excluir um POI](web-service-api/api-usage/manage-pois/delete-a-poi.md)
@@ -49,12 +53,12 @@ source-git-commit: b0b48dcc7179e603ae403449a0f7c5441c987767
             + [Criar vários POIs](web-service-api/api-usage/manage-pois/batch-apis/create-multiple-pois.md)
             + [Atualizar vários POIs](web-service-api/api-usage/manage-pois/batch-apis/update-multiple-pois.md)
             + [Excluir vários POIs](web-service-api/api-usage/manage-pois/batch-apis/delete-multiple-pois.md)
-      + [APIs de consulta](web-service-api/api-usage/query-apis.md)
+      + [APIs de Query](web-service-api/api-usage/query-apis.md)
 + Extensões para SDKs móveis {#places-ext-aep-sdks}
    + Extensão do Places {#places-extension}
       + [Extensão do Places](places-ext-aep-sdks/places-extension/places-extension.md)
       + [Referência da API de locais](places-ext-aep-sdks/places-extension/places-api-reference.md)
-      + [Referência de evento de locais](places-ext-aep-sdks/places-extension/places-event-ref.md)
+      + [Referência de eventos de locais](places-ext-aep-sdks/places-extension/places-event-ref.md)
       + [Objetos de locais personalizados](places-ext-aep-sdks/places-extension/cust-places-objects.md)
    + Extensão do monitor de locais {#places-monitor-extension}
       + [Extensão do monitor de locais](places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)
@@ -77,11 +81,11 @@ source-git-commit: b0b48dcc7179e603ae403449a0f7c5441c987767
       + [Notificações por push](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-push.md)
       + [Notificações no aplicativo](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-inapp.md)
    + Adobe Campaign Standard {#places-acs}
-      + [Usar o serviço Places com o Adobe Campaign Standard](use-places-with-other-solutions/places-acs/places-acs-overview.md)
+      + [Use o serviço Places com o Adobe Campaign Standard](use-places-with-other-solutions/places-acs/places-acs-overview.md)
       + [Notificações por push](use-places-with-other-solutions/places-acs/places-acs-push-notifications.md)
       + [Mensagens no aplicativo](use-places-with-other-solutions/places-acs/places-acs-in-app-messages.md)
    + Adobe Target {#places-target}
-      + [Usar o Serviço de Locais com o Adobe Target](use-places-with-other-solutions/places-target/places-target.md)
-+ Testing and validation {#places-testing-validation}
-   + [Testar e validar o serviço de locais](places-testing-validation/test-validate-places.md)
+      + [Usar o serviço Places com o Público alvo da Adobe](use-places-with-other-solutions/places-target/places-target.md)
++ Teste e validação {#places-testing-validation}
+   + [Testar e validar o Serviço de Locais](places-testing-validation/test-validate-places.md)
 + [Perguntas frequentes](places-faqs.md)
