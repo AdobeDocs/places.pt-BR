@@ -2,35 +2,42 @@
 title: Extensão do Places
 description: A extensão Locais permite que você atue com base na localização dos usuários.
 translation-type: tm+mt
-source-git-commit: 36ea8616aa05f5b825a2a4c791a00c5b3f332e9f
+source-git-commit: 0a9a4a713e7e7a49495d11cf26da8981e91b8ed2
+workflow-type: tm+mt
+source-wordcount: '676'
+ht-degree: 5%
 
 ---
 
 
 # Extensão do Places {#places-extension}
 
-A extensão Locais permite que você atue com base na localização dos usuários. Essa extensão é a interface das APIs do Serviço de Consulta de Locais. Ao acompanhar eventos que contêm coordenadas GPS e eventos de região geofence, essa extensão despacha novos eventos processados pelo Mecanismo de regras. A extensão Locais também recupera e fornece uma lista do POI mais próximo para os dados do aplicativo que são recuperados das APIs. As regiões retornadas pelas APIs são armazenadas em cache e persistência, o que permite um processamento offline limitado.
+A extensão Locais permite que você atue com base na localização dos usuários. Essa extensão é a interface para as APIs de serviço de Query do Places. Ao acompanhar eventos que contêm coordenadas GPS e eventos de região geofence, essa extensão despacha novos eventos que são processados pelo Mecanismo de regras. A extensão Locais também recupera e fornece uma lista do POI mais próximo para os dados do aplicativo que são recuperados das APIs. As regiões retornadas pelas APIs são armazenadas em cache e persistência, o que permite um processamento offline limitado.
 
 ## Instale a extensão Locais no Adobe Experience Platform Launch
 
 1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
 1. Na **[!UICONTROL Catalog]** guia, localize a **[!UICONTROL Places]** extensão e clique em **[!UICONTROL Install]**.
-1. Selecione as bibliotecas Locais que deseja usar nesta propriedade. Essas são as bibliotecas que estarão acessíveis no seu aplicativo.
+1. Selecione as bibliotecas de Locais que deseja usar nesta propriedade. Essas são as bibliotecas que estarão acessíveis no seu aplicativo.
 1. Clique em **[!UICONTROL Save]**.
 
-   Quando você clica **[!UICONTROL Save]**, o SDK da plataforma da experiência pesquisa POIs nos serviços do local nas bibliotecas selecionadas. Os dados de POI não são incluídos no download da biblioteca quando você cria o aplicativo, mas um subconjunto baseado em localização de POIs é baixado para o dispositivo do usuário final em tempo de execução e é baseado nas coordenadas GPS do usuário.
+   Quando você clica **[!UICONTROL Save]**, o SDK da plataforma da experiência pesquisa POIs no Places Services para as bibliotecas selecionadas. Os dados de POI não são incluídos no download da biblioteca quando você cria o aplicativo, mas um subconjunto baseado em localização de POIs é baixado para o dispositivo do usuário final no tempo de execução e é baseado nas coordenadas de GPS do usuário.
 
 1. Conclua o processo de publicação para atualizar a configuração do SDK.
 
-   Para obter mais informações sobre a publicação no Experience Platform Launch, consulte [Publicação](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html).
+   Para obter mais informações sobre a publicação no Experience Platform Launch, consulte [Publicação](https://docs.adobe.com/content/help/pt-BR/launch/using/reference/publish/overview.html).
 
 ### Configure the Places extension {#configure-places-extension}
 
 ![](//help/assets/places-extension.png)
 
-## Adicionar a extensão de Locais ao aplicativo {#add-places-to-app}
+## Adicione a extensão de Locais ao seu aplicativo {#add-places-to-app}
 
-Você pode adicionar a extensão Locais aos aplicativos Android e iOS.
+Você pode adicionar a extensão Locais aos aplicativos Android e iOS. As etapas para adicionar Locais ao seu aplicativo iOS ou Android podem ser vistas abaixo. Locais também estão disponíveis para Cordova e React Native. Para adicionar Locais ao seu aplicativo ao desenvolver com uma dessas plataformas, consulte os links a seguir:
+
+**Cordova ACPPlaces**: https://github.com/adobe/cordova-acpplaces/blob/master/README.md
+
+**Reagir os ACPPlaces** nativos: https://github.com/adobe/react-native-acpplaces/blob/master/README.md
 
 ### Android
 
@@ -43,7 +50,7 @@ Para adicionar a extensão Locais ao seu aplicativo usando Java:
    implementation 'com.adobe.marketing.mobile:sdk-core:1.+'
    ```
 
-1. Importe a extensão de Locais na atividade principal do seu aplicativo.
+1. Importe a extensão Locais na atividade principal do seu aplicativo.
 
    ```java
    import com.adobe.marketing.mobile.Places;
@@ -52,7 +59,7 @@ Para adicionar a extensão Locais ao seu aplicativo usando Java:
 
 ### iOS
 
-Para adicionar a extensão de Locais ao aplicativo usando Objetive-C ou Swift:
+Para adicionar a extensão de Locais ao seu aplicativo usando Objetive-C ou Swift:
 
 1. Adicione as bibliotecas Places e [Mobile Core](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core) ao seu projeto. Você precisará adicionar os seguintes pods ao `Podfile`:
 
@@ -139,7 +146,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 Os dados de localização podem ficar obsoletos rapidamente, especialmente se o dispositivo não estiver recebendo atualizações de localização em segundo plano.
 
-Controle o tempo de vida dos dados de associação do Local no dispositivo definindo a configuração `places.membershipttl` . O valor passado representa o número de segundos em que o estado Locais permanecerá válido para o dispositivo.
+Controle o tempo de vida dos dados de associação do Places no dispositivo definindo a configuração `places.membershipttl` . O valor passado representa o número de segundos em que o estado Locais permanecerá válido para o dispositivo.
 
 #### Android
 
@@ -224,5 +231,5 @@ Para atualizar a configuração do SDK de forma programática em tempo de execu�
 | Chave | Obrigatório | Descrição |
 | :--- | :--- | :--- |
 | `places.libraries` | Sim | As bibliotecas de extensão do Places para o aplicativo móvel. Ela especifica a ID da biblioteca e o nome da biblioteca que o aplicativo móvel suporta. |
-| `places.endpoint` | Sim | O ponto de extremidade padrão do Serviço de Consulta de Locais, que é usado para obter informações sobre bibliotecas e POIs. |
+| `places.endpoint` | Sim | O ponto de extremidade padrão do Serviço de Query do Local, que é usado para obter informações sobre bibliotecas e POIs. |
 | `places.membershipttl` | Não | Valor padrão de 3600 (segundos em uma hora). Indica por quanto tempo, em segundos, as informações de associação do Local para o dispositivo permanecerão válidas. |
