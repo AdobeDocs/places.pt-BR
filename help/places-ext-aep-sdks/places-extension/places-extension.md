@@ -2,9 +2,9 @@
 title: Extensão do Places
 description: A extensão Locais permite que você atue com base na localização dos usuários.
 translation-type: tm+mt
-source-git-commit: 0a9a4a713e7e7a49495d11cf26da8981e91b8ed2
+source-git-commit: 0ac139fce666540b36a8c82fe4c05974e12e987f
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '678'
 ht-degree: 5%
 
 ---
@@ -21,7 +21,7 @@ A extensão Locais permite que você atue com base na localização dos usuário
 1. Selecione as bibliotecas de Locais que deseja usar nesta propriedade. Essas são as bibliotecas que estarão acessíveis no seu aplicativo.
 1. Clique em **[!UICONTROL Save]**.
 
-   Quando você clica **[!UICONTROL Save]**, o SDK da plataforma da experiência pesquisa POIs no Places Services para as bibliotecas selecionadas. Os dados de POI não são incluídos no download da biblioteca quando você cria o aplicativo, mas um subconjunto baseado em localização de POIs é baixado para o dispositivo do usuário final no tempo de execução e é baseado nas coordenadas de GPS do usuário.
+   Quando você clica **[!UICONTROL Save]**, o SDK do Experience Platform pesquisa POIs nos serviços do local nas bibliotecas que você selecionou. Os dados de POI não são incluídos no download da biblioteca quando você cria o aplicativo, mas um subconjunto baseado em localização de POIs é baixado para o dispositivo do usuário final no tempo de execução e é baseado nas coordenadas de GPS do usuário.
 
 1. Conclua o processo de publicação para atualizar a configuração do SDK.
 
@@ -35,9 +35,9 @@ A extensão Locais permite que você atue com base na localização dos usuário
 
 Você pode adicionar a extensão Locais aos aplicativos Android e iOS. As etapas para adicionar Locais ao seu aplicativo iOS ou Android podem ser vistas abaixo. Locais também estão disponíveis para Cordova e React Native. Para adicionar Locais ao seu aplicativo ao desenvolver com uma dessas plataformas, consulte os links a seguir:
 
-**Cordova ACPPlaces**: https://github.com/adobe/cordova-acpplaces/blob/master/README.md
+**[Plug-in do Cordova Places](https://github.com/adobe/cordova-acpplaces/blob/master/README.md)**
 
-**Reagir os ACPPlaces** nativos: https://github.com/adobe/react-native-acpplaces/blob/master/README.md
+**[Plug-in React Native Places](https://github.com/adobe/react-native-acpplaces/blob/master/README.md)**
 
 ### Android
 
