@@ -2,9 +2,9 @@
 title: Notas de versão
 description: Notas de versão do Places Service.
 translation-type: tm+mt
-source-git-commit: f5fa6005396e3c5b5b8eb92c7c920d2d0d974743
+source-git-commit: 3f986697179eb9c0af1d9b54daf67793a99b8491
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1503'
 ht-degree: 3%
 
 ---
@@ -12,7 +12,23 @@ ht-degree: 3%
 
 # Notas de versão {#release-notes}
 
-## 6 de mai de 2020
+## 8 de julho de 2020
+
+* **Extensões do monitor de locais e locais**
+
+   * As extensões de monitores de locais e locais foram adicionadas para aplicativos [React Native](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
+   * As extensões do Monitor de locais e locais foram adicionadas aos aplicativos [Cordova](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)
+   * Para obter mais informações, consulte: [Uso da extensão de locais](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html)
+
+
+## 12 de maio de 2020
+
+* **Places Service**
+
+   * Importação em massa de POIs de um arquivo CSV usando o botão &quot;Importar POIs&quot;
+   * Selecionar vários POIs e editar em massa ou adicionar valores de metadados
+
+## 6 de maio de 2020
 
 * **PlacesMonitor 2.2.1**
 
@@ -20,7 +36,7 @@ ht-degree: 3%
 
       * Registro aprimorado
 
-## 5 de mai de 2020
+## 5 de maio de 2020
 
 
 * **PlacesMonitor 2.1.3**
@@ -213,7 +229,7 @@ As seguintes atualizações foram feitas nesta versão:
 
 Correção dos seguintes problemas na interface do usuário do Places:
 
-* Atualização do Alternador de soluções em locais para alinhar com o restante da Experience Cloud.
+* Atualização do Alternador de soluções em locais para alinhar com o restante do Experience Cloud.
 * Correção de um problema em que a classificação era salva em instâncias em que nenhuma alteração de classificação era feita.
 * O raio mínimo permitido na interface do usuário foi aumentado para 10 metros.
 * Correção de um problema em que, se todos os números do campo forem excluídos, o campo de raio redefinirá para 20 metros.
@@ -268,7 +284,7 @@ O Monitor de locais gerencia as APIs de localização no nível do SO e se comun
 
 ### Versão beta
 
-Esta é a primeira versão do Places Service, um conjunto de ferramentas que permite aos clientes enriquecer as experiências dos usuários com dados de localização reais. Na primeira versão, nosso caso de uso principal é permitir que aplicativos móveis recuperem dados de localização personalizados e atuem sobre esses dados por meio do Adobe Experience Platform Launch.
+Esta é a primeira versão do Places Service, um conjunto de ferramentas que permite aos clientes enriquecer as experiências dos usuários com dados de localização reais. Na primeira versão, nosso caso de uso principal é permitir que os aplicativos móveis recuperem dados de localização personalizados e atuem sobre esses dados por meio do Adobe Experience Platform Launch.
 
 ### Recursos principais
 
