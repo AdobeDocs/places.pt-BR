@@ -2,19 +2,22 @@
 title: Uso da extensão do Monitor de locais
 description: Informações sobre como instalar, configurar e usar a extensão do Places Monitor.
 translation-type: tm+mt
-source-git-commit: ac1d410a676557064d5390f8392f402541754478
+source-git-commit: 7fdaace59886225b7fd9b0eba8cc6c2a139fa2d7
+workflow-type: tm+mt
+source-wordcount: '491'
+ht-degree: 8%
 
 ---
 
 
 # Uso da extensão do Monitor de locais {#using-places-monitor-extension}
 
-Para usar a extensão do Monitor de locais, conclua as seguintes tarefas:
+Para usar a extensão do Places Monitor, conclua as seguintes tarefas:
 
-## Instale a extensão do Monitor de locais no Experience Platform Launch
+## Instale a extensão do Places Monitor no Experience Platform Launch
 
-1. In Experience Platform Launch, click the **[!UICONTROL Extensions]**tab.
-1. Na **[!UICONTROL Catalog]**guia, localize a**[!UICONTROL Places Monitor]** extensão e clique em **Instalar**.
+1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
+1. Na **[!UICONTROL Catalog]** guia, localize a **[!UICONTROL Places Monitor]** extensão e clique em **Instalar**.
 1. Clique em **[!UICONTROL Save]**.
 1. Siga o processo de publicação para atualizar a configuração do SDK.
 
@@ -26,7 +29,15 @@ Não há tarefas de configuração para a extensão do Places Monitor.
 
 ## Adicionar a extensão do Monitor de locais ao seu aplicativo {#add-monitor-extension-to-app}
 
-É necessário adicionar a extensão do Places Monitor ao aplicativo Android ou iOS.
+As instruções sobre como adicionar a extensão do Places Monitor ao aplicativo Android ou iOS estão abaixo.
+
+O suporte adicional à plataforma para a extensão do Places Monitor inclui:
+**[Monitor do Cordova Places](https://github.com/adobe/cordova-acpplaces-monitor/blob/master/README.md)**
+
+**[Reagir ao monitor de locais nativos](https://github.com/adobe/react-native-acpplaces-monitor/blob/master/README.md)**
+
+**[Monitor de locais de flutuação](https://github.com/adobe/flutter_acpplaces_monitor/blob/master/README.md)**
+
 
 ### Android
 
@@ -45,7 +56,7 @@ No Android, execute as seguintes etapas:
    implementation 'com.google.android.gms:play-services-location:16.0.0'
    ```
 
-1. Importe a extensão do Monitor de locais na atividade principal do seu aplicativo.
+1. Importe a extensão do Places Monitor na atividade principal do aplicativo.
 
    ```java
    import com.adobe.marketing.mobile.PlacesMonitor;
@@ -55,7 +66,7 @@ No Android, execute as seguintes etapas:
 
 No iOS, conclua as seguintes etapas:
 
-1. Adicione a biblioteca ao seu projeto por meio dos Cocoapods `Podfile` adicionando `pod 'ACPPlacesMonitor'`.
+1. Adicione a biblioteca ao seu projeto por meio do Cocoapods `Podfile`, adicionando o `pod 'ACPPlacesMonitor'`.
 1. Importe as bibliotecas do Monitor de locais e locais:
 
 #### Objetive-C
@@ -75,9 +86,9 @@ import ACPPlacesMonitor
 ```
 
 
-## Registrar e iniciar o Monitor de locais {#register-start-places-monitor}
+## Registrar e start o monitor de locais {#register-start-places-monitor}
 
-Você precisa registrar e iniciar o Places Monitor no Android ou iOS.
+Você precisa registrar e start o Places Monitor no Android ou iOS.
 
 ## Android
 
@@ -158,7 +169,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 **Java**
 
-Para todas as versões do Android, para declarar que seu aplicativo precisa de permissão de localização, adicione um `<uses-permission>` elemento no manifesto do aplicativo, como filho do elemento de nível superior `<manifest>` . Para aplicativos Android que direcionam a API nível 29 e superior, para permitir que o aplicativo acesse o local em segundo plano, inclua a permissão ACCESS_BACKGROUND_LOCATION.
+Para todas as versões do Android, para declarar que seu aplicativo precisa de permissão de localização, adicione um `<uses-permission>` elemento no manifesto do aplicativo, como filho do elemento de nível superior `<manifest>` . Para aplicativos Android que públicos alvos API Nível 29 e superior, para permitir que o aplicativo acesse o local em segundo plano, inclua a permissão ACCESS_BACKGROUND_LOCATION.
 
 ```java
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.adobe.placesapp">
@@ -172,9 +183,9 @@ Para todas as versões do Android, para declarar que seu aplicativo precisa de p
 ```
 
 
-## Ativar atualizações de localização em segundo plano {#enable-location-updates-background}
+## Ativar atualizações de localização em segundo plano  {#enable-location-updates-background}
 
-O iOS suporta a entrega de eventos de localização para aplicativos que estão suspensos ou que não estão mais em execução. Para receber atualizações de localização em segundo plano para a extensão do Places Monitor, configure o recurso de atualizações de localização para o aplicativo em `Xcode.background-location-updates`.
+O iOS oferece suporte ao delivery de eventos de localização para aplicativos que estão suspensos ou que não estão mais em execução. Para receber atualizações de localização em segundo plano para a extensão do Places Monitor, configure o recurso de atualizações de localização para o aplicativo em `Xcode.background-location-updates`.
 
 ![usando o Monitor de locais](/help/assets/using-the-places-monitor_1.png)
 
