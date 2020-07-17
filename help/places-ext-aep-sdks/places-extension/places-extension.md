@@ -2,9 +2,9 @@
 title: Extensão do Places
 description: A extensão Locais permite que você atue com base na localização dos usuários.
 translation-type: tm+mt
-source-git-commit: 0ac139fce666540b36a8c82fe4c05974e12e987f
+source-git-commit: a7dddb78e1e00a0bde01ea668334932759a9dae8
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '694'
 ht-degree: 5%
 
 ---
@@ -33,11 +33,16 @@ A extensão Locais permite que você atue com base na localização dos usuário
 
 ## Adicione a extensão de Locais ao seu aplicativo {#add-places-to-app}
 
-Você pode adicionar a extensão Locais aos aplicativos Android e iOS. As etapas para adicionar Locais ao seu aplicativo iOS ou Android podem ser vistas abaixo. Locais também estão disponíveis para Cordova e React Native. Para adicionar Locais ao seu aplicativo ao desenvolver com uma dessas plataformas, consulte os links a seguir:
+Você pode adicionar a extensão Locais aos aplicativos Android e iOS. As etapas para adicionar Locais ao seu aplicativo iOS ou Android podem ser vistas abaixo. As extensões de locais também estão disponíveis para as seguintes plataformas abaixo. Para adicionar Locais ao seu aplicativo ao desenvolver com uma dessas plataformas, consulte os links a seguir:
 
 **[Plug-in do Cordova Places](https://github.com/adobe/cordova-acpplaces/blob/master/README.md)**
 
 **[Plug-in React Native Places](https://github.com/adobe/react-native-acpplaces/blob/master/README.md)**
+
+**[Plug-in Flutter Places](https://github.com/adobe/flutter-acpplaces_monitor)**
+
+**[Plug-in Xamarin Places](https://github.com/adobe/xamarin-acpcore)**
+
 
 ### Android
 
