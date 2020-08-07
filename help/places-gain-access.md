@@ -2,26 +2,29 @@
 title: 'Obter acesso ao Serviço de Locais '
 description: Esta seção fornece informações sobre como adicionar um usuário ao Places Service e ao Experience Platform Launch, para que o usuário possa acessar o Places Service.
 translation-type: tm+mt
-source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
+source-git-commit: 26538602a73e806a4822705c7a3aa44d76351030
+workflow-type: tm+mt
+source-wordcount: '1079'
+ht-degree: 7%
 
 ---
 
 # Obter acesso ao Serviço de Locais {#adding-user-launch-places}
 
-Você pode acessar o Serviço de locais no menu de acesso rápido na página inicial [da](https://experience.adobe.com)Adobe Experience Cloud.
+Você pode acessar o Serviço de Locais no menu de acesso rápido no [Adobe Experience Cloud home](https://experience.adobe.com).
 Se sua ID de usuário tiver acesso, você verá o ícone do Serviço de locais, conforme indicado abaixo:
 
-![menu de acesso rápido](/help/assets/quick-access.png)
+![menu de acesso rápido](/help/assets/quickaccess.png)
 
-Você também pode acessar o Serviço de Locais no menu da Adobe Experience Platform:
+Você também pode acessar o Serviço de Locais no menu Adobe Experience Platform:
 
-![Menu Plataforma de experiência](/help/assets/exp-platform-menu-sm.png)
+![Menu Experience Platform](/help/assets/solutionaccessmenu.png)
 
-Se você não vir o Serviço de Locais em nenhum desses menus, entre em contato com um administrador em sua organização para adicionar a ID de usuário ao Serviço de Locais no Console de administração.
+Se você não vir o Serviço de Locais em nenhum desses menus, entre em contato com um administrador em sua organização para adicionar sua ID de usuário ao Serviço de Locais Principais no Admin Console.
 
-## Adicionar um usuário ao Places Service e Experience Platform Launch
+## Adicionando um usuário ao Places Service e Experience Platform Launch
 
-Para permitir que os usuários acessem a interface do usuário [do](https://launch.adobe.com)Experience Platform Launch, eles precisam ser adicionados ao Places Core Service no Admin Console como um usuário. Para permitir que os usuários tenham acesso ao Experience Platform Launch, configurem propriedades móveis e usem o SDK do Adobe Experience Platform, eles precisam ser adicionados ao Experience Platform Launch no Admin Console e receber as seguintes permissões para o Experience Platform Launch:
+Para permitir que os usuários acessem a interface do usuário do [Experience Platform Launch](https://launch.adobe.com), eles precisam ser adicionados ao Serviço principal do Places no Admin Console como um usuário. Para permitir que os usuários tenham acesso ao Experience Platform Launch, configurem propriedades móveis e usem o SDK do Adobe Experience Platform, eles precisam ser adicionados ao Experience Platform Launch no Admin Console e receber as seguintes permissões para o Experience Platform Launch:
 
 * Todos os direitos de propriedade:
    * Desenvolver
@@ -29,28 +32,28 @@ Para permitir que os usuários acessem a interface do usuário [do](https://laun
    * Publicar
    * Gerenciar extensões
    * Gerenciar ambientes
-* Permissão Gerenciar propriedades sob direitos da empresa
+* Permissão Gerenciar propriedades em Direitos de Empresa
 
-Se esta for a primeira vez que você estiver adicionando um usuário, complete as etapas a seguir para adicionar usuários ao Serviço Experience Platform Launch e Places. Se você tiver adicionado usuários antes, vários perfis poderão ser exibidos, portanto, certifique-se de selecionar o perfil correto.
+Se esta for a primeira vez que você estiver adicionando um usuário, conclua as etapas a seguir para adicionar usuários ao Experience Platform Launch e ao Places Service. Se você adicionou usuários antes, vários perfis podem ser exibidos, portanto, certifique-se de selecionar o perfil correto.
 
 >[!IMPORTANT]
 >
 >Somente administradores de organizações podem acessar o Admin Console e adicionar os usuários.
 
-### 1. Verifique se o Places Service e o Experience Platform Launch foram provisionados
+### 1. Verifique se os serviços e o Experience Platform Launch do local estão provisionados
 
-1. Faça logon na organização da Experience Cloud.
-1. No lado superior direito, clique no alternador de shell da Experience Cloud.
+1. Faça logon na organização do seu Experience Cloud.
+1. No lado superior direito, clique no alternador de shell de Experience Cloud.
 
    ![interruptor de concha](/help/assets/places_shell_switcher1.png)
 
-1. Em **[!UICONTROL Platform]**, clique em**[!UICONTROL Administration]**.
+1. Em **[!UICONTROL Platform]**, clique em **[!UICONTROL Administration]**.
 
    Se não vir **Administração** na lista, você não é um administrador. Você deve entrar em contato com o administrador da organização para concluir este procedimento.
 
-1. Na página Administração da Experience Cloud, no **[!UICONTROL Admin Console]**cartão, clique em**[!UICONTROL Take me there]**.
+1. Na página Administração de Experience Cloud, no **[!UICONTROL Admin Console]** cartão, clique em **[!UICONTROL Take me there]**.
 
-1. No Admin Console, se você tiver acesso a várias organizações, verifique se a organização correta está selecionada no lado superior direito da página.
+1. Na Admin Console, se você tiver acesso a várias organizações, verifique se a organização correta está selecionada no lado superior direito da página.
 
    Esta é a organização à qual você adicionará seus usuários. Se a organização correta não tiver sido selecionada, clique na organização e selecione a organização na lista suspensa.
 
@@ -58,7 +61,7 @@ Se esta for a primeira vez que você estiver adicionando um usuário, complete a
    >
    >Se você não tiver acesso a uma organização, isso significa que você não tem acesso administrativo a essa organização.
 
-1. Verify that the cards for **[!UICONTROL Adobe Experience Platform Launch]**and**[!UICONTROL Places Core Services]** are displayed.
+1. Verify that the cards for **[!UICONTROL Adobe Experience Platform Launch]** and **[!UICONTROL Places Core Services]** are displayed.
 
    ![](/help/assets/places_provisioned1.png)
 
@@ -67,24 +70,24 @@ Se esta for a primeira vez que você estiver adicionando um usuário, complete a
 
 ### 2. Configure o perfil e adicione as permissões
 
-1. Configure um perfil do Experience Platform Launch, que permite que os usuários adicionados ao perfil usem o Experience Platform Launch e suas propriedades móveis com o Experience Platform SDK.
+1. Configure um perfil Experience Platform Launch, que permite que os usuários adicionados ao perfil usem Experience Platform Launch e suas propriedades móveis com o SDK Experience Platform.
 
    a. Na barra de menus, clique em **[!UICONTROL Product]**.
 
-   b. No painel esquerdo, na lista de produtos, clique em **[!UICONTROL Adobe Experience Platform Launch]**.
+   b. No painel esquerdo, na lista dos produtos, clique em **[!UICONTROL Adobe Experience Platform Launch]**.
 
-   * Os perfis do Experience Platform Launch são exibidos à direita.
-   * O Experience Platform Launch tem um perfil padrão chamado *Launch - (nome da organização)* .
+   * Os perfis Experience Platform Launch são exibidos à direita.
+   * Experience Platform Launch tem um perfil padrão chamado *Launch - (nome da organização)* .
 
-      Se você adicionou usuários anteriormente ao Experience Platform Launch, você pode ver vários perfis listados.
+      Se você adicionou usuários ao Experience Platform Launch anteriormente, você pode ver vários perfis listados.
 
 1. Selecione o perfil correto:
 
    a. Clique no nome do perfil padrão.
 
-   b. Clique na **[!UICONTROL Permissions]**guia.
+   b. Click the **[!UICONTROL Permissions]** tab.
 
-   c. Clique **[!UICONTROL Edit]**ao lado de**[!UICONTROL Property Rights]**.
+   c. Clique **[!UICONTROL Edit]** ao lado de **[!UICONTROL Property Rights]**.
 
    d. No painel esquerdo, clique em **[!UICONTROL + Add all]**.
 
@@ -102,19 +105,19 @@ Se esta for a primeira vez que você estiver adicionando um usuário, complete a
 
 Você adicionou com êxito permissões ao perfil criado.
 
-### 3. Adicione um usuário ou desenvolvedor aos seus perfis do Places Service e do Experience Platform Launch
+### 3. Adicione um usuário ou desenvolvedor ao seu Serviço Places e perfis Experience Platform Launch
 
-Você pode adicionar um usuário e/ou um desenvolvedor aos seus perfis de Serviço do Places e Inicialização da Experience Platform.
+Você pode adicionar um usuário e/ou desenvolvedor ao Serviço de Locais e aos perfis de Experience Platform Launch.
 
 ### Adicionar um usuário
 
-Para adicionar um usuário aos perfis de Serviço do Places e Inicialização da plataforma de experiência:
+Para adicionar um usuário ao Serviço de Locais e aos perfis de Experience Platform Launch:
 
-1. Adicione um usuário ao perfil do Experience Platform Launch.
+1. Adicione um usuário ao perfil Experience Platform Launch.
 
    a. Na barra de menus, clique em **[!UICONTROL Overview]**.
 
-   b. Na **[!UICONTROL Adobe Experience Platform Launch]**placa, verifique o seguinte:
+   b. Na **[!UICONTROL Adobe Experience Platform Launch]** placa, verifique o seguinte:
 
    * Dois pontos são exibidos na parte inferior do cartão.
    * O ponto à esquerda é preto.
@@ -122,13 +125,14 @@ Para adicionar um usuário aos perfis de Serviço do Places e Inicialização da
       Se o ponto no lado direito estiver preto, você só poderá adicionar desenvolvedores. Para adicionar um usuário, clique no ponto à esquerda.
    c. Clique em **[!UICONTROL + Add Users]**.
 
-   d. Insira a Adobe ID do usuário.
+   d. Insira o Adobe ID do usuário.
 
    e. Conclua uma das seguintes etapas:
 
-   * Se você estiver adicionando um novo usuário, clique em **[!UICONTROL New user]**e insira o nome e sobrenome do usuário.
+   * Se você estiver adicionando um novo usuário, clique em **[!UICONTROL New user]** e insira o nome e sobrenome do usuário.
    * Se você estiver adicionando um usuário existente, clique no nome do usuário exibido.
-   f. Na lista **[!UICONTROL Please select a profile for this product]**suspensa, selecione o perfil editado anteriormente.
+
+   f. Na lista **[!UICONTROL Please select a profile for this product]** suspensa, selecione o perfil editado anteriormente.
 
    g. Clique em **[!UICONTROL Save]**.
 
@@ -138,19 +142,21 @@ Para adicionar um usuário aos perfis de Serviço do Places e Inicialização da
    >
    >Atualmente, todos os usuários do Serviço Local têm as mesmas permissões, portanto, não é necessário editar as permissões.
 
-   a. Na **[!UICONTROL Places Core Services]**placa, verifique o seguinte:
+   a. Na **[!UICONTROL Places Core Services]** placa, verifique o seguinte:
 
    * Dois pontos são exibidos na parte inferior do cartão.
    * O ponto à esquerda é preto.
+
    b. Clique em **[!UICONTROL + Assign Users]**.
 
-   c. Insira a Adobe ID do usuário.
+   c. Insira o Adobe ID do usuário.
 
    d. Conclua uma das seguintes etapas:
 
-   * Se você estiver adicionando um novo usuário, clique em **[!UICONTROL New user]**e insira o nome e sobrenome do usuário.
+   * Se você estiver adicionando um novo usuário, clique em **[!UICONTROL New user]** e insira o nome e sobrenome do usuário.
    * Se você estiver adicionando um usuário existente, clique no nome do usuário exibido.
-   e. Na lista **[!UICONTROL Please select a profile for this product]**suspensa, selecione o perfil Locais.
+
+   e. Na lista **[!UICONTROL Please select a profile for this product]** suspensa, selecione o perfil Locais.
 
    f. Clique em **[!UICONTROL Save]**.
 
@@ -160,10 +166,10 @@ Para usuários que também precisam de acesso à API de serviço da Web, é nece
 
 Para adicionar um desenvolvedor:
 
-1. On the **[!UICONTROL Places Core Services]**card, verify the following:
+1. On the **[!UICONTROL Places Core Services]** card, verify the following:
 
    * Dois pontos são exibidos na parte inferior do cartão.
-   * Clique no ponto à direita para **[!UICONTROL Assign Developers]**aparecer na parte inferior do cartão.
+   * Clique no ponto à direita para **[!UICONTROL Assign Developers]** aparecer na parte inferior do cartão.
 
 1. Clique em **[!UICONTROL + Assign Developers]**.
 
@@ -171,10 +177,10 @@ Para adicionar um desenvolvedor:
 
 1. Conclua uma das seguintes etapas:
 
-   * Se você estiver adicionando um novo usuário, clique em **[!UICONTROL New user]**e insira o nome e sobrenome do usuário.
+   * Se você estiver adicionando um novo usuário, clique em **[!UICONTROL New user]** e insira o nome e sobrenome do usuário.
    * Se você estiver adicionando um usuário existente, clique no nome do usuário exibido.
 
-1. Na lista **[!UICONTROL Please select a profile for this product]**suspensa, selecione o perfil Local Service.
+1. Na lista **[!UICONTROL Please select a profile for this product]** suspensa, selecione o perfil Places Service.
 
 1. Clique em **Salvar**.
 
