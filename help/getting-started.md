@@ -1,8 +1,11 @@
 ---
 title: Introdução
-description: Introdução ao Serviço de Locais.
+description: Introdução com o Serviço de Locais.
 translation-type: tm+mt
-source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
+source-git-commit: 30650c1e11a52f6bbc118d374b8ff6050b5d80ce
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 4%
 
 ---
 
@@ -11,19 +14,23 @@ source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
 
 Este é um vídeo útil para obter uma visão geral dos serviços locais:
 
->[!VIDEO](https://www.youtube.com/watch?v=aV6i_ayxWCw)
+<!--
+Test of different youtube link for exl
+-->
+
+>[!VIDEO](https://youtu.be/aV6i_ayxWCw)
 
 ## Uso do serviço Places
 
 Para usar o Serviço de Locais, conclua as seguintes tarefas:
 
-### 1. Certifique-se de que seu usuário esteja provisionado para usar o Serviço Places
+### 1. Certifique-se de que seu usuário esteja provisionado para usar o Serviço de Locais
 
-O contexto de produto do Serviço Local está disponível em todas as organizações da Experience Cloud.
+O contexto do produto Places Service está disponível para todas as organizações de Experience Cloud.
 
-* Certifique-se de estar listado como um usuário nos contextos de produto Places Service e Experience Platform Launch no Admin Console.
+* Verifique se você está listado como um usuário nos contextos de produto Places Service e Experience Platform Launch no Admin Console.
 
-   Para obter mais informações, consulte *Adicionar um usuário ao Experience Platform Launch e ao Serviço* Places em perguntas [](/help/places-gain-access.md)frequentes.
+   Para obter mais informações, consulte *Adicionar um usuário ao Experience Platform Launch e aos serviços* de locais em perguntas [](/help/places-gain-access.md)frequentes.
 
 
 ### 2. Criar seus POIs
