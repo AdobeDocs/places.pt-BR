@@ -1,18 +1,18 @@
 ---
 product: Places Service
 audience: end-user
-user-guide-title: Serviço Places
+user-guide-title: Guia de serviços do Places
 user-guide-description: Places Service is a geo-location service that enables mobile apps with location awareness to understand the location context.
 translation-type: tm+mt
-source-git-commit: 43b1eb0d384e2e75e444b737c0ab15798492d0a8
+source-git-commit: f9215fa3871d91166ad109a0708105f79536213c
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 14%
+source-wordcount: '298'
+ht-degree: 13%
 
 ---
 
 
-# Serviço Places {#using}
+# Serviço de Places {#using}
 
 + [Visão geral do Places Service](home.md)
 + [Notas de versão](release-notes.md)
@@ -53,7 +53,7 @@ ht-degree: 14%
             + [Criar vários POIs](web-service-api/api-usage/manage-pois/batch-apis/create-multiple-pois.md)
             + [Atualizar vários POIs](web-service-api/api-usage/manage-pois/batch-apis/update-multiple-pois.md)
             + [Excluir vários POIs](web-service-api/api-usage/manage-pois/batch-apis/delete-multiple-pois.md)
-      + [APIs de Query](web-service-api/api-usage/query-apis.md)
+      + [APIs de query](web-service-api/api-usage/query-apis.md)
 + Extensões para SDKs móveis {#places-ext-aep-sdks}
    + Extensão do Places {#places-extension}
       + [Extensão do Places](places-ext-aep-sdks/places-extension/places-extension.md)
@@ -66,13 +66,13 @@ ht-degree: 14%
       + [Referência da API do monitor de locais](places-ext-aep-sdks/places-monitor-extension/places-monitor-api-reference.md)
 + [Use o Places Service com sua própria solução de monitoramento](using-your-own-monitor.md)
 + [Usar o Serviço de Locais sem monitoramento de região ativa](use-places-without-active-monitoring.md)
-+ Usar o Serviço Local como parte do fluxo de trabalho do Experience Platform Launch {#use-places-launch-workflow}
-   + [Usar o Serviço Local como parte do fluxo de trabalho do Experience Platform Launch](use-places-launch-workflow/places-launch-workflow.md)
++ Usar o Serviço de Locais como parte do fluxo de trabalho do Experience Platform Launch {#use-places-launch-workflow}
+   + [Usar o Serviço de Locais como parte do fluxo de trabalho do Experience Platform Launch](use-places-launch-workflow/places-launch-workflow.md)
    + [Definir elementos de dados](use-places-launch-workflow/define-data-elements.md)
    + [Criar regras de entrada e saída](use-places-launch-workflow/create-rule-places-property.md)
-+ Usar o serviço Places com outras soluções da Adobe {#use-places-with-other-solutions}
++ Use o serviço Places com outras soluções de Adobe {#use-places-with-other-solutions}
    + Adobe Analytics {#places-adobe-analytics}
-      + [Usar o serviço Places com o Adobe Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)
+      + [Usar o serviço Places com a Adobe Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)
       + [Enviar dados de entrada e saída do POI para o Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
       + [Adicionar contexto de localização às solicitações do Analytics](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
       + [Relatório de dados de localização no Analytics Workspace](use-places-with-other-solutions/places-adobe-analytics/places-in-workspace.md)
@@ -81,11 +81,11 @@ ht-degree: 14%
       + [Notificações por push](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-push.md)
       + [Notificações no aplicativo](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-inapp.md)
    + Adobe Campaign Standard {#places-acs}
-      + [Use o serviço Places com o Adobe Campaign Standard](use-places-with-other-solutions/places-acs/places-acs-overview.md)
+      + [Usar o serviço Places com a Adobe Campaign Standard](use-places-with-other-solutions/places-acs/places-acs-overview.md)
       + [Notificações por push](use-places-with-other-solutions/places-acs/places-acs-push-notifications.md)
       + [Mensagens no aplicativo](use-places-with-other-solutions/places-acs/places-acs-in-app-messages.md)
    + Adobe Target {#places-target}
-      + [Usar o serviço Places com o Público alvo da Adobe](use-places-with-other-solutions/places-target/places-target.md)
+      + [Usar o serviço Places com a Adobe Target](use-places-with-other-solutions/places-target/places-target.md)
 + Teste e validação {#places-testing-validation}
    + [Testar e validar o Serviço de Locais](places-testing-validation/test-validate-places.md)
 + [Perguntas frequentes](places-faqs.md)
