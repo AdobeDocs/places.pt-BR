@@ -3,6 +3,9 @@ title: Perguntas frequentes
 description: Este tópico fornece informações adicionais sobre algumas perguntas frequentes.
 translation-type: tm+mt
 source-git-commit: 5846577f10eb1d570465ad7f888feba6dd958ec9
+workflow-type: tm+mt
+source-wordcount: '552'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +20,7 @@ Se você estiver migrando do SDK v4 e estiver procurando uma substituição para
 
 ## Tamanho e confiabilidade
 
-É importante observar que todas as geofences estão sendo usadas no monitoramento de região de um aplicativo móvel, independentemente do uso da Adobe ou de algum outro serviço. Os sistemas operacionais recomendam que alguns parâmetros sejam levados em consideração ao criar geofences. Para uma fiabilidade máxima, as geofences devem ter um raio de, pelo menos, 100 metros. Não há problema em criar geofences menores, mas eventos de entrada e saída podem não ser gerados ou podem ser gerados depois que o usuário para de se mover por um período.
+É importante observar que todas as geofences estão sendo usadas no monitoramento de região de um aplicativo móvel, independentemente do uso do Adobe ou de outro serviço. Os sistemas operacionais recomendam que alguns parâmetros sejam levados em consideração ao criar geofences. Para uma fiabilidade máxima, as geofences devem ter um raio de, pelo menos, 100 metros. Não há problema em criar geofences menores, mas eventos de entrada e saída podem não ser gerados ou podem ser gerados depois que o usuário para de se mover por um período.
 
 Além disso, a precisão e a confiabilidade podem ser reduzidas com base em condições de hardware como wi-fi que está sendo desligado ou indisponível, e também com base na localização do dispositivo em relação aos sinais GPS. Por exemplo, as áreas de montagem, as configurações urbanas e as áreas interiores podem reduzir a precisão de localização dos sistemas operacionais iOS e Android.
 
