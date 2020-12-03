@@ -3,6 +3,9 @@ title: Adicionar contexto de localização às solicitações do Analytics
 description: Esta seção fornece informações sobre como adicionar o contexto de localização às solicitações do Analytics.
 translation-type: tm+mt
 source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+workflow-type: tm+mt
+source-wordcount: '444'
+ht-degree: 1%
 
 ---
 
@@ -13,15 +16,15 @@ source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 >
 >Este documento supõe que você tenha o Serviço de Locais implementado em seu aplicativo. Para obter mais informações sobre como implementar o Serviço de Locais, consulte [Extensões](/help/places-ext-aep-sdks/places-extension/places-extension.md)de Locais.
 
-Depois que o Places Service enviar os eventos de entrada e saída, você pode criar regras no Experience Platform Launch e anexar seus dados do Places Service a todos os eventos do Adobe Analytics. Para criar esse tipo de regra, selecione sua propriedade em Iniciar e conclua as seguintes etapas:
+Depois que o Serviço de Locais enviar os eventos de entrada e saída, você pode criar regras no Experience Platform Launch e anexar seus dados do Serviço de Locais a todos os eventos Adobe Analytics. Para criar esse tipo de regra, selecione sua propriedade em Iniciar e conclua as seguintes etapas:
 
 ## 1. Criar uma regra
 
-1. Na **[!UICONTROL Rules]**guia, clique em**[!UICONTROL Create New Rule]**.
+1. On the **[!UICONTROL Rules]** tab, click **[!UICONTROL Create New Rule]**.
 
    Lembre-se das seguintes informações:
-   * Se você não tiver regras existentes para essa propriedade, o **[!UICONTROL Create New Rule]**botão estará no meio da tela.
-   * Se sua propriedade tiver regras, o **[!UICONTROL Create New Rule]**botão estará no canto superior direito da tela.
+   * Se você não tiver regras existentes para essa propriedade, o **[!UICONTROL Create New Rule]** botão estará no meio da tela.
+   * Se sua propriedade tiver regras, o **[!UICONTROL Create New Rule]** botão estará no canto superior direito da tela.
 
 ## 2.Selecione um evento
 
@@ -29,11 +32,11 @@ Depois que o Places Service enviar os eventos de entrada e saída, você pode cr
 
    Neste exemplo, a Regra é nomeada **[!UICONTROL Attach Places Service Data to Analytics Track Action Events]**.
 
-1. Na **[!UICONTROL Events]**seção, clique em**[!UICONTROL Add]**.
+1. Under the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 
-1. Na lista **[!UICONTROL Extension]**suspensa, selecione**[!UICONTROL Mobile Core]**.
+1. Na lista **[!UICONTROL Extension]** suspensa, selecione **[!UICONTROL Mobile Core]**.
 
-1. Na lista **[!UICONTROL Event Type]**suspensa, selecione**[!UICONTROL Track Action]**.
+1. Na lista **[!UICONTROL Event Type]** suspensa, selecione **[!UICONTROL Track Action]**.
 
 Agora você pode determinar os acionadores que deseja incluir para esta Regra. Neste exemplo, o acionador se baseia em todas as `TrackAction` chamadas. Depois de configurar o Evento, clique em **[!UICONTROL Keep Changes]**.
 
@@ -48,13 +51,13 @@ Agora você pode determinar os acionadores que deseja incluir para esta Regra. N
 
 Neste exemplo, é criada uma Condição que faz com que a Regra seja acionada somente para clientes AT&amp;T.
 
-1. Na **[!UICONTROL Conditions]**seção, clique em**[!UICONTROL Add]**.
+1. Under the **[!UICONTROL Conditions]** section, click **[!UICONTROL Add]**.
 
-1. Na lista **[!UICONTROL Extension]**suspensa, selecione**[!UICONTROL Mobile Core]**.
+1. Na lista **[!UICONTROL Extension]** suspensa, selecione **[!UICONTROL Mobile Core]**.
 
-1. Na lista **[!UICONTROL Condition Type]**suspensa, selecione**[!UICONTROL Carrier Name]**.
+1. Na lista **[!UICONTROL Condition Type]** suspensa, selecione **[!UICONTROL Carrier Name]**.
 
-1. Na janela à direita, marque a **[!UICONTROL AT&T]**caixa de seleção.
+1. Na janela à direita, marque a **[!UICONTROL AT&T]** caixa de seleção.
 
 1. Clique em **[!UICONTROL Keep Changes]**.
 
@@ -62,13 +65,13 @@ Neste exemplo, é criada uma Condição que faz com que a Regra seja acionada so
 
 ## 4. Definir a ação
 
-1. Na **[!UICONTROL Actions]**seção, clique em**[!UICONTROL Add]**.
+1. Under the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
 
-1. Na lista **[!UICONTROL Extension]**suspensa, selecione**[!UICONTROL Mobile Core]**.
+1. Na lista **[!UICONTROL Extension]** suspensa, selecione **[!UICONTROL Mobile Core]**.
 
-1. Na lista **[!UICONTROL Action Type]**suspensa, selecione**[!UICONTROL Attach Data]**.
+1. Na lista **[!UICONTROL Action Type]** suspensa, selecione **[!UICONTROL Attach Data]**.
 
-1. No painel direito, no **[!UICONTROL JSON Payload]**campo, digite os dados que serão adicionados a este Evento.
+1. No painel direito, no **[!UICONTROL JSON Payload]** campo, digite os dados que serão adicionados a esse Evento.
 
 1. Clique em **[!UICONTROL Keep Changes]**.
 
