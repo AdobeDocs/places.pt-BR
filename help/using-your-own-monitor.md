@@ -3,6 +3,9 @@ title: Usando seu próprio monitor
 description: Você também pode usar seus serviços de monitoramento e fazer a integração com o Serviço de Locais usando as APIs de extensão do Serviço de Locais.
 translation-type: tm+mt
 source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+workflow-type: tm+mt
+source-wordcount: '264'
+ht-degree: 1%
 
 ---
 
@@ -13,7 +16,7 @@ Você também pode usar seus serviços de monitoramento e fazer a integração c
 
 ## Registrando Geofences
 
-Se você decidir usar seus serviços de monitoramento, registre as geofences dos POIs em torno do seu local atual, completando as seguintes etapas:
+Se você decidir usar seus serviços de monitoramento, registre as geofences dos POIs em torno do seu local atual, concluindo as seguintes etapas:
 
 ### iOS
 
@@ -31,7 +34,7 @@ No iOS, conclua as seguintes etapas:
    }
    ```
 
-1. Extraia as informações dos `ACPPlacesPOI` objetos obtidos e comece a monitorar esses POIs.
+1. Extraia as informações dos `ACPPlacesPOI` objetos obtidos e do start que monitora esses POIs.
 
    ```objective-c
    - (void) startMonitoringGeoFences: (NSArray*) newGeoFences {
@@ -75,7 +78,7 @@ No iOS, conclua as seguintes etapas:
    };
    ```
 
-1. Extraia os dados dos `PlacesPOI` objetos obtidos e comece a monitorar esses POIs.
+1. Extraia os dados dos `PlacesPOI` objetos obtidos e do start que monitora esses POIs.
 
    ```java
    private void startMonitoringFences(final List<PlacesPOI> nearByPOIs) {
@@ -106,7 +109,7 @@ Chamar a `getNearbyPointsOfInterest` API resulta em uma chamada de rede que obt�
 >
 >Você deve chamar a API com moderação ou somente quando houver uma alteração significativa de localização do usuário.
 
-## Postando eventos de geofence
+## Postando Eventos Geofence
 
 ### iOS
 
@@ -124,7 +127,7 @@ No iOS, chame a API `processGeofenceEvent` Locais no `CLLocationManager` delegad
 
 ### Android
 
-No Android, chame o `processGeofence` método junto com o evento de transição apropriado no receptor de transmissão Geofence. Talvez você queira preparar a lista de geofences recebidas para evitar entradas/saídas duplicadas.
+No Android, chame o `processGeofence` método junto com o evento de transição apropriado em seu receptor de transmissão Geofence. Talvez você queira preparar a lista de geofences recebidas para impedir entradas/saídas de duplicados.
 
 ```java
 void onGeofenceReceived(final Intent intent) {
