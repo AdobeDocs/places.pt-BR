@@ -3,13 +3,16 @@ title: Usar o Serviço de Locais sem monitoramento de região ativa
 description: Esta seção fornece informações sobre como usar o Serviço de Locais sem monitoramento de região ativa.
 translation-type: tm+mt
 source-git-commit: 5846577f10eb1d570465ad7f888feba6dd958ec9
+workflow-type: tm+mt
+source-wordcount: '745'
+ht-degree: 1%
 
 ---
 
 
 # Usar o Serviço de Locais sem monitoramento de região ativa {#use-places-without-active-monitoring}
 
-Casos de uso para seu aplicativo podem não exigir monitoramento de região ativa. O Serviço de Locais ainda pode ser usado para obter os dados de localização dos usuários integrados a outros produtos da plataforma Experience.
+Casos de uso para seu aplicativo podem não exigir monitoramento de região ativa. O Serviço de Locais ainda pode ser usado para obter os dados de localização dos usuários integrados a outros produtos de Experience Platform.
 
 ## Pré-requisitos
 
@@ -408,6 +411,6 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 }
 ```
 
-Além de disparar eventos de entrada do Serviço de Locais no SDK, devido aos eventos de entrada que disparam, todos os dados que definem seus POIs podem ser usados pelo resto do SDK por meio do `data elements` Experience Platform Launch. Com o Experience Platform Launch `rules`, você pode anexar dinamicamente os dados do Serviço de Locais aos eventos recebidos que são processados pelo SDK. Por exemplo, você pode anexar os metadados de um POI no qual o usuário está localizado e enviar os dados para o Analytics como dados de contexto.
+Além de disparar eventos de entrada do Serviço de Locais no SDK, devido aos eventos de entrada que disparam, todos os dados que definem seus POIs podem ser usados pelo resto do SDK via `data elements` no Experience Platform Launch. Com o Experience Platform Launch `rules`, você pode anexar dinamicamente os dados do Serviço de Locais aos eventos recebidos que são processados pelo SDK. Por exemplo, você pode anexar os metadados de um POI no qual o usuário está localizado e enviar os dados para o Analytics como dados de contexto.
 
-Para obter mais informações, consulte [Uso do serviço Places com outras soluções](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)da Adobe.
+Para obter mais informações, consulte [Uso do serviço Places com outras soluções](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)de Adobe.
