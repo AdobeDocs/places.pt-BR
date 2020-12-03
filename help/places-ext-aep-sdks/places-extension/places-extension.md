@@ -14,7 +14,7 @@ ht-degree: 5%
 
 A extensão Locais permite que você atue com base na localização dos usuários. Essa extensão é a interface para as APIs de serviço de Query do Places. Ao acompanhar eventos que contêm coordenadas GPS e eventos de região geofence, essa extensão despacha novos eventos que são processados pelo Mecanismo de regras. A extensão Locais também recupera e fornece uma lista do POI mais próximo para os dados do aplicativo que são recuperados das APIs. As regiões retornadas pelas APIs são armazenadas em cache e persistência, o que permite um processamento offline limitado.
 
-## Instale a extensão Locais no Adobe Experience Platform Launch
+## Instale a extensão Places no Adobe Experience Platform Launch
 
 1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
 1. Na **[!UICONTROL Catalog]** guia, localize a **[!UICONTROL Places]** extensão e clique em **[!UICONTROL Install]**.
