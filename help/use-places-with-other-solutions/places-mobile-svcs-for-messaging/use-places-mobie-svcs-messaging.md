@@ -1,15 +1,18 @@
 ---
-title: Uso do Places Service com Mobile Services para mensagens
+title: Uso do Places Service com Mobile Services para envio de mensagens
 description: Esta seção mostra como usar o Places Service com Mobile Services para mensagens.
 translation-type: tm+mt
 source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 1%
 
 ---
 
 
 # Adobe Mobile Services {#places-mobile-services}
 
-Antes de usar a extensão do Mobile Services para mensagens, reveja os seguintes pré-requisitos:
+Antes de poder usar a extensão do Mobile Services para mensagens, reveja os seguintes pré-requisitos:
 
 * Os pontos de interesse foram criados no Places Service. For more information, see [Create a POI](/help/poi-mgmt-ui/create-a-poi-ui.md).
 
@@ -29,29 +32,29 @@ Antes de usar a extensão do Mobile Services para mensagens, reveja os seguintes
 
    Isso significa que os dados estão disponíveis como eventos e/ou condições no mecanismo de regras do Experience Platform Launch para seu aplicativo móvel. Para obter mais informações, consulte Extensão [de](/help/places-ext-aep-sdks/places-extension/places-extension.md) locais ou Extensão [do Monitor de](/help/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.md)locais.
 
-* Familiarize-se com a criação e publicação de regras de lançamento da plataforma Experience com o SDK ACP em seu aplicativo móvel.
+* Familiarize-se com a criação e publicação de regras de Experience Platform Launch para o SDK ACP em seu aplicativo móvel.
 
    For more information, see [Rules engine](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine).
 
-* Os elementos de dados do Experience Platform Launch são criados a partir dos dados de extensão do Local que serão usados no mecanismo Regras.
+* Os elementos de dados de Experience Platform Launch são criados a partir dos dados de extensão de Locais que serão usados no mecanismo Regras.
 
    For more information, see [Data elements](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine#data-elements).
 
 ## Relatório
 
-Antes de usar os relatórios, conclua os seguintes pré-requisitos:
+Antes de usar o relatórios, conclua os seguintes pré-requisitos:
 
-* Envio com êxito dos dados do Serviço do Local para o Conjunto de relatórios do Adobe Analytics.
+* Envio com êxito dos dados do Serviço de Locais para o Conjunto de relatórios da Adobe Analytics.
 
-   Para obter mais informações, consulte [Usar o serviço de locais com o Adobe Analytics](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md).
+   Para obter mais informações, consulte [Usar o Serviço de Locais com a Adobe Analytics](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md).
 
-* Familiarize-se com os relatórios do Mobile Services.
+* Familiarize-se com o relatórios Mobile Services.
 
    For more information, see [Reports](https://docs.adobe.com/content/help/en/mobile-services/using/reports-ug/usage.html).
 
-## Visualização de relatórios
+## Visualização do relatórios
 
-Você pode executar relatórios do Mobile Service usando dados do Places Service enviados para o Adobe Analytics. No exemplo a seguir, os eventos são enviados quando os usuários têm entradas em um dos POIs. Neste relatório, um filtro do evento de entrada POI foi adicionado ao longo do relatório de usuário predefinido:
+Você pode executar relatórios do Mobile Service usando dados do Places Service enviados para a Adobe Analytics. No exemplo a seguir, os eventos são enviados quando os usuários têm entradas em um dos POIs. Neste relatório, um filtro do evento de entrada POI foi adicionado ao longo do relatório de usuário predefinido:
 
 ![Visualização de relatório](/help/assets/report-visualize.png)
 
