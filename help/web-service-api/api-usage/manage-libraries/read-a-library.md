@@ -3,6 +3,9 @@ title: Ler uma biblioteca
 description: Leia uma biblioteca usando a API REST do Places.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '45'
+ht-degree: 6%
 
 ---
 
@@ -10,7 +13,7 @@ source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 # Ler uma biblioteca {#read-a-library}
 
-Um método GET que retorna os detalhes de uma biblioteca.
+Um método de GET que retorna os detalhes de uma biblioteca.
 
 ## Solicitação
 
@@ -28,7 +31,7 @@ GET https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYID>
 -H 'Accept-Language: en-US'
 ```
 
-## Resposta de exemplo
+## Exemplo de resposta
 
 ```text
 {
