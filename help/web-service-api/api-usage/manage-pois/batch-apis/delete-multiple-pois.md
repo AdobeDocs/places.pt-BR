@@ -3,6 +3,9 @@ title: Excluir vários POIs
 description: Use as APIs em lote para excluir vários POIs.
 translation-type: tm+mt
 source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+workflow-type: tm+mt
+source-wordcount: '56'
+ht-degree: 5%
 
 ---
 
@@ -30,7 +33,7 @@ POST https://api-places.adobe.io/places/placesapi/v1/pois/batchDelete
 {  "ids": [    "<POIID>",    "<POIID>",    .    .    .    "<POIID>",    "<POIID>"  ]}
 ```
 
-## Resposta de exemplo
+## Exemplo de resposta
 
 ```text
 If successful a Status of "204 No Content" is returned.
