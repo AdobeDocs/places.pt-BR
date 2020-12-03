@@ -3,13 +3,16 @@ title: Ler um POI
 description: Leia um POI usando as APIs REST do Places.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '45'
+ht-degree: 6%
 
 ---
 
 
 # Ler um POI {#read-a-poi}
 
-Um método GET que retorna os detalhes de um POI.
+Um método de GET que retorna os detalhes de um POI.
 
 ## Solicitação
 
@@ -27,7 +30,7 @@ GET https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>
 -H 'Accept-Language: en-US'
 ```
 
-## Resposta de exemplo
+## Exemplo de resposta
 
 ```text
 {
