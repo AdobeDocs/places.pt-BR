@@ -103,7 +103,7 @@ Os valores das seguintes colunas são usados na interface do usuário do Serviç
 
    * `api_key`
 
-      Esta é a chave da API REST do Places obtida da integração do Adobe I/O Places. Para obter informações sobre como obter a chave da API, consulte *Pré-requisitos para acesso* do usuário na visão geral e pré-requisitos [da](/help/web-service-api/adobe-i-o-integration.md)integração.
+      Esta é a chave da API REST do Places obtida da Integração do Adobe I/O Places. Para obter informações sobre como obter a chave da API, consulte *Pré-requisitos para acesso* do usuário na visão geral e pré-requisitos [da](/help/web-service-api/adobe-i-o-integration.md)integração.
    b. Salve as alterações.
 
 1. Em uma janela de terminal, navegue até o `…/places-scripts/import/` diretório.
