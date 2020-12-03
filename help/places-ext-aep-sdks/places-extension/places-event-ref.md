@@ -1,15 +1,18 @@
 ---
-title: Referência de evento de locais
+title: Referência de eventos de locais
 description: 'Uma lista dos eventos manipulados pela extensão Locais. '
 translation-type: tm+mt
 source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 24%
 
 ---
 
 
-# Referência de evento de locais {#places-event-reference}
+# Referência de eventos de locais {#places-event-reference}
 
-Esta é uma lista dos eventos manipulados pela extensão Locais.
+Esta é uma lista dos eventos manipulados pela extensão Places.
 
 ## GetCurrentPointsOfInterest
 
@@ -25,7 +28,7 @@ Este evento é uma solicitação para recuperar os POIs nos quais o dispositivo 
 
 **Definição do conteúdo de dados**
 
-n/a
+n/d
 
 ## GetNearbyPointsOfInterest
 
@@ -37,16 +40,16 @@ n/a
 
 **Descrição do evento**
 
-Este evento é uma solicitação para obter os POIs próximos levando em consideração a localização atual do dispositivo e as bibliotecas de Locais configuradas.
+Este evento é uma solicitação para obter os POIs próximos, levando em consideração a localização atual do dispositivo e as bibliotecas configuradas de Locais.
 
 **Definição do conteúdo de dados**
 
 | Chave | Tipo de valor | Obrigatório | Valor padrão | Descrição |
 | :--- | :--- | :--- | :--- | :--- |
-| latitude | double | true | n/a | Mantém o valor de latitude para o centro da pesquisa por POIs próximos. |
-| longitude | double | true | n/a | Mantém o valor da longitude do centro da pesquisa por POIs próximos. |
-| raio | integer | false | n/a | Raio, em metros, usado pela busca por POIs próximos. |
-| count | integer | false | 10 | Número máximo de POIs a serem retornados no evento de resposta resultante. |
+| latitude | duplo | true | n/d | Mantém o valor de latitude para o centro da pesquisa por POIs próximos. |
+| longitude | duplo | true | n/d | Mantém o valor da longitude do centro da pesquisa por POIs próximos. |
+| raio | integer | false | n/d | Raio, em metros, usado pela busca por POIs próximos. |
+| count | integer | false | 10 | Número máximo de POIs para retornar ao evento de resposta resultante. |
 
 ## ProcessRegionEvent
 
