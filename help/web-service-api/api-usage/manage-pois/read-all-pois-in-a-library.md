@@ -3,13 +3,16 @@ title: Ler todos os POIs em uma biblioteca
 description: Leia todos os POIs em uma biblioteca usando as APIs REST do Places.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '54'
+ht-degree: 5%
 
 ---
 
 
 # Ler todos os POIs em uma biblioteca {#read-all-pois-library}
 
-Um método GET que retorna todos os POIs em uma biblioteca.
+Um método de GET que retorna todos os POIs em uma biblioteca.
 
 ## Solicitação
 
@@ -27,7 +30,7 @@ GET https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYID>/pois
 -H 'Accept-Language: en-US'
 ```
 
-## Resposta de exemplo
+## Exemplo de resposta
 
 ```text
 {
@@ -165,5 +168,5 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYI
 
 >[!IMPORTANT]
 >
->Substitua &#39;&#39;, `<API KEY>`, `<TOKEN>`e `<ORGID>` pelos valores reais.
+>Substitua &#39;&#39;, `<API KEY>`, `<TOKEN>`e `<ORGID>` por valores reais.
 
