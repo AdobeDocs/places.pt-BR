@@ -3,21 +3,24 @@ title: Definir elementos de dados
 description: Esta seção fornece informações sobre como criar, usar e publicar elementos de dados no Experience Platform Launch for Places.
 translation-type: tm+mt
 source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
+workflow-type: tm+mt
+source-wordcount: '456'
+ht-degree: 1%
 
 ---
 
 
-# Define a data element {#define-data-elements}
+# Definir um elemento de dados {#define-data-elements}
 
-As seguintes informações ajudam você a entender os elementos de dados e como criá-los e publicá-los.
+As informações a seguir ajudam você a entender os elementos de dados e como criá-los e publicá-los.
 
 ## Sobre elementos de dados
 
-Os elementos de dados são os elementos básicos para o dicionário de dados do aplicativo e são usados para coletar, organizar e fornecer dados através da tecnologia de publicidade e marketing.
+Os elementos de dados são os elementos básicos para o dicionário de dados do aplicativo e são usados para coletar, organizar e fornecer dados em toda a tecnologia de publicidade e marketing.
 
-Um elemento de dados é uma variável na qual o valor pode ser mapeado para uma ID de visitante, um nome de operadora, uma ID de anúncio, uma ID de push e assim por diante. No Experience Platform Launch, você pode fazer referência a esse valor pelo nome da variável. Essa coleção de elementos de dados se torna o dicionário de dados definidos que você pode usar para criar suas regras (eventos, condições e ações), e esse dicionário é compartilhado no Experience Platform Launch, onde pode ser usado com qualquer extensão em sua propriedade.
+Um elemento de dados é uma variável na qual o valor pode ser mapeado para uma ID de Visitante, um Nome da operadora, uma ID de anúncio, uma ID de push e assim por diante. No Experience Platform Launch, é possível fazer referência a esse valor pelo nome da variável. Essa coleção de elementos de dados se torna o dicionário de dados definidos que você pode usar para criar suas regras (eventos, condições e ações), e esse dicionário é compartilhado no Experience Platform Launch, onde pode ser usado com qualquer extensão em sua propriedade.
 
-Com a extensão Locais, você pode fazer referência a valores dos seguintes destinos:
+Com a extensão Locais, é possível fazer referência aos valores dos seguintes públicos alvos:
 
 * POI atual, que se refere ao POI no qual seu cliente está localizado no momento.
 
@@ -40,15 +43,15 @@ Cada POI contém as seguintes referências de dados:
 
 ### Criar um elemento de dados
 
-1. Na página Propriedade do aplicativo, clique na **[!UICONTROL Data Elements]**guia.
+1. Na página Propriedade do aplicativo, clique na **[!UICONTROL Data Elements]** guia.
 
 1. Clique em **[!UICONTROL Create New Data Element]**.
 
-1. Na lista de extensões instaladas, localize **[!UICONTROL Places]**.
+1. Na lista das extensões instaladas, localize **[!UICONTROL Places]**.
 
-1. Na lista **[!UICONTROL Data Element Type]**suspensa, selecione uma referência de dados para esse elemento de dados.
+1. Na lista **[!UICONTROL Data Element Type]** suspensa, selecione uma referência de dados para esse elemento de dados.
 
-1. Selecione um destino de POI.
+1. Selecione um público alvo POI.
 
 1. Se esse elemento de dados for uma referência de metadados personalizada, selecione uma chave de metadados.
 
@@ -63,8 +66,8 @@ Depois que um elemento de dados é criado, se um seletor de elemento de dados es
 
 ![Usar o elemento de dados](/help/assets/use-de-v2.png)
 
-Se um seletor de elementos de dados não estiver presente no componente de regra, você pode usar o elemento de dados vinculando o nome do elemento de dados aos **[!UICONTROL %%]**tokens.
-Por exemplo, se o nome do elemento de dados for**[!UICONTROL Last POI City]**, você poderá adicionar **[!UICONTROL LAST POI City]**a uma entrada de texto.
+Se um seletor de elementos de dados não estiver presente no componente de regra, você pode usar o elemento de dados vinculando o nome do elemento de dados aos **[!UICONTROL %%]** tokens.
+Por exemplo, se o nome do elemento de dados for **[!UICONTROL Last POI City]**, você poderá adicionar **[!UICONTROL LAST POI City]** a uma entrada de texto.
 
 
 ## Publicar elementos de dados
