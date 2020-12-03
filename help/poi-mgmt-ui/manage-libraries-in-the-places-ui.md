@@ -1,15 +1,18 @@
 ---
-title: Gerenciar bibliotecas na interface do usuário do serviço Places
+title: Gerenciar bibliotecas na interface do usuário do Serviço de Locais
 description: Gerencie suas bibliotecas usando a interface do usuário do serviço Places.
 translation-type: tm+mt
 source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
+workflow-type: tm+mt
+source-wordcount: '419'
+ht-degree: 22%
 
 ---
 
 
-# Manage libraries {#manage-libraries-places-ui}
+# Gerenciar bibliotecas {#manage-libraries-places-ui}
 
-Uma biblioteca é uma coleção de POIs. Você pode ter até 150.000 POIs em uma biblioteca e pode haver até 100 bibliotecas por organização da Experience Cloud.
+Uma biblioteca é uma coleção de POIs. Você pode ter até 150.000 POIs em uma biblioteca, e pode haver até 100 bibliotecas por organização de Experience Cloud.
 
 Existem várias maneiras de organizar seus POIs em bibliotecas, dependendo do que for mais útil para sua organização. Alguns clientes podem preferir criar uma biblioteca separada para cada aplicativo móvel, enquanto outros podem usar bibliotecas para agrupar tipos específicos de POIs, como cafeterias, parques, hotéis e assim por diante. Por exemplo, uma grande empresa de entretenimento pode ter uma biblioteca que inclui seus locais externos em uma biblioteca e suas lojas de varejo em outra biblioteca. A prefeitura pode ter uma biblioteca que compreende todos os prédios da cidade e outra que compõe todos os parques da cidade.
 
@@ -23,30 +26,30 @@ As bibliotecas são definidas pelo seguinte:
 
 ## Criar uma biblioteca
 
-1. Faça logon em locais com sua Adobe ID.
-1. No lado superior direito, clique em **[!UICONTROL ...]**>**[!UICONTROL Manage Libraries]**.
+1. Efetue login em Locais com seu Adobe ID.
+1. No lado superior direito, clique em **[!UICONTROL ...]** > **[!UICONTROL Manage Libraries]**.
 1. Clique em **[!UICONTROL New]**.
 1. Digite o nome.
 1. Clique em **[!UICONTROL Confirm]**.
 
 ## Alterar a classificação de uma biblioteca na interface do usuário do Places
 
-1. Faça logon em Locais com sua Adobe ID.
-1. No lado superior direito, clique em **[!UICONTROL ...]**>**[!UICONTROL Manage Libraries]**.
+1. Faça logon em Locais com seu Adobe ID.
+1. No lado superior direito, clique em **[!UICONTROL ...]** > **[!UICONTROL Manage Libraries]**.
 1. Clique no ícone à esquerda do nome da biblioteca e arraste a biblioteca para a nova classificação.
 
 ## Renomear uma biblioteca
 
-1. Faça logon em Locais com sua Adobe ID.
-1. No lado superior direito, clique em **[!UICONTROL ...]**>**[!UICONTROL Manage Libraries]**.
+1. Faça logon em Locais com seu Adobe ID.
+1. No lado superior direito, clique em **[!UICONTROL ...]** > **[!UICONTROL Manage Libraries]**.
 1. Localize a biblioteca que deseja excluir.
-1. Clique **[!UICONTROL ...]**e selecione**[!UICONTROL Rename]**.
+1. Click **[!UICONTROL ...]** and select **[!UICONTROL Rename]**.
 1. Atualize o nome e clique em **[!UICONTROL Save]**.
 
 ## Excluir uma biblioteca
 
-1. Faça logon em Locais com sua Adobe ID.
-1. No lado superior direito, clique em **[!UICONTROL ...]**>**[!UICONTROL Manage Libraries]**.
+1. Faça logon em Locais com seu Adobe ID.
+1. No lado superior direito, clique em **[!UICONTROL ...]** > **[!UICONTROL Manage Libraries]**.
 1. Localize a biblioteca que deseja excluir.
-1. Clique **[!UICONTROL ...]**e selecione**[!UICONTROL Delete]**.
+1. Click **[!UICONTROL ...]** and select **[!UICONTROL Delete]**.
 
