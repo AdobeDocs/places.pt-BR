@@ -49,7 +49,7 @@ Como as variáveis ambientais podem ser um fator no sinal de localização e na 
 | 12d | Para frequência e duração, guarde apenas um ou dois dias, para que, se você não gostar dos critérios, possa expirar o acionador em um período de tempo mais curto. |  |
 | 12e | Para clicar em Sempre/Uma vez ou Até, selecione *SEMPRE* para poder testar em vários locais. | Uma mensagem no aplicativo é exibida SEMPRE quando você simula uma alteração de local que atenda aos critérios de metadados apropriados. |
 | 12f | Para a tela, selecione uma opção diferente de Notificação local. Isso facilita a visualização ao testar o aplicativo em primeiro plano.) |  |
-| 12g  | Prepare/confirme e implante a mensagem no aplicativo. |  |
+| 12g     | Prepare/confirme e implante a mensagem no aplicativo. |  |
 | 13 | No seu ambiente de desenvolvimento, para garantir que novas regras de campanha sejam baixadas, encerre e inicie o aplicativo novamente. | Não se esqueça de que os aplicativos devem ser completamente iniciados novamente para que o novo arquivo de regras de Campanha seja baixado no dispositivo. |
 | 14 | No aplicativo de desenvolvimento, alterne os locais usando os arquivos GPX criados anteriormente. | A mensagem no aplicativo deve ser exibida com base nos critérios anteriores que foram definidos. |
 | 15 | Para o próximo teste, nós basicamente copiaremos os mesmos passos de antes, mas desta vez testaremos a NOTIFICAÇÃO LOCAL. | O resultado esperado é que as notificações locais são exibidas sempre que os critérios de correspondência forem atendidos. |
@@ -60,7 +60,7 @@ Como as variáveis ambientais podem ser um fator no sinal de localização e na 
 | 16d | Para frequência e duração, mantenha apenas um ou dois dias, para que, se você não gostar dos critérios, possa expirar o acionador em um período de tempo mais curto. |  |
 | 16e | Para click-through Sempre/Uma ou Até, **[!UICONTROL ALWAYS]**. |  |
 | 16f | Para o tipo de exibição, selecione **[!UICONTROL Local Notification]**. |  |
-| 16g  | Prepare/confirme e implante a mensagem no aplicativo. |  |
+| 16g     | Prepare/confirme e implante a mensagem no aplicativo. |  |
 | 17 | No ambiente do desenvolvedor, conecte seu dispositivo e pressione **[!UICONTROL Play]** na compilação. Depois de estabelecer que o local está funcionando, coloque o aplicativo em segundo plano e continue alternando os locais no Xcode ou no Android Studio. Você ainda deve ver as leituras do console indicando a alteração de local, e também deve ver as notificações locais exibidas dependendo dos critérios definidos no seu acionador. (Pode haver um atraso de 1 a 2 segundos.) | O resultado esperado é que as notificações locais são exibidas sempre que os critérios de correspondência forem atendidos. |
 |  | **RESUMO** Nesta <br>fase, deveríamos ver entradas POI no nosso ambiente local. Também deveríamos ver mensagens de Campanhas com base no trabalho de POI. Se houver falhas, verifique se uma notificação de Slack não foi enviada. Se não houver nenhuma mensagem de Slack, verifique o console do aplicativo, pois uma nova entrada de local pode não ter sido gravada. Se os resultados forem bem-sucedidos, podemos ter certeza de que o aplicativo está funcionando corretamente e de que o Serviço de Locais e o serviço de mensagens de Campanha também estão funcionando corretamente. |  |
 |  | **TESTE** NO LOCAL Pouco <br>deve mudar ao testar a localização. Manter o postback de folga ativo deve ajudar a entender se o dispositivo está recebendo uma entrada e uma saída para o local. |  |
