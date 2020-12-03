@@ -37,7 +37,7 @@ Antes de começar, conclua as seguintes tarefas:
    * Você pode optar por exibir a mensagem no aplicativo se o usuário tiver inserido uma fronteira geográfica POI.
    * Você também pode usar metadados definidos na interface do usuário do Places Services para filtrar a audiência.
 
-   No exemplo abaixo, você pode disparar uma mensagem no aplicativo que é exibida somente para usuários que entram em um dos resorts de férias que participam de um programa de bebida grátis, e você deseja enviar a esses usuários um cupom quando chegam.
+   No exemplo abaixo, você pode disparar uma mensagem no aplicativo que é exibida somente para usuários que entram em um dos resorts de férias que participam de um programa de bebida grátis, e você deseja enviar a esses usuários um cupom quando chegarem.
 
    ![&quot;Metadados de locais de mensagens no aplicativo&quot;](/help/assets/last-entered-vacation.png)
 
