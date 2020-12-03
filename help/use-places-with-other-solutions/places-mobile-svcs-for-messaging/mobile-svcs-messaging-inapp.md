@@ -3,13 +3,16 @@ title: Notificações no aplicativo
 description: Esta seção mostra como usar o Serviço de Locais com mensagens no aplicativo.
 translation-type: tm+mt
 source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+workflow-type: tm+mt
+source-wordcount: '660'
+ht-degree: 5%
 
 ---
 
 
 # Notificações no aplicativo {#places-push-messaging}
 
-As informações a seguir mostram como configurar mensagens no aplicativo para disparar dos eventos do Serviço de Locais.
+As informações a seguir mostram como configurar mensagens no aplicativo para disparar de eventos do Places Service.
 
 >[!IMPORTANT]
 >
@@ -17,7 +20,7 @@ As informações a seguir mostram como configurar mensagens no aplicativo para d
 
 ## Mensagem no aplicativo
 
-O Mobile Services permite que você use dados de localização que estão sendo enviados ao Analytics como evento(s) de disparo e/ou condição para uma mensagem no aplicativo. Se as mensagens no aplicativo forem disparadas do SDK e não precisarem aguardar o processamento dos dados pelo Analytics, elas poderão aparecer em tempo real assim que o acionador ocorrer.
+O Mobile Services permite que você use dados de localização que estão sendo enviados para o Analytics como evento(s) de disparo e/ou condição para uma mensagem no aplicativo. Se as mensagens no aplicativo forem disparadas do SDK e não precisarem aguardar o processamento dos dados pelo Analytics, elas poderão aparecer em tempo real assim que o acionador ocorrer.
 
 ### Notificações locais
 
@@ -31,13 +34,13 @@ Esses tipos são mensagens no aplicativo porque são acionados pelo SDK. As noti
 
 ### Pré-requisitos
 
-Antes de começar, você entende como enviar e criar uma mensagem no aplicativo no Mobile Services e como os acionadores funcionam. Para obter mais informações, consulte [Criar uma mensagem no aplicativo.](https://docs.adobe.com/content/help/en/mobile-services/using/messaging-ug/inapp-messages/t-in-app-message.html)
+Antes de começar, você entende como enviar e criar uma mensagem no aplicativo no Mobile Services e como os acionadores funcionam. Para obter mais informações, consulte [ Criar uma mensagem no aplicativo.](https://docs.adobe.com/content/help/en/mobile-services/using/messaging-ug/inapp-messages/t-in-app-message.html)
 
 ## Regras do Experience Platform Launch
 
-Você pode criar regras de inicialização da plataforma Experience que enviam os dados que você deseja que possam ser usados como parte das regras de disparador de mensagens no aplicativo para o Analytics. Você pode usar dados das extensões Locais nas regras de lançamento da plataforma da Experience como eventos e/ou condições, dependendo do caso de uso.
+Você pode criar regras de Experience Platform Launch que enviam os dados que deseja que possam ser usados como parte das regras de Acionador de mensagens no aplicativo para o Analytics. Você pode usar dados das extensões Locais nas regras de Experience Platform Launch como eventos e/ou condições, dependendo do caso de uso.
 
-* Usar dados de localização como evento de acionamento.
+* Usar dados de localização como o evento de acionamento.
 
    Por exemplo, você pode enviar dados para o Analytics quando um usuário digitar um POI.
 
@@ -52,11 +55,11 @@ Depois que a regra for configurada com os parâmetros de evento e condição apr
 Para criar uma ação:
 
 1. Selecione a extensão do **[!UICONTROL Adobe Analytics]**.
-1. Na lista **[!UICONTROL Action type]**suspensa, selecione**[!UICONTROL Track.]**
+1. Na lista **[!UICONTROL Action type]** suspensa, selecione **[!UICONTROL Track.]**
 1. Digite um nome para sua ação.
 1. No painel direito, em **[!UICONTROL Context Data]**, selecione o par de valores chave para definir os dados de contexto que serão enviados para o Analytics.
 
-Por exemplo, você pode selecionar `poiname` como a chave e `{%%Last Entered POI Name}` o valor.
+Por exemplo, você pode selecionar `poiname` como a chave e `{%%Last Entered POI Name}` como o valor.
 
 >[!TIP]
 >
@@ -70,17 +73,17 @@ Este é um exemplo da regra completa:
 
 ## Criar uma mensagem no aplicativo no Mobile Services
 
-Como parte dos parâmetros do Acionador, você pode criar o público-alvo para a mensagem com dados do Serviço de Locais de uma das seguintes maneiras:
+Como parte dos parâmetros do Acionador, você pode criar a audiência para a mensagem com dados do Serviço de Locais de uma das seguintes maneiras:
 
-* Usando ações específicas de localização, como uma entrada ou uma saída.
-* Usar metadados POI enviados como dados de contexto para restringir a meta do seu público-alvo.
+* Uso de ações específicas de localização, como uma entrada ou uma saída.
+* Usar metadados POI enviados como dados de contexto para restringir o público alvo de sua audiência.
 
    Essa opção pode ser usada com uma ação específica do local, como entrada, ou pode ser usada como contexto para outro evento, como uma inicialização ou um clique de botão.
 
-   Este é um exemplo de como configurar uma mensagem no aplicativo para receber usuários que digitam um POI que tenha **[!UICONTROL Adobe]**o nome:
+   Este é um exemplo de como configurar uma mensagem no aplicativo para receber usuários que digitam um POI que tenha **[!UICONTROL Adobe]** o nome:
 
    ![parâmetros de acionamento](/help/assets/trigger-parameters.png)
 
 * Os parâmetros nos cabeçalhos do Serviço de Locais na página *Acionadores e Características* no Mobile Services não funcionam com dados do Serviço de Locais.
 
-   Esses parâmetros são apenas para o banco de dados herdado do Places Service criado no Mobile Services.
+   Esses parâmetros são apenas para o banco de dados herdado do Serviço de Locais que foi criado no Mobile Services.
