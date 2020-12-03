@@ -1,8 +1,11 @@
 ---
 title: Referência da API do monitor de locais
-description: Uma lista das APIs do Monitor de locais.
+description: Uma lista das APIs para o Monitor de locais.
 translation-type: tm+mt
 source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
+workflow-type: tm+mt
+source-wordcount: '1090'
+ht-degree: 2%
 
 ---
 
@@ -11,7 +14,7 @@ source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ## Extensão do monitor de locais de registro
 
-Registra a extensão do Monitor de locais com o Hub de eventos principal.
+Registra a extensão do Monitor de locais com o Hub do Evento principal.
 
 ### RegisterExtension (Android)
 
@@ -27,7 +30,7 @@ public static void registerExtension();
 
 #### Exemplo
 
-Chame esse método no `onCreate` método em que você inicializa o restante do SDK da plataforma de experiência.
+Chame esse método no `onCreate` método em que você inicializa o restante do SDK do Experience Platform.
 
 ```java
 public class MobileApp extends Application {
@@ -111,11 +114,11 @@ Esta é a sintaxe e o código de exemplo desta API:
 NSString *placesMonitorVersion = [ACPPlacesMonitor extensionVersion];
 ```
 
-## Iniciar monitoramento do dispositivo
+## Monitoramento do dispositivo start
 
 Comece a rastrear a localização do dispositivo e a monitorá-lo nas proximidades de Locais.
 
-### Iniciar (Android)
+### Start (Android)
 
 Se a autorização para usar o local do dispositivo não tiver sido concedida pelo usuário, a primeira chamada para a `start` API solicitará a permissão do usuário.
 
@@ -133,7 +136,7 @@ public static void start();
 PlacesMonitor.start();
 ```
 
-### Iniciar (iOS)
+### Start (iOS)
 
 >[!IMPORTANT]
 >
@@ -145,7 +148,7 @@ PlacesMonitor.start();
 
 >[!CAUTION]
 >
->Se sua chamada para iniciar o monitoramento for feita antes que o SDK termine a inicialização, ela poderá ser ignorada.
+>Se sua chamada para monitoramento de start for feita antes que o SDK termine a inicialização, ela poderá ser ignorada.
 
 Você pode garantir que o SDK terminou a inicialização chamando `start` do retorno de chamada fornecido para `ACPCore::start:`.
 
@@ -167,7 +170,7 @@ Iniciando o Monitor de locais quando o SDK estiver inicializando:
 }];
 ```
 
-Iniciando o Monitor de locais posteriormente na execução do aplicativo:
+Iniciando o Monitor de locais mais tarde na execução do aplicativo:
 
 ```objective-c
 [ACPPlacesMonitor start];
