@@ -3,6 +3,9 @@ title: Gerenciar POIs existentes
 description: Na interface do usuário do Serviço de Locais, é possível editar, excluir ou filtrar POIs existentes.
 translation-type: tm+mt
 source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
+workflow-type: tm+mt
+source-wordcount: '398'
+ht-degree: 6%
 
 ---
 
@@ -13,28 +16,28 @@ Os POIs e as bibliotecas são criados e gerenciados no banco de dados Locais usa
 
 ## Editar um POI
 
-1. Faça logon nos locais usando sua Adobe ID.
-1. Faça logon no Serviço de locais usando sua Adobe ID.
+1. Efetue login em Locais usando seu Adobe ID.
+1. Efetue logon no Serviço de locais usando seu Adobe ID.
 1. No lado superior direito, clique no ícone que se parece com uma lista com marcadores.
 1. Localize o POI que deseja editar.
-1. Clique **[!UICONTROL ...]**e selecione**[!UICONTROL View Details]**.
+1. Click **[!UICONTROL ...]** and select **[!UICONTROL View Details]**.
 1. Atualize as informações e clique em **[!UICONTROL Save]**.
 
 ## Excluir um POI
 
-1. Faça logon nos locais usando sua Adobe ID.
-1. Faça logon no Serviço de locais usando sua Adobe ID.
+1. Efetue login em Locais usando seu Adobe ID.
+1. Efetue logon no Serviço de locais usando seu Adobe ID.
 1. No lado superior direito, clique no ícone que se parece com uma lista com marcadores.
 1. Localize o POI que deseja excluir.
-1. Clique **[!UICONTROL ...]**e selecione**[!UICONTROL Delete]**.
+1. Click **[!UICONTROL ...]** and select **[!UICONTROL Delete]**.
 
 ## Filtrar POIs por cidade, estado, país ou metadados
 
 ![filtrar um POI](/help/assets/filter_poi.png)
 
-1. Faça logon na interface do usuário do serviço Places usando sua Adobe ID.
+1. Faça logon na interface do usuário do Serviço Places usando seu Adobe ID.
 1. No lado superior direito, clique no ícone de filtragem.
-1. É possível filtrar POIs de uma das seguintes maneiras:
+1. Você pode filtrar POIs de uma das seguintes maneiras:
 
    * Por biblioteca:
 
@@ -42,11 +45,11 @@ Os POIs e as bibliotecas são criados e gerenciados no banco de dados Locais usa
 
    * Por propriedade:
 
-      a. Na lista suspensa Propriedade, selecione **[!UICONTROL Country]**,**[!UICONTROL State]** ou **[!UICONTROL City]**.
+      a. Na lista suspensa Propriedade, selecione **[!UICONTROL Country]**, **[!UICONTROL State]** ou **[!UICONTROL City]**.
 
       b. Na linha seguinte, insira um valor.
 
-      Por exemplo, você pode selecionar **[!UICONTROL State]**e digitar**[!UICONTROL California]**.
+      Por exemplo, você pode selecionar **[!UICONTROL State]** e digitar **[!UICONTROL California]**.
 
    * Com metadados:
 
@@ -71,4 +74,4 @@ Geofences são um tipo de POI e são definidos no banco de dados com base nas se
 | País | País do POI. | Não |
 | Latitude | Coordenada Latitude para o centro do POI. | Sim |
 | Longitude | Coordenada de longitude para o centro do POI. | Sim |
-| Metadados | Pares personalizados de chave e valor que podem ser atribuídos aos POIs. Esses metadados simplificam fluxos de trabalho futuros permitindo agrupar POIs em bibliotecas para cada uma usar regras e filtros em fluxos de trabalho de downstream, como enviar uma notificação por push quando alguém entra em um POI com o Tipo = Concorrente. | Não |
+| Metadados | Pares personalizados de chave e valor que podem ser atribuídos aos POIs. Esses metadados simplificam workflows futuros, permitindo agrupar POIs em bibliotecas para cada uma usar regras e filtros em workflows posteriores, como enviar uma notificação por push quando alguém entra em um POI com o Concorrente Type =. | Não |
