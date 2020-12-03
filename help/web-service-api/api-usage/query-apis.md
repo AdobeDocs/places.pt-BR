@@ -1,16 +1,19 @@
 ---
 title: Visão geral
-description: Compreensão e uso das APIs de consulta.
+description: Compreensão e uso de APIs de Query.
 translation-type: tm+mt
 source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+workflow-type: tm+mt
+source-wordcount: '217'
+ht-degree: 4%
 
 ---
 
 
 
-# APIs de consulta
+# APIs de query
 
-Um método GET que permite consultar os POIs mais próximos do chamador.
+Um método de GET que permite query os POIs mais próximos do chamador.
 
 ## Solicitação
 
@@ -22,11 +25,11 @@ Com a seguinte entrada, o serviço retorna uma lista dos POIs mais próximos do 
 
 * A posição do chamador (latitude, longitude).
 * As IDs das bibliotecas POI a serem incluídas na pesquisa.
-* O número máximo de POIs a retornar.  O valor padrão é 100.
+* O número máximo de POIs a serem retornados.  O valor padrão é 100.
 
    A distância entre o chamador e o POI é definida como a distância do chamador até a borda da geofence do POI. Na resposta, os POIs que contêm o chamador serão marcados como tendo o chamador.
 
-Os argumentos são fornecidos como os seguintes parâmetros de consulta:
+Os argumentos são fornecidos como os seguintes parâmetros de query:
 
 * (**Obrigatório**) `latitude`
 
@@ -37,11 +40,11 @@ Os argumentos são fornecidos como os seguintes parâmetros de consulta:
 
 * (**Opcional**) `limit`
 
-   O número máximo de POIs a retornar.
+   O número máximo de POIs a serem retornados.
 
 * (**Obrigatório**) `library`
 
-   A ID da biblioteca a ser consultada. Para consultar várias bibliotecas, certifique-se de incluir várias cópias do parâmetro de biblioteca na consulta.
+   A ID da biblioteca para o query. Para query de várias bibliotecas, certifique-se de incluir várias cópias do parâmetro de biblioteca no query.
 
 Este é um exemplo do formato JSON retornado com êxito:
 
