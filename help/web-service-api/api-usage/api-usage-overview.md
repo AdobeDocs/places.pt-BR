@@ -3,6 +3,9 @@ title: Visão geral de uso da API
 description: Esta seção fornece informações sobre as REST APIs disponíveis para o Places Service.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '38'
+ht-degree: 0%
 
 ---
 
