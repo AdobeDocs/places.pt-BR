@@ -3,6 +3,9 @@ title: Excluir uma biblioteca
 description: Exclua uma biblioteca usando as APIs REST do Places.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 6%
 
 ---
 
@@ -27,7 +30,7 @@ DELETE https://api-places.adobe.io/places/placesapi/v1/libraries/<lIBRARYID>
 -H 'Accept-Language: en-US'
 ```
 
-## Resposta de exemplo
+## Exemplo de resposta
 
 ```text
 If successful a Status of "204 No Content" is returned.
