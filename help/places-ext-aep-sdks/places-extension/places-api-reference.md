@@ -3,6 +3,9 @@ title: Referência da API de locais
 description: Informações sobre as referências da API em Locais.
 translation-type: tm+mt
 source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+workflow-type: tm+mt
+source-wordcount: '583'
+ht-degree: 32%
 
 ---
 
@@ -13,11 +16,11 @@ Estas são informações sobre as referências de API na extensão Locais:
 
 ## Processando um evento de região
 
-Quando um dispositivo ultrapassa um dos limites predefinidos da região Places Service do aplicativo, a região e o tipo de evento são passados para o SDK para processamento.
+Quando um dispositivo atravessa um dos limites predefinidos da região Places Service do seu aplicativo, a região e o tipo de evento são passados para o SDK para processamento.
 
 ### ProcessGeofence (Android)
 
-Processar um evento de `Geofence` região para o evento fornecido `transitionType`.
+Processar um evento de `Geofence` região para o fornecido `transitionType`.
 
 Passe o `transitionType` de `GeofencingEvent.getGeofenceTransition()`. Atualmente `Geofence.GEOFENCE_TRANSITION_ENTER` e `Geofence.GEOFENCE_TRANSITION_EXIT` são compatíveis.
 
