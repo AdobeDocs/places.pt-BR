@@ -1,15 +1,18 @@
 ---
-title: Visão geral da integração de E/S da Adobe
-description: Informações sobre como criar uma integração de E/S da Adobe.
+title: Visão geral da integração com o Adobe I/O
+description: Informações sobre como criar uma integração com o Adobe I/O.
 translation-type: tm+mt
 source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
+workflow-type: tm+mt
+source-wordcount: '832'
+ht-degree: 1%
 
 ---
 
 
-# Visão geral e pré-requisitos da integração {#integration-prereqs}
+# Integration overview and prerequisites {#integration-prereqs}
 
-Estas informações mostram como criar uma integração de E/S da Adobe e de um Serviço de Locais.
+Estas informações mostram como criar uma integração entre o Adobe I/O e o Places Service.
 
 ## Pré-requisitos para acesso do usuário
 
@@ -19,13 +22,13 @@ Verifique com o administrador do sistema de sua organização se as seguintes ta
 * Você foi adicionado à organização.
 * Você foi adicionado como um Usuário ao Serviço Principal do Places em sua organização.
 
-   Para obter mais informações, consulte *Adicionar um usuário ou desenvolvedor aos seus perfis* de Serviço e Inicialização da plataforma Experience em [Obter acesso ao Serviço](/help/places-gain-access.md)Places.
+   Para obter mais informações, consulte *Adicionar um usuário ou desenvolvedor ao Serviço de Locais e perfis* de Experience Platform Launch em [Obter acesso ao Serviço](/help/places-gain-access.md)de Locais.
 
 * Você foi adicionado como desenvolvedor ao Places Core Service em sua organização.
 
-   Para obter mais informações sobre como adicionar desenvolvedores, consulte *Adicionar um usuário ou desenvolvedor aos seus perfis* de Serviço e Inicialização da plataforma Experience em [Obter acesso ao Serviço](/help/places-gain-access.md)Local.
+   Para obter mais informações sobre como adicionar desenvolvedores, consulte *Adicionar um usuário ou desenvolvedor ao Serviço de Locais e perfis* de Experience Platform Launch em [Obter acesso ao Serviço](/help/places-gain-access.md)de Locais.
 
-   Para obter mais informações sobre a função de desenvolvedor, consulte [Gerenciar desenvolvedores](https://helpx.adobe.com/enterprise/using/manage-developers.html).
+   Para obter mais informações sobre a função de desenvolvedor, consulte [Gerenciar desenvolvedores](https://helpx.adobe.com/br/enterprise/using/manage-developers.html).
 
 ### Solicitações REST API
 
@@ -35,27 +38,27 @@ Cada solicitação para a API REST do Places Service requer os seguintes itens:
 * Uma chave de API
 * Um token do portador
 
-Uma integração com a E/S da Adobe fornece esses itens e uma maneira de solicitar o token do portador usando um JSON Web Token (JWT).
+Uma integração com a Adobe I/O fornece esses itens e uma maneira de solicitar o token do portador usando um JSON Web Token (JWT).
 
 * Para obter mais informações sobre JWTs, consulte [Introdução aos tokens](https://jwt.io/introduction/)da Web JSON.
 * Para criar uma integração para o Serviço de Locais, consulte a seção *Criação de um Serviço de Integração* de Locais abaixo.
-* Para entender a integração de chave da API, gerando um JWT e certificados de chave pública, consulte Visão geral [da autenticação de E/S da](https://www.adobe.io/apis/cloudplatform/console/authentication/gettingstarted.html)Adobe.
+* Para entender a integração de chave da API, gerando um JWT e certificados de chave pública, consulte Visão geral [da autenticação da](https://www.adobe.io/apis/cloudplatform/console/authentication/gettingstarted.html)Adobe I/O.
 
 >[!IMPORTANT]
 >
->Se não conseguir fazer logon no console de E/S da Adobe ou se o Serviço de Locais não for uma opção na página ** Criar integrações, consulte Requisitos *da* organização na visão geral [da API de serviços](/help/web-service-api/places-web-services.md)da Web.
+>Se você não conseguir fazer logon no console do Adobe I/O ou se o Serviço de Locais não for uma opção na página ** Criar integrações, consulte Requisitos *da* organização na visão geral [da API de serviços](/help/web-service-api/places-web-services.md)da Web.
 
 ## Criar uma integração com o Serviço de Locais
 
-Para criar uma integração com o Places Service, conclua as seguintes tarefas:
+Para criar uma integração com o Serviço de Locais, conclua as seguintes tarefas:
 
 ### Gerar um par de chaves públicas e privadas
 
-Para criar uma integração com o Serviço de Locais, é necessário um par de chaves pública e privada. Esses pares podem ser adquiridos ou você pode gerar suas próprias chaves autoassinadas.
+Para criar uma integração com o Serviço de Locais, você precisa de um par de chaves pública e privada. Esses pares podem ser comprados ou você pode gerar suas próprias chaves autoassinadas.
 
 Para gerar suas próprias chaves autoassinadas:
 
-1. Em uma janela de terminal, copie e cole cada uma das seguintes linhas e pressione **[!UICONTROL Enter]**após colar cada linha:
+1. Em uma janela de terminal, copie e cole cada uma das seguintes linhas e pressione **[!UICONTROL Enter]** depois de colar cada linha:
 
    ```text
       mkdir keys
@@ -87,43 +90,43 @@ Para gerar suas próprias chaves autoassinadas:
 
 1. Navegue até o diretório onde os arquivos `.key` e `.crt` .
 
-   Por exemplo, no MacOS, vá para **[!UICONTROL Macintosh HD]**>**[!UICONTROL users]** > **[!UICONTROL (your user name)]**>**[!UICONTROL Keys]**.
+   Por exemplo, no MacOS, vá para **[!UICONTROL Macintosh HD]** > **[!UICONTROL users]** > **[!UICONTROL (your user name)]** > **[!UICONTROL Keys]**.
 
 O vídeo a seguir guia você pelo processo de geração do par de chaves:
 
 ![vídeo de integração](/help/assets/places_integration_video.gif)
 
-### Criar uma integração do Serviço de Locais no console de E/S da Adobe
+### Criar uma integração do Serviço de Locais no console do Adobe I/O
 
 Para criar uma integração com o Serviço de Locais:
 
-1. Acesse [https://console.adobe.io](https://console.adobe.io) e faça logon com sua Adobe ID.
-1. Na seção **Início** rápido, clique em **Criar integração**.
-1. Selecione **[!UICONTROL Access an API]**e clique em**[!UICONTROL Continue]**.
+1. Acesse [https://console.adobe.io](https://console.adobe.io) e faça logon com seu Adobe ID.
+1. Na seção Start **** rápido, clique em **Criar integração**.
+1. Selecione **[!UICONTROL Access an API]** e clique em **[!UICONTROL Continue]**.
 
-   **[!UICONTROL Access an API]**é o local padrão.
+   **[!UICONTROL Access an API]** é o local padrão.
 
-1. Se você tiver acesso a mais de uma organização da Experience Cloud, selecione-a na lista suspensa no canto superior direito.
-1. Under **[!UICONTROL Experience Cloud]**, select**[!UICONTROL Places Service]** as the Adobe service to which you want to integrate and click **[!UICONTROL Continue]**.
-1. Selecione **[!UICONTROL New integration]**e clique em**[!UICONTROL Continue]**.
+1. Se você tiver acesso a mais de uma organização de Experience Cloud, selecione a organização na lista suspensa na parte superior direita.
+1. Under **[!UICONTROL Experience Cloud]**, select **[!UICONTROL Places Service]** as the Adobe service to which you want to integrate and click **[!UICONTROL Continue]**.
+1. Selecione **[!UICONTROL New integration]** e clique em **[!UICONTROL Continue]**.
 1. Na tela Criar uma nova integração, digite um nome e uma descrição.
-1. Arraste e solte seu `xxxx_public.crt` arquivo, criado acima, na área **[!UICONTROL Public keys certificates]**solta.
+1. Arraste e solte seu `xxxx_public.crt` arquivo, criado acima, na área **[!UICONTROL Public keys certificates]** solta.
 1. Selecione um perfil de produto.
 
    Se não tiver certeza de qual perfil selecionar, entre em contato com o administrador do sistema.
-1. At the bottom of the page, click **[!UICONTROL Create integration]**.
+1. Na parte inferior da página, clique em **[!UICONTROL Create integration]**.
 1. Após alguns segundos, na tela *Integração criada* , verifique se a seguinte mensagem é exibida:
 
    `Your integration has been created.`
 
 1. A página de detalhes da integração é exibida com o nome da integração na parte superior.
 
-   A **[!UICONTROL Overview]**guia é exibida por padrão e exibe a chave da API, a ID da organização, a ID da conta técnica e outros detalhes sobre as integrações.
+   A **[!UICONTROL Overview]** guia é exibida por padrão e exibe a chave da API, a ID da organização, a ID da conta técnica e outros detalhes sobre as integrações.
 
 ### Registre a ID da empresa e a chave da API
 
-1. Na página de detalhes da integração, clique na **[!UICONTROL Services]**guia e confirme se ela**[!UICONTROL Places Service]** é exibida em **[!UICONTROL Configured Services]**.
-1. Na **[!UICONTROL Overview]**guia, localize e registre a chave da API (ID do cliente) e a ID da organização.
+1. Na página de detalhes da integração, clique na **[!UICONTROL Services]** guia e confirme se ela **[!UICONTROL Places Service]** é exibida em **[!UICONTROL Configured Services]**.
+1. Na **[!UICONTROL Overview]** guia, localize e registre a chave da API (ID do cliente) e a ID da organização.
 
    Essas IDs são necessárias para cada solicitação de API REST do Places Service.
 
@@ -131,19 +134,19 @@ Para criar uma integração com o Serviço de Locais:
 
 ### Gerar um token JWT
 
-Na página de detalhes da integração, clique na **[!UICONTROL JWT]**guia para que você possa testar sua integração gerando um JWT e fornecendo o URL de troca.
+Na página de detalhes da integração, clique na **[!UICONTROL JWT]** guia para que você possa testar sua integração gerando um JWT e fornecendo o URL de troca.
 
 Para gerar um token JWT:
 
 1. Em um editor de texto, abra seu `private.key` arquivo criado acima.
-1. On the **[!UICONTROL JWT]**tab, copy the contents of the key and paste it in the**[!UICONTROL Paste private key]** field.
+1. On the **[!UICONTROL JWT]** tab, copy the contents of the key and paste it in the **[!UICONTROL Paste private key]** field.
 1. Clique em **[!UICONTROL Generate JWT]**.
-1. In the **[!UICONTROL Sample CURL command]**section, click**[!UICONTROL Copy]** and paste the contents in your command prompt or terminal window.
-1. Execute o comando pressionando **[!UICONTROL Enter]**no teclado.
+1. In the **[!UICONTROL Sample CURL command]** section, click **[!UICONTROL Copy]** and paste the contents in your command prompt or terminal window.
+1. Execute o comando pressionando **[!UICONTROL Enter]** no teclado.
 1. Localize o `"token_type": "bearer"` e o `"access_token"` valor.
 
    O valor do token de acesso do portador é o que você usará nas solicitações da API do Places Service.
 
 >[!IMPORTANT]
 >
->Os tokens de acesso da Adobe são válidos **apenas** por 24 horas, portanto, salve o comando CURL de amostra (etapa 5). Se o token de acesso não for mais válido, é necessário regenerar o token.
+>Tokens de acesso Adobe são válidos **apenas** por 24 horas, portanto, salve o comando CURL de amostra (etapa 5). Se o token de acesso não for mais válido, será necessário regenerar o token.
