@@ -3,6 +3,9 @@ title: Atualizar uma biblioteca
 description: Atualize uma biblioteca usando a API REST do Places.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '48'
+ht-degree: 6%
 
 ---
 
@@ -29,7 +32,7 @@ PUT https://api-places.adobe.io/places/placesapi/v1/libraries/<lIBRARYID>
 {"name": "<NEW_LIBRARY_NAME>"}
 ```
 
-## Resposta de exemplo
+## Exemplo de resposta
 
 ```text
 {       "id": "449f08f3-eff5-4658-9329-2d9687af777e",       "name": "Really facinating places",      "customerID": "777F20F55BACA09E0A495D8F@AdobeOrg",       "poiCount": 0  }
