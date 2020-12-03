@@ -1,13 +1,16 @@
 ---
-title: Crie um POI
+title: Criar um POI
 description: Crie um POI usando as APIs REST do Places.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 6%
 
 ---
 
 
-# Crie um POI {#create-a-poi}
+# Criar um POI {#create-a-poi}
 
 Um método POST que permite criar um POI.
 
@@ -54,7 +57,7 @@ POST https://api-places.adobe.io/places/placesapi/v1/pois
 }
 ```
 
-## Resposta de exemplo
+## Exemplo de resposta
 
 ```text
 {
