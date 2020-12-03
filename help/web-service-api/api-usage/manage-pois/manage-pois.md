@@ -3,6 +3,9 @@ title: Visão geral de gerenciamento de POIs
 description: 'Entenda e trabalhe com POIs. '
 translation-type: tm+mt
 source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+workflow-type: tm+mt
+source-wordcount: '48'
+ht-degree: 0%
 
 ---
 
@@ -11,7 +14,7 @@ source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 Você pode usar as APIs REST do Places Service para concluir as seguintes tarefas:
 
-* [Crie um POI](/help/web-service-api/api-usage/manage-pois/create-a-poi.md)
+* [Criar um POI](/help/web-service-api/api-usage/manage-pois/create-a-poi.md)
 * [Ler um POI](/help/web-service-api/api-usage/manage-pois/read-a-poi.md)
 * [Atualizar um POI](/help/web-service-api/api-usage/manage-pois/update-a-poi.md)
 * [Excluir um POI](/help/web-service-api/api-usage/manage-pois/delete-a-poi.md)
