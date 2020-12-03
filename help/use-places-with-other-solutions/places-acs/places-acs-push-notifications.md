@@ -53,14 +53,14 @@ As regras no Experience Platform Launch permitem que você crie workflows comple
 
 1. Na propriedade móvel Experience Platform Launch, na **[!UICONTROL Rules]** guia, clique em **[!UICONTROL Add Rule]**.
 1. Na **[!UICONTROL Events]** seção, clique **[!UICONTROL +]** e selecione **[!UICONTROL Places Service]** como a extensão.
-1. For the **[!UICONTROL Event Type]**, select **[!UICONTROL Enter POI]**.
+1. Para o **[!UICONTROL Event Type]**, selecione **[!UICONTROL Enter POI]**.
 1. Nomeie a regra, por exemplo, POI inserido pelo **usuário**.
 1. Clique em **[!UICONTROL Keep Changes]**.
 1. Deixe a **[!UICONTROL Conditions]** seção em branco.
 
    Esta seção permite que você filtre ou coloque restrições sobre quando esta regra deve ser acionada.
 
-1. Na **[!UICONTROL Actions]** seção, clique em **[!UICONTROL +]**.
+1. Under the **[!UICONTROL Actions]** section, click **[!UICONTROL +]**.
 1. Na lista **[!UICONTROL Extension]** suspensa, selecione **[!UICONTROL Mobile Core]** e, na lista **[!UICONTROL Action Type]** suspensa, selecione **[!UICONTROL Send Postback]**.
 1. Em **[!UICONTROL URL]**, é necessário construir o terminal de localização de Campaign Standard.
 
