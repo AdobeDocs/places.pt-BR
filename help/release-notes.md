@@ -18,19 +18,19 @@ ht-degree: 3%
 
    * As extensões de monitores de locais e locais foram adicionadas para aplicativos [React Native](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
    * As extensões do Monitor de locais e locais foram adicionadas aos aplicativos [Cordova](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)
-   * Para obter mais informações, consulte: [Uso da extensão de locais](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html)
+   * Para obter mais informações, consulte: [Uso da extensão de locais](https://docs.adobe.com/content/help/pt-BR/places/using/places-ext-aep-sdks/places-extension/places-extension.translate.html)
 
 
 ## 12 de maio de 2020
 
-* **Places Service**
+* **Serviço de Places**
 
    * Importação em massa de POIs de um arquivo CSV usando o botão &quot;Importar POIs&quot;
    * Selecionar vários POIs e editar em massa ou adicionar valores de metadados
 
 ## 6 de maio de 2020
 
-* **PlacesMonitor 2.2.1**
+* **PlacesMonitor 2.1.1**
 
    * **Android**
 
@@ -284,7 +284,7 @@ O Monitor de locais gerencia as APIs de localização no nível do SO e se comun
 
 ### Versão beta
 
-Esta é a primeira versão do Places Service, um conjunto de ferramentas que permite aos clientes enriquecer as experiências dos usuários com dados de localização reais. Na primeira versão, nosso caso de uso principal é permitir que os aplicativos móveis recuperem dados de localização personalizados e atuem sobre esses dados por meio do Adobe Experience Platform Launch.
+Esta é a primeira versão do Places Service, um conjunto de ferramentas que permite aos clientes enriquecer as experiências dos usuários com dados de localização reais. Na primeira versão, nosso caso de uso principal é permitir que aplicativos móveis recuperem dados de localização personalizados e atuem sobre esses dados por meio do Adobe Experience Platform Launch.
 
 ### Recursos principais
 
@@ -304,7 +304,7 @@ Usando a Extensão de locais, você pode adicionar as bibliotecas do Serviço de
 Na extensão Locais:
 
 * Você pode escolher quais bibliotecas POI devem ser incluídas no aplicativo.
-* eventos de regras que acionam na entrada ou saída do POI.
+* Eventos de regras que acionam na entrada ou saída do POI.
 * Crie elementos de dados que apontem para o POI atual do usuário.
 
 For more information about the Places extension, see [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md).
