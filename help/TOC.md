@@ -18,7 +18,7 @@ ht-degree: 19%
 + [Notas de versão](release-notes.md)
 + [Introdução](getting-started.md)
 + [Obter acesso ao Serviço de Locais](places-gain-access.md)
-+ Interface do usuário do serviço do Places {#poi-mgmt-ui}
++ Insere a interface do usuário do serviço {#poi-mgmt-ui}
    + [Visão geral da interface do usuário do Places Service](poi-mgmt-ui/poi-mgmt-ui-overview.md)
    + [Criar um POI](poi-mgmt-ui/create-a-poi-ui.md)
    + [Gerenciar POIs criados anteriormente](poi-mgmt-ui/managing-pois-in-the-places-ui.md)
@@ -70,7 +70,7 @@ ht-degree: 19%
    + [Usar o Serviço de Locais como parte do fluxo de trabalho do Experience Platform Launch](use-places-launch-workflow/places-launch-workflow.md)
    + [Definir elementos de dados](use-places-launch-workflow/define-data-elements.md)
    + [Criar regras de entrada e saída](use-places-launch-workflow/create-rule-places-property.md)
-+ Use o serviço Places com outras soluções de Adobe {#use-places-with-other-solutions}
++ Use o serviço Places com outras soluções do Adobe {#use-places-with-other-solutions}
    + Adobe Analytics {#places-adobe-analytics}
       + [Usar o serviço Places com a Adobe Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)
       + [Enviar dados de entrada e saída do POI para o Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
