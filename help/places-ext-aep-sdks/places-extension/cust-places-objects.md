@@ -1,15 +1,16 @@
 ---
-title: Objetos de locais personalizados
+title: Objetos do Custom Places
+description: Informações sobre classes nativas personalizadas usadas com as APIs do Places.
+exl-id: deb16ba3-bd59-42b1-85ec-0f7de17f91f8
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 2f666081fa01c11e832b94c83f2fe2c66eb51766
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 7%
+source-wordcount: '38'
+ht-degree: 5%
 
 ---
 
-
-# Objetos de locais personalizados {#places-objects}
+# Objetos do Custom Places {#places-objects}
 
 Estas são as classes nativas personalizadas que serão usadas com as APIs do Places:
 
