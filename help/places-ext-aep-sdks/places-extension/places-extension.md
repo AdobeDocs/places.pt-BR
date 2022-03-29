@@ -98,7 +98,7 @@ Para adicionar a extensão do Places ao seu aplicativo usando Objetive-C ou Swif
 
 ### Registre a extensão do Places com o Mobile Core {#register-places-mobile-core}
 
-Você precisa registrar a extensão do Places com Mobile Core no Android e no iOS.
+Você precisa registrar a extensão do Places com o Mobile Core no Android e no iOS.
 
 #### Android
 
