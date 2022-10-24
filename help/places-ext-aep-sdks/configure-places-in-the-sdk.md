@@ -1,51 +1,30 @@
 ---
-title: Configurar o SDK com a extensão de Locais
-description: 'Você pode configurar o SDK com a extensão Locais para ativar o reconhecimento de localização no aplicativo móvel. '
-translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+title: Configurar o SDK com a extensão do Places
+description: Você pode configurar o SDK com a extensão do Places para ativar o reconhecimento de localização no aplicativo móvel.
+source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 9%
+source-wordcount: '123'
+ht-degree: 0%
 
 ---
 
 
-# Configurar a extensão SDK com Locais {#configure-sdk-places-extension}
+# Configurar o SDK com a extensão do Places {#configure-sdk-places-extension}
 
-Para ativar o reconhecimento de localização no aplicativo móvel, configure o SDK com as extensões do Places e, como opção, a extensão do Places Monitoring. For more information including SDK configuration, see [Places (Beta) extension](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+Para ativar o reconhecimento de localização no aplicativo móvel, configure o SDK com a extensão do Places. Para obter mais informações, incluindo a configuração do SDK, consulte [Extensão do Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
-## Configuração da extensão Places
+## Configurar a extensão do Places
 
-Para configurar a extensão de Locais:
+Para configurar a extensão do Places:
 
-1. Configure a extensão Locais no Launch.
+1. Configure a extensão do Places no Launch.
 
-   Para obter mais informações, consulte *Configurar a extensão Locais na extensão* Iniciar em [Locais](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+   Para obter mais informações, consulte *Configurar a extensão do Places no Launch* em [Extensão do Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
-1. Adicione a extensão Locais ao seu aplicativo móvel.
+1. Adicione a extensão do Places ao aplicativo móvel.
 
-   Para obter mais informações, consulte *Adicionar a extensão Locais ao aplicativo* na extensão [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Locais.
+   Para obter mais informações, consulte *Adicionar a extensão do Places ao aplicativo* em [Extensão do Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
-1. Registre locais com a extensão Mobile Core.
+1. Registre Places com a extensão Mobile Core.
 
-   Para obter mais informações, consulte *Registrar locais com núcleo* móvel na extensão [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Locais.
-
-## Configuração da extensão do Monitor de locais
-
-Para configurar a extensão do Monitor de locais no Launch:
-
-1. Configure a extensão do Monitor de locais no Launch.
-
-   Para obter mais informações, consulte *Configurar a extensão de monitoramento de locais no Launch*.
-
-1. Adicione a extensão do Places Monitor ao seu aplicativo móvel.
-
-   Para obter mais informações, consulte *Adicionar a extensão do Monitor de locais ao seu aplicativo*.
-
-1. Registre o Monitor de locais com a extensão Mobile Core.
-
-   Para obter mais informações, consulte Registrar o monitor de *locais com núcleo* móvel.
-
-1. Ative as atualizações de localização em segundo plano.
-
-   Para obter mais informações, consulte *Ativar atualizações de localização em segundo plano*.
+   Para obter mais informações, consulte *Registrar locais com o Mobile Core* em [Extensão do Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).

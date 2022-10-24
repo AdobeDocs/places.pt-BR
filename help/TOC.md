@@ -2,11 +2,10 @@
 audience: end-user
 user-guide-title: Guia do Places Service
 user-guide-description: O Places Service é um serviço de localização geográfica que permite que aplicativos móveis com detecção de localização compreendam o contexto de localização.
-translation-type: tm+mt
-source-git-commit: 12283d11829ee70a808bc11d2bc1241cb1770ac3
+source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 19%
+source-wordcount: '301'
+ht-degree: 20%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 19%
 + [Notas de versão](release-notes.md)
 + [Introdução](getting-started.md)
 + [Obter acesso ao Places Service](places-gain-access.md)
-+ Interface do usuário do Places {#poi-mgmt-ui}
++ Interface do usuário do Places Service {#poi-mgmt-ui}
    + [Visão geral da interface do usuário do Places Service](poi-mgmt-ui/poi-mgmt-ui-overview.md)
    + [Criar um POI](poi-mgmt-ui/create-a-poi-ui.md)
    + [Gerenciar POIs criados anteriormente](poi-mgmt-ui/managing-pois-in-the-places-ui.md)
@@ -59,10 +58,6 @@ ht-degree: 19%
       + [Referência da API do Places](places-ext-aep-sdks/places-extension/places-api-reference.md)
       + [Referência de evento do Places](places-ext-aep-sdks/places-extension/places-event-ref.md)
       + [Objetos do Custom Places](places-ext-aep-sdks/places-extension/cust-places-objects.md)
-   + Extensão do Places Monitor {#places-monitor-extension}
-      + [Extensão do Places Monitor](places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)
-      + [Uso da extensão do Places Monitor](places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.md)
-      + [Referência da API do Places Monitor](places-ext-aep-sdks/places-monitor-extension/places-monitor-api-reference.md)
 + [Usar o Places Service com sua própria solução de monitoramento](using-your-own-monitor.md)
 + [Usar o Places Service sem monitoramento de região ativa](use-places-without-active-monitoring.md)
 + Usar o Places Service como parte do fluxo de trabalho do Experience Platform Launch {#use-places-launch-workflow}
