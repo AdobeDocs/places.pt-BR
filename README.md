@@ -1,8 +1,7 @@
 ---
-source-git-commit: 8688bd4a613b71f205909588bd2a3391e1cc8793
+source-git-commit: c79135bed83932095df42869017ed2cc20be6e22
 workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '436'
 ht-degree: 100%
 
 ---
@@ -16,15 +15,15 @@ Esse projeto segue o [Código de conduta aberto da Adobe](code-of-conduct.md) ou
 
 ## Sobre suas contribuições para o conteúdo da Adobe
 
-Consulte o [Guia do colaborador dos documentos da Adobe](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+Consulte o [Guia do colaborador dos documentos da Adobe](https://docs.adobe.com/help/pt-BR/contributor/contributor-guide/introduction.html).
 
 A maneira como você contribui depende de quem você é e do tipo de alterações com as quais deseja contribuir:
 
-### Pequenas alterações  ou solicitações
+### Pequenas alterações ou solicitações
 
 Para enviar uma solicitação, clique no link **Registrar um problema** em um artigo, o que abrirá um problema no GitHub. Especifique um título e uma descrição e clique em **Enviar novo problema**.
 
-Para solicitar pequenas atualizações, clique no link **Editar esta página** em um artigo, o que abrirá o artigo de origem em GitHub. Use a interface do GitHub para fazer as atualizações. Consulte o [Guia do colaborador dos documentos da Adobe](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) para obter mais informações.
+Para solicitar pequenas atualizações, clique no link **Editar esta página** em um artigo, o que abrirá o artigo de origem em GitHub. Use a interface do GitHub para fazer as atualizações. Consulte o [Guia do colaborador dos documentos da Adobe](https://docs.adobe.com/help/pt-BR/contributor/contributor-guide/introduction.html) para obter mais informações.
 
 As pequenas correções ou esclarecimentos que você envia para a documentação e os exemplos de código deste repositório são abrangidos pelos termos de uso da Adobe.
 
@@ -38,7 +37,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Grandes alterações dos funcionários da Adobe
 
-Se você for um autor técnico, gerente de programa ou desenvolvedor da equipe de produtos para uma solução da [!UICONTROL Adobe Experience Cloud] e seu trabalho for criar artigos técnicos, deverá usar o repositório privado em `https://git.corp.adobe.com/AdobeDocs`. Consulte o [Guia de colaboração interna](https://docs.adobe.com/content/help/en/collaborative-doc-instructions/collaboration-guide/home.html).
+Se você for um autor técnico, gerente de programa ou desenvolvedor da equipe de produtos para uma solução da [!UICONTROL Adobe Experience Cloud] e seu trabalho for criar artigos técnicos, deverá usar o repositório privado em `https://git.corp.adobe.com/AdobeDocs`. Consulte o [Guia de colaboração interna](https://experienceleague.adobe.com/docs/collaborative-doc-instructions/collaboration-guide/home.html?lang=pt-BR).
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
@@ -46,7 +45,7 @@ Se você for um autor técnico, gerente de programa ou desenvolvedor da equipe d
 
 Os colaboradores da comunidade podem usar a interface do GitHub para editar ou bifurcar o repositório e fazer grandes contribuições.
 
-Consulte o [Guia do colaborador dos documentos da Adobe](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) para obter mais detalhes.
+Consulte o [Guia do colaborador dos documentos da Adobe](https://docs.adobe.com/help/pt-BR/contributor/contributor-guide/introduction.html) para obter mais detalhes.
 
 ## Como usar o Markdown para formatar seu tópico
 
@@ -59,5 +58,5 @@ Todos os artigos deste repositório usam GitHub Flavored Markdown. Se você não
 
 No repositório público, os rótulos automatizados são atribuídos a solicitações de pull para nos ajudar a gerenciar o fluxo de trabalho da solicitação de pull e saber o que está acontecendo com sua solicitação de pull:
 
-* **Alteração enviada para o autor**: o autor foi notificado sobre a solicitação de pull pendente.
-* **Pronto para mesclar**: pronto para ser revisado pela equipe de revisão da solicitação de pull.
+* **Change sent to author**: o autor foi notificado sobre a solicitação de pull pendente.
+* **ready-to-merge**: pronto para ser revisado pela equipe de revisão da solicitação de pull.
