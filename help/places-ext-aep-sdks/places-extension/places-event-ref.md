@@ -1,67 +1,66 @@
 ---
-title: Referência de eventos de locais
-description: 'Uma lista dos eventos manipulados pela extensão Locais. '
-translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+title: Referência de evento de locais
+description: Uma lista dos eventos que são manipulados pela extensão Places.
+exl-id: 98210ef4-5ff1-4792-b97b-2845ce02e78a
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 24%
+ht-degree: 28%
 
 ---
 
+# Referência de evento de locais {#places-event-reference}
 
-# Referência de eventos de locais {#places-event-reference}
+Esta é uma lista dos eventos que são manipulados pela extensão Places.
 
-Esta é uma lista dos eventos manipulados pela extensão Places.
-
-## GetCurrentPointsOfInterest
+## ObterPontosDeInteresseAtuais
 
 **Detalhes do evento**
 
 | Tipo | Fonte | Nome | Pareado |
 | :--- | :--- | :--- | :--- |
-| LOCAIS | REQUEST_CONTENT | `requestgetuserwithinplaces` | Verdadeiro |
+| PLACES | REQUEST_CONTENT | `requestgetuserwithinplaces` | Verdadeiro |
 
 **Descrição do evento**
 
-Este evento é uma solicitação para recuperar os POIs nos quais o dispositivo está localizado no momento.
+Esse evento é uma solicitação para recuperar os POIs nos quais o dispositivo está localizado no momento.
 
 **Definição do conteúdo de dados**
 
-n/d
+n/a
 
-## GetNearbyPointsOfInterest
+## ObterPontosDeInteressePróximos
 
 **Detalhes do evento**
 
 | Tipo | Fonte | Nome | Pareado |
 | :--- | :--- | :--- | :--- |
-| LOCAIS | REQUEST_CONTENT | `requestgetnearbyplaces` | Verdadeiro |
+| PLACES | REQUEST_CONTENT | `requestgetnearbyplaces` | Verdadeiro |
 
 **Descrição do evento**
 
-Este evento é uma solicitação para obter os POIs próximos, levando em consideração a localização atual do dispositivo e as bibliotecas configuradas de Locais.
+Esse evento é uma solicitação para obter os POIs próximos, considerando a localização atual do dispositivo e as bibliotecas configuradas do Places.
 
 **Definição do conteúdo de dados**
 
 | Chave | Tipo de valor | Obrigatório | Valor padrão | Descrição |
 | :--- | :--- | :--- | :--- | :--- |
-| latitude | duplo | true | n/d | Mantém o valor de latitude para o centro da pesquisa por POIs próximos. |
-| longitude | duplo | true | n/d | Mantém o valor da longitude do centro da pesquisa por POIs próximos. |
-| raio | integer | false | n/d | Raio, em metros, usado pela busca por POIs próximos. |
-| count | integer | false | 10 | Número máximo de POIs para retornar ao evento de resposta resultante. |
+| latitude | duplo | true | n/a | Mantém o valor de latitude do centro da pesquisa por POIs próximos. |
+| longitude | duplo | true | n/a | Contém o valor de longitude do centro da pesquisa por POIs próximos. |
+| raio | inteiro | false | n/a | Raio, em metros, usado pela pesquisa de POIs próximos. |
+| count | inteiro | false | 10 | Número máximo de POIs a serem retornados no evento de resposta resultante. |
 
-## ProcessRegionEvent
+## EventoRegiãoProcesso
 
 **Detalhes do evento**
 
 | Tipo | Fonte | Nome | Pareado |
 | :--- | :--- | :--- | :--- |
-| LOCAIS | REQUEST_CONTENT | `requestprocessregionevent` | Falso |
+| PLACES | REQUEST_CONTENT | `requestprocessregionevent` | Falso |
 
 **Descrição do evento**
 
-Esse evento faz com que a extensão Locais processe uma entrada de geofence ou um evento exit.
+Esse evento faz com que a extensão Places processe um evento de entrada ou saída de geofence.
 
 **Definição do conteúdo de dados**
 
@@ -70,7 +69,6 @@ Esse evento faz com que a extensão Locais processe uma entrada de geofence ou u
 | regionid | string | true | ID da região que gera o evento. |
 | regioneventtype | int | true | Tipo de evento de região que está sendo gerado. 1 para entrada e 2 para saída. |
 
-## Eventos despachados pela extensão Locais
+## Eventos despachados pela extensão Places
 
-Essas informações estão em andamento.
-
+Estas informações estão atualmente em andamento.

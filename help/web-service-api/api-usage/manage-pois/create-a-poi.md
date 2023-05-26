@@ -1,14 +1,13 @@
 ---
 title: Criar um POI
 description: Crie um POI usando as APIs REST do Places.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+exl-id: 0f5b5b40-11f0-4122-b3d5-c3853a6e8ca5
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '47'
-ht-degree: 6%
+ht-degree: 10%
 
 ---
-
 
 # Criar um POI {#create-a-poi}
 
@@ -89,7 +88,7 @@ POST https://api-places.adobe.io/places/placesapi/v1/pois
 
 ## comando CURL
 
-Use o seguinte comando CURL para testar esta API:
+Use o seguinte comando CURL para testar essa API:
 
 ```text
 curl -X POST 'https://api-places.adobe.io/places/placesapi/v1/pois' -H 'x-api-key: <API KEY>' -H 'Authorization: Bearer <TOKEN>' -H 'x-gw-ims-org-id: <ORGID>' -d '<SINGLEPOIDATA>' -H "Content-Type: application/json"
@@ -97,4 +96,4 @@ curl -X POST 'https://api-places.adobe.io/places/placesapi/v1/pois' -H 'x-api-ke
 
 >[!IMPORTANT]
 >
->Lembre-se de substituir `<API KEY>`, `<TOKEN>`, &#39;,&#39; e `<SINGLEPOIDATA>` por valores reais.
+>Lembre-se de substituir `<API KEY>`, `<TOKEN>`, &#39;,&#39; e `<SINGLEPOIDATA>` com valores reais.

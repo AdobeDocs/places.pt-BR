@@ -15,9 +15,9 @@ ht-degree: 3%
 
 * **Extensões do Places e do Places Monitor**
 
-   * As extensões do Places Monitor foram adicionadas para o [Reagir aplicativos nativos](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
-   * As extensões do Places Monitor foram adicionadas para o [Aplicativos Cordova](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)
-   * Para obter mais informações, consulte: [Uso da extensão do Places](https://docs.adobe.com/content/help/pt-BR/places/using/places-ext-aep-sdks/places-extension/places-extension.translate.html)
+   * As extensões do Places e do Places Monitor foram adicionadas para [Aplicativos nativos React](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
+   * As extensões do Places e do Places Monitor foram adicionadas para [aplicativos Cordova](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)
+   * Para obter mais informações, consulte: [Utilização da extensão Places](https://docs.adobe.com/content/help/pt-BR/places/using/places-ext-aep-sdks/places-extension/places-extension.translate.html)
 
 
 ## 12 de maio de 2020
@@ -25,7 +25,7 @@ ht-degree: 3%
 * **Serviço de Places**
 
    * Importação de POIs em massa de um arquivo CSV usando o botão &quot;Importar POIs&quot;
-   * Selecionar vários POIs e editar em massa ou adicionar valores de metadados
+   * Selecione vários POIs e edite em massa ou adicione valores de metadados
 
 ## 6 de maio de 2020
 
@@ -46,16 +46,16 @@ ht-degree: 3%
 
 ## 20 de fevereiro de 2020
 
-* **ACPPlaces 1.3.1 (iOS)**
+* **ACPLOICES 1.3.1 (iOS)**
 
-   * A extensão do Places agora relata as informações da versão para o hub de eventos no SDK principal.
-   * As informações de associação de POI do dispositivo agora têm um tempo de vida padrão de uma hora a partir do momento em que são coletadas. Para obter mais informações, consulte [Modificando o tempo de vida da associação do Places](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
+   * A extensão do Places agora relata informações de versão ao hub de eventos no SDK principal.
+   * As informações de associação do POI do dispositivo agora têm um tempo de vida padrão de uma hora a partir do momento em que são coletadas. Para obter mais informações, consulte [Modificação da duração da vida da associação de Places](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
 
 
 * **Places 1.4.1 (Android)**
 
-   * A extensão do Places agora relata as informações da versão para o hub de eventos no SDK principal.
-   * As informações de associação de POI do dispositivo agora têm um tempo de vida padrão de uma hora a partir do momento em que são coletadas. Para obter mais informações, consulte [Modificando o tempo de vida da associação do Places](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
+   * A extensão do Places agora relata informações de versão ao hub de eventos no SDK principal.
+   * As informações de associação do POI do dispositivo agora têm um tempo de vida padrão de uma hora a partir do momento em que são coletadas. Para obter mais informações, consulte [Modificação da duração da vida da associação de Places](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
 
 ## 27 de janeiro de 2020
 
@@ -72,7 +72,7 @@ ht-degree: 3%
 
    * **Android**
 
-      * Adição de uma nova API , `setAuthorizationStatus`, para definir o status de autorização do dispositivo para o Places Services. O valor é armazenado e usado no estado compartilhado do Places.
+      * Adição de uma nova API, `setAuthorizationStatus`, para definir o status de autorização do dispositivo para Serviços de Places. O valor é armazenado e usado no estado compartilhado Places.
 
 ## 4 de dezembro de 2019
 
@@ -80,15 +80,15 @@ ht-degree: 3%
 
    * **iOS**
 
-      * Chame a API do Places para coletar o CLAuthorizationStatus do dispositivo quando ele for alterado.
+      * Chame a API de locais para coletar CLAuthorizationStatus do dispositivo quando ele for alterado.
 
 ## 3 de dezembro de 2019
 
-* **ACPPlaces 1.3.0**
+* **ACPLOCES 1.3.0**
 
    * **iOS**
 
-      * Adição de uma nova API , `setAuthorizationStatus`, para definir o status de autorização do dispositivo para o Places Services. O valor é armazenado e usado no estado compartilhado do Places.
+      * Adição de uma nova API, `setAuthorizationStatus`, para definir o status de autorização do dispositivo para Serviços de Places. O valor é armazenado e usado no estado compartilhado Places.
 
 ## 25 de novembro de 2019
 
@@ -96,7 +96,7 @@ ht-degree: 3%
 
    * **iOS**
 
-      * Correção de instruções de importação para projetos Cocoapods que usam a opção de vários projetos pod .
+      * Correção de declarações de importação para projetos Cocoapods usando várias opções de projetos pod.
 
 ## 22 de novembro de 2019
 
@@ -104,8 +104,8 @@ ht-degree: 3%
 
    * **Android**
 
-      * O monitor agora reconhece a inicialização de um dispositivo Android e, se necessário, registra as geofences novamente com o sistema operacional, com base na localização atual do dispositivo.
-      * Correção de uma condição de corrida que às vezes fazia com que os eventos de entrada/saída fossem descartados.
+      * O Monitor agora reconhece a inicialização de um dispositivo Android e, se necessário, registra as geofences novamente no SO com base na localização atual do dispositivo.
+      * Correção de uma condição de corrida que, às vezes, fazia com que eventos de entrada/saída fossem descartados.
 
 ## 9 de outubro de 2019
 
@@ -113,11 +113,11 @@ ht-degree: 3%
 
    * **iOS**
 
-      * Adição de uma nova API , `setRequestAuthorizationLevel`, para definir o tipo de solicitação de autorização de localização para a qual o usuário será solicitado.
+      * Adição de uma nova API, `setRequestAuthorizationLevel`, para definir o tipo de solicitação de autorização de localização para a qual o usuário será solicitado.
    * **Android**
 
-      * Adição de uma nova API , `setLocationPermission`, para definir o tipo de solicitação de permissão de local para a qual o usuário será solicitado.
-      * O Places Monitor agora é compatível com Android 10.
+      * Adição de uma nova API, `setLocationPermission`, para definir o tipo de solicitação de permissão de localização para a qual o usuário será solicitado.
+      * O Places Monitor agora é compatível com o Android 10.
 
 
 
@@ -125,30 +125,30 @@ ht-degree: 3%
 
 As seguintes atualizações foram feitas nesta versão:
 
-### Atualizações da interface do usuário
+### Atualizações da interface
 
-Esta é uma lista de atualizações da interface do usuário do Places:
+Esta é uma lista das atualizações na interface do usuário do Places:
 
 #### Novos recursos
 
 * Adição de uma nova exibição de lista que mostra POIs sem o mapa.
 * Adicionadas opções de filtragem de POI para a cidade, o estado, o país e os metadados.
 * A primeira biblioteca em uma organização é criada automaticamente.
-* Classificação de POI adicionada à Exibição de lista.
+* Adição da classificação de POI à Exibição de lista.
 
-#### Atualizações da interface do usuário
+#### Atualizações da interface
 
-* O painel de lista e detalhes foi movido para o lado direito da interface do usuário.
-* Adição de um novo painel de pesquisa na parte superior da interface do usuário do .
-* Se apenas uma biblioteca estiver presente, essa biblioteca será selecionada automaticamente ao criar um POI.
-* O gerenciamento de biblioteca foi movido para uma janela pop-up.
+* A lista e o painel de detalhes foram movidos para o lado direito da interface do usuário.
+* Adição de um novo painel de pesquisa na parte superior da interface do usuário do.
+* Se houver apenas uma biblioteca, ela será selecionada automaticamente quando você criar um POI.
+* Gerenciamento de biblioteca movido para uma janela pop-up.
 * Adição de uma contagem de POI ao lado dos filtros.
 
 ## 6 de agosto de 2019
 
 As seguintes atualizações foram feitas nesta versão:
 
-### Monitorar extensão de lançamento 2.0.0
+### Extensão do Monitor Launch 2.0.0
 
 * Atualização das instruções de instalação do Android e do iOS para o Places Monitor 2.0.
 
@@ -158,27 +158,27 @@ As seguintes atualizações foram feitas nesta versão:
 
 ### Places Monitor 2.0.0
 
-* O status do monitoramento agora é persistente entre inicializações.
-* A manipulação do retorno de chamada, que resultou de uma solicitação de permissão de local, não requer mais a extensão do PlacesActivity.
-* Alteração de uma API existente, permitindo que os desenvolvedores limpassem todos os dados do Places do dispositivo:
+* O status de monitoramento agora é mantido entre inicializações.
+* A manipulação do retorno de chamada, que resultou de uma solicitação de permissão de local, não requer mais que você estenda PlacesActivity.
+* Uma API existente foi alterada, permitindo que os desenvolvedores limpem todos os dados do Places do dispositivo:
 
    API antiga: `public static void stop();`
 
    Nova API: `public static void stop (final boolean clearData);`
 
-* Atualização do uso da variável `getNearbyPointsOfInterest` API para lidar com cenários de erro com mais eficiência.
+* Atualização do uso do `getNearbyPointsOfInterest` API para lidar com cenários de erro com mais eficiência.
 
 ## 25 de julho de 2019
 
 As seguintes atualizações foram feitas nesta versão:
 
-### ACPPlacesMonitor 2.0.0
+### ACPLacesMonitor 2.0.0
 
-* Para limpar todos os dados do Places do dispositivo,
+* Para apagar todos os dados de Places do dispositivo,
 
-   no ACPPlacesMonitor, substituiu uma API existente `+ (void) stop;` com`+ (void) stop: (BOOL) clearData;`.
+   no ACPacesMonitor, uma API existente foi substituída `+ (void) stop;` com`+ (void) stop: (BOOL) clearData;`.
 
-* Atualização do uso dos ACPPlaces `getNearbyPointsOfInterest` API para lidar com cenários de erro com mais eficiência.
+* Atualização do uso dos Locais ACC `getNearbyPointsOfInterest` API para lidar com cenários de erro com mais eficiência.
 
 ## 22 de julho de 2019
 
@@ -186,10 +186,10 @@ As seguintes atualizações foram feitas nesta versão:
 
 ### Android Places 1.3.0
 
-* Adição de uma nova API que limpa todos os dados relacionados ao Places de estado compartilhado, memória no aplicativo e Preferência compartilhada.
-* Correção de um problema em que o estado compartilhado não era atualizado durante o início do aplicativo.
-* Correção de um erro em que `getNearbyPointsOfInterest` o retorno de chamada estava retornando o código de erro `SERVER_RESPONSE_ERROR instead of CONNECTIVITY_ERROR` na Internet.
-* `getNearbyPointsOfInterest` A API (sem o errorCallback) terá a variável `successCallback` chamado com lista poi vazia, em caso de erro ao recuperar os pontos de interesse próximos.
+* Adição de uma nova API que limpa todos os dados relacionados ao Places do estado compartilhado, da memória no aplicativo e da preferência compartilhada.
+* Correção de um problema em que o estado compartilhado não era atualizado durante a inicialização do aplicativo.
+* Correção de um erro em que `getNearbyPointsOfInterest` o retorno de chamada estava retornando o código de erro `SERVER_RESPONSE_ERROR instead of CONNECTIVITY_ERROR` sem acesso à Internet.
+* `getNearbyPointsOfInterest` A API (sem o errorCallback) terá a `successCallback` chamado com lista de poi vazia, em caso de erro ao recuperar os pontos de interesse próximos.
 
 ## 19 de julho de 2019
 
@@ -197,7 +197,7 @@ As seguintes atualizações foram feitas nesta versão:
 
 **iOS Places 1.2.0**
 
-Adição de uma nova API que limpa todos os dados relacionados ao Places de estado compartilhado, memória no aplicativo e `NSUserDefaults`.
+Adição de uma nova API que limpa todos os dados relacionados ao Places do estado compartilhado, da memória no aplicativo e `NSUserDefaults`.
 
 ## 25 de junho de 2019
 
@@ -214,9 +214,9 @@ As seguintes atualizações foram feitas nesta versão:
 **iOS Places 1.1.0**
 
 * Adição de uma nova API para retornar um código de erro quando houver uma falha na recuperação de locais próximos.
-* Quando o status de privacidade for alterado para opt out, todos os dados relacionados ao Places agora serão apagados do dispositivo.
-* Correção de um problema que, depois de uma primeira inicialização, às vezes fazia com que os eventos do Places fossem perdidos devido a condições de rede inadequadas.
-* Correção de um problema em que, ao processar eventos de entrada de POI em sucessão rápida, a substituição de token por meio do Mecanismo de regras às vezes referenciava o POI incorreto.
+* Quando o status de privacidade for alterado para opt-out, todos os dados relacionados a Places agora serão apagados do dispositivo.
+* Correção de um problema que, após uma primeira inicialização, às vezes fazia com que os eventos do Places fossem perdidos devido a más condições de rede.
+* Correção de um problema em que, ao processar eventos de entrada de POI em rápida sucessão, a substituição de token por meio do Mecanismo de regras às vezes referenciava o POI incorreto.
 
 ## 30 de maio de 2019
 
@@ -228,10 +228,10 @@ As seguintes atualizações foram feitas nesta versão:
 
 Correção dos seguintes problemas na interface do usuário do Places:
 
-* Atualização do Alternador de soluções no Places para alinhar com o restante do Experience Cloud.
-* Correção de um problema em que a classificação era salva em instâncias em que não havia alterações de classificação.
-* Aumento do raio mínimo permitido na interface do usuário para 10 metros.
-* Correção de um problema em que, ao excluir todos os números do campo, o campo de raio era redefinido para 20 metros.
+* Atualização do Alternador de soluções no Places para alinhar-se ao restante do Experience Cloud.
+* Correção de um problema em que a classificação era salva nas instâncias em que nenhuma alteração de classificação era feita.
+* O raio mínimo permitido na interface do usuário foi aumentado para 10 metros.
+* Correção de um problema em que, ao excluir todos os números no campo, o campo de raio era redefinido para 20 metros.
 
 ## 17 de maio de 2019
 
@@ -239,12 +239,12 @@ As seguintes atualizações foram feitas nesta versão:
 
 **Android Places 1.2.0**
 
-* Adição de uma nova API para processar uma Geofence individual.
+* Adição de uma nova API para processar um Geofence individual.
 * Correção de erros para evitar vários eventos de entrada consecutivos.
 
 **Android Places Monitor 1.0.0**
 
-Lançamento inicial do Places Monitor para Android.
+Versão inicial do Places Monitor para Android.
 
 O Places Monitor gerencia as APIs de localização no nível do sistema operacional e se comunica diretamente com a extensão do Places. Com ambas as extensões instaladas, os clientes podem ter monitoramento de região pronto para uso em seus aplicativos.
 Para obter mais informações sobre o Places Monitor, clique aqui.
@@ -257,8 +257,8 @@ Para obter mais informações sobre o Places Monitor, clique aqui.
 * Introdução de uma nova API para getNearByPlaces, que tem um errorCallback e é chamada com um errorCode que indica o motivo do erro.
 * A extensão Places agora enfileira os eventos até que uma configuração seja obtida.
 * Adição de suporte para configurações com reconhecimento de ambiente.
-* Correção de erros : corrigidas as chaves dos eventos de entrada/saída da região
-* O armazenamento do último local conhecido agora respeita corretamente o status de privacidade do usuário
+* Correção de erros : corrigiu as chaves para os eventos de entrada/saída da região
+* O armazenamento do último local conhecido agora respeita adequadamente o status de privacidade do usuário
 
 
 ## 9 de abril de 2019
@@ -267,23 +267,23 @@ As seguintes atualizações foram feitas nesta versão:
 
 **iOS Places Monitor 1.0.1**
 
-* Adição da cobertura completa de teste de unidade.
-* Integração de CI (CircleCI)
-* Integração da cobertura de código (codecov)
+* Adição da cobertura completa do teste de unidade.
+* Integração CI (CircleCI)
+* Integração de cobertura de código (codecov)
 
 ## 25 de março de 2019
 
 iOS Places Monitor 1.0.0
 
-Lançamento inicial do Places Monitor para iOS.
+Versão inicial do Places Monitor para iOS.
 
 O Places Monitor gerencia as APIs de localização no nível do sistema operacional e se comunica diretamente com a extensão do Places. Com ambas as extensões instaladas, os clientes podem ter monitoramento de região pronto para uso em seus aplicativos.
 
 ## 28 de fevereiro de 2019
 
-### Versão beta
+### Versão Beta
 
-Esta é a primeira versão do Places Service, um conjunto de ferramentas que permite aos clientes enriquecer as experiências dos usuários com os dados de localização reais do mundo. Na primeira versão, nosso principal caso de uso é permitir que aplicativos móveis recuperem dados de localização personalizados e atuem com esses dados por meio do Adobe Experience Platform Launch.
+Esta é a primeira versão do Places Service, um conjunto de ferramentas que permite aos clientes enriquecer as experiências de seus usuários com dados de localização reais. Para a primeira versão, nosso principal caso de uso é permitir que aplicativos móveis recuperem dados de localização personalizados e atuem sobre esses dados por meio do Adobe Experience Platform Launch.
 
 ### Recursos principais
 
@@ -291,37 +291,37 @@ Estes são os principais recursos nesta versão:
 
 #### Interface do usuário do Places Service
 
-Lançamos uma interface do usuário de gerenciamento em que você pode visualizar e gerenciar seus pontos de interesse (POIs). Você também pode organizar seus POIs em bibliotecas. Além de metadados padrão, como cidade, estado e categoria, também oferecemos suporte à capacidade de adicionar metadados personalizados aos POIs.
+Lançamos uma interface do usuário de gerenciamento na qual você pode visualizar e gerenciar seus pontos de interesse (POIs). Você também pode organizar seus POIs em bibliotecas. Além dos metadados padrão, como cidade, estado e categoria, também oferecemos suporte à capacidade de adicionar metadados personalizados aos POIs.
 
-* Para ver a interface do usuário, acesse [https://places.adobe.com](https://places.adobe.com).
+* Para ver a interface do usuário do, acesse [https://places.adobe.com](https://places.adobe.com).
 * Para começar a usar a interface do usuário, consulte [Introdução](/help/getting-started.md).
 
 #### Extensão do Places
 
-Usando a Extensão do Places, você pode adicionar as bibliotecas do Places Service ao aplicativo móvel e atuar nos POIs delas. Usando o construtor de regras no Experience Platform Launch, você pode acionar ações para disparar quando os usuários entram e saem dos POIs.
+Usando a Extensão Places, você pode adicionar suas bibliotecas do Places Service ao aplicativo móvel e agir de acordo com seus POIs. Usando o construtor de regras no Experience Platform Launch, você pode acionar ações para serem acionadas quando os usuários entrarem e saírem dos POIs.
 
-Na extensão do Places:
+Na extensão Places:
 
-* Você pode escolher quais bibliotecas de POI incluir no seu aplicativo.
-* Eventos de regras que são acionados na entrada ou saída do POI.
+* Você pode escolher quais bibliotecas POI incluir no aplicativo.
+* Eventos de regra que acionam na entrada ou saída do POI.
 * Crie elementos de dados que apontem para o POI atual do usuário.
 
-Para obter mais informações sobre a extensão do Places, consulte [Extensão do Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+Para obter mais informações sobre a extensão Places, consulte [Extensão do Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 #### APIs do Places
 
 Você pode usar as APIs do Places para fazer o seguinte:
 
-* Permitir que os desenvolvedores preencham e atualizem sua lista de POIs.
-* Crie sua própria interface do usuário ou integre-a a um banco de dados de POI existente.
-* Use os endpoints de lote da API do Places para fazer uma importação em massa de POIs.
+* Permite que os desenvolvedores preencham e atualizem sua lista de POIs.
+* Crie sua própria interface do usuário ou integre a um banco de dados de POI existente.
+* Use os endpoints em lote da API do Places para fazer uma importação em massa de POIs.
 
    Você pode usar o utilitário Python fornecido para concluir a importação em massa.
 
-Para obter mais informações sobre as APIs do Places, consulte [API de serviço da Web](/help/web-service-api/places-web-services.md).
+Para obter mais informações sobre as APIs do Places, consulte [API do serviço Web](/help/web-service-api/places-web-services.md).
 
 ### Em breve
 
 #### Integração do Analytics
 
-A extensão Analytics está sendo atualizada para adicionar automaticamente dados de contexto de localização do banco de dados do Places Service a todas as chamadas de saída do Analytics quando um usuário está em um POI (chamadas Passivas). Essa atualização também permitirá que a criação de regras acione chamadas de rastreamento do Analytics diretamente na entrada ou saída do POI (chamadas ativas).
+A extensão do Analytics está sendo atualizada para adicionar automaticamente dados de contexto de localização do banco de dados do Places Service a todas as chamadas de saída do Analytics quando um usuário estiver em um POI (chamadas passivas). Essa atualização também permitirá a criação de regras para acionar chamadas de rastreamento do Analytics diretamente na entrada ou saída do POI (chamadas ativas).

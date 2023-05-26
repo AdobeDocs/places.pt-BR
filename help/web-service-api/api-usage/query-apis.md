@@ -1,19 +1,17 @@
 ---
 title: Visão geral
-description: Compreensão e uso de APIs de Query.
-translation-type: tm+mt
-source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+description: Noções básicas e uso das APIs de consulta.
+exl-id: cc61a49c-1cf2-407f-b81a-3d38fcb622cc
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
+# APIs de consulta
 
-
-# APIs de query
-
-Um método de GET que permite query os POIs mais próximos do chamador.
+Um método GET que permite consultar os POIs mais próximos do chamador.
 
 ## Solicitação
 
@@ -27,13 +25,13 @@ Com a seguinte entrada, o serviço retorna uma lista dos POIs mais próximos do 
 * As IDs das bibliotecas POI a serem incluídas na pesquisa.
 * O número máximo de POIs a serem retornados.  O valor padrão é 100.
 
-   A distância entre o chamador e o POI é definida como a distância do chamador até a borda da geofence do POI. Na resposta, os POIs que contêm o chamador serão marcados como tendo o chamador.
+   A distância entre o chamador e o POI é definida como a distância do chamador até a borda da geofence do POI. Na resposta, os POIs que contêm o chamador serão marcados como tendo ele.
 
-Os argumentos são fornecidos como os seguintes parâmetros de query:
+Os argumentos são fornecidos como os seguintes parâmetros de consulta:
 
 * (**Obrigatório**) `latitude`
 
-   A latitude do chamador, que deve estar entre -85 e 85.
+   A latitude do chamador, que deve ser entre -85 e 85.
 * (**Obrigatório**) `longitude`
 
    A longitude do chamador, que deve estar entre -180 e 180.
@@ -44,7 +42,7 @@ Os argumentos são fornecidos como os seguintes parâmetros de query:
 
 * (**Obrigatório**) `library`
 
-   A ID da biblioteca para o query. Para query de várias bibliotecas, certifique-se de incluir várias cópias do parâmetro de biblioteca no query.
+   A ID da biblioteca para consulta. Para consultar várias bibliotecas, inclua várias cópias do parâmetro de biblioteca na consulta.
 
 Este é um exemplo do formato JSON retornado com êxito:
 
@@ -109,11 +107,11 @@ Este é um exemplo do formato JSON retornado com êxito:
 }
 ```
 
-Os POIs em `places.pois` são classificados por distância do chamador até a borda dos POIs. Os POIs em `places.userWithin` contêm o chamador, e esses POIs são ordenados por classificação e, em seguida, por aumento do raio.
+POIs em `places.pois` são classificados por distância do chamador até a borda dos POIs. POIs em `places.userWithin` contém o chamador e esses POIs são ordenados por classificação e, em seguida, por raio crescente.
 
 ## Exemplo de chamada
 
-Este é um exemplo da chamada:
+Veja um exemplo da chamada:
 
 ```text
 GET https://query.places.adobe.com/placesedgequery?latitude=<userLatitude>&longitude=<userLongitude>&library=<libID1>&library=<libID2>&limit=20

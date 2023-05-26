@@ -1,74 +1,73 @@
 ---
-title: Relatório de dados de localização no Analytics Workspace
-description: Esta seção fornece informações sobre como relatar os dados de localização no Analytics Workspace.
-translation-type: tm+mt
-source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+title: Relatório sobre dados de localização no Analytics Workspace
+description: Esta seção fornece informações sobre como criar relatórios sobre dados de localização no Analytics Workspace.
+exl-id: 45ca3c80-71b7-41de-9b00-645504061935
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 9%
+source-wordcount: '452'
+ht-degree: 8%
 
 ---
 
+# Relatório sobre dados de localização no Analytics Workspace {#places-in-workspace}
 
-# Relatório dos dados de localização na Analysis Workspace {#places-in-workspace}
-
-Este documento mostra um exemplo de como relatar os dados de localização na Analysis Workspace. Cada etapa conterá um resumo de alto nível, com detalhes fornecidos por referência a outras páginas de documentação.
+Este documento mostra um exemplo de como criar relatórios sobre os dados de localização no Espaço de trabalho do Analytics. Cada etapa conterá um resumo de alto nível, com detalhes fornecidos fazendo referência a outras páginas de documentação.
 
 ## Pré-requisitos
 
-Esse documento assume o seguinte:
+Este documento supõe o seguinte:
 
-1. A extensão Locais é implementada em seu aplicativo.
+1. A extensão do Places é implementada em seu aplicativo.
 
-   Para obter mais informações sobre como implementar a extensão de Locais, consulte Extensões [de](/help/places-ext-aep-sdks/places-extension/places-extension.md)Locais.
+   Para obter mais informações sobre a implementação da extensão Places, consulte [Extensões do Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 1. O usuário do Adobe Analytics é um administrador e tem acesso às regras de processamento.
 
    Para obter mais informações sobre regras de processamento, consulte [Visão geral das regras de processamento](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
-1. Na propriedade Launch, os elementos de dados foram criados para as variáveis do Serviço de Locais desejadas.
+1. Na propriedade do Launch, os elementos de dados foram criados para as variáveis de Serviço do Places desejadas.
 
-   Para obter mais informações sobre elementos de dados no Launch, consulte [Definir um elemento](/help/use-places-launch-workflow/define-data-elements.md)de dados.
+   Para obter mais informações sobre elementos de dados no Launch, consulte [Definir um elemento de dados](/help/use-places-launch-workflow/define-data-elements.md).
 
 
-## 1. Criar uma regra de inicialização
+## 1. Criar uma regra do Launch
 
-Crie uma regra que fará com que o SDK envie dados para o Analytics quando o dispositivo entrar em um POI. A criação desse tipo de regra é descrita na página [Enviar dados de entrada e saída do POI para o Analytics](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md) .
+Crie uma regra que fará com que o SDK envie dados para o Analytics quando o dispositivo inserir um POI. A criação desse tipo de regra é descrita na seção [Enviar dados de entrada e saída de POI para o Analytics](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md) página.
 
 Neste exemplo, a ação da regra tem os seguintes valores definidos para a solicitação do Analytics:
 
-* **[!UICONTROL Action]** é fornecido um valor de **[!UICONTROL Places Entry]**.
+* **[!UICONTROL Ação]** recebe um valor de **[!UICONTROL Entrada de locais]**.
 
-* A chave de dados de contexto **[!UICONTROL poi.name]** é definida como o valor do elemento de dados **[!UICONTROL {%%POI Name%%}]**.
+* A chave de dados de contexto **[!UICONTROL poi.name]** está definido como o valor do elemento de dados **[!UICONTROL {%%POI Name%%}]**.
 
 ![&quot;definir uma ação&quot;](/help/assets/pt-setAction.png)
 
 ## 2. Criar variáveis do Analytics
 
-Para mapear os dados de contexto (enviados na etapa 1), as variáveis devem primeiro ser criadas para o conjunto de relatórios do Analytics. Para obter mais informações sobre como criar variáveis no Analytics, consulte Variáveis [de conversão (eVars)](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-conversion-variables-evar.html).
+Para mapear os dados de contexto (enviados na etapa 1), as variáveis devem ser criadas primeiro para o conjunto de relatórios do Analytics. Para obter mais informações sobre como criar variáveis no Analytics, consulte [Variáveis de conversão (eVars)](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-conversion-variables-evar.html).
 
-Neste exemplo, uma variável de conversão, **[!UICONTROL Evar2]**, foi criada e nomeada **[!UICONTROL Places POI Name]**. Variáveis adicionais precisam ser criadas para cada variável de localização que você deseja expor no relatórios.
+Neste exemplo, uma variável de conversão, **[!UICONTROL Evar2]**, foi criado e nomeado **[!UICONTROL Nome do POI do Places]**. Serão necessárias variáveis adicionais para cada variável de local que você deseja expor nos relatórios.
 
-![&quot;criar uma variável de análise&quot;](/help/assets/aa-evar.png)
+![&quot;criar uma variável do analytics&quot;](/help/assets/aa-evar.png)
 
 ## 3. Criar regras de processamento
 
-Essa etapa é necessária para mapear dados de contexto (etapa 1) para as variáveis do Analytics (etapa 2). For more information on creating processing rules, see [Processing rules overview](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+Essa etapa é necessária para mapear dados de contexto (etapa 1) para variáveis do Analytics (etapa 2). Para obter mais informações sobre como criar regras de processamento, consulte [Visão geral das regras de processamento](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
-Neste exemplo, uma regra de processamento foi criada para mapear o valor de dados de contexto **[!UICONTROL poi.name]** para **[!UICONTROL Places POI Name (eVar2)]**. Regras de processamento adicionais precisam ser criadas para cada variável de localização criada.
+Neste exemplo, uma regra de processamento foi criada para mapear o valor dos dados de contexto **[!UICONTROL poi.name]** em **[!UICONTROL Nome do POI de locais (eVar 2)]**. Regras de processamento adicionais precisarão ser criadas para cada variável de local criada.
 
 ![&quot;criar uma regra de processamento&quot;](/help/assets/aa-processing-rule.png)
 
 ## 4. Gerar um relatório no Workspace
 
-Esta etapa mostra um relatório básico no Analytics Workspace para visualização dos dados coletados nas etapas 1 a 3. Para obter mais informações sobre como usar o Analytics Workspace, consulte Visão geral [](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/home.html)do Analytics Workspace.
+Esta etapa mostra um relatório básico no Analytics Workspace para exibir os dados coletados nas etapas 1 a 3. Para obter mais informações sobre como usar o Analytics Workspace, consulte [Visão geral do Analytics Workspace](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/home.html).
 
 Neste exemplo, o relatório tem as seguintes configurações:
 
-* Métrica - **[!UICONTROL Occurrences]**
+* Métrica - **[!UICONTROL Ocorrências]**
 
-* Dimensão - **[!UICONTROL Action Name]**
+* DIMENSION - **[!UICONTROL Nome da ação]**
 
-   * Analisado por Dimension - **[!UICONTROL Places POI Name]**
+   * Detalhado por Dimension - **[!UICONTROL Nome do POI do Places]**
 
 ![&quot;criar um relatório no espaço de trabalho&quot;](/help/assets/aa-workspace.png)

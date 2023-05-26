@@ -1,26 +1,25 @@
 ---
-title: Referência da API de locais
-description: Informações sobre as referências da API em Locais.
-translation-type: tm+mt
-source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+title: Referência da API do Places
+description: Informações sobre as referências de API no Places.
+exl-id: ce1a113c-dee0-49df-8d2f-789ccc1c8322
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 32%
 
 ---
 
+# Referência da API do Places {#places-api-reference}
 
-# Referência da API de locais {#places-api-reference}
+Estas são informações sobre as referências de API na extensão do Places:
 
-Estas são informações sobre as referências de API na extensão Locais:
+## Processamento de um evento de região
 
-## Processando um evento de região
-
-Quando um dispositivo atravessa um dos limites predefinidos da região Places Service do seu aplicativo, a região e o tipo de evento são passados para o SDK para processamento.
+Quando um dispositivo ultrapassa um dos limites predefinidos da região do Serviço de locais do aplicativo, a região e o tipo de evento são passados para o SDK para processamento.
 
 ### ProcessGeofence (Android)
 
-Processar um evento de `Geofence` região para o fornecido `transitionType`.
+Processar um `Geofence` evento de região para o fornecido `transitionType`.
 
 Passe o `transitionType` de `GeofencingEvent.getGeofenceTransition()`. Atualmente `Geofence.GEOFENCE_TRANSITION_ENTER` e `Geofence.GEOFENCE_TRANSITION_EXIT` são compatíveis.
 
@@ -60,7 +59,7 @@ public class GeofenceTransitionsIntentService extends IntentService {
 
 ### ProcessRegionEvent (iOS)
 
-Esse método deve ser chamado no `CLLocationManager` delegado, que informa se o usuário entrou ou saiu de uma região específica.
+Este método deve ser chamado na variável `CLLocationManager` delegado, que informa se o usuário entrou ou saiu de uma região específica.
 
 **Sintaxe**
 
@@ -87,7 +86,7 @@ Esta é a amostra de código para este método:
 
 ### ProcessGeofencingEvent (Android)
 
-Processar tudo `Geofences` ao `GeofencingEvent` mesmo tempo.
+Processar tudo `Geofences` no `GeofencingEvent` ao mesmo tempo.
 
 **Sintaxe**
 
@@ -116,7 +115,7 @@ public class GeofenceTransitionsIntentService extends IntentService {
 
 ## Recuperar pontos de interesse próximos
 
-Retorna uma lista ordenada de POIs próximos em um retorno de chamada. Uma versão sobrecarregada desse método retornará um código de erro se algo deu errado com a chamada de rede resultante.
+Retorna uma lista ordenada de POIs próximos em um retorno de chamada. Uma versão sobrecarregada deste método retornará um código de erro se algo der errado com a chamada de rede resultante.
 
 ### GetNearbyPointsOfInterest (Android)
 
@@ -205,7 +204,7 @@ Places.getNearbyPointsOfInterest(currentLocation, 10,
 
 ## Recuperar pontos de interesse do dispositivo atual
 
-Solicita uma lista de POIs nos quais o dispositivo é conhecido por estar e os retorna em um retorno de chamada.
+Solicita uma lista de POIs nos quais o dispositivo é conhecido no momento em e os retorna em um retorno de chamada.
 
 ### GetCurrentPointsOfInterest (Android)
 
@@ -231,7 +230,7 @@ Places.getCurrentPointsOfInterest(new AdobeCallback<List<PlacesPOI>>() {
 });
 ```
 
-### GetCurrentPointsOfInterest (iOS)
+### ObterPontosDeInteresseAtuais (iOS)
 
 **Sintaxe**
 
@@ -255,11 +254,11 @@ Esta é a amostra de código para este método:
 
 ## Obter a localização do dispositivo
 
-Solicita a localização do dispositivo, como anteriormente conhecido, pela extensão Locais.
+Solicita a localização do dispositivo, como conhecido anteriormente, pela extensão Places.
 
 >[!TIP]
 >
->A extensão Places só sabe sobre locais que foram fornecidos para ela por meio de chamadas para `GetNearbyPointsOfInterest`.
+>A extensão do Places só conhece os locais que foram fornecidos por meio de chamadas para o `GetNearbyPointsOfInterest`.
 
 
 ### GetLastKnownLocation (Android)
@@ -312,7 +311,7 @@ Esta é a amostra de código para este método:
 
 ### Limpar (Android)
 
-Limpa os dados do lado do cliente para a extensão Locais no estado compartilhado, no armazenamento local e na memória.
+Limpa os dados do lado do cliente para a extensão do Places no estado compartilhado, no armazenamento local e na memória.
 
 **Sintaxe**
 
@@ -330,9 +329,9 @@ Esta é a amostra de código para este método:
 Places.clear();
 ```
 
-### clear (iOS)
+### limpar (iOS)
 
-Limpa os dados do lado do cliente para a extensão Locais no estado compartilhado, no armazenamento local e na memória.
+Limpa os dados do lado do cliente para a extensão do Places no estado compartilhado, no armazenamento local e na memória.
 
 **Sintaxe**
 
@@ -350,16 +349,16 @@ Esta é a amostra de código para este método:
 [ACPPlaces clear];
 ```
 
-## Definir status de autorização de localização
+## Definir status de autorização da localização
 
 ### setAuthorizationStatus (Android)
 
 *Disponível a partir do Places v1.4.0*
 
-Define o status de autorização na extensão Locais.
+Define o status de autorização na extensão Places.
 
-O status fornecido é armazenado no estado compartilhado Locais e é apenas para referência.
-Chamar esse método não afeta o status real de autorização de localização desse dispositivo.
+O status fornecido é armazenado no estado compartilhado de Places e serve apenas para referência.
+Chamar esse método não afeta o status de autorização da localização real deste dispositivo.
 
 **Sintaxe**
 
@@ -379,14 +378,14 @@ Places.setAuthorizationStatus(PlacesAuthorizationStatus.ALWAYS);
 
 ### setAuthorizationStatus (iOS)
 
-*Disponível a partir do ACPPlaces v1.3.0*
+*Disponível a partir do ACPPSlaces v1.3.0*
 
-Define o status de autorização na extensão Locais.
+Define o status de autorização na extensão Places.
 
-O status fornecido é armazenado no estado compartilhado Locais e é apenas para referência.
-Chamar esse método não afeta o status real de autorização de localização desse dispositivo.
+O status fornecido é armazenado no estado compartilhado de Places e serve apenas para referência.
+Chamar esse método não afeta o status de autorização da localização real deste dispositivo.
 
-Quando o status de autorização do dispositivo é alterado, o `locationManager:didChangeAuthorizationStatus:` método de seu `CLLocationManagerDelegate` é chamado. Dentro desse método, você deve passar o novo `CLAuthorizationStatus` valor para a API ACPPlaces `setAuthorizationStatus:` .
+Quando o status de autorização do dispositivo for alterado, a variável `locationManager:didChangeAuthorizationStatus:` método do seu `CLLocationManagerDelegate` é chamado. Dentro deste método, você deve passar o novo `CLAuthorizationStatus` para os ACPloces `setAuthorizationStatus:` API.
 
 **Sintaxe**
 

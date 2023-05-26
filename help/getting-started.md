@@ -11,7 +11,7 @@ ht-degree: 3%
 
 # Introdução {#getting-started}
 
-Este é um vídeo útil para obter uma visão geral do Places Services:
+Este é um vídeo útil para obter uma visão geral dos Serviços de Places:
 
 <!--
 Test of different youtube link for exl
@@ -19,35 +19,35 @@ Test of different youtube link for exl
 
 >[!VIDEO](https://video.tv.adobe.com/v/41647)
 
-## Uso do Places Service
+## Usar o Places Service
 
 Para usar o Places Service, conclua as seguintes tarefas:
 
 ### 1. Verifique se o usuário foi provisionado para usar o Places Service
 
-O contexto de produto do Places Service está disponível com todas as organizações do Experience Cloud.
+O contexto de produto do Places Service está disponível com todas as organizações Experience Cloud.
 
-* Certifique-se de que você esteja listado como um usuário nos contextos de produto do Places Service e Experience Platform Launch no Admin Console.
+* Verifique se você está listado como usuário nos contextos de produto Serviço de Places e Experience Platform Launch no Admin Console.
 
-   Para obter mais informações, consulte *Adicionar um usuário ao Experience Platform Launch e Places Service* em [Perguntas frequentes](/help/places-gain-access.md).
+   Para obter mais informações, consulte *Adicionar um usuário ao serviço do Experience Platform Launch e Places* in [Perguntas frequentes](/help/places-gain-access.md).
 
 
-### 2. Criar POIs
+### 2. Crie seus POIs
 
-Pontos de interesse (POI) são fronteiras geográficas criadas para suas organizações e você pode criar POIs de uma das seguintes maneiras:
+Pontos de interesse (POIs) são geolocalizações criadas para suas organizações, e você pode criar POIs de uma das seguintes maneiras:
 
 * Usar a interface do usuário do Places Service.
 
    Para obter mais informações, consulte [Visão geral do Places Service](/help/poi-mgmt-ui/poi-mgmt-ui-overview.md).
 
-* Uso de APIs do serviço da Web do Places.
+* Uso das APIs do serviço Web Places.
 
-   Para obter mais informações, consulte [API de serviço da Web](/help/web-service-api/places-web-services.md).
+   Para obter mais informações, consulte [API do serviço Web](/help/web-service-api/places-web-services.md).
 
 
-### 3. Configurar a extensão do Places
+### 3. Configurar a extensão Places
 
-Para obter mais informações sobre como configurar a extensão Places, consulte as seguintes informações:
+Para obter mais informações sobre a configuração da extensão Places, consulte as seguintes informações:
 
 * [Extensão do Places](/help/places-ext-aep-sdks/places-extension/places-extension.md)
 
@@ -55,6 +55,6 @@ Para obter mais informações sobre como configurar a extensão Places, consulte
 
 Se você planeja fazer o monitoramento de região ativa, será necessário implementar diretamente com o sistema operacional. Para obter mais informações, consulte os seguintes documentos:
 
-* iOS - [Documentação do CoreLocation](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions)
+* IOS - [Documentação do CoreLocation](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions)
 
 * Android - [Documentação de localização](https://developer.android.com/training/location/geofencing)

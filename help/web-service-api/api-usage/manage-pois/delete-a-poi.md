@@ -1,14 +1,13 @@
 ---
 title: Excluir um POI
 description: Exclua um POI usando as APIs REST do Places.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+exl-id: 0325eb3b-f9b2-4b21-bed8-e318e8072a69
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
-
 
 # Excluir um POI {#delete-a-poi}
 
@@ -46,5 +45,4 @@ curl -X DELETE 'https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>' -H
 
 >[!IMPORTANT]
 >
->Substitua `<POIID>`, `<API KEY>`e `<TOKEN>`por `<ORGID>` valores reais.
-
+>Substituir `<POIID>`, `<API KEY>`, `<TOKEN>`, e `<ORGID>` com valores reais.

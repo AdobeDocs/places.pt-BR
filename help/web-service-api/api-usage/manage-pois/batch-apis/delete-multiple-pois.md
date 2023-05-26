@@ -1,15 +1,13 @@
 ---
 title: Excluir vários POIs
 description: Use as APIs em lote para excluir vários POIs.
-translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+exl-id: f170b722-e6f4-42a2-b3a6-1bf56965eb17
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '56'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
-
-
 
 # Excluir vários POIs {#delete-multiple-pois}
 
@@ -41,7 +39,7 @@ If successful a Status of "204 No Content" is returned.
 
 ## comando CURL
 
-Use o seguinte comando CURL para testar esta API:
+Use o seguinte comando CURL para testar essa API:
 
 ```text
 curl -X POST 'https://api-places.adobe.io/places/placesapi/v1/pois/batchDelete' -H 'x-api-key: <API KEY>' -H 'Authorization: Bearer <TOKEN>' -H 'x-gw-ims-org-id: <ORGID>' --data-binary "@<PATHTOBATCHDELETEJSONFILE>" -H "Content-Type: application/json"
@@ -49,11 +47,11 @@ curl -X POST 'https://api-places.adobe.io/places/placesapi/v1/pois/batchDelete' 
 
 >[!IMPORTANT]
 >
->Substitua `<API KEY>`, `<TOKEN>`e `<ORGID>`e `<PATHTOBATCHDELETEJSONFILE>` por valores reais.
+>Substituir `<API KEY>`, `<TOKEN>`, `<ORGID>`, e `<PATHTOBATCHDELETEJSONFILE>` com valores reais.
 
-## Exemplo de arquivo JSON
+## Arquivo JSON de amostra
 
-Este é o exemplo de arquivo JSON para a `batchDelete` API:
+Este é o exemplo de arquivo JSON para o `batchDelete` API:
 
 ```text
 {​"ids":["31a49d5c-c6ad-46ae-b88d-a6912a8a6b2f","6a78a729-7973-4373-9199-36da18cc5b8c","74eaa3da-2464-4298-9b6d-5376fa7ea00f"]​}

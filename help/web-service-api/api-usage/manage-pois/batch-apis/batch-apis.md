@@ -1,20 +1,19 @@
 ---
 title: APIs em lote
-description: Com APIs em lote, você pode criar, atualizar e excluir vários POIs.
-translation-type: tm+mt
-source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+description: Com APIs em lote, é possível criar, atualizar e excluir vários POIs.
+exl-id: 8c77e5e3-2700-4684-a480-c638691994e5
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
 
 ---
 
-
 # APIs em lote {#batch-apis}
 
 As APIs em lote permitem criar, atualizar ou excluir vários POIs ao mesmo tempo.
 
-Para ajudá-lo a concluir a importação em lote dos POIs de um `.csv` arquivo para o banco de dados Local da sua organização, use o conjunto de scripts Python. Você pode baixar o arquivo zip desses scripts [aqui](https://github.com/adobe/places-scripts). Para obter instruções sobre como usar os scripts, consulte o arquivo README no acordo.
+Para ajudar você a concluir uma importação em lote de seus POIs de um `.csv` no banco de dados Places de sua organização, use o conjunto de scripts Python. Você pode baixar o arquivo zip desses scripts [aqui](https://github.com/adobe/places-scripts). Para obter instruções sobre como usar os scripts, consulte o arquivo README no repositório.
 
 Você pode usar as APIs em lote para concluir as seguintes tarefas:
 

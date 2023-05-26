@@ -1,14 +1,13 @@
 ---
 title: Atualizar uma biblioteca
-description: Atualize uma biblioteca usando a API REST do Places.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+description: Atualizar uma biblioteca usando a API REST do Places.
+exl-id: 37ca2be2-39e1-4f8e-87c2-ef4cb366db0d
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 6%
+ht-degree: 10%
 
 ---
-
 
 # Atualizar uma biblioteca {#update-a-library}
 
@@ -40,7 +39,7 @@ PUT https://api-places.adobe.io/places/placesapi/v1/libraries/<lIBRARYID>
 
 ## comando CURL
 
-Use o seguinte comando CURL para testar esta API:
+Use o seguinte comando CURL para testar essa API:
 
 ```text
 curl -X PUT 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYID>' -H 'x-api-key: <API KEY>' -H 'Authorization: Bearer <TOKEN>' -H 'x-gw-ims-org-id: <ORGID>' -d '{"name":"Updated Library Name"}' -H "Content-Type: application/json"
@@ -48,5 +47,4 @@ curl -X PUT 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYI
 
 >[!IMPORTANT]
 >
->Substitua variáveis como `<lIBRARYID>`, `<API KEY>`, `<TOKEN>`e `<ORGID>` por valores reais.
-
+>Substitua variáveis como `<lIBRARYID>`, `<API KEY>`, `<TOKEN>`, e `<ORGID>` com valores reais.

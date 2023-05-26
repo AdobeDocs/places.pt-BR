@@ -1,14 +1,13 @@
 ---
 title: Atualizar um POI
 description: Atualize um POI usando as APIs REST do Places.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+exl-id: f155d1d3-88a3-47bc-bffe-a35842a639e2
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '45'
-ht-degree: 6%
+ht-degree: 11%
 
 ---
-
 
 # Atualizar um POI {#update-a-poi}
 
@@ -40,7 +39,7 @@ PUT https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>
 
 ## comando CURL
 
-Use o seguinte comando CURL para testar esta API:
+Use o seguinte comando CURL para testar essa API:
 
 ```text
 curl -X PUT 'https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>' -H 'x-api-key: <API KEY>' -H 'Authorization: Bearer <TOKEN>' -H 'x-gw-ims-org-id: <ORGID>' -d '<SINGLEPOIDATA>' -H "Content-Type: application/json"
@@ -48,4 +47,4 @@ curl -X PUT 'https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>' -H 'x
 
 >[!IMPORTANT]
 >
->Substitua `<POIID>`, `<API KEY>`, `<TOKEN>`, `<ORGID>`e `<SINGLEPOIDATA>` por valores reais.
+>Substituir `<POIID>`, `<API KEY>`, `<TOKEN>`, `<ORGID>`, e `<SINGLEPOIDATA>` com valores reais.

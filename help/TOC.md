@@ -23,11 +23,11 @@ ht-degree: 20%
    + [Estratégias para usar metadados com POIs](poi-mgmt-ui/metadata-with-pois.md)
    + [Upload em massa de POIs](poi-mgmt-ui/bulk-upload-pois.md)
    + [Gerenciar várias bibliotecas](poi-mgmt-ui/manage-libraries-in-the-places-ui.md)
-+ API de serviço da Web {#web-service-api}
-   + [Visão geral da API de serviço da Web](web-service-api/places-web-services.md)
++ API do serviço Web {#web-service-api}
+   + [Visão geral da API do serviço da Web](web-service-api/places-web-services.md)
    + [Pré-requisitos de integração](web-service-api/adobe-i-o-integration.md)
    + Uso da API {#api-usage}
-      + [Visão geral do uso da API](web-service-api/api-usage/api-usage-overview.md)
+      + [Visão geral de uso da API](web-service-api/api-usage/api-usage-overview.md)
       + [Cabeçalhos e parâmetros](web-service-api/api-usage/headers-and-parameters.md)
       + Gerenciar bibliotecas {#manage-libraries}
          + [Visão geral do gerenciamento de bibliotecas](web-service-api/api-usage/manage-libraries/manage-libraries.md)
@@ -35,8 +35,8 @@ ht-degree: 20%
          + [Ler uma biblioteca](web-service-api/api-usage/manage-libraries/read-a-library.md)
          + [Atualizar uma biblioteca](web-service-api/api-usage/manage-libraries/update-a-library.md)
          + [Excluir uma biblioteca](web-service-api/api-usage/manage-libraries/delete-a-library.md)
-         + [Leia todas as bibliotecas na sua organização](web-service-api/api-usage/manage-libraries/read-all-libraries-in-your-organization.md)
-         + [Definir uma classificação nas bibliotecas](web-service-api/api-usage/manage-libraries/set-a-ran-on-your-libraries.md)
+         + [Ler todas as bibliotecas na sua organização](web-service-api/api-usage/manage-libraries/read-all-libraries-in-your-organization.md)
+         + [Definir uma classificação em suas bibliotecas](web-service-api/api-usage/manage-libraries/set-a-ran-on-your-libraries.md)
          + [Obter a classificação de uma biblioteca](web-service-api/api-usage/manage-libraries/get-a-librarys-rank.md)
       + Gerenciar pontos de interesse {#manage-pois}
          + [Visão geral do gerenciamento de POIs](web-service-api/api-usage/manage-pois/manage-pois.md)
@@ -45,31 +45,31 @@ ht-degree: 20%
          + [Atualizar um POI](web-service-api/api-usage/manage-pois/update-a-poi.md)
          + [Excluir um POI](web-service-api/api-usage/manage-pois/delete-a-poi.md)
          + [Ler todos os POIs em uma biblioteca](web-service-api/api-usage/manage-pois/read-all-pois-in-a-library.md)
-         + [Leia todos os POIs em sua organização](web-service-api/api-usage/manage-pois/read-all-pois-in-your-organization.md)
+         + [Leia todos os POIs na sua organização](web-service-api/api-usage/manage-pois/read-all-pois-in-your-organization.md)
          + APIs em lote {#batch-apis}
-            + [Visão geral das APIs em lote](web-service-api/api-usage/manage-pois/batch-apis/batch-apis.md)
+            + [Visão geral de APIs em lote](web-service-api/api-usage/manage-pois/batch-apis/batch-apis.md)
             + [Criar vários POIs](web-service-api/api-usage/manage-pois/batch-apis/create-multiple-pois.md)
             + [Atualizar vários POIs](web-service-api/api-usage/manage-pois/batch-apis/update-multiple-pois.md)
             + [Excluir vários POIs](web-service-api/api-usage/manage-pois/batch-apis/delete-multiple-pois.md)
-      + [APIs de query](web-service-api/api-usage/query-apis.md)
-+ Extensões para SDKs móveis {#places-ext-aep-sdks}
+      + [APIs de consulta](web-service-api/api-usage/query-apis.md)
++ Extensões para os SDKs móveis {#places-ext-aep-sdks}
    + Extensão do Places {#places-extension}
       + [Extensão do Places](places-ext-aep-sdks/places-extension/places-extension.md)
       + [Referência da API do Places](places-ext-aep-sdks/places-extension/places-api-reference.md)
-      + [Referência de evento do Places](places-ext-aep-sdks/places-extension/places-event-ref.md)
-      + [Objetos do Custom Places](places-ext-aep-sdks/places-extension/cust-places-objects.md)
+      + [Referência de evento de locais](places-ext-aep-sdks/places-extension/places-event-ref.md)
+      + [Objetos do Places personalizados](places-ext-aep-sdks/places-extension/cust-places-objects.md)
 + [Usar o Places Service com sua própria solução de monitoramento](using-your-own-monitor.md)
 + [Usar o Places Service sem monitoramento de região ativa](use-places-without-active-monitoring.md)
-+ Usar o Places Service como parte do fluxo de trabalho do Experience Platform Launch {#use-places-launch-workflow}
-   + [Usar o Places Service como parte do fluxo de trabalho do Experience Platform Launch](use-places-launch-workflow/places-launch-workflow.md)
++ Usar o Places Service como parte do fluxo de trabalho de Experience Platform Launch {#use-places-launch-workflow}
+   + [Usar o Places Service como parte do fluxo de trabalho de Experience Platform Launch](use-places-launch-workflow/places-launch-workflow.md)
    + [Definir elementos de dados](use-places-launch-workflow/define-data-elements.md)
    + [Criar regras de entrada e saída](use-places-launch-workflow/create-rule-places-property.md)
-+ Usar o Places Service com outras soluções do Adobe {#use-places-with-other-solutions}
++ Usar o Places Service com outras soluções da Adobe {#use-places-with-other-solutions}
    + Adobe Analytics {#places-adobe-analytics}
       + [Usar o Places Service com o Adobe Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)
-      + [Enviar entrada de POI e dados de saída para o Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
+      + [Enviar dados de entrada e saída de POI para o Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
       + [Adicionar contexto de localização às solicitações do Analytics](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
-      + [Relatório dos dados de localização no Analytics Workspace](use-places-with-other-solutions/places-adobe-analytics/places-in-workspace.md)
+      + [Relatório sobre dados de localização no Analytics Workspace](use-places-with-other-solutions/places-adobe-analytics/places-in-workspace.md)
    + Adobe Mobile Services {#places-mobile-svcs-messaging}
       + [Adobe Mobile Services](use-places-with-other-solutions/places-mobile-svcs-for-messaging/use-places-mobie-svcs-messaging.md)
       + [Notificações por push](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-push.md)

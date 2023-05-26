@@ -1,18 +1,17 @@
 ---
-title: Ler todas as bibliotecas em sua organização
+title: Ler todas as bibliotecas na sua organização
 description: Leia todas as bibliotecas em sua organização usando a API REST do Places.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+exl-id: 3384e1f2-9626-498d-85f7-84569d869c2c
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '60'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
+# Ler todas as bibliotecas na sua organização {#read-all-lib-in-org}
 
-# Ler todas as bibliotecas em sua organização {#read-all-lib-in-org}
-
-Um método de GET que retorna os detalhes de todas as bibliotecas em sua organização.
+Um método GET que retorna os detalhes de todas as bibliotecas na organização.
 
 ## Solicitação
 
@@ -34,7 +33,7 @@ GET https://api-places.adobe.io/places/placesapi/v1/libraries
 
 ## comando CURL
 
-Use o seguinte comando CURL para testar esta API:
+Use o seguinte comando CURL para testar essa API:
 
 ```text
 curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries' -H 'x-api-key: <API KEY>' -H 'Authorization: Bearer <TOKEN>' -H 'x-gw-ims-org-id: <ORGID>'
@@ -42,4 +41,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries' -H 'x-ap
 
 >[!IMPORTANT]
 >
->Substitua variáveis como `<API KEY>`, `<TOKEN>,` e `<ORGID>` por valores reais.
+>Substitua variáveis como `<API KEY>`, `<TOKEN>,` e `<ORGID>` com valores reais.
