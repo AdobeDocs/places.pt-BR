@@ -2,9 +2,9 @@
 title: Notificações no aplicativo
 description: Esta seção mostra como usar o Serviço de Places com mensagens no aplicativo.
 exl-id: c655e64b-0737-44d5-b453-2ac02fb9cbcc
-source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
+source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '659'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ Esses tipos são mensagens no aplicativo porque são acionadas pelo SDK. As noti
 
 ### Pré-requisitos
 
-Antes de começar, você entende como enviar e criar uma mensagem no aplicativo no Mobile Services e como os acionadores funcionam. Para obter mais informações, consulte [ Criar uma mensagem no aplicativo.](https://docs.adobe.com/content/help/en/mobile-services/using/messaging-ug/inapp-messages/t-in-app-message.html)
+Antes de começar, você entende como enviar e criar uma mensagem no aplicativo no Mobile Services e como os acionadores funcionam. Para obter mais informações, consulte [ Criar uma mensagem no aplicativo.](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)
 
 ## Regras do Experience Platform Launch
 
@@ -41,11 +41,11 @@ Você pode criar regras de Experience Platform Launch que enviam os dados que de
 
 * Utilização de dados de localização como evento de acionamento.
 
-   Por exemplo, você pode enviar dados para o Analytics quando um usuário insere um POI.
+  Por exemplo, você pode enviar dados para o Analytics quando um usuário insere um POI.
 
 * Uso de dados de localização como uma Condição para um evento de acionamento.
 
-   Por exemplo, se você criou uma tag de metadados personalizada no Serviço de Places para o clima em diferentes POIs, poderá usar esses metadados como um parâmetro para a condição Regra. Embora você possa usar essa condição com um evento de entrada de POI descrito anteriormente, também é possível usá-la como contexto para qualquer evento.
+  Por exemplo, se você criou uma tag de metadados personalizada no Serviço de Places para o clima em diferentes POIs, poderá usar esses metadados como um parâmetro para a condição Regra. Embora você possa usar essa condição com um evento de entrada de POI descrito anteriormente, também é possível usá-la como contexto para qualquer evento.
 
 Depois que a regra for configurada com os parâmetros de evento e condição apropriados, conclua a configuração da regra configurando a ação para enviar dados ao Analytics.
 
@@ -62,7 +62,7 @@ Por exemplo, você pode selecionar `poiname` como a chave e `{%%Last Entered POI
 
 >[!TIP]
 >
->As Regras de processamento do Analytics podem ser configuradas para coletar esses dados de contexto. Para obter mais informações, consulte [Regras de processamento](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-processing-rules.html). No exemplo em *Criar uma ação*, a Ação enviará a mensagem `poiname` como o contexto para descrever o evento de entrada de POI que está sendo enviado para o Analytics.
+>As Regras de processamento do Analytics podem ser configuradas para coletar esses dados de contexto. Para obter mais informações, consulte [Regras de processamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html). No exemplo em *Criar uma ação*, a Ação enviará a mensagem `poiname` como o contexto para descrever o evento de entrada de POI que está sendo enviado para o Analytics.
 
 ![criação de uma ação](/help/assets/configure-action.png)
 
@@ -77,12 +77,12 @@ Como parte dos parâmetros do Acionador, você pode criar o público-alvo para a
 * Usar ações específicas de localização, como uma entrada ou saída.
 * Uso de metadados de POI enviados como dados de contexto para restringir o público-alvo.
 
-   Essa opção pode ser usada com uma ação específica do local, como uma entrada, ou como contexto para outro evento, como uma inicialização ou um clique de botão.
+  Essa opção pode ser usada com uma ação específica do local, como uma entrada, ou como contexto para outro evento, como uma inicialização ou um clique de botão.
 
-   Este é um exemplo de como configurar uma mensagem no aplicativo para receber usuários que entram em um POI que tenha **[!UICONTROL Adobe]** no nome:
+  Este é um exemplo de como configurar uma mensagem no aplicativo para receber usuários que entram em um POI que tenha **[!UICONTROL Adobe]** no nome:
 
-   ![parâmetros de acionador](/help/assets/trigger-parameters.png)
+  ![parâmetros de acionador](/help/assets/trigger-parameters.png)
 
 * Parâmetros nos cabeçalhos do Serviço de Places no *Acionadores e características* no Mobile Services não funcionam com dados do Places Service.
 
-   Esses parâmetros são somente para o banco de dados herdado do Places Service que foi criado no Mobile Services.
+  Esses parâmetros são somente para o banco de dados herdado do Places Service que foi criado no Mobile Services.

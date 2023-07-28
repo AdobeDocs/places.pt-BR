@@ -2,9 +2,9 @@
 title: Notificações por push
 description: Esta seção mostra como usar o Places Service com notificações por push.
 exl-id: c094fe9c-6148-45ba-850a-f4c520d3362c
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '225'
 ht-degree: 8%
 
 ---
@@ -17,15 +17,15 @@ Antes de começar, verifique se você concluiu as seguintes tarefas:
 
 * Os dados do Serviço de Places foram processados pela Adobe Analytics.
 
-   Isso significa que seu aplicativo móvel enviou com êxito dados do Places Service em um conjunto de relatórios e que os dados estão disponíveis para segmentação.
+  Isso significa que seu aplicativo móvel enviou com êxito dados do Places Service em um conjunto de relatórios e que os dados estão disponíveis para segmentação.
 
 * O canal de notificação por push no Mobile Services está configurado.
 
-   Para obter mais informações, consulte [Criar uma mensagem por push](https://docs.adobe.com/content/help/en/mobile-services/using/manage-app-settings-ug/configuring-app/prerequisites-push-messaging.html).
+  Para obter mais informações, consulte [Criar uma mensagem por push](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html).
 
 * Entenda como enviar uma notificação por push para um segmento do Analytics no Mobile Services.
 
-   Para obter mais informações, consulte [Criar uma mensagem por push](https://docs.adobe.com/content/help/en/mobile-services/using/messaging-ug/push-messages/t-create-push-message.html).
+  Para obter mais informações, consulte [Criar uma mensagem por push](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html).
 
 ## Enviar uma notificação
 

@@ -2,9 +2,9 @@
 title: Criação de uma regra para a propriedade do Places Service
 description: O SDK do Places rastreia o local atual, monitora os POIs configurados em torno do local atual e rastreia os eventos de entrada e saída desses POIs.
 exl-id: dd5aa7ac-55f9-44dc-8632-e483ef3b91a0
-source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
+source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '922'
 ht-degree: 15%
 
 ---
@@ -54,7 +54,7 @@ As ações definem o que o aplicativo fará em resposta à condição para que a
 
 >[!CAUTION]
 >
->Este exemplo pressupõe que você criou uma biblioteca de POI de todas as cafeterias dos Estados Unidos. Para obter mais informações sobre a criação de POIs e bibliotecas, consulte [Criar um POI](/help/poi-mgmt-ui/create-a-poi-ui.md) e *Criar uma biblioteca* in [Gerenciar várias bibliotecas](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
+>Este exemplo pressupõe que você criou uma biblioteca de POI de todas as cafeterias dos Estados Unidos. Para obter mais informações sobre a criação de POIs e bibliotecas, consulte [Criar um POI](/help/poi-mgmt-ui/create-a-poi-ui.md) e *Criar uma biblioteca* in [Gerenciar várias bibliotecas](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
 
 O procedimento a seguir é um exemplo de como criar uma regra que envia uma publicação de volta para o Slack quando você entra em uma cafeteria em São Francisco.
 
@@ -124,7 +124,7 @@ Para criar um elemento de dados no Experience Platform Launch:
 
 ### Publicar a regra
 
-1. Para ativar a regra, você deve publicá-la. Para obter mais informações sobre como publicar sua regra no Experience Platform Launch, consulte [Publicação](https://docs.adobe.com/content/help/pt-BR/launch/using/reference/publish/overview.html).
+1. Para ativar a regra, você deve publicá-la. Para obter mais informações sobre como publicar sua regra no Experience Platform Launch, consulte [Publicação](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=pt-BR).
 
 ### Pensar além de entradas e saídas
 

@@ -2,10 +2,10 @@
 title: Notas de versão
 description: Notas de versão do Places Service.
 exl-id: 76da9548-4e32-4b23-9a15-7012973915f3
-source-git-commit: 2b5c53887c9ed0f2a672c377121a39537ee58f01
+source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '1492'
-ht-degree: 3%
+source-wordcount: '1490'
+ht-degree: 2%
 
 ---
 
@@ -17,12 +17,12 @@ ht-degree: 3%
 
    * As extensões do Places e do Places Monitor foram adicionadas para [Aplicativos nativos React](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
    * As extensões do Places e do Places Monitor foram adicionadas para [aplicativos Cordova](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)
-   * Para obter mais informações, consulte: [Utilização da extensão Places](https://docs.adobe.com/content/help/pt-BR/places/using/places-ext-aep-sdks/places-extension/places-extension.translate.html)
+   * Para obter mais informações, consulte: [Utilização da extensão Places](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)
 
 
 ## 12 de maio de 2020
 
-* **Serviço de Places**
+* **Places Service**
 
    * Importação de POIs em massa de um arquivo CSV usando o botão &quot;Importar POIs&quot;
    * Selecione vários POIs e edite em massa ou adicione valores de metadados
@@ -114,12 +114,12 @@ ht-degree: 3%
    * **iOS**
 
       * Adição de uma nova API, `setRequestAuthorizationLevel`, para definir o tipo de solicitação de autorização de localização para a qual o usuário será solicitado.
+
+
    * **Android**
 
       * Adição de uma nova API, `setLocationPermission`, para definir o tipo de solicitação de permissão de localização para a qual o usuário será solicitado.
       * O Places Monitor agora é compatível com o Android 10.
-
-
 
 ## 8 de agosto de 2019
 
@@ -162,9 +162,9 @@ As seguintes atualizações foram feitas nesta versão:
 * A manipulação do retorno de chamada, que resultou de uma solicitação de permissão de local, não requer mais que você estenda PlacesActivity.
 * Uma API existente foi alterada, permitindo que os desenvolvedores limpem todos os dados do Places do dispositivo:
 
-   API antiga: `public static void stop();`
+  API antiga: `public static void stop();`
 
-   Nova API: `public static void stop (final boolean clearData);`
+  Nova API: `public static void stop (final boolean clearData);`
 
 * Atualização do uso do `getNearbyPointsOfInterest` API para lidar com cenários de erro com mais eficiência.
 
@@ -176,7 +176,7 @@ As seguintes atualizações foram feitas nesta versão:
 
 * Para apagar todos os dados de Places do dispositivo,
 
-   no ACPacesMonitor, uma API existente foi substituída `+ (void) stop;` com`+ (void) stop: (BOOL) clearData;`.
+  no ACPacesMonitor, uma API existente foi substituída `+ (void) stop;` com`+ (void) stop: (BOOL) clearData;`.
 
 * Atualização do uso dos Locais ACC `getNearbyPointsOfInterest` API para lidar com cenários de erro com mais eficiência.
 
@@ -316,7 +316,7 @@ Você pode usar as APIs do Places para fazer o seguinte:
 * Crie sua própria interface do usuário ou integre a um banco de dados de POI existente.
 * Use os endpoints em lote da API do Places para fazer uma importação em massa de POIs.
 
-   Você pode usar o utilitário Python fornecido para concluir a importação em massa.
+  Você pode usar o utilitário Python fornecido para concluir a importação em massa.
 
 Para obter mais informações sobre as APIs do Places, consulte [API do serviço Web](/help/web-service-api/places-web-services.md).
 
