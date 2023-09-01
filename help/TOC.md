@@ -3,9 +3,9 @@ audience: end-user
 user-guide-title: Guia do Places Service
 user-guide-description: O Places Service é um serviço de localização geográfica que permite que aplicativos móveis com detecção de localização compreendam o contexto de localização.
 feature: Places
-source-git-commit: 30f083087936f54c692ff5aca245a7ee6b970b3a
+source-git-commit: 9f2c6fee6e0d6d075b662cc0b6cbee49cf05ee55
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '290'
 ht-degree: 20%
 
 ---
@@ -54,11 +54,7 @@ ht-degree: 20%
             + [Excluir vários POIs](web-service-api/api-usage/manage-pois/batch-apis/delete-multiple-pois.md)
       + [APIs de consulta](web-service-api/api-usage/query-apis.md)
 + Extensões para os SDKs móveis {#places-ext-aep-sdks}
-   + Extensão do Places {#places-extension}
-      + [Extensão do Places](places-ext-aep-sdks/places-extension/places-extension.md)
-      + [Referência da API do Places](places-ext-aep-sdks/places-extension/places-api-reference.md)
-      + [Referência de evento de locais](places-ext-aep-sdks/places-extension/places-event-ref.md)
-      + [Objetos do Places personalizados](places-ext-aep-sdks/places-extension/cust-places-objects.md)
+   + [Extensão do Places](places-ext-aep-sdks/places-extension/places-extension.md)
 + [Usar o Places Service com sua própria solução de monitoramento](using-your-own-monitor.md)
 + [Usar o Places Service sem monitoramento de região ativa](use-places-without-active-monitoring.md)
 + Usar o Places Service como parte do fluxo de trabalho de Experience Platform Launch {#use-places-launch-workflow}

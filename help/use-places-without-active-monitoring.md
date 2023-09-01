@@ -2,9 +2,9 @@
 title: Usar o Places Service sem monitoramento de região ativa
 description: Esta seção fornece informações sobre como usar o Places Service sem o monitoramento ativo da região.
 exl-id: 0ba7949a-447e-4754-9b45-945e58e29541
-source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
+source-git-commit: 33cbef9b3226be3f013fe82d619b82e093a9752a
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '762'
 ht-degree: 1%
 
 ---
@@ -126,9 +126,9 @@ Consulte [Adicionar contexto de localização às solicitações do Analytics](u
 >
 >A maneira recomendada de capturar dados do Places é [Anexar dados do Places a suas solicitações do Analytics](#attach-places-data-to-your-analytics-requests).
 >
->Se o caso de uso exigir uma [evento de entrada de região](places-ext-aep-sdks/places-extension/places-event-ref.md#processregionevent) para ser acionado pelo SDK, precisará ser feito manualmente, conforme descrito abaixo.
+>Se o caso de uso exigir uma [evento de entrada de região](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#processregionevent) para ser acionado pelo SDK, precisará ser feito manualmente, conforme descrito abaixo.
 
-A lista retornada pelo `getNearbyPointsOfInterest` A API contém [objetos personalizados](places-ext-aep-sdks/places-extension/cust-places-objects.md) que indicam se o usuário está atualmente dentro de um POI. Se o usuário estiver em um POI, o SDK poderá acionar um evento de entrada para essa região.
+A lista retornada pelo `getNearbyPointsOfInterest` A API contém [objetos personalizados](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#additional-classes-and-enums) que indicam se o usuário está atualmente dentro de um POI. Se o usuário estiver em um POI, o SDK poderá acionar um evento de entrada para essa região.
 
 >[!IMPORTANT]
 >
