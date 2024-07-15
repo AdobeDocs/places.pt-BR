@@ -20,9 +20,9 @@ Quando um dispositivo ultrapassa um dos limites predefinidos da região do Servi
 
 ### ProcessGeofence (Android)
 
-Processar um `Geofence` evento de região para o fornecido `transitionType`.
+Processar um evento de região `Geofence` para o `transitionType` fornecido.
 
-Passe o `transitionType` de `GeofencingEvent.getGeofenceTransition()`. Atualmente `Geofence.GEOFENCE_TRANSITION_ENTER` e `Geofence.GEOFENCE_TRANSITION_EXIT` são compatíveis.
+Passar o `transitionType` de `GeofencingEvent.getGeofenceTransition()`. Atualmente, há suporte para `Geofence.GEOFENCE_TRANSITION_ENTER` e `Geofence.GEOFENCE_TRANSITION_EXIT`.
 
 **Sintaxe**
 
@@ -60,7 +60,7 @@ public class GeofenceTransitionsIntentService extends IntentService {
 
 ### ProcessRegionEvent (iOS)
 
-Este método deve ser chamado na variável `CLLocationManager` delegado, que informa se o usuário entrou ou saiu de uma região específica.
+Este método deve ser chamado no delegado `CLLocationManager`, que informa se o usuário entrou ou saiu de uma região específica.
 
 **Sintaxe**
 
@@ -87,7 +87,7 @@ Esta é a amostra de código para este método:
 
 ### ProcessGeofencingEvent (Android)
 
-Processar tudo `Geofences` no `GeofencingEvent` ao mesmo tempo.
+Processar todos os `Geofences` em `GeofencingEvent` ao mesmo tempo.
 
 **Sintaxe**
 
@@ -97,7 +97,7 @@ public static void processGeofenceEvent(final GeofencingEvent geofencingEvent);
 
 **Exemplo**
 
-Chame esse método em seu `IntentService` que está registrado para receber eventos de geofence do Android
+Chame este método em seu `IntentService` que está registrado para receber eventos de geofence do Android
 
 ```java
 public class GeofenceTransitionsIntentService extends IntentService {
@@ -207,7 +207,7 @@ Places.getNearbyPointsOfInterest(currentLocation, 10,
 
 Solicita uma lista de POIs nos quais o dispositivo é conhecido no momento em e os retorna em um retorno de chamada.
 
-### GetCurrentPointsOfInterest (Android)
+### ObterPontosDeInteresseAtuais (Android)
 
 Esta é a sintaxe para este método:
 
@@ -259,7 +259,7 @@ Solicita a localização do dispositivo, como conhecido anteriormente, pela exte
 
 >[!TIP]
 >
->A extensão do Places só conhece os locais que foram fornecidos por meio de chamadas para o `GetNearbyPointsOfInterest`.
+>A extensão Places só conhece os locais que foram fornecidos a ela por meio de chamadas a `GetNearbyPointsOfInterest`.
 
 
 ### GetLastKnownLocation (Android)
@@ -354,7 +354,7 @@ Esta é a amostra de código para este método:
 
 ### setAuthorizationStatus (Android)
 
-*Disponível a partir do Places v1.4.0*
+*Disponível a partir de Places v1.4.0*
 
 Define o status de autorização na extensão Places.
 
@@ -379,14 +379,14 @@ Places.setAuthorizationStatus(PlacesAuthorizationStatus.ALWAYS);
 
 ### setAuthorizationStatus (iOS)
 
-*Disponível a partir do ACPPSlaces v1.3.0*
+*Disponível a partir do ACPLOCES v1.3.0*
 
 Define o status de autorização na extensão Places.
 
 O status fornecido é armazenado no estado compartilhado de Places e serve apenas para referência.
 Chamar esse método não afeta o status de autorização da localização real deste dispositivo.
 
-Quando o status de autorização do dispositivo for alterado, a variável `locationManager:didChangeAuthorizationStatus:` método do seu `CLLocationManagerDelegate` é chamado. Dentro deste método, você deve passar o novo `CLAuthorizationStatus` para os ACPloces `setAuthorizationStatus:` API.
+Quando o status de autorização do dispositivo é alterado, o método `locationManager:didChangeAuthorizationStatus:` de `CLLocationManagerDelegate` é chamado. De dentro deste método, você deve passar o novo valor `CLAuthorizationStatus` para a API ACPloces `setAuthorizationStatus:`.
 
 **Sintaxe**
 

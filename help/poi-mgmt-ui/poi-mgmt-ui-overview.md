@@ -16,4 +16,4 @@ Os POIs e as bibliotecas são criados e gerenciados no banco de dados do Serviç
 * Para criar uma biblioteca ou gerenciar várias bibliotecas, consulte [Gerenciar bibliotecas](/help/poi-mgmt-ui/manage-libraries-in-the-places-ui.md).
 * Para criar um POI, consulte [Criar um POI](/help/poi-mgmt-ui/create-a-poi-ui.md).
 * Para gerenciar vários POIs, consulte [Gerenciar POIs criados anteriormente](/help/poi-mgmt-ui/managing-pois-in-the-places-ui.md).
-* Para executar uma importação em massa de POIs, consulte [Importação de POIs em massa](/help/poi-mgmt-ui/bulk-upload-pois.md).
+* Para executar uma importação em massa de POIs, consulte [Importação em massa de POIs](/help/poi-mgmt-ui/bulk-upload-pois.md).

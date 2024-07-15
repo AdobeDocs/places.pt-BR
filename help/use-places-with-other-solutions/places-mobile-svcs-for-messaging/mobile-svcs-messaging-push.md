@@ -4,8 +4,8 @@ description: Esta seção mostra como usar o Places Service com notificações p
 exl-id: c094fe9c-6148-45ba-850a-f4c520d3362c
 source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 8%
+source-wordcount: '216'
+ht-degree: 10%
 
 ---
 
@@ -21,18 +21,18 @@ Antes de começar, verifique se você concluiu as seguintes tarefas:
 
 * O canal de notificação por push no Mobile Services está configurado.
 
-  Para obter mais informações, consulte [Criar uma mensagem por push](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html).
+  Para obter mais informações, consulte [Criar uma mensagem por push](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.htmlhtml?lang=pt-BR).
 
 * Entenda como enviar uma notificação por push para um segmento do Analytics no Mobile Services.
 
-  Para obter mais informações, consulte [Criar uma mensagem por push](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html).
+  Para obter mais informações, consulte [Criar uma mensagem por push](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.htmlhtml?lang=pt-BR).
 
 ## Enviar uma notificação
 
-No **[!UICONTROL Público]** guia do *Criar notificação por push* , você pode criar o público-alvo para essa mensagem de uma das seguintes maneiras:
+Na guia **[!UICONTROL Público-alvo]** do fluxo de trabalho *Criar notificação por push*, você pode criar o público-alvo para esta mensagem de uma das seguintes maneiras:
 
-* No **[!UICONTROL Segmentos do Analytics]** selecione um segmento do Adobe Analytics criado anteriormente.
+* Na lista suspensa **[!UICONTROL Segmentos do Analytics]**, selecione um segmento do Adobe Analytics criado anteriormente.
 
-* No **[!UICONTROL Segmento personalizado]** crie um público-alvo usando os parâmetros de segmento personalizados disponíveis.
+* Na seção **[!UICONTROL Segmento personalizado]**, crie um público-alvo usando os parâmetros de segmento personalizado disponíveis.
 
-![configuração de uma mensagem por push](/help/assets/push-set-up.png)
+![configurando uma mensagem de push](/help/assets/push-set-up.png)

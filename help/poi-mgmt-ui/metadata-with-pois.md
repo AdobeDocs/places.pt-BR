@@ -19,14 +19,14 @@ Os metadados de POI podem ser usados de várias maneiras. Do ponto de vista do g
 
 No Experience Platform Launch, você pode criar elementos de dados para cada campo de metadados do Serviço do Places que é importante para fins de rastreamento ou mensagem.
 
-![elemento de dados para as instalações do ginásio](/help/assets/gymfacility.png)
+![elemento de dados para a academia](/help/assets/gymfacility.png)
 
 Em seguida, você pode criar uma ação com a extensão do Analytics para criar uma nova ocorrência que inclua os metadados que deseja como dados de contexto.
 
-![ação para a instalação de ginástica](/help/assets/Analytics-gym.png)
+![ação para a academia](/help/assets/Analytics-gym.png)
 
 ## Mensagens no aplicativo no Adobe Campaign
 
 Os metadados podem ser usados como um filtro para notificações locais e mensagens no aplicativo definidas no Adobe Campaign Standard. Usar metadados como um filtro oferece a oportunidade de criar uma mensagem mais relevante que é contextual ao local real.
 
-![filtragem de notificações locais e mensagens no aplicativo no ACS](/help/assets/ACS_gym_metadata.png)
+![filtrando notificações locais e mensagens no aplicativo no ACS](/help/assets/ACS_gym_metadata.png)

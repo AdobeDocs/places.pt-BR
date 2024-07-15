@@ -4,8 +4,8 @@ description: Esta seção mostra como usar o Serviço de Places com mensagens no
 exl-id: c655e64b-0737-44d5-b453-2ac02fb9cbcc
 source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 4%
+source-wordcount: '644'
+ht-degree: 2%
 
 ---
 
@@ -33,9 +33,9 @@ Esses tipos são mensagens no aplicativo porque são acionadas pelo SDK. As noti
 
 ### Pré-requisitos
 
-Antes de começar, você entende como enviar e criar uma mensagem no aplicativo no Mobile Services e como os acionadores funcionam. Para obter mais informações, consulte [ Criar uma mensagem no aplicativo.](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)
+Antes de começar, você entende como enviar e criar uma mensagem no aplicativo no Mobile Services e como os acionadores funcionam. Para obter mais informações, consulte [Criar uma mensagem no aplicativo.](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.htmlhtml?lang=pt-BR)
 
-## Regras do Experience Platform Launch
+## Regras no Experience Platform Launch
 
 Você pode criar regras de Experience Platform Launch que enviam os dados que deseja poder usar como parte das regras de acionador de mensagens no aplicativo para o Analytics. Você pode usar dados das extensões do Places em suas regras de Experience Platform Launch como eventos e/ou condições, dependendo do caso de uso.
 
@@ -53,18 +53,18 @@ Depois que a regra for configurada com os parâmetros de evento e condição apr
 
 Para criar uma ação:
 
-1. Selecione o **[!UICONTROL Adobe Analytics]** extensão.
-1. No **[!UICONTROL Tipo de ação]** selecione **[!UICONTROL Rastrear.]**
+1. Selecione a extensão **[!UICONTROL Adobe Analytics]**.
+1. Na lista suspensa **[!UICONTROL Tipo de ação]**, selecione **[!UICONTROL Rastrear.]**
 1. Digite um nome para a ação.
 1. No painel direito, em **[!UICONTROL Dados de contexto]**, selecione o par de valores chave para definir os dados de contexto que serão enviados para o Analytics.
 
-Por exemplo, você pode selecionar `poiname` como a chave e `{%%Last Entered POI Name}` como o valor.
+Por exemplo, você pode selecionar `poiname` como chave e `{%%Last Entered POI Name}` como valor.
 
 >[!TIP]
 >
->As Regras de processamento do Analytics podem ser configuradas para coletar esses dados de contexto. Para obter mais informações, consulte [Regras de processamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html). No exemplo em *Criar uma ação*, a Ação enviará a mensagem `poiname` como o contexto para descrever o evento de entrada de POI que está sendo enviado para o Analytics.
+>As Regras de processamento do Analytics podem ser configuradas para coletar esses dados de contexto. Para obter mais informações, consulte [Regras de processamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html). No exemplo em *Criar uma ação*, a Ação enviará `poiname` como contexto para descrever o evento de entrada do POI que está sendo enviado para o Analytics.
 
-![criação de uma ação](/help/assets/configure-action.png)
+![criando uma ação](/help/assets/configure-action.png)
 
 Este é um exemplo da regra completa:
 
@@ -79,10 +79,10 @@ Como parte dos parâmetros do Acionador, você pode criar o público-alvo para a
 
   Essa opção pode ser usada com uma ação específica do local, como uma entrada, ou como contexto para outro evento, como uma inicialização ou um clique de botão.
 
-  Este é um exemplo de como configurar uma mensagem no aplicativo para receber usuários que entram em um POI que tenha **[!UICONTROL Adobe]** no nome:
+  Este é um exemplo de como configurar uma mensagem no aplicativo para receber usuários que entram em um POI que tem **[!UICONTROL Adobe]** no nome:
 
-  ![parâmetros de acionador](/help/assets/trigger-parameters.png)
+  ![parâmetros do acionador](/help/assets/trigger-parameters.png)
 
-* Parâmetros nos cabeçalhos do Serviço de Places no *Acionadores e características* no Mobile Services não funcionam com dados do Places Service.
+* Os parâmetros nos cabeçalhos do Serviço do Places na página *Triggers e Características* do Mobile Services não funcionam com dados do Serviço do Places.
 
   Esses parâmetros são somente para o banco de dados herdado do Places Service que foi criado no Mobile Services.

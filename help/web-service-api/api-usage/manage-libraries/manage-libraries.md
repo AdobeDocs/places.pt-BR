@@ -1,6 +1,6 @@
 ---
 title: Gerenciar bibliotecas
-description: Gerenciamento de bibliotecas da API REST do Places Service.
+description: Gerenciar as bibliotecas da API REST do Places Service.
 exl-id: fe637239-7137-4d22-b8b5-5695d8222ffe
 source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt

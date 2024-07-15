@@ -5,7 +5,7 @@ exl-id: a4cf28ae-1e3c-4724-bca3-ac1d0cd6da09
 source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
@@ -19,7 +19,7 @@ Os POIs e as bibliotecas são criados e gerenciados no banco de dados do Places 
 1. Faça logon no Places Service usando a Adobe ID.
 1. No lado superior direito, clique no ícone que parece uma lista com marcadores.
 1. Localize o POI que deseja editar.
-1. Clique em **[!UICONTROL ..]** e selecione **[!UICONTROL Exibir detalhes]**.
+1. Clique em **[!UICONTROL ...]** e selecione **[!UICONTROL Exibir Detalhes]**.
 1. Atualize as informações e clique em **[!UICONTROL Salvar]**.
 
 ## Excluir um POI
@@ -28,7 +28,7 @@ Os POIs e as bibliotecas são criados e gerenciados no banco de dados do Places 
 1. Faça logon no Places Service usando a Adobe ID.
 1. No lado superior direito, clique no ícone que parece uma lista com marcadores.
 1. Localize o POI que deseja excluir.
-1. Clique em **[!UICONTROL ..]** e selecione **[!UICONTROL Excluir]**.
+1. Clique em **[!UICONTROL ...]** e selecione **[!UICONTROL Excluir]**.
 
 ## Filtrar POIs por cidade, estado, país ou metadados
 
@@ -40,19 +40,19 @@ Os POIs e as bibliotecas são criados e gerenciados no banco de dados do Places 
 
    * Por biblioteca:
 
-      a. Selecione uma biblioteca.
+     a. Selecione uma biblioteca.
 
    * Por propriedade:
 
-      a. Na lista suspensa Propriedade, selecione **[!UICONTROL País]**, **[!UICONTROL Estado]** ou **[!UICONTROL Cidade]**.
+     a. Na lista suspensa Propriedade, selecione **[!UICONTROL País]**, **[!UICONTROL Estado]** ou **[!UICONTROL Cidade]**.
 
-      b. Na próxima linha, informe um valor.
+     b. Na próxima linha, informe um valor.
 
-      Por exemplo, você pode selecionar **[!UICONTROL Estado]** e tipo **[!UICONTROL Califórnia]**.
+     Por exemplo, você pode selecionar **[!UICONTROL Estado]** e digitar **[!UICONTROL Califórnia]**.
 
    * Com metadados:
 
-      a. Insira uma chave e um valor.
+     a. Insira uma chave e um valor.
 
 ## Definição de um POI de geofence
 
@@ -65,7 +65,7 @@ As geofences são um tipo de POI e são definidas no banco de dados com base nas
 | Biblioteca | Cada POI deve ser atribuído a uma biblioteca por organização. | Sim |
 | Raio | O raio do POI em metros. | Sim |
 | Ícone | Auxiliar nas visualizações dos POIs. | Sim (padrão atribuído) |
-| Cor do canal | Auxiliar nas visualizações dos POIs. | Sim (padrão atribuído) |
+| Cor | Auxiliar nas visualizações dos POIs. | Sim (padrão atribuído) |
 | Categoria | Atribua uma estrutura comum de categorias que são comuns em todos os POIs em todas as bibliotecas. | Não |
 | Endereço | Endereço. | Não |
 | Cidade | Cidade do POI. | Não |

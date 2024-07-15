@@ -4,8 +4,8 @@ description: Notas de versão do Places Service.
 exl-id: 76da9548-4e32-4b23-9a15-7012973915f3
 source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 2%
+source-wordcount: '1525'
+ht-degree: 1%
 
 ---
 
@@ -15,14 +15,14 @@ ht-degree: 2%
 
 * **Extensões do Places e do Places Monitor**
 
-   * As extensões do Places e do Places Monitor foram adicionadas para [Aplicativos nativos React](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
+   * As extensões do Places e do Places Monitor foram adicionadas para [aplicativos React Native](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
    * As extensões do Places e do Places Monitor foram adicionadas para [aplicativos Cordova](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)
-   * Para obter mais informações, consulte: [Utilização da extensão Places](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)
+   * Para obter mais informações, consulte: [Usando a Extensão Places](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)
 
 
 ## 12 de maio de 2020
 
-* **Places Service**
+* **Serviço de Places**
 
    * Importação de POIs em massa de um arquivo CSV usando o botão &quot;Importar POIs&quot;
    * Selecione vários POIs e edite em massa ou adicione valores de metadados
@@ -46,16 +46,16 @@ ht-degree: 2%
 
 ## 20 de fevereiro de 2020
 
-* **ACPLOICES 1.3.1 (iOS)**
+* **ACPLOCES 1.3.1 (iOS)**
 
    * A extensão do Places agora relata informações de versão ao hub de eventos no SDK principal.
-   * As informações de associação do POI do dispositivo agora têm um tempo de vida padrão de uma hora a partir do momento em que são coletadas. Para obter mais informações, consulte [Modificação da duração da vida da associação de Places](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
+   * As informações de associação do POI do dispositivo agora têm um tempo de vida padrão de uma hora a partir do momento em que são coletadas. Para obter mais informações, consulte [Modificação da duração da participação em Places](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
 
 
 * **Places 1.4.1 (Android)**
 
    * A extensão do Places agora relata informações de versão ao hub de eventos no SDK principal.
-   * As informações de associação do POI do dispositivo agora têm um tempo de vida padrão de uma hora a partir do momento em que são coletadas. Para obter mais informações, consulte [Modificação da duração da vida da associação de Places](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
+   * As informações de associação do POI do dispositivo agora têm um tempo de vida padrão de uma hora a partir do momento em que são coletadas. Para obter mais informações, consulte [Modificação da duração da participação em Places](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
 
 ## 27 de janeiro de 2020
 
@@ -72,7 +72,7 @@ ht-degree: 2%
 
    * **Android**
 
-      * Adição de uma nova API, `setAuthorizationStatus`, para definir o status de autorização do dispositivo para Serviços de Places. O valor é armazenado e usado no estado compartilhado Places.
+      * Adição de uma nova API, `setAuthorizationStatus`, para definir o status de autorização do dispositivo para Places Services. O valor é armazenado e usado no estado compartilhado Places.
 
 ## 4 de dezembro de 2019
 
@@ -88,7 +88,7 @@ ht-degree: 2%
 
    * **iOS**
 
-      * Adição de uma nova API, `setAuthorizationStatus`, para definir o status de autorização do dispositivo para Serviços de Places. O valor é armazenado e usado no estado compartilhado Places.
+      * Adição de uma nova API, `setAuthorizationStatus`, para definir o status de autorização do dispositivo para Places Services. O valor é armazenado e usado no estado compartilhado Places.
 
 ## 25 de novembro de 2019
 
@@ -98,7 +98,7 @@ ht-degree: 2%
 
       * Correção de declarações de importação para projetos Cocoapods usando várias opções de projetos pod.
 
-## 22 de novembro de 2019
+## sábado, 22 de novembro de 2019
 
 * **PlacesMonitor 2.1.1**
 
@@ -166,7 +166,7 @@ As seguintes atualizações foram feitas nesta versão:
 
   Nova API: `public static void stop (final boolean clearData);`
 
-* Atualização do uso do `getNearbyPointsOfInterest` API para lidar com cenários de erro com mais eficiência.
+* Atualização do uso da API `getNearbyPointsOfInterest` para lidar com cenários de erro com mais eficiência.
 
 ## 25 de julho de 2019
 
@@ -176,9 +176,9 @@ As seguintes atualizações foram feitas nesta versão:
 
 * Para apagar todos os dados de Places do dispositivo,
 
-  no ACPacesMonitor, uma API existente foi substituída `+ (void) stop;` com`+ (void) stop: (BOOL) clearData;`.
+  no ACPlocesMonitor, uma API existente `+ (void) stop;` foi substituída por `+ (void) stop: (BOOL) clearData;`.
 
-* Atualização do uso dos Locais ACC `getNearbyPointsOfInterest` API para lidar com cenários de erro com mais eficiência.
+* Atualização do uso da API `getNearbyPointsOfInterest` do ACPLOCES para lidar com cenários de erro com mais eficiência.
 
 ## 22 de julho de 2019
 
@@ -188,8 +188,8 @@ As seguintes atualizações foram feitas nesta versão:
 
 * Adição de uma nova API que limpa todos os dados relacionados ao Places do estado compartilhado, da memória no aplicativo e da preferência compartilhada.
 * Correção de um problema em que o estado compartilhado não era atualizado durante a inicialização do aplicativo.
-* Correção de um erro em que `getNearbyPointsOfInterest` o retorno de chamada estava retornando o código de erro `SERVER_RESPONSE_ERROR instead of CONNECTIVITY_ERROR` sem acesso à Internet.
-* `getNearbyPointsOfInterest` A API (sem o errorCallback) terá a `successCallback` chamado com lista de poi vazia, em caso de erro ao recuperar os pontos de interesse próximos.
+* Correção de um erro em que o retorno de chamada `getNearbyPointsOfInterest` retornava o código de erro `SERVER_RESPONSE_ERROR instead of CONNECTIVITY_ERROR` em nenhuma Internet.
+* A API `getNearbyPointsOfInterest` (sem errorCallback) terá `successCallback` chamada com lista de poi vazia, em caso de erro ao recuperar os pontos de interesse próximos.
 
 ## 19 de julho de 2019
 
@@ -197,13 +197,13 @@ As seguintes atualizações foram feitas nesta versão:
 
 **iOS Places 1.2.0**
 
-Adição de uma nova API que limpa todos os dados relacionados ao Places do estado compartilhado, da memória no aplicativo e `NSUserDefaults`.
+Adição de uma nova API que limpa todos os dados relacionados a Places do estado compartilhado, memória no aplicativo e `NSUserDefaults`.
 
 ## 25 de junho de 2019
 
 As seguintes atualizações foram feitas nesta versão:
 
-**iOS Places Monitor 1.0.2**
+**Monitor do iOS Places 1.0.2**
 
 * Melhorias na qualidade de vida, incluindo melhor documentação no código e registro.
 
@@ -220,7 +220,7 @@ As seguintes atualizações foram feitas nesta versão:
 
 ## 30 de maio de 2019
 
-**Android Places Monitor 1.0.1**
+**Monitor do Android Places 1.0.1**
 
 * Correção de um problema que impedia um evento de entrada para POIs quando o monitoramento do Places era iniciado.
 
@@ -242,7 +242,7 @@ As seguintes atualizações foram feitas nesta versão:
 * Adição de uma nova API para processar um Geofence individual.
 * Correção de erros para evitar vários eventos de entrada consecutivos.
 
-**Android Places Monitor 1.0.0**
+**Monitor do Android Places 1.0.0**
 
 Versão inicial do Places Monitor para Android.
 
@@ -265,7 +265,7 @@ Para obter mais informações sobre o Places Monitor, clique aqui.
 
 As seguintes atualizações foram feitas nesta versão:
 
-**iOS Places Monitor 1.0.1**
+**Monitor do iOS Places 1.0.1**
 
 * Adição da cobertura completa do teste de unidade.
 * Integração CI (CircleCI)
@@ -281,7 +281,7 @@ O Places Monitor gerencia as APIs de localização no nível do sistema operacio
 
 ## 28 de fevereiro de 2019
 
-### Versão Beta
+### Versão do Beta
 
 Esta é a primeira versão do Places Service, um conjunto de ferramentas que permite aos clientes enriquecer as experiências de seus usuários com dados de localização reais. Para a primeira versão, nosso principal caso de uso é permitir que aplicativos móveis recuperem dados de localização personalizados e atuem sobre esses dados por meio do Adobe Experience Platform Launch.
 
@@ -293,8 +293,8 @@ Estes são os principais recursos nesta versão:
 
 Lançamos uma interface do usuário de gerenciamento na qual você pode visualizar e gerenciar seus pontos de interesse (POIs). Você também pode organizar seus POIs em bibliotecas. Além dos metadados padrão, como cidade, estado e categoria, também oferecemos suporte à capacidade de adicionar metadados personalizados aos POIs.
 
-* Para ver a interface do usuário do, acesse [https://places.adobe.com](https://places.adobe.com).
-* Para começar a usar a interface do usuário, consulte [Introdução](/help/getting-started.md).
+* Para ver a interface, vá para [https://places.adobe.com](https://places.adobe.com).
+* Para começar a usar a interface, consulte [Introdução](/help/getting-started.md).
 
 #### Extensão do Places
 
@@ -306,7 +306,7 @@ Na extensão Places:
 * Eventos de regra que acionam na entrada ou saída do POI.
 * Crie elementos de dados que apontem para o POI atual do usuário.
 
-Para obter mais informações sobre a extensão Places, consulte [Extensão do Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+Para obter mais informações sobre a extensão Places, consulte [Extensão Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 #### APIs do Places
 
@@ -318,7 +318,7 @@ Você pode usar as APIs do Places para fazer o seguinte:
 
   Você pode usar o utilitário Python fornecido para concluir a importação em massa.
 
-Para obter mais informações sobre as APIs do Places, consulte [API do serviço Web](/help/web-service-api/places-web-services.md).
+Para obter mais informações sobre as APIs do Places, consulte [API de serviço da Web](/help/web-service-api/places-web-services.md).
 
 ### Em breve
 

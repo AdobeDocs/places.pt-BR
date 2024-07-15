@@ -27,7 +27,7 @@ Isso permitirá que você execute ações de sinais de localização em tempo re
 
 Estas são algumas das maneiras de usar o Places:
 
-* Envie uma notificação em tempo real quando alguém entrar em um POI, *&quot;Ei...bem-vindos ao estádio.&quot;*
+* Envie uma notificação em tempo real quando alguém digitar um POI, *&quot;Ei..bem-vindo ao estádio.&quot;*
 * Analise o tráfego de pé de suas próprias lojas em relação às lojas de seus concorrentes.
 * Segmente um público com base no comportamento offline usando perfis de público com contexto de localização.
 * Direcione um usuário com experiência na loja quando relevante.
@@ -36,11 +36,11 @@ Estas são algumas das maneiras de usar o Places:
 
 O Places Service inclui os seguintes componentes:
 
-* **Serviço da Web**
+* **Serviço Web**
 
-  Você pode criar e gerenciar POIs usando as APIs REST do Places. Para obter mais informações sobre as REST APIs, consulte [Gerenciar bibliotecas](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) e [Gerenciar POIs](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
+  Você pode criar e gerenciar POIs usando as APIs REST do Places. Para obter mais informações sobre as APIs REST, consulte [Gerenciar bibliotecas](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) e [Gerenciar POIs](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
 
-* **Interface de gerenciamento de POI**
+* **Interface de Gerenciamento de POI**
 
   Visualize POIs em um mapa para entender o contexto espacial e adicionar/editar POIs e seus metadados personalizados.
 
@@ -56,21 +56,21 @@ O Places Service inclui os seguintes componentes:
 
 Estes são alguns termos comuns usados nesta documentação:
 
-* A **ponto de interesse (POI)** O é uma localização geográfica de interesse para sua organização.
+* Um **ponto de interesse (POI)** é uma localização geográfica de interesse de sua organização.
 
   Você pode definir POIs com atributos como nome, raio, endereço, categoria e tags de metadados.
 
-* A **geofence** é um tipo de POI.
+* **geofence** é um tipo de POI.
 
   Esse tipo de POI é uma fronteira geográfica virtual definida por coordenadas de latitude e longitude.
 
-* A **sinal** é um tipo de POI.
+* Um **sinal** é um tipo de POI.
 
   Esse tipo de POI é um dispositivo físico que representa um local ao emitir um sinal bluetooth de baixa energia. O suporte a beacons será lançado em uma versão futura.
 
 * Uma **biblioteca** é uma coleção de POIs que são agrupados para atribuir regras facilmente a um conjunto, em vez de um POI.
 
-* Um **extensão** é a extensão do Experience Platform Launch necessária para integrar o SDK do Places em seus aplicativos móveis.
+* Uma **extensão** é a extensão do Experience Platform Launch necessária para integrar o SDK do Places em seus aplicativos móveis.
 
   A extensão usada com outros SDKs móveis para adicionar contexto de localização às suas experiências.
 
@@ -80,9 +80,9 @@ Estes são alguns termos comuns usados nesta documentação:
 
 * A **orgID** é a ID que representa a organização na Adobe Experience Platform.
 
-  Para obter mais informações, consulte [Encontrar a orgID](https://forums.adobe.com/thread/2339895).
+  Para obter mais informações, consulte [Localizando sua orgID](https://forums.adobe.com/thread/2339895).
 
-* A variável **ID do Experience Cloud** O serviço de fornece uma ID persistente e universal que identifica os visitantes em todas as soluções da Experience Cloud.
+* O serviço **Experience Cloud ID** fornece uma ID persistente e universal que identifica os visitantes em todas as soluções no Experience Cloud.
 
   Para obter mais informações, consulte [Visão geral](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=pt-BR).
 

@@ -4,8 +4,8 @@ description: Esta seção fornece informações sobre como usar o Places Service
 exl-id: 0ba7949a-447e-4754-9b45-945e58e29541
 source-git-commit: 33cbef9b3226be3f013fe82d619b82e093a9752a
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 1%
+source-wordcount: '715'
+ht-degree: 0%
 
 ---
 
@@ -13,19 +13,19 @@ ht-degree: 1%
 
 Os casos de uso do seu aplicativo podem não exigir o monitoramento da região ativa. O Places Service ainda pode ser usado para obter os dados de localização dos usuários integrados a outros produtos Experience Platform.
 
-## Pré-requisitos
+## Pré-requisito
 
 O desenvolvedor coletará a localização do dispositivo usando as APIs fornecidas pelo sistema operacional da plataforma de destino.
 
 >[!TIP]
 >
->Se os casos de uso do seu aplicativo exigirem o monitoramento ativo da região, consulte [Usar o Places Service com sua própria solução de monitoramento](/help/using-your-own-monitor.md).
+>Se os casos de uso do seu aplicativo exigirem o monitoramento de região ativa, consulte [Usar o Places Service com sua própria solução de monitoramento](/help/using-your-own-monitor.md).
 
 Para usar o Places Service sem monitoramento de região ativa:
 
 ## 1. Coletar a localização do usuário
 
-O desenvolvedor do aplicativo deve coletar a localização atual do dispositivo usando o `CoreLocation.framework` (iOS) ou o `Location` APIs fornecidas pelos Serviços da Google Play (Android).
+O desenvolvedor do aplicativo deve coletar o local atual do dispositivo usando as APIs do `CoreLocation.framework` (iOS) ou do `Location` fornecidas pelo Google Play Services (Android).
 
 Para obter mais informações, consulte a seguinte documentação:
 
@@ -84,7 +84,7 @@ public class LocationBroadcastReceiver extends BroadcastReceiver {
 
 ### Objetive-C
 
-Esta é uma amostra de implementação do iOS. O código está mostrando a implementação da [`locationManager:didUpdateLocations:`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager?language=objc) no [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager?language=objc):
+Esta é uma amostra de implementação do iOS. O código está mostrando a implementação do método [`locationManager:didUpdateLocations:`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager?language=objc) em [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager?language=objc):
 
 ```objectivec
 - (void) locationManager:(CLLocationManager*)manager didUpdateLocations:(NSArray<CLLocation*>*)locations {
@@ -100,7 +100,7 @@ Esta é uma amostra de implementação do iOS. O código está mostrando a imple
 
 ### Swift
 
-Esta é uma amostra de implementação do iOS. O código está mostrando a implementação da [`locationManager(_:didUpdateLocations:)`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager) no [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager):
+Esta é uma amostra de implementação do iOS. O código está mostrando a implementação do método [`locationManager(_:didUpdateLocations:)`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager) em [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager):
 
 ```swift
 func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
@@ -116,7 +116,7 @@ func locationManager(_ manager: CLLocationManager, didUpdateLocations locations:
 
 ## 3. Anexar dados do Places a suas solicitações do Analytics
 
-Ao ligar para a `getNearbyPointsOfInterest` , o SDK do Places disponibilizará todos os dados de POI relevantes para o dispositivo por meio de elementos de dados no Launch. Ao usar uma [Anexar dados](https://aep-sdks.gitbook.io/docs/resources/user-guides/attach-data) regra, os dados do Places podem ser adicionados automaticamente a solicitações futuras do Analytics. Isso elimina a necessidade de uma chamada única para o Analytics no momento em que a localização do dispositivo é coletada.
+Ao chamar a API `getNearbyPointsOfInterest`, o SDK do Places disponibilizará todos os dados de POI relevantes para o dispositivo por meio de elementos de dados no Launch. Ao usar a regra [Anexar dados](https://aep-sdks.gitbook.io/docs/resources/user-guides/attach-data), os dados do Places podem ser adicionados automaticamente a solicitações futuras do Analytics. Isso elimina a necessidade de uma chamada única para o Analytics no momento em que a localização do dispositivo é coletada.
 
 Consulte [Adicionar contexto de localização às solicitações do Analytics](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md) para saber mais sobre este tópico.
 
@@ -124,11 +124,11 @@ Consulte [Adicionar contexto de localização às solicitações do Analytics](u
 
 >[!TIP]
 >
->A maneira recomendada de capturar dados do Places é [Anexar dados do Places a suas solicitações do Analytics](#attach-places-data-to-your-analytics-requests).
+>A maneira recomendada de capturar dados do Places é [Anexar dados do Places às suas solicitações do Analytics](#attach-places-data-to-your-analytics-requests).
 >
->Se o caso de uso exigir uma [evento de entrada de região](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#processregionevent) para ser acionado pelo SDK, precisará ser feito manualmente, conforme descrito abaixo.
+>Se o caso de uso exigir que um [evento de entrada de região](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#processregionevent) seja acionado pelo SDK, ele precisará ser feito manualmente, conforme descrito abaixo.
 
-A lista retornada pelo `getNearbyPointsOfInterest` A API contém [objetos personalizados](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#additional-classes-and-enums) que indicam se o usuário está atualmente dentro de um POI. Se o usuário estiver em um POI, o SDK poderá acionar um evento de entrada para essa região.
+A lista retornada pela API `getNearbyPointsOfInterest` contém [objetos personalizados](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#additional-classes-and-enums) que indicam se o usuário está atualmente dentro de um POI. Se o usuário estiver em um POI, o SDK poderá acionar um evento de entrada para essa região.
 
 >[!IMPORTANT]
 >
@@ -138,7 +138,7 @@ A lista retornada pelo `getNearbyPointsOfInterest` A API contém [objetos person
 
 ### Android
 
-A amostra de código a seguir mostra o tratamento do resultado fornecido na chamada de retorno de `getNearbyPointsOfInterest`, um `List<PlacesPOI>`:
+A amostra de código a seguir mostra o tratamento do resultado fornecido no retorno de chamada de `getNearbyPointsOfInterest`, um `List<PlacesPOI>`:
 
 ```java
 void handleUpdatedPOIs(final List<PlacesPOI> nearbyPois) {
@@ -176,7 +176,7 @@ void handleUpdatedPOIs(final List<PlacesPOI> nearbyPois) {
 
 ### Objetive-C
 
-A amostra de código a seguir mostra o tratamento do resultado fornecido na chamada de retorno de `getNearbyPointsOfInterest:limit:callback:errorCallback:`, um `NSArray<ACPPlacesPoi *> *`:
+A amostra de código a seguir mostra o tratamento do resultado fornecido no retorno de chamada de `getNearbyPointsOfInterest:limit:callback:errorCallback:`, um `NSArray<ACPPlacesPoi *> *`:
 
 ```objectivec
 - (void) handleUpdatedPOIs:(NSArray<ACPPlacesPoi *> *)nearbyPois {
@@ -210,7 +210,7 @@ A amostra de código a seguir mostra o tratamento do resultado fornecido na cham
 
 ### Swift
 
-A amostra de código a seguir mostra o tratamento do resultado fornecido na chamada de retorno de `getNearbyPoints(_ ofInterest: CLLocation, limit: UInt, callback: (([ACPPlacesPoi]?) -> Void)?, errorCallback: ((ACPPlacesRequestError) -> Void)?)`, um `[ACPPlacesPoi]`:
+A amostra de código a seguir mostra o tratamento do resultado fornecido no retorno de chamada de `getNearbyPoints(_ ofInterest: CLLocation, limit: UInt, callback: (([ACPPlacesPoi]?) -> Void)?, errorCallback: ((ACPPlacesRequestError) -> Void)?)`, um `[ACPPlacesPoi]`:
 
 ```swift
 func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
@@ -243,11 +243,11 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 
 As amostras de código abaixo mostram como recuperar o local atual do dispositivo, acionar eventos de entrada necessários e garantir que você não receba várias entradas para o mesmo local em uma visita.
 
-Esta amostra de código inclui a etapa opcional de [acionar eventos de entrada quando o usuário estiver em um POI](#trigger-entry-events-when-the-user-is-in-a-poi).
+Esta amostra de código inclui a etapa opcional de [acionamento de eventos de entrada quando o usuário estiver em um POI](#trigger-entry-events-when-the-user-is-in-a-poi).
 
 >[!IMPORTANT]
 >
->Esses snippets são **somente** exemplos. Os desenvolvedores devem determinar como desejam implementar a funcionalidade, e a decisão deve considerar as práticas recomendadas pelo sistema operacional de destino.
+>Estes trechos são **apenas** exemplos. Os desenvolvedores devem determinar como desejam implementar a funcionalidade, e a decisão deve considerar as práticas recomendadas pelo sistema operacional de destino.
 
 ### Android
 
@@ -410,6 +410,6 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 }
 ```
 
-Além de acionar eventos de entrada do Serviço de Places no SDK, devido aos eventos de entrada de acionamento, todos os dados que definem seus POIs podem ser usados pelo restante do SDK por meio de `data elements` em Experience Platform Launch. Com Experience Platform Launch `rules`, você pode anexar dinamicamente os dados do Places Service aos eventos recebidos que são processados pelo SDK. Por exemplo, você pode anexar os metadados de um POI no qual o usuário está localizado e enviar os dados para o Analytics como dados de contexto.
+Além de acionar eventos de entrada do Serviço de Places no SDK, devido aos eventos de entrada de acionamento, todos os dados que definem seus POIs podem ser usados pelo restante do SDK por meio de `data elements` no Experience Platform Launch. Com o Experience Platform Launch `rules`, é possível anexar dinamicamente os dados do Serviço de Places a eventos de entrada processados pelo SDK. Por exemplo, você pode anexar os metadados de um POI no qual o usuário está localizado e enviar os dados para o Analytics como dados de contexto.
 
 Para obter mais informações, consulte [Uso do Places Service com outras soluções de Adobe](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md).

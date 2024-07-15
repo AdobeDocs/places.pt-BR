@@ -29,11 +29,11 @@ Antes de usar a API de serviços da Web, verifique se os seguintes requisitos fo
 
 * O Places Service é provisionado em sua organização e você tem acesso apropriado como usuário.
 
-   Para obter mais informações, consulte *Pré-requisitos para acesso do usuário* in [Visão geral e pré-requisitos da integração](/help/web-service-api/adobe-i-o-integration.md).
+  Para obter mais informações, consulte *Pré-requisitos para acesso do usuário* em [Visão geral da integração e pré-requisitos](/help/web-service-api/adobe-i-o-integration.md).
 
 * Depois que o Serviço do Places for provisionado em sua organização e você tiver acesso, crie uma integração de Adobe para o Serviço do Places.
 
-   Para obter mais informações, consulte *Criação de uma integração do Places Service* in [Visão geral e pré-requisitos da integração](/help/web-service-api/adobe-i-o-integration.md).
+  Para obter mais informações, consulte *Criação de uma integração do Places Service* em [Visão geral da integração e pré-requisitos](/help/web-service-api/adobe-i-o-integration.md).
 
 Informações adicionais:
 

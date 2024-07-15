@@ -4,8 +4,8 @@ description: Introdução ao Places Service.
 exl-id: 1f0ac226-4993-495b-9d07-1e0ada7f19a7
 source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 3%
+source-wordcount: '207'
+ht-degree: 1%
 
 ---
 
@@ -29,7 +29,7 @@ O contexto de produto do Places Service está disponível com todas as organiza�
 
 * Verifique se você está listado como usuário nos contextos de produto Serviço de Places e Experience Platform Launch no Admin Console.
 
-   Para obter mais informações, consulte *Adicionar um usuário ao serviço do Experience Platform Launch e Places* in [Perguntas frequentes](/help/places-gain-access.md).
+  Para obter mais informações, consulte *Adicionando um usuário ao Experience Platform Launch e ao Places Service* em [Perguntas frequentes](/help/places-gain-access.md).
 
 
 ### 2. Crie seus POIs
@@ -38,11 +38,11 @@ Pontos de interesse (POIs) são geolocalizações criadas para suas organizaçõ
 
 * Usar a interface do usuário do Places Service.
 
-   Para obter mais informações, consulte [Visão geral do Places Service](/help/poi-mgmt-ui/poi-mgmt-ui-overview.md).
+  Para obter mais informações, consulte [Visão geral do Places Service](/help/poi-mgmt-ui/poi-mgmt-ui-overview.md).
 
 * Uso das APIs do serviço Web Places.
 
-   Para obter mais informações, consulte [API do serviço Web](/help/web-service-api/places-web-services.md).
+  Para obter mais informações, consulte [API de Serviço da Web](/help/web-service-api/places-web-services.md).
 
 
 ### 3. Configurar a extensão Places
@@ -55,6 +55,6 @@ Para obter mais informações sobre a configuração da extensão Places, consul
 
 Se você planeja fazer o monitoramento de região ativa, será necessário implementar diretamente com o sistema operacional. Para obter mais informações, consulte os seguintes documentos:
 
-* IOS - [Documentação do CoreLocation](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions)
+* iOS - [Documentação de CoreLocation](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions)
 
 * Android - [Documentação de localização](https://developer.android.com/training/location/geofencing)

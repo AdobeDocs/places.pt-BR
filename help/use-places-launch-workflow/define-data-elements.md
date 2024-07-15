@@ -17,13 +17,13 @@ As informações a seguir ajudam a entender os elementos de dados e como criá-l
 
 Os elementos de dados são os blocos fundamentais do dicionário de dados do aplicativo e são usados para coletar, organizar e fornecer dados em toda a tecnologia de marketing e anúncios.
 
-Um elemento de dados é uma variável na qual o valor pode ser mapeado para uma ID de visitante, um Nome da operadora, uma ID de publicidade, uma ID de push e assim por diante. No Experience Platform Launch, é possível fazer referência a esse valor pelo nome da variável. Essa coleção de elementos de dados se torna o dicionário de dados definidos que você pode usar para criar suas regras (eventos, condições e ações) e esse dicionário é compartilhado no Experience Platform Launch, onde pode ser usado com qualquer extensão em sua propriedade.
+Um elemento de dados é uma variável na qual o valor pode ser mapeado para uma ID de visitante, um Nome da operadora, uma Advertising ID, uma ID de push, entre outros. No Experience Platform Launch, é possível fazer referência a esse valor pelo nome da variável. Essa coleção de elementos de dados se torna o dicionário de dados definidos que você pode usar para criar suas regras (eventos, condições e ações) e esse dicionário é compartilhado no Experience Platform Launch, onde pode ser usado com qualquer extensão em sua propriedade.
 
 Com a extensão Places, você pode fazer referência a valores dos seguintes destinos:
 
 * POI atual, que se refere ao POI no qual seu cliente está localizado no momento.
 
-   Se o usuário estiver localizado em vários POIs, o que pertencer à biblioteca com classificação mais alta será escolhido. Se vários POIs pertencerem à biblioteca de classificação mais alta, aquele com o menor raio será escolhido.
+  Se o usuário estiver localizado em vários POIs, o que pertencer à biblioteca com classificação mais alta será escolhido. Se vários POIs pertencerem à biblioteca de classificação mais alta, aquele com o menor raio será escolhido.
 * Último POI de saída, que se refere ao POI mais recente do usuário.
 * Último POI inserido, que se refere ao POI mais recente que o usuário inseriu.
 
@@ -37,18 +37,18 @@ Cada POI contém as seguintes referências de dados:
 * **[!UICONTROL Metadados]**: metadados personalizados do POI
 * **[!UICONTROL Nome]**: nome do POI
 * **[!UICONTROL Raio]**: raio do POI
-* **[!UICONTROL ID da região]**: ID do POI
+* **[!UICONTROL ID da Região]**: ID do POI
 * **[!UICONTROL Região/Estado]**: região, província ou estado do POI
 
 ### Criar um elemento de dados
 
-1. Na página Propriedade do seu aplicativo, clique na guia **[!UICONTROL Elementos de dados]** guia.
+1. Na página Propriedade do seu aplicativo, clique na guia **[!UICONTROL Elementos de dados]**.
 
 1. Clique em **[!UICONTROL Criar novo elemento de dados]**.
 
-1. Na lista de extensões instaladas, localize **[!UICONTROL Places]**.
+1. Na lista de extensões instaladas, encontre **[!UICONTROL Places]**.
 
-1. No **[!UICONTROL Tipo de elemento de dados]** selecione uma referência de dados para esse elemento de dados.
+1. Na lista suspensa **[!UICONTROL Tipo de Elemento de Dados]**, selecione uma referência de dados para esse elemento de dados.
 
 1. Selecione um destino de POI.
 
@@ -65,10 +65,10 @@ Depois que um elemento de dados for criado, se um seletor de elemento de dados e
 
 ![Usar o elemento de dados](/help/assets/use-de-v2.png)
 
-Se um seletor de elemento de dados não estiver presente no componente de regra, você poderá usar o elemento de dados vinculando o nome do elemento de dados com o **[!UICONTROL %%]** tokens.
-Por exemplo, se o nome do elemento de dados for **[!UICONTROL Cidade do Último POI]**, você pode adicionar **[!UICONTROL Cidade do ÚLTIMO POI]** para uma entrada de texto.
+Se um seletor de elemento de dados não estiver presente no componente de regra, você poderá usar o elemento de dados vinculando o nome do elemento de dados com os tokens **[!UICONTROL %%]**.
+Por exemplo, se o nome do elemento de dados for **[!UICONTROL Última Cidade do POI]**, você poderá adicionar **[!UICONTROL ÚLTIMA Cidade do POI]** a uma entrada de texto.
 
 
-## Publicar elementos de dados
+## Elementos de dados do Publish
 
 Se os elementos de dados forem usados em qualquer um dos componentes da regra, esses elementos de dados também deverão ser incluídos na biblioteca e publicados.

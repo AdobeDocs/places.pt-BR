@@ -23,7 +23,7 @@ No iOS, conclua as seguintes etapas:
 
 1. Passe as atualizações de localização obtidas dos Serviços principais de localização da iOS para a extensão Places.
 
-1. Use o `getNearbyPointsOfInterest` API da extensão Places para obter a matriz de `ACPPlacesPoi` objetos em torno do local atual.
+1. Use a API de extensão do Places `getNearbyPointsOfInterest` para obter a matriz de objetos `ACPPlacesPoi` em torno do local atual.
 
    ```objective-c
    - (void) locationManager: (CLLocationManager*) manager didUpdateLocations: (NSArray<CLLocation*>*) locations {
@@ -33,7 +33,7 @@ No iOS, conclua as seguintes etapas:
    }
    ```
 
-1. Extrair as informações do obtido `ACPPlacesPOI` objetos e comece a monitorar esses POIs.
+1. Extraia as informações dos objetos `ACPPlacesPOI` obtidos e comece a monitorar esses POIs.
 
    ```objective-c
    - (void) startMonitoringGeoFences: (NSArray*) newGeoFences {
@@ -57,9 +57,9 @@ No iOS, conclua as seguintes etapas:
 
 ### Android
 
-1. Transmita as atualizações de localização obtidas dos serviços da Google Play ou dos serviços de localização do Android para a Extensão do Places.
+1. Transmita as atualizações de localização obtidas dos serviços da Google Play ou dos serviços de localização da Android para a Extensão do Places.
 
-1. Use o `getNearbyPointsOfInterest` API da extensão Places para obter a lista de `PlacesPoi` objetos em torno do local atual.
+1. Use a API de Extensão do Places `getNearbyPointsOfInterest` para obter a lista de objetos `PlacesPoi` em torno do local atual.
 
    ```java
    LocationCallback callback = new LocationCallback() {
@@ -77,7 +77,7 @@ No iOS, conclua as seguintes etapas:
    };
    ```
 
-1. Extraia os dados do obtido `PlacesPOI` objetos e comece a monitorar esses POIs.
+1. Extraia os dados dos objetos `PlacesPOI` obtidos e comece a monitorar esses POIs.
 
    ```java
    private void startMonitoringFences(final List<PlacesPOI> nearByPOIs) {
@@ -102,7 +102,7 @@ No iOS, conclua as seguintes etapas:
    ```
 
 
-Chamando o `getNearbyPointsOfInterest` A API resulta em uma chamada de rede que obtém a localização ao redor da localização atual.
+Chamar a API `getNearbyPointsOfInterest` resulta em uma chamada de rede que obtém a localização ao redor da localização atual.
 
 >[!IMPORTANT]
 >
@@ -112,7 +112,7 @@ Chamando o `getNearbyPointsOfInterest` A API resulta em uma chamada de rede que 
 
 ### iOS
 
-No iOS, chame `processGeofenceEvent` API do Places na `CLLocationManager` delegado. Essa API notifica se o usuário entrou ou saiu de uma região específica.
+No iOS, chame a API do Places `processGeofenceEvent` no delegado `CLLocationManager`. Essa API notifica se o usuário entrou ou saiu de uma região específica.
 
 ```objective-c
 - (void) locationManager:(CLLocationManager *)manager didEnterRegion:(CLRegion *)region {
@@ -126,7 +126,7 @@ No iOS, chame `processGeofenceEvent` API do Places na `CLLocationManager` delega
 
 ### Android
 
-No Android, chame `processGeofence` juntamente com o evento de transição apropriado em seu receptor de transmissão Geofence. Convém preparar a lista de geofences recebidos para evitar entradas/saídas duplicadas.
+No Android, chame o método `processGeofence` junto com o evento de transição apropriado em seu receptor de transmissão Geofence. Convém preparar a lista de geofences recebidos para evitar entradas/saídas duplicadas.
 
 ```java
 void onGeofenceReceived(final Intent intent) {

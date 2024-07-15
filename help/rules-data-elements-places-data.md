@@ -3,8 +3,8 @@ title: Uso de regras de Experience Platform Launch e elementos de dados com dado
 description: Informações sobre regras e elementos de dados e dados do Places.
 source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 38%
+source-wordcount: '229'
+ht-degree: 37%
 
 ---
 
@@ -21,5 +21,5 @@ Os elementos de dados são os blocos fundamentais do seu dicionário de dados ou
 
 Um elemento de dados é uma variável, e o valor dessa variável pode ser mapeado para sequências de consulta, URLs, valores de cookie, variáveis JavaScript e assim por diante. No Experience Platform Launch, é possível fazer referência a esse valor pelo nome da variável. A coleção de elementos de dados se torna o dicionário de dados definidos que você pode usar para criar suas regras (eventos, condições e ações), e o dicionário de dados é compartilhado no Experience Platform Launch e pode ser usado com a extensão Places.
 
-Para obter mais informações sobre elementos de dados, consulte [Elementos de dados](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=pt-BR) e [Criar um elemento de dados](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html#create-a-data-element).
+Para obter mais informações sobre elementos de dados, consulte [Elementos de dados](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html) e [Criar um elemento de dados](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html#create-a-data-element).
 

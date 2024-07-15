@@ -4,7 +4,7 @@ description: Esta seção mostra como usar o Places Service com o Mobile Service
 exl-id: dfa6b8bb-6bf2-44eb-8bfc-87294807ec3b
 source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '328'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ Antes de usar a extensão Mobile Services para mensagens, verifique os seguintes
 
   >[!IMPORTANT]
   >
-  >O Places Service inclui um banco de dados de POI novo e aprimorado para sua organização, que existe fora da interface herdada do Mobile Services. POIs localizados no Mobile Service *Gerenciar locais* A navegação de página só funcionará com a versão 4 do SDK.
+  >O Places Service inclui um banco de dados de POI novo e aprimorado para sua organização, que existe fora da interface herdada do Mobile Services. Os POIs localizados na navegação de página *Gerenciar Locais* do Mobile Service só funcionarão para a versão 4 do SDK.
 
-* Aqui está o *Gerenciar locais* Página de gerenciamento de POI na interface herdada do Mobile Services para versões mais antigas do SDK:
+* Esta é a página de gerenciamento de POI *Gerenciar locais* na interface herdada do Mobile Services para versões mais antigas do SDK:
 
   ![Interface herdada](/help/assets/legacy-location-v4-ui.png)
 
@@ -49,7 +49,7 @@ Antes de usar os relatórios, conclua os seguintes pré-requisitos:
 
 * Familiarize-se com os relatórios do Mobile Services.
 
-  Para obter mais informações, consulte [Relatórios](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html).
+  Para obter mais informações, consulte [Relatórios](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.htmlhtml?lang=pt-BR).
 
 ## Visualização de relatórios
 

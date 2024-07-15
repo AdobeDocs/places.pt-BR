@@ -4,7 +4,7 @@ description: Este tópico fornece informações adicionais sobre algumas pergunt
 exl-id: cee9f447-5e50-4ed8-b37b-baecbc0e9b7b
 source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '541'
 ht-degree: 1%
 
 ---
@@ -15,13 +15,13 @@ Estas são algumas informações e perguntas frequentes sobre o Places Service.
 
 ## Migração do trackLocation no SDK v4
 
-Se estiver migrando do SDK v4 e estiver procurando uma substituição para o `trackLocation` API, consulte o tópico [Usar o Serviço de Places sem Monitoramento de região ativa](use-places-without-active-monitoring.md).
+Se você estiver migrando do SDK v4 e estiver procurando uma substituição para a API `trackLocation`, consulte o tópico [Usar o Serviço do Places sem o Monitoramento de região ativa](use-places-without-active-monitoring.md).
 
 ## Tamanho e confiabilidade
 
 Importante observar para todas as geofences que estão sendo usadas no monitoramento de região de um aplicativo móvel, independentemente de usar o Adobe ou algum outro serviço. Os sistemas operacionais recomendam alguns parâmetros que devem ser considerados ao criar geofences. Para máxima confiabilidade, as geofences devem ter um raio de pelo menos 100 metros. Não há problema em criar geofences menores, mas os eventos de entrada e saída podem não ser gerados ou podem ser gerados depois que o usuário para de se mover por um período.
 
-Além disso, a precisão e a confiabilidade podem ser reduzidas com base nas condições do hardware, como o Wi-Fi estar desligado ou indisponível, e também com base na localização do dispositivo em relação aos sinais de GPS que estão sendo obstruídos. Por exemplo, áreas montanhosas, configurações urbanas e áreas internas podem reduzir a precisão da localização dos sistemas operacionais iOS e Android.
+Além disso, a precisão e a confiabilidade podem ser reduzidas com base nas condições do hardware, como o Wi-Fi estar desligado ou indisponível, e também com base na localização do dispositivo em relação aos sinais de GPS que estão sendo obstruídos. Por exemplo, áreas montanhosas, ambientes urbanos e áreas internas podem reduzir a precisão da localização dos sistemas operacionais iOS e Android.
 
 ## Como um evento de saída é acionado?
 
