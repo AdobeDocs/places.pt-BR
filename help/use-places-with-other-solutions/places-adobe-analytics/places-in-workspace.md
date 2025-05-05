@@ -23,7 +23,7 @@ Este documento supõe o seguinte:
 
 1. O usuário do Adobe Analytics é um administrador e tem acesso às regras de processamento.
 
-   Para obter mais informações sobre regras de processamento, consulte [Visão geral das regras de processamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html).
+   Para obter mais informações sobre regras de processamento, consulte [Visão geral das regras de processamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html?lang=pt-BR).
 
 1. Na propriedade do Launch, os elementos de dados foram criados para as variáveis de Serviço do Places desejadas.
 
@@ -52,7 +52,7 @@ Neste exemplo, uma variável de conversão, **[!UICONTROL Evar2]**, foi criada e
 
 ## 3. Criar regras de processamento
 
-Essa etapa é necessária para mapear dados de contexto (etapa 1) para variáveis do Analytics (etapa 2). Para obter mais informações sobre como criar regras de processamento, consulte [Visão geral das regras de processamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html).
+Essa etapa é necessária para mapear dados de contexto (etapa 1) para variáveis do Analytics (etapa 2). Para obter mais informações sobre como criar regras de processamento, consulte [Visão geral das regras de processamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html?lang=pt-BR).
 
 Neste exemplo, uma regra de processamento foi criada para mapear o valor de dados de contexto **[!UICONTROL poi.name]** em **[!UICONTROL Nome do POI do Places (eVar 2)]**. Regras de processamento adicionais precisarão ser criadas para cada variável de local criada.
 
