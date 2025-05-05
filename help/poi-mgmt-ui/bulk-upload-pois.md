@@ -23,7 +23,7 @@ Veja este vídeo que mostra o processo de importação e edição de itens em ma
 
 ## Scripts da API Python
 
-Um conjunto de scripts Python foi criado para simplificar a importação em lote de POIs de um arquivo .csv para um banco de dados de POI usando as APIs de serviço da Web. Estes scripts podem ser baixados deste repositório Git de código aberto [1}.](https://github.com/adobe/places-scripts)
+Um conjunto de scripts Python foi criado para simplificar a importação em lote de POIs de um arquivo .csv para um banco de dados de POI usando as APIs de serviço da Web. Estes scripts podem ser baixados deste repositório Git de código aberto [1&rbrace;.](https://github.com/adobe/places-scripts)
 
 Antes de executar esses scripts, para acessar as APIs de serviços Web, consulte *Pré-requisitos para acesso do usuário* em [Visão geral e pré-requisitos de integração](/help/web-service-api/adobe-i-o-integration.md).
 
