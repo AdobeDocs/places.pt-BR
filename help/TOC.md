@@ -17,14 +17,14 @@ ht-degree: 18%
 + [Notas de versão](release-notes.md)
 + [Introdução](getting-started.md)
 + [Obter acesso ao Places Service](places-gain-access.md)
-+ Interface do usuário do Serviço de Places {#poi-mgmt-ui}
++ Interface do usuário do Places Service {#poi-mgmt-ui}
    + [Visão geral da interface do usuário do Places Service](poi-mgmt-ui/poi-mgmt-ui-overview.md)
    + [Criar um POI](poi-mgmt-ui/create-a-poi-ui.md)
    + [Gerenciar POIs criados anteriormente](poi-mgmt-ui/managing-pois-in-the-places-ui.md)
    + [Estratégias para usar metadados com POIs](poi-mgmt-ui/metadata-with-pois.md)
    + [Upload em massa de POIs](poi-mgmt-ui/bulk-upload-pois.md)
    + [Gerenciar várias bibliotecas](poi-mgmt-ui/manage-libraries-in-the-places-ui.md)
-+ API de serviço Web {#web-service-api}
++ API do serviço Web {#web-service-api}
    + [Visão geral da API do serviço da Web](web-service-api/places-web-services.md)
    + [Pré-requisitos de integração](web-service-api/adobe-i-o-integration.md)
    + Uso da API {#api-usage}
@@ -57,11 +57,11 @@ ht-degree: 18%
    + [Extensão do Places](places-ext-aep-sdks/places-extension/places-extension.md)
 + [Usar o Places Service com sua própria solução de monitoramento](using-your-own-monitor.md)
 + [Usar o Places Service sem monitoramento de região ativa](use-places-without-active-monitoring.md)
-+ Usar o Places Service como parte do fluxo de trabalho de Experience Platform Launch {#use-places-launch-workflow}
-   + [Usar o Places Service como parte do fluxo de trabalho de Experience Platform Launch](use-places-launch-workflow/places-launch-workflow.md)
++ Usar o Places Service como parte do fluxo de trabalho do Experience Platform Launch {#use-places-launch-workflow}
+   + [Usar o Places Service como parte do fluxo de trabalho do Experience Platform Launch](use-places-launch-workflow/places-launch-workflow.md)
    + [Definir elementos de dados](use-places-launch-workflow/define-data-elements.md)
    + [Criar regras de entrada e saída](use-places-launch-workflow/create-rule-places-property.md)
-+ Usar o Serviço de Places com outras Soluções Adobe {#use-places-with-other-solutions}
++ Usar o Places Service com outras soluções da Adobe {#use-places-with-other-solutions}
    + Adobe Analytics {#places-adobe-analytics}
       + [Usar o Places Service com o Adobe Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)
       + [Enviar dados de entrada e saída de POI para o Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
