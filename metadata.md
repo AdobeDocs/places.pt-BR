@@ -7,11 +7,11 @@ landing-page-breadcrumb-title: Mobile SDK
 feature-set: Experience Platform
 type: Documentation
 solution-title: Learn & Support
-solution-hub-url: https://helpx.adobe.com/support/experience-cloud.html
+solution-hub-url: https://helpx.adobe.com/br/support/experience-cloud.html
 getting-started-title: Getting Started
-getting-started-url: https://experienceleague.adobe.com/docs/places/using/getting-started.html
+getting-started-url: https://experienceleague.adobe.com/docs/places/using/getting-started.html?lang=pt-BR
 tutorials-title: Tutorials
-tutorials-url: https://experienceleague.adobe.com/#recommended/solutions/experience-platform
+tutorials-url: https://experienceleague.adobe.com/pt-br#recommended/solutions/experience-platform
 git-repo: https://github.com/AdobeDocs/places.pt-BR
 index: true
 source-git-commit: 896a596bfbfb8c97c55263fc3596d957e4ac52c7
@@ -38,7 +38,7 @@ O arquivo metadata.md inclui metadados de nível de repositório transmitidos pa
 | tutorials-title | Raramente usado quando os tutoriais não são apropriados |
 | tutorials-url | Link para tutoriais em vídeo—tutoriais helpx ou tutoriais do KT |
 | mini-toc-levels | Determina o número de níveis de cabeçalho que aparecem no painel à direita. o padrão é 2 |
-| git-repo | https://github.com/AdobeDocs/places.en |
+| git-repo | https://github.com/AdobeDocs/places.pt-BR |
 | índice | definir index=no para inicialização suave |
 
 No arquivo TOC.md
