@@ -2,10 +2,28 @@
 title: Notas de versão
 description: Notas de versão do Places Service.
 exl-id: 76da9548-4e32-4b23-9a15-7012973915f3
-source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
+TQID: https://experienceleague.adobe.com/yo1eXPl9cKbp-EVWQT8gZHcAbSDoIFJVD6xKbdoysMc
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+  - id: f002a92a-b99f-47a4-90c8-65e0e415bc7a
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: bef6f891-2e8a-425e-8f99-7ddf22070daa
+  - id: d833d0ef-8ed5-4cff-a5e7-9f12abd02a31
+  - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '1525'
-ht-degree: 1%
+source-wordcount: 1612
+ht-degree: 4%
 
 ---
 
@@ -48,16 +66,16 @@ ht-degree: 1%
 
 * **ACPLOCES 1.3.1 (iOS)**
 
-   * A extensão do Places agora relata informações de versão ao hub de eventos no SDK principal.
+   * A extensão do Places agora relata informações de versão ao hub de eventos na SDK principal.
    * As informações de associação do POI do dispositivo agora têm um tempo de vida padrão de uma hora a partir do momento em que são coletadas. Para obter mais informações, consulte [Modificação da duração da participação em Places](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
 
 
 * **Places 1.4.1 (Android)**
 
-   * A extensão do Places agora relata informações de versão ao hub de eventos no SDK principal.
+   * A extensão do Places agora relata informações de versão ao hub de eventos na SDK principal.
    * As informações de associação do POI do dispositivo agora têm um tempo de vida padrão de uma hora a partir do momento em que são coletadas. Para obter mais informações, consulte [Modificação da duração da participação em Places](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
 
-## 27 de janeiro de 2020
+## terça-feira, 27 de janeiro de 2020
 
 * **PlacesMonitor 2.2.0**
 
@@ -74,7 +92,7 @@ ht-degree: 1%
 
       * Adição de uma nova API, `setAuthorizationStatus`, para definir o status de autorização do dispositivo para Places Services. O valor é armazenado e usado no estado compartilhado Places.
 
-## 4 de dezembro de 2019
+## quinta-feira, 4 de dezembro de 2019
 
 * **PlacesMonitor 2.1.2**
 
@@ -82,7 +100,7 @@ ht-degree: 1%
 
       * Chame a API de locais para coletar CLAuthorizationStatus do dispositivo quando ele for alterado.
 
-## 3 de dezembro de 2019
+## quarta-feira, 3 de dezembro de 2019
 
 * **ACPLOCES 1.3.0**
 
@@ -90,7 +108,7 @@ ht-degree: 1%
 
       * Adição de uma nova API, `setAuthorizationStatus`, para definir o status de autorização do dispositivo para Places Services. O valor é armazenado e usado no estado compartilhado Places.
 
-## 25 de novembro de 2019
+## terça-feira, 25 de novembro de 2019
 
 * **PlacesMonitor 2.1.1**
 
@@ -107,7 +125,7 @@ ht-degree: 1%
       * O Monitor agora reconhece a inicialização de um dispositivo Android e, se necessário, registra as geofences novamente no SO com base na localização atual do dispositivo.
       * Correção de uma condição de corrida que, às vezes, fazia com que eventos de entrada/saída fossem descartados.
 
-## 9 de outubro de 2019
+## quinta-feira, 9 de outubro de 2019
 
 * **PlacesMonitor 2.1.0**
 
@@ -180,7 +198,7 @@ As seguintes atualizações foram feitas nesta versão:
 
 * Atualização do uso da API `getNearbyPointsOfInterest` do ACPLOCES para lidar com cenários de erro com mais eficiência.
 
-## 22 de julho de 2019
+## terça-feira, 22 de julho de 2019
 
 As seguintes atualizações foram feitas nesta versão:
 
@@ -191,7 +209,7 @@ As seguintes atualizações foram feitas nesta versão:
 * Correção de um erro em que o retorno de chamada `getNearbyPointsOfInterest` retornava o código de erro `SERVER_RESPONSE_ERROR instead of CONNECTIVITY_ERROR` em nenhuma Internet.
 * A API `getNearbyPointsOfInterest` (sem errorCallback) terá `successCallback` chamada com lista de poi vazia, em caso de erro ao recuperar os pontos de interesse próximos.
 
-## 19 de julho de 2019
+## sábado, 19 de julho de 2019
 
 As seguintes atualizações foram feitas nesta versão:
 
@@ -228,7 +246,7 @@ As seguintes atualizações foram feitas nesta versão:
 
 Correção dos seguintes problemas na interface do usuário do Places:
 
-* Atualização do Alternador de soluções no Places para alinhar-se ao restante do Experience Cloud.
+* Atualização do Alternador de soluções no Places para alinhar-se ao restante da Experience Cloud.
 * Correção de um problema em que a classificação era salva nas instâncias em que nenhuma alteração de classificação era feita.
 * O raio mínimo permitido na interface do usuário foi aumentado para 10 metros.
 * Correção de um problema em que, ao excluir todos os números no campo, o campo de raio era redefinido para 20 metros.
@@ -271,7 +289,7 @@ As seguintes atualizações foram feitas nesta versão:
 * Integração CI (CircleCI)
 * Integração de cobertura de código (codecov)
 
-## 25 de março de 2019
+## terça-feira, 25 de março de 2019
 
 iOS Places Monitor 1.0.0
 

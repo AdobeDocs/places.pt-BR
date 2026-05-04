@@ -2,16 +2,39 @@
 title: Usar o Places Service sem monitoramento de região ativa
 description: Esta seção fornece informações sobre como usar o Places Service sem o monitoramento ativo da região.
 exl-id: 0ba7949a-447e-4754-9b45-945e58e29541
-source-git-commit: 33cbef9b3226be3f013fe82d619b82e093a9752a
+TQID: https://experienceleague.adobe.com/xUmdMOa5CvDZSxKFeyse-3vHsUwvm2s04-sIG0FnnCs
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dc5cf79d-43c4-4731-bffa-1df5d7549cb1
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+  - id: f002a92a-b99f-47a4-90c8-65e0e415bc7a
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: bef6f891-2e8a-425e-8f99-7ddf22070daa
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: d833d0ef-8ed5-4cff-a5e7-9f12abd02a31
+  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
+  - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: b572b7ff-a413-4173-b2b4-d7d3874f1b9b
+  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+  - id: ee602049-8a18-43df-9299-a689a025a371
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: 786
 ht-degree: 0%
 
 ---
 
 # Usar o Places Service sem monitoramento de região ativa {#use-places-without-active-monitoring}
 
-Os casos de uso do seu aplicativo podem não exigir o monitoramento da região ativa. O Places Service ainda pode ser usado para obter os dados de localização dos usuários integrados a outros produtos Experience Platform.
+Os casos de uso do seu aplicativo podem não exigir o monitoramento da região ativa. O Places Service ainda pode ser usado para obter os dados de localização dos usuários integrados a outros produtos da Experience Platform.
 
 ## Pré-requisito
 
@@ -23,7 +46,7 @@ O desenvolvedor coletará a localização do dispositivo usando as APIs fornecid
 
 Para usar o Places Service sem monitoramento de região ativa:
 
-## 1. Coletar a localização do usuário
+## &#x200B;1. Coletar a localização do usuário
 
 O desenvolvedor do aplicativo deve coletar o local atual do dispositivo usando as APIs do `CoreLocation.framework` (iOS) ou do `Location` fornecidas pelo Google Play Services (Android).
 
@@ -32,13 +55,13 @@ Para obter mais informações, consulte a seguinte documentação:
 - [CoreLocation](https://developer.apple.com/documentation/corelocation) (Apple)
 - [APIs de localização nos Serviços da Google Play](https://developer.android.com/training/location) (Google)
 
-## 2. Recuperar pontos de interesse próximos do SDK
+## &#x200B;2. Recuperar pontos de interesse próximos da SDK
 
-Depois de obter a localização do usuário, você pode passá-la para o SDK para obter de volta uma lista dos POIs próximos.
+Depois de obter a localização do usuário, você pode passá-la para o SDK para obter uma lista dos POIs próximos.
 
 ### Android
 
-Esta é uma amostra de implementação no Android que usa um [`BroadcastReceiver`](https://codelabs.developers.google.com/codelabs/background-location-updates-android-o/index.html?index=..%2Fíndice nº 5):
+Esta é uma amostra de implementação no Android que usa um [`BroadcastReceiver`](https://codelabs.developers.google.com/codelabs/background-location-updates-android-o/index.html?index=..%2F..index#5):
 
 ```java
 public class LocationBroadcastReceiver extends BroadcastReceiver {
@@ -114,9 +137,9 @@ func locationManager(_ manager: CLLocationManager, didUpdateLocations locations:
 }
 ```
 
-## 3. Anexar dados do Places a suas solicitações do Analytics
+## &#x200B;3. Anexar dados do Places a suas solicitações do Analytics
 
-Ao chamar a API `getNearbyPointsOfInterest`, o SDK do Places disponibilizará todos os dados de POI relevantes para o dispositivo por meio de elementos de dados no Launch. Ao usar a regra [Anexar dados](https://aep-sdks.gitbook.io/docs/resources/user-guides/attach-data), os dados do Places podem ser adicionados automaticamente a solicitações futuras do Analytics. Isso elimina a necessidade de uma chamada única para o Analytics no momento em que a localização do dispositivo é coletada.
+Chamando a API `getNearbyPointsOfInterest`, o Places SDK disponibilizará todos os dados de POI relevantes para o dispositivo por meio de elementos de dados no Launch. Ao usar a regra [Anexar dados](https://aep-sdks.gitbook.io/docs/resources/user-guides/attach-data), os dados do Places podem ser adicionados automaticamente a solicitações futuras do Analytics. Isso elimina a necessidade de uma chamada única para o Analytics no momento em que a localização do dispositivo é coletada.
 
 Consulte [Adicionar contexto de localização às solicitações do Analytics](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md) para saber mais sobre este tópico.
 
@@ -126,13 +149,13 @@ Consulte [Adicionar contexto de localização às solicitações do Analytics](u
 >
 >A maneira recomendada de capturar dados do Places é [Anexar dados do Places às suas solicitações do Analytics](#attach-places-data-to-your-analytics-requests).
 >
->Se o caso de uso exigir que um [evento de entrada de região](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#processregionevent) seja acionado pelo SDK, ele precisará ser feito manualmente, conforme descrito abaixo.
+>Se o caso de uso exigir que um [evento de entrada de região](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#processregionevent) seja acionado pela SDK, ele precisará ser feito manualmente, conforme descrito abaixo.
 
-A lista retornada pela API `getNearbyPointsOfInterest` contém [objetos personalizados](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#additional-classes-and-enums) que indicam se o usuário está atualmente dentro de um POI. Se o usuário estiver em um POI, o SDK poderá acionar um evento de entrada para essa região.
+A lista retornada pela API `getNearbyPointsOfInterest` contém [objetos personalizados](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#additional-classes-and-enums) que indicam se o usuário está atualmente dentro de um POI. Se o usuário estiver em um POI, a SDK poderá acionar um evento de entrada para essa região.
 
 >[!IMPORTANT]
 >
->Para evitar que seu aplicativo acione vários eventos de entrada em uma visita, mantenha uma lista das regiões em que você sabe que o usuário entrou. Ao processar a resposta de POIs próximos do SDK, acione um evento de entrada somente quando a região não estiver na lista.
+>Para evitar que seu aplicativo acione vários eventos de entrada em uma visita, mantenha uma lista das regiões em que você sabe que o usuário entrou. Ao processar a resposta de POIs próximos da SDK, acione um evento de entrada somente quando a região não estiver na lista.
 >
 >Na seguinte amostra de código, `NSUserDefaults` (iOS) e `SharedPreferences` (Android) são usados para gerenciar a lista de regiões:
 
@@ -410,6 +433,6 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 }
 ```
 
-Além de acionar eventos de entrada do Serviço de Places no SDK, devido aos eventos de entrada de acionamento, todos os dados que definem seus POIs podem ser usados pelo restante do SDK por meio de `data elements` no Experience Platform Launch. Com o Experience Platform Launch `rules`, é possível anexar dinamicamente os dados do Serviço de Places a eventos de entrada processados pelo SDK. Por exemplo, você pode anexar os metadados de um POI no qual o usuário está localizado e enviar os dados para o Analytics como dados de contexto.
+Além de acionar eventos de entrada de Serviço de Places na SDK, devido aos eventos de entrada de acionamento, todos os dados que definem seus POIs podem ser usados pelo restante da SDK por meio de `data elements` no Experience Platform Launch. Com o Experience Platform Launch `rules`, é possível anexar dinamicamente os dados do Serviço de Places a eventos de entrada processados pela SDK. Por exemplo, você pode anexar os metadados de um POI no qual o usuário está localizado e enviar os dados para o Analytics como dados de contexto.
 
-Para obter mais informações, consulte [Uso do Places Service com outras soluções de Adobe](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md).
+Para obter mais informações, consulte [Uso do Places Service com outras soluções da Adobe](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md).

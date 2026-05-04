@@ -2,10 +2,22 @@
 title: Enviar dados de entrada e saída de POI para o Analytics
 description: Esta seção fornece informações sobre como enviar dados de entrada e saída do POI para o Analytics.
 exl-id: 69e96261-4902-47dd-a930-a8f3d19c179c
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+TQID: https://experienceleague.adobe.com/H-NkwK7KNSGPjEKYuWNc8F0f3MIu3wBr5FGjypxnqng
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2:
+  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 1%
+source-wordcount: 443
+ht-degree: 3%
 
 ---
 
@@ -16,9 +28,9 @@ ht-degree: 1%
 >
 >Esta seção pressupõe que você tenha o Places Service implementado em seu aplicativo. Para obter mais informações sobre como implementar o Places Service, consulte [Extensões do Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
-Depois que o Serviço de Places enviar os eventos de entrada e saída, você poderá criar regras no Experience Platform Launch para enviar dados do Serviço de Places à Adobe Analytics. Para criar esse tipo de regra, selecione a propriedade no Launch e conclua as seguintes etapas:
+Depois que o Places Service envia os eventos de entrada e saída, você pode criar regras no Experience Platform Launch para enviar dados do Places Service para a Adobe Analytics. Para criar esse tipo de regra, selecione a propriedade no Launch e conclua as seguintes etapas:
 
-## 1. Criar uma regra
+## &#x200B;1. Criar uma regra
 
 1. Na guia **[!UICONTROL Regras]**, clique em **[!UICONTROL Criar nova regra]**.
 
@@ -27,7 +39,7 @@ Depois que o Serviço de Places enviar os eventos de entrada e saída, você pod
    * Se você não tiver regras existentes para esta propriedade, o botão **[!UICONTROL Criar nova regra]** estará no meio da tela.
    * Se a propriedade tiver regras, o botão **[!UICONTROL Criar nova regra]** estará na parte superior direita da tela.
 
-## 2. Selecionar um evento
+## &#x200B;2. Selecionar um evento
 
 1. Digite um nome significativo para a regra.
 
@@ -44,7 +56,7 @@ Depois que o Serviço de Places enviar os eventos de entrada e saída, você pod
    ![&quot;selecionar um evento&quot;](/help/assets/pt-selectEvent.png)
 
 
-## 3. Adicionar condições
+## &#x200B;3. Adicionar condições
 
 >[!IMPORTANT]
 >
@@ -65,7 +77,7 @@ Neste exemplo, uma Condição é criada e faz com que a Regra dispare somente qu
    ![&quot;definir uma condição&quot;](/help/assets/pt-setCondition.png)
 
 
-## 4. Definir a ação
+## &#x200B;4. Definir a ação
 
 1. Na seção **[!UICONTROL Ações]**, clique em **[!UICONTROL Adicionar]**.
 
@@ -83,7 +95,7 @@ Neste exemplo, uma Condição é criada e faz com que a Regra dispare somente qu
 
    ![&quot;definir uma ação&quot;](/help/assets/pt-setAction.png)
 
-## 5. Salve a regra e recrie a propriedade
+## &#x200B;5. Salve a regra e recrie a propriedade
 
 Após concluir a configuração, verifique se a regra tem a seguinte aparência:
 

@@ -1,10 +1,23 @@
 ---
 title: Criação de uma regra para a propriedade do Places Service
-description: O SDK do Places rastreia o local atual, monitora os POIs configurados em torno do local atual e rastreia os eventos de entrada e saída desses POIs.
+description: O Places SDK rastreia o local atual, monitora os POIs configurados em torno do local atual e rastreia os eventos de entrada e saída desses POIs.
 exl-id: dd5aa7ac-55f9-44dc-8632-e483ef3b91a0
-source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
+TQID: https://experienceleague.adobe.com/jyGVmk-oKX6-5vxZBx6Mz-QF8SBYxAWssvAxJ0QLYWQ
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2:
+  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+  - id: f9a2105e-7a47-4e85-9193-31a519a2cb83
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: 939
 ht-degree: 12%
 
 ---
@@ -25,14 +38,14 @@ Você pode configurar uma regra, que é composta por um evento, uma condição e
 
 O Places Service oferece os seguintes eventos nos quais você pode executar uma regra:
 
-* **Insira o POI**, que é acionado pelo SDK do Places quando o cliente insere o POI que você configurou.
-* **Poi de saída**, que é acionado pelo SDK do Places quando o cliente sai do POI que você configurou.
+* **Insira o POI**, que é acionado pela SDK do Places quando o cliente insere o POI que você configurou.
+* **POI de saída**, que é acionado pela SDK do Places quando o cliente sai do POI que você configurou.
 
 ### Condições do Places Service
 
 As condições definem os critérios que os dados associados ao evento, ou o estado compartilhado de uma extensão nessa instância, devem atender para que a ação seja tomada. Por exemplo, você pode definir uma condição para acionar uma ação em uma entrada para uma cafeteria somente na cidade de São Francisco.
 
-O SDK do Places mantém os seguintes estados:
+O Places SDK mantém os seguintes estados:
 
 * POI atual, que se refere ao POI no qual seu cliente está localizado no momento.
 * Último POI de saída, que se refere ao POI mais recente de saída do cliente.
@@ -56,13 +69,13 @@ As ações definem o que o aplicativo fará em resposta à condição para que a
 >
 >Este exemplo pressupõe que você criou uma biblioteca de POI de todas as cafeterias dos Estados Unidos. Para obter mais informações sobre a criação de POIs e bibliotecas, consulte [Criar um POI](/help/poi-mgmt-ui/create-a-poi-ui.md) e *Criar uma Biblioteca* em [Gerenciar várias bibliotecas](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html?lang=pt-BR).
 
-O procedimento a seguir é um exemplo de como criar uma regra que envia uma publicação de volta para o Slack quando você entra em uma cafeteria em São Francisco.
+O procedimento a seguir é um exemplo de como criar uma regra que envia uma publicação para a Slack quando você entra em uma cafeteria em São Francisco.
 
 O evento, a condição e a ação são definidos das seguintes maneiras:
 
 * **Evento**: evento de entrada de locais.
 * **Condição**: a cidade do **POI atual** é São Francisco
-* **Ação**: envie um postback para Slack com o nome da cafeteria que seu cliente inseriu.
+* **Ação**: envie um postback para a Slack com o nome da cafeteria que seu cliente inseriu.
 
 ### Pré-requisito
 
@@ -78,7 +91,7 @@ Para criar um elemento de dados no Experience Platform Launch:
 1. No painel direito, selecione **POI atual**.
 1. Clique em **Salvar**.
 
-### Criar uma regra no Experience Platform Launch para o Serviço de Places
+### Criar uma regra no Experience Platform Launch para o serviço Places
 
 ![criando uma regra](/help/assets/placesrule.png)
 
@@ -110,19 +123,19 @@ Para criar um elemento de dados no Experience Platform Launch:
 1. Na lista suspensa **[!UICONTROL Extensão]**, deixe a opção padrão **[!UICONTROL Núcleo Móvel]** selecionada.
 1. Selecione um tipo de ação, por exemplo, **[!UICONTROL Enviar postback]**.
 
-   a. Em **[!UICONTROL URL]**, digite a URL de postback para o Slack, por exemplo, `https://hooks.slack.com/services/`.
+   a) Em **[!UICONTROL URL]**, digite a URL de postback para o Slack, por exemplo, `https://hooks.slack.com/services/`.
 
-   b. Para enviar um corpo de publicação, marque a caixa de seleção **[!UICONTROL Adicionar corpo do Post]**.
+   b) Para enviar um corpo de publicação, marque a caixa de seleção **[!UICONTROL Adicionar corpo da publicação]**.
 
-   c. Em **[!UICONTROL Post Body]**, adicione o corpo da publicação, por exemplo: `{ "text": "A customer has entered" }`
+   c) Em **[!UICONTROL Corpo da publicação]**, adicione o corpo da publicação, por exemplo: `{ "text": "A customer has entered" }`
 
-   c. Digite um tipo de conteúdo, por exemplo **[!UICONTROL application/json]**.
+   c) Digite um tipo de conteúdo, por exemplo **[!UICONTROL application/json]**.
 
-   d. Selecione um valor de tempo limite, por exemplo, **[!UICONTROL 5]**.
+   d) Selecione um valor de tempo limite, por exemplo, **[!UICONTROL 5]**.
 
 1. Clique em **[!UICONTROL Manter alterações]**.
 
-### Publish a regra
+### Publicar a regra
 
 1. Para ativar a regra, você deve publicá-la. Para obter mais informações sobre como publicar sua regra no Experience Platform Launch, consulte [Publicação](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=pt-BR).
 

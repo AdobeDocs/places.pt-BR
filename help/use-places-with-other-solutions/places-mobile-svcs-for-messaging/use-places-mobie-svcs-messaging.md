@@ -2,10 +2,24 @@
 title: Utilização do Places Service com Mobile Services para mensagens
 description: Esta seção mostra como usar o Places Service com o Mobile Services para mensagens.
 exl-id: dfa6b8bb-6bf2-44eb-8bfc-87294807ec3b
-source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
+TQID: https://experienceleague.adobe.com/-axuli6p-QHthMkucGLCcgyHCqrwudXmif-dZwpGli4
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c20d46e7-1c7d-476c-a50e-3961d4dce35f
+  - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2:
+  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 1%
+source-wordcount: 359
+ht-degree: 3%
 
 ---
 
@@ -17,7 +31,7 @@ Antes de usar a extensão Mobile Services para mensagens, verifique os seguintes
 
   >[!IMPORTANT]
   >
-  >O Places Service inclui um banco de dados de POI novo e aprimorado para sua organização, que existe fora da interface herdada do Mobile Services. Os POIs localizados na navegação de página *Gerenciar Locais* do Mobile Service só funcionarão para a versão 4 do SDK.
+  >O Places Service inclui um banco de dados de POI novo e aprimorado para sua organização, que existe fora da interface herdada do Mobile Services. Os POIs localizados na navegação de página *Gerenciar Locais* do Mobile Service só funcionarão para a versão 4 da SDK.
 
 * Esta é a página de gerenciamento de POI *Gerenciar locais* na interface herdada do Mobile Services para versões mais antigas do SDK:
 
@@ -29,13 +43,13 @@ Antes de usar a extensão Mobile Services para mensagens, verifique os seguintes
 
 * O SDK do ACP está configurado corretamente com a extensão do Places.
 
-  Isso significa que os dados estão disponíveis como eventos e/ou condições no mecanismo de regras do Experience Platform Launch para seu aplicativo móvel. Para obter mais informações, consulte [Extensão do Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+  Isso significa que os dados estão disponíveis como eventos e/ou condições no mecanismo de regras do Experience Platform Launch para o aplicativo móvel. Para obter mais informações, consulte [Extensão do Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
-* Familiarize-se com a criação e a publicação de regras de Experience Platform Launch para o SDK do ACP em seu aplicativo móvel.
+* Familiarize-se com a criação e a publicação de regras do Experience Platform Launch no SDK do ACP em seu aplicativo móvel.
 
   Para obter mais informações, consulte [Mecanismo de regras](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine).
 
-* Os elementos de dados Experience Platform Launch são criados a partir dos dados da extensão Places que serão usados no mecanismo Regras.
+* Os elementos de dados do Experience Platform Launch são criados a partir dos dados da extensão do Places que serão usados no mecanismo de Regras.
 
   Para obter mais informações, consulte [Elementos de dados](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine#data-elements).
 

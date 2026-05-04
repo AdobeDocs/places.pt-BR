@@ -2,9 +2,23 @@
 title: POIs de upload em massa
 description: Esta seção fornece informações sobre como fazer upload em massa dos POIs.
 exl-id: 72704bfc-5837-4439-bdb2-e77ddf935639
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+TQID: https://experienceleague.adobe.com/FVZzn3FwSAFgnRBjkiFwHG8Zl2I-I4fPrqax-zGNclk
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+  - id: f002a92a-b99f-47a4-90c8-65e0e415bc7a
+feature_v2:
+  - id: bef6f891-2e8a-425e-8f99-7ddf22070daa
+  - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2:
+  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: 854
 ht-degree: 0%
 
 ---
@@ -19,7 +33,7 @@ Veja este vídeo que mostra o processo de importação e edição de itens em ma
 
 <!--I changed this embed to a link to pass validation. We should not link to youtube videos, so please upload this to MCP-->
 
-[Importação e Edição de POIs em Massa do Serviço Places](https://www.youtube.com/watch?v=75qVtirsXhg)
+[Importação e edição de POIs em massa do serviço de Places](https://www.youtube.com/watch?v=75qVtirsXhg)
 
 ## Scripts da API Python
 
@@ -86,7 +100,7 @@ Os valores das seguintes colunas são usados na interface do usuário do Places 
 1. Baixe os arquivos do [repositório Git](https://github.com/adobe/places-scripts) no diretório local.
 1. Em um editor de texto, abra o arquivo `config.py` e conclua as seguintes tarefas:
 
-   a. Edite os seguintes valores de variável como strings:
+   a) Edite os seguintes valores de variável como cadeias de caracteres:
 
    * `csv_file_path`
 
@@ -98,13 +112,13 @@ Os valores das seguintes colunas são usados na interface do usuário do Places 
 
    * `org_id`
 
-     A Experience Cloud orgID para onde os POIs devem ser importados. Para obter informações sobre como obter a ID da organização, consulte *Pré-requisitos para acesso do usuário* em [Visão geral e pré-requisitos de integração](/help/web-service-api/adobe-i-o-integration.md).
+     A orgID do Experience Cloud para a qual os POIs devem ser importados. Para obter informações sobre como obter a ID da organização, consulte *Pré-requisitos para acesso do usuário* em [Visão geral e pré-requisitos de integração](/help/web-service-api/adobe-i-o-integration.md).
 
    * `api_key`
 
      Esta é a chave da API REST do Places obtida por meio da integração do Adobe I/O Places. Para obter informações sobre como obter a chave de API, consulte *Pré-requisitos para acesso do usuário* em [Visão geral e pré-requisitos de integração](/help/web-service-api/adobe-i-o-integration.md).
 
-   b. Salve as alterações.
+   b) Salve as alterações.
 
 1. Em uma janela de terminal, navegue até o diretório `…/places-scripts/import/`.
 1. Digite `python ./places_import.py` e pressione a tecla **[!UICONTROL enter]** (**[!UICONTROL return]**).

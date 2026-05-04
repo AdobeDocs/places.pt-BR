@@ -2,10 +2,21 @@
 title: Adobe Target
 description: Esta seção fornece informações sobre como usar o Places Service com o Adobe Target.
 exl-id: 6ee91fca-ea48-4de2-8dcf-87981813c678
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+TQID: https://experienceleague.adobe.com/WsfkEJD0mN5aYKETjcnqiC13dVe5NPYeKfOCTOK82uE
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2:
+  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 1%
+source-wordcount: 549
+ht-degree: 2%
 
 ---
 
@@ -13,9 +24,9 @@ ht-degree: 1%
 
 Este documento supõe que a extensão Places esteja implementada no aplicativo. Se precisar de ajuda para implementar a extensão do Places, consulte [Extensões do Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
-Depois que a extensão Places envia eventos para entradas e saídas, você pode aproveitar as Regras no Launch para anexar os dados do Serviço Places aos eventos do SDK da Adobe Target. Com a propriedade desejada selecionada no Launch, você pode criar esse tipo de regra concluindo as seguintes tarefas:
+Depois que a extensão Places envia eventos para entradas e saídas, você pode aproveitar as Regras no Launch para anexar os dados do Serviço Places aos eventos do Adobe Target SDK. Com a propriedade desejada selecionada no Launch, você pode criar esse tipo de regra concluindo as seguintes tarefas:
 
-## 1. Criar uma regra
+## &#x200B;1. Criar uma regra
 
 1. Na guia **[!UICONTROL Regras]**, clique em **[!UICONTROL Criar nova regra]**.
 
@@ -24,7 +35,7 @@ Depois que a extensão Places envia eventos para entradas e saídas, você pode 
    * Se você não tiver regras existentes para essa propriedade, o botão estará no meio da tela.
    * Se a propriedade tiver regras, o botão estará na parte superior direita da tela.
 
-## 2. Selecionar um Evento
+## &#x200B;2. Selecionar um evento
 
 1. Dê um nome significativo à regra para que ela seja facilmente reconhecível na lista de Regras.
 
@@ -37,7 +48,7 @@ Depois que a extensão Places envia eventos para entradas e saídas, você pode 
 
 ![adicionar um evento](/help/assets/ad-setEvent_target.png)
 
-## 3. Adicionar condições
+## &#x200B;3. Adicionar condições
 
 >[!IMPORTANT]
 >
@@ -53,7 +64,7 @@ No exemplo a seguir, uma Condição é criada e faz com que a Regra seja acionad
 
 ![adicionar uma condição](/help/assets/ad-setCondition_target.png)
 
-## 4. Definir a ação
+## &#x200B;4. Definir a ação
 
 1. Na seção **[!UICONTROL Ações]**, clique em **[!UICONTROL Adicionar]**.
 1. Na lista suspensa **[!UICONTROL Extensão]**, selecione **[!UICONTROL Mobile Core]**.
@@ -63,7 +74,7 @@ No exemplo a seguir, uma Condição é criada e faz com que a Regra seja acionad
 
 No painel direito, você pode adicionar uma carga JSON de forma livre que adiciona dados a um evento do SDK antes que as extensões que estão escutando esse evento o ouçam.
 
-No exemplo a seguir, os valores `poiCity` e `poiName` são adicionados aos **[!UICONTROL mboxparameters]** para cada solicitação que é processada no evento Target. Os valores das novas chaves são determinados dinamicamente pelo SDK no momento em que esse evento é processado.
+No exemplo a seguir, os valores `poiCity` e `poiName` são adicionados aos **[!UICONTROL mboxparameters]** para cada solicitação que é processada no evento Target. Os valores das novas chaves são determinados dinamicamente pela SDK no momento em que esse evento é processado.
 
 >[!TIP]
 >
@@ -73,7 +84,7 @@ No exemplo a seguir, os valores `poiCity` e `poiName` são adicionados aos **[!U
 
 ![definir a ação](/help/assets/ad-setAction-target.png)
 
-## 5. Salve a regra e recrie a propriedade
+## &#x200B;5. Salvar a regra e recriar a propriedade
 
 Após concluir a configuração, verifique se a regra tem a seguinte aparência:
 
