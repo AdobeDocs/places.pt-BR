@@ -3,10 +3,29 @@ title: Testar e validar o Places Service
 description: Esta seção fornece informações sobre como você pode testar e validar o Places Service.
 exl-id: 8dad6619-566b-4aea-b29c-a89192a66441
 TQID: https://experienceleague.adobe.com/nO4tOQW9rp3zjkHT6aJ5IcXHcD9heOaRAJiEchiz1Fk
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: dc5cf79d-43c4-4731-bffa-1df5d7549cb1id: dfc56824-e8b9-499e-85d4-21aedb507314id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: e55547f1-a1ff-40c6-8978-026e40ab7fa4id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ceid: d5ef99fa-df0c-4153-bf94-105ad0724167id: daec7ead-f475-492a-a3b3-02ae08565d6fid: e08599ea-8888-4294-ba74-3ba0a7762a46id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: f7c7de77-382f-4f48-8b36-61a170f06d3did: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2: id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dc5cf79d-43c4-4731-bffa-1df5d7549cb1
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
+  - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
 source-wordcount: 1748
@@ -48,7 +67,7 @@ Como as variáveis ambientais podem ser um fator no sinal de localização e na 
 |  | **Testando Mensagens no Aplicativo do Adobe Campaign Standard com o Serviço Places.** |  |
 | 12 | No painel principal do Campaign, configure uma nova mensagem no aplicativo (type = broadcast) |  |
 | 12a | Em disparadores, selecione **Tipo de evento do Places - Entrada como disparador**. |  |
-| 12b | Selecione **[!UICONTROL Metadados personalizados do Places]** como um filtro adicional - use o tipo de POI = Último POI inserido.<br>Usamos **[!UICONTROL Última inserção]** como o tipo de POI porque, na maioria dos casos, **[!UICONTROL Última inserção]** será o mesmo que **[!UICONTROL POI atual]**. <br><br>**[!UICONTROL O POI atual ]**deve ser usado somente em instâncias onde há geolocalizações de POI sobrepostas. Nesse caso, esses POIs precisam ser CLASSIFICADOS e, em seguida, o**[!UICONTROL  POI atual ]**exibirá o POI mais bem classificado dentre as 2 ou 3 cercas geográficas nas quais um usuário pode estar no momento. |  |
+| 12b | Selecione **[!UICONTROL Metadados personalizados do Places]** como um filtro adicional - use o tipo de POI = Último POI inserido.<br>Usamos **[!UICONTROL Última inserção]** como o tipo de POI porque, na maioria dos casos, **[!UICONTROL Última inserção]** será o mesmo que **[!UICONTROL POI atual]**. <br><br>**[!UICONTROL O POI atual &#x200B;]**&#x200B;deve ser usado somente em instâncias onde há geolocalizações de POI sobrepostas. Nesse caso, esses POIs precisam ser CLASSIFICADOS e, em seguida, o&#x200B;**[!UICONTROL &#x200B; POI atual &#x200B;]**&#x200B;exibirá o POI mais bem classificado dentre as 2 ou 3 cercas geográficas nas quais um usuário pode estar no momento. |  |
 | 12c | Selecione uma chave de metadados personalizada que ajudará você a limitar quais POIs receberão uma mensagem. |  |
 | 12d | Para frequência e duração, mantenha em apenas um ou dois dias, para que, se você não gostar dos critérios, possa expirar o acionador em um período mais curto. |  |
 | 12e | Para click-through Sempre/Uma ou Até, selecione *SEMPRE* para testar em vários locais. | Uma mensagem no aplicativo é exibida SEMPRE quando você simula uma alteração de local que atende aos critérios de metadados apropriados. |

@@ -3,10 +3,19 @@ title: POIs de upload em massa
 description: Esta seção fornece informações sobre como fazer upload em massa dos POIs.
 exl-id: 72704bfc-5837-4439-bdb2-e77ddf935639
 TQID: https://experienceleague.adobe.com/FVZzn3FwSAFgnRBjkiFwHG8Zl2I-I4fPrqax-zGNclk
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: edbd1a0e-46c8-49da-8c10-dba9ec80bba9id: f002a92a-b99f-47a4-90c8-65e0e415bc7a
-feature_v2: id: bef6f891-2e8a-425e-8f99-7ddf22070daaid: e08599ea-8888-4294-ba74-3ba0a7762a46
-subfeature_v2: id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+  - id: f002a92a-b99f-47a4-90c8-65e0e415bc7a
+feature_v2:
+  - id: bef6f891-2e8a-425e-8f99-7ddf22070daa
+  - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2:
+  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
 source-wordcount: 854
@@ -28,7 +37,7 @@ Veja este vídeo que mostra o processo de importação e edição de itens em ma
 
 ## Scripts da API Python
 
-Um conjunto de scripts Python foi criado para simplificar a importação em lote de POIs de um arquivo .csv para um banco de dados de POI usando as APIs de serviço da Web. Estes scripts podem ser baixados deste repositório Git de código aberto [1}.](https://github.com/adobe/places-scripts)
+Um conjunto de scripts Python foi criado para simplificar a importação em lote de POIs de um arquivo .csv para um banco de dados de POI usando as APIs de serviço da Web. Estes scripts podem ser baixados deste repositório Git de código aberto [1&rbrace;.](https://github.com/adobe/places-scripts)
 
 Antes de executar esses scripts, para acessar as APIs de serviços Web, consulte *Pré-requisitos para acesso do usuário* em [Visão geral e pré-requisitos de integração](/help/web-service-api/adobe-i-o-integration.md).
 
