@@ -1,11 +1,16 @@
 ---
 title: Obter acesso ao Places Service
-description: Esta seção fornece informações sobre como adicionar um usuário ao Serviço de Places e Experience Platform Launch, para que o usuário possa acessar o Serviço de Places.
+description: Esta seção fornece informações sobre como adicionar um usuário ao Places Service e ao Experience Platform Launch, para que o usuário possa acessar o Places Service.
 exl-id: f388945e-cf26-4694-9697-9fe564ae4b69
-source-git-commit: c9058e9b70c2ef97151078f43913963471730bd2
+TQID: https://experienceleague.adobe.com/EYg1wjQJZeHqX7vPnJ1VUZzojqG6ANjS8-VBXV3y51c
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9id: f7bdf6be-dd3b-4d2d-ac52-0e62ed0d3102
+feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2: id: b64298cc-90cc-46b7-8917-ee391f1c7516id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0id: f5efb499-54f9-432b-ac5c-599dbac103afid: f6ff4d13-7b5c-4533-8556-95e76673d4cb
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 0%
+source-wordcount: 919
+ht-degree: 1%
 
 ---
 
@@ -17,17 +22,17 @@ O Places Service agora está disponível na interface da coleção de dados. Voc
 
 Você também pode acessar a Coleção de dados no menu do Adobe Experience Platform:
 
-![menu Experience Platform](/help/assets/solutionaccessmenu.png)
+![Menu Experience Platform](/help/assets/solutionaccessmenu.png)
 
 Se sua ID de usuário tiver acesso, você verá o ícone Serviço do Places no painel esquerdo, em Gerenciamento de dados na coleção de dados, conforme indicado abaixo:
 
 ![Painel esquerdo da Coleção de dados](/help/assets/places_in_data_collection.png)
 
-Se você não vir o Serviço de Places nesse local, entre em contato com um administrador em sua organização para adicionar sua ID de usuário à Adobe Experience Platform no Admin Console.
+Se você não vir o Serviço de Places nesse local, entre em contato com um administrador em sua organização para adicionar sua ID de usuário ao Adobe Experience Platform na Admin Console.
 
 ## Adicionar um usuário para acessar o Places Service e a Coleção de dados da Experience Adobe Experience Platform
 
-O Places agora está incluído com o Adobe Experience Platform. Para permitir que os usuários acessem o [Serviço do Places](https://experience.adobe.com/#/data-collection/places), eles precisam ser adicionados ao Adobe Experience Platform no Admin Console como um usuário. Para permitir que os usuários tenham acesso à Coleção de dados do Experience Platform com as permissões necessárias para configurar propriedades móveis e usar o Places com o SDK da Adobe Experience Platform, eles também precisam ser adicionados à Coleção de dados da Adobe Experience Platform no Admin Console e receber as seguintes permissões para a Coleção de dados da Adobe Experience Platform:
+O Places agora está incluído com o Adobe Experience Platform. Para permitir que os usuários acessem o [Serviço do Places](https://experience.adobe.com/#/data-collection/places), eles precisam ser adicionados ao Adobe Experience Platform na Admin Console como um usuário. Para permitir que os usuários tenham acesso à Coleção de dados da Experience Platform com as permissões necessárias para configurar propriedades móveis e usar o Places com a SDK da Adobe Experience Platform, eles também precisam ser adicionados à Coleção de dados da Adobe Experience Platform na Admin Console e receber as seguintes permissões para a Coleção de dados da Adobe Experience Platform:
 
 * Todas as permissões sob Direitos de propriedade:
    * Aprovar
@@ -35,19 +40,19 @@ O Places agora está incluído com o Adobe Experience Platform. Para permitir qu
    * Editar propriedade
    * Gerenciar ambientes
    * Gerenciar extensões
-   * Publicar
+   * Publicação
 * Permissão Gerenciar propriedades em Direitos da empresa
 
 Se esta for a primeira vez que você adiciona um usuário, conclua as etapas a seguir para adicionar usuários à Coleção de dados da Adobe Experience Platform e ao Adobe Experience Platform. Se você tiver adicionado usuários antes, vários perfis podem ser exibidos, portanto, selecione o perfil correto.
 
 >[!IMPORTANT]
 >
->Somente administradores de organização podem acessar o Admin Console e adicionar os usuários.
+>Somente administradores da organização podem acessar a Admin Console e adicionar os usuários.
 
-### 1. Verifique se a coleta de dados da Adobe Experience Platform e da Adobe Experience Platform está provisionada
+### &#x200B;1. Verifique se a coleta de dados da Adobe Experience Platform e da Adobe Experience Platform está provisionada
 
 1. Faça logon em sua organização da Experience Cloud, [Adobe Experience Cloud home](https://experience.adobe.com).
-1. No canto superior direito, clique no alternador de shell Experience Cloud para exibir um menu suspenso.
+1. No canto superior direito, clique no alternador de shell do Experience Cloud para exibir um menu suspenso.
 
    ![alternador de shell](/help/assets/places_shell_switcher1.png)
 
@@ -55,7 +60,7 @@ Se esta for a primeira vez que você adiciona um usuário, conclua as etapas a s
 
    Se você não vir **[!UICONTROL Admin Console]** na lista, você não é um administrador. Você deve entrar em contato com o Org Admin para concluir este procedimento.
 
-1. No Admin Console, se você tiver acesso a várias organizações, verifique se a organização correta está selecionada na parte superior direita da página.
+1. Na Admin Console, se você tiver acesso a várias organizações, verifique se a organização correta está selecionada na parte superior direita da página.
 
    Essa é a organização à qual você adicionará usuários. Se a organização correta não tiver sido selecionada, clique na organização e selecione-a na lista suspensa.
 
@@ -63,14 +68,14 @@ Se esta for a primeira vez que você adiciona um usuário, conclua as etapas a s
    >
    >Se a organização desejada não estiver na lista suspensa, significa que você não tem acesso de administrador a essa organização.
 
-1. No Admin Console, clique na guia Produtos e verifique se os cartões da **[!UICONTROL Coleção de dados da Adobe Experience Platform]** e do **[!UICONTROL Adobe Experience Platform]** são exibidos.
+1. Na Admin Console, clique na guia Produtos e verifique se os cartões da **[!UICONTROL Coleção de Dados da Adobe Experience Platform]** e da **[!UICONTROL Adobe Experience Platform]** são exibidos.
 
    ![](/help/assets/places_provisioned1.png)
 
    Esses dois produtos são provisionados automaticamente para todas as organizações, portanto, devem estar presentes.
 
 
-### 2. Adicionar usuário a esses produtos
+### &#x200B;2. Adicionar usuário a esses produtos
 
 #### Adicionar usuário para fornecer acesso à interface do usuário do Places Service
 

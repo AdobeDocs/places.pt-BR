@@ -2,9 +2,14 @@
 title: Notificações no aplicativo
 description: Esta seção mostra como usar o Serviço de Places com mensagens no aplicativo.
 exl-id: c655e64b-0737-44d5-b453-2ac02fb9cbcc
-source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
+TQID: https://experienceleague.adobe.com/Z39ybIytDRlCbkMthWjvk5F-oexy0C9gtqgK1mmyMxM
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: dfc56824-e8b9-499e-85d4-21aedb507314id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: e55547f1-a1ff-40c6-8978-026e40ab7fa4id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2: id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: 689
 ht-degree: 2%
 
 ---
@@ -19,7 +24,7 @@ As informações a seguir mostram como configurar mensagens no aplicativo para a
 
 ## Mensagem no aplicativo
 
-O Mobile Services permite usar dados de localização enviados para o Analytics como evento(s) de acionador e/ou condição para uma mensagem no aplicativo. Se as mensagens no aplicativo forem acionadas pelo SDK e não precisarem aguardar o processamento dos dados pelo Analytics, as mensagens poderão aparecer em tempo real assim que o acionador ocorrer.
+O Mobile Services permite usar dados de localização enviados para o Analytics como evento(s) de acionador e/ou condição para uma mensagem no aplicativo. Se as mensagens no aplicativo forem acionadas no SDK e não precisarem aguardar o processamento dos dados pelo Analytics, elas poderão aparecer em tempo real assim que o acionamento ocorrer.
 
 ### Notificações locais
 
@@ -29,7 +34,7 @@ Esta é uma lista dos tipos de mensagens no aplicativo disponíveis:
 * Alerta
 * Notificações locais
 
-Esses tipos são mensagens no aplicativo porque são acionadas pelo SDK. As notificações locais parecem notificações por push porque aparecem quando o aplicativo está em segundo plano. Essas notificações também fornecem notificações em tempo real, pois os usuários entram ou saem dos POIs enquanto o aplicativo está em segundo plano.
+Esses tipos são mensagens no aplicativo porque são acionadas pela SDK. As notificações locais parecem notificações por push porque aparecem quando o aplicativo está em segundo plano. Essas notificações também fornecem notificações em tempo real, pois os usuários entram ou saem dos POIs enquanto o aplicativo está em segundo plano.
 
 ### Pré-requisitos
 
@@ -37,7 +42,7 @@ Antes de começar, você entende como enviar e criar uma mensagem no aplicativo 
 
 ## Regras no Experience Platform Launch
 
-Você pode criar regras de Experience Platform Launch que enviam os dados que deseja poder usar como parte das regras de acionador de mensagens no aplicativo para o Analytics. Você pode usar dados das extensões do Places em suas regras de Experience Platform Launch como eventos e/ou condições, dependendo do caso de uso.
+Você pode criar regras do Experience Platform Launch que enviam os dados que você deseja poder usar como parte das regras de acionador de mensagens no aplicativo para o Analytics. Você pode usar dados das extensões do Places em suas regras do Experience Platform Launch como eventos e/ou condições, dependendo do caso de uso.
 
 * Utilização de dados de localização como evento de acionamento.
 
@@ -62,7 +67,7 @@ Por exemplo, você pode selecionar `poiname` como chave e `{%%Last Entered POI N
 
 >[!TIP]
 >
->As Regras de processamento do Analytics podem ser configuradas para coletar esses dados de contexto. Para obter mais informações, consulte [Regras de processamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html?lang=pt-BR). No exemplo em *Criar uma ação*, a Ação enviará `poiname` como contexto para descrever o evento de entrada do POI que está sendo enviado para o Analytics.
+>As Regras de processamento do Analytics podem ser configuradas para coletar esses dados de contexto. Para obter mais informações, consulte [Regras de processamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html). No exemplo em *Criar uma ação*, a Ação enviará `poiname` como contexto para descrever o evento de entrada do POI que está sendo enviado para o Analytics.
 
 ![criando uma ação](/help/assets/configure-action.png)
 

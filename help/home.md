@@ -2,9 +2,14 @@
 title: Places Service
 description: O Places Service é um contexto importante para entender o envolvimento dos usuários móveis. Ao usar esse contexto, os desenvolvedores de aplicativos móveis podem aprimorar o design do aplicativo e torná-lo uma experiência mais personalizada e envolvente.
 exl-id: 7369176f-c072-437a-9ee3-b463c5ff1d12
-source-git-commit: e78e3c5ee6623d6cdf2a33c0582667a70283fdc6
+TQID: https://experienceleague.adobe.com/4kI1AuV2l-qfC3mOrcsoG9NDRcOPJBdkWPmKkQuDIJk
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: dc5cf79d-43c4-4731-bffa-1df5d7549cb1id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2: id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: 684
 ht-degree: 9%
 
 ---
@@ -20,14 +25,14 @@ O Places Service permite obter o seguinte:
 * Crie e gerencie um banco de dados de POIs que podem ser aproveitados com outras soluções da Adobe Experience Cloud.
 * Anexe metadados personalizados aos POIs para torná-los mais ricos e significativos especificando atributos adicionais.
 * Visualize os POIs em um mapa para entender facilmente o contexto espacial e adicionar/editar atributos de metadados.
-* Configure o SDK no Adobe Experience Platform Launch para definir suas regras acionadas por localização e condições baseadas em metadados.
+* Configure a SDK no Adobe Experience Platform Launch para definir suas regras acionadas por localização e condições baseadas em metadados.
 * Reduza o código que você precisa gravar para monitorar a localização de um dispositivo e use a extensão Places para acionar automaticamente as regras específicas da localização.
 
 Isso permitirá que você execute ações de sinais de localização em tempo real, quando e onde for importante. O contexto certo oferece uma experiência de envolvimento móvel mais enriquecedora.
 
 Estas são algumas das maneiras de usar o Places:
 
-* Envie uma notificação em tempo real quando alguém digitar um POI, *&quot;Ei..bem-vindo ao estádio.&quot;*
+* Envie uma notificação em tempo real quando alguém entrar em um POI, *&quot;Olá. Bem-vindo ao estádio.&quot;*
 * Analise o tráfego de pé de suas próprias lojas em relação às lojas de seus concorrentes.
 * Segmente um público com base no comportamento offline usando perfis de público com contexto de localização.
 * Direcione um usuário com experiência na loja quando relevante.
@@ -70,7 +75,7 @@ Estes são alguns termos comuns usados nesta documentação:
 
 * Uma **biblioteca** é uma coleção de POIs que são agrupados para atribuir regras facilmente a um conjunto, em vez de um POI.
 
-* Uma **extensão** é a extensão do Experience Platform Launch necessária para integrar o SDK do Places em seus aplicativos móveis.
+* Uma **extensão** é a extensão do Experience Platform Launch necessária para integrar o Places SDK em seus aplicativos móveis.
 
   A extensão usada com outros SDKs móveis para adicionar contexto de localização às suas experiências.
 
@@ -82,7 +87,7 @@ Estes são alguns termos comuns usados nesta documentação:
 
   Para obter mais informações, consulte [Localizando sua orgID](https://forums.adobe.com/thread/2339895).
 
-* O serviço **Experience Cloud ID** fornece uma ID persistente e universal que identifica os visitantes em todas as soluções no Experience Cloud.
+* O serviço da **Experience Cloud ID** fornece uma ID persistente e universal que identifica os visitantes em todas as soluções da Experience Cloud.
 
   Para obter mais informações, consulte [Visão geral](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=pt-BR).
 
