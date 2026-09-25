@@ -6,9 +6,7 @@ source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 0%
-
 ---
-
 # Visão geral do gerenciamento de POIs {#manage-pois}
 
 Você pode usar as APIs REST do Places Service para concluir as seguintes tarefas:
