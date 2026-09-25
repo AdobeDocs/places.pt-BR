@@ -6,9 +6,7 @@ source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 0%
-
 ---
-
 # Visão geral de uso da API {#api-usage-overview}
 
 Para usar a API REST do Places para gerenciar POIs e bibliotecas, consulte as seguintes seções:
