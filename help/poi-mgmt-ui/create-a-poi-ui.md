@@ -4,11 +4,9 @@ description: Crie um POI usando a interface do usuário do Places Service.
 exl-id: 16df61e3-5a18-4de4-a284-a5d394dc73af
 source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '287'
 ht-degree: 0%
-
 ---
-
 # Criar um POI {#create-a-poi}
 
 Um ponto de interesse (POI) é um local ou ponto em um mapa importante para sua organização ou empresa. Pode incluir locais como cafés, restaurantes, locais de varejo, estádios e assim por diante. As empresas podem definir pontos de interesse para ajudar a personalizar a experiência móvel de um usuário quando ele entrar em uma região geolocalizada para um ponto de interesse específico. Além de experiências personalizadas, as empresas também podem criar pontos de interesse para ajudá-las a analisar e entender melhor os padrões de tráfego de localização. Uma grande cadeia de varejo pode optar por criar POIs para todos os locais de loja para obter análises sobre os usuários que têm seu aplicativo móvel E visitar um local de loja.
@@ -42,7 +40,7 @@ Um ponto de interesse (POI) é um local ou ponto em um mapa importante para sua 
 
 1. Expanda a seção **[!UICONTROL Metadados]** e clique em **[!UICONTROL Adicionar Metadados]**.
 
-   Os metadados podem ajudar você a definir ainda mais um local e podem ser usados em outros fluxos de trabalho da solução Adobe para refinar ainda mais seu público-alvo.
+   Os metadados podem ajudar você a definir um local ainda mais e podem ser usados em outros fluxos de trabalho de solução da Adobe para refinar ainda mais seu público-alvo.
 
    1. Digite o nome da chave.
    1. Digite o valor da chave.
