@@ -6,9 +6,7 @@ source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 19%
-
 ---
-
 # Cabeçalhos e parâmetros {#headers-and-parameters}
 
 Estes são os detalhes sobre os cabeçalhos e parâmetros que estão disponíveis na API REST do Places Service:
