@@ -5,18 +5,16 @@ feature: Mobile SDK
 exl-id: ce1a113c-dee0-49df-8d2f-789ccc1c8322
 source-git-commit: f521d5e3b0b69977877d88382ce41fcb7d1c54b9
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '589'
 ht-degree: 32%
-
 ---
-
 # Referência da API do Places {#places-api-reference}
 
 Estas são informações sobre as referências de API na extensão do Places:
 
 ## Processamento de um evento de região
 
-Quando um dispositivo ultrapassa um dos limites predefinidos da região do Serviço de locais do aplicativo, a região e o tipo de evento são passados para o SDK para processamento.
+Quando um dispositivo ultrapassa um dos limites predefinidos da região de Serviço de Places do aplicativo, a região e o tipo de evento são passados para a SDK para processamento.
 
 ### ProcessGeofence (Android)
 
