@@ -7,9 +7,7 @@ source-git-commit: f521d5e3b0b69977877d88382ce41fcb7d1c54b9
 workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 5%
-
 ---
-
 # Objetos do Places personalizados {#places-objects}
 
 Estas são as classes nativas personalizadas que serão usadas com as APIs do Places:

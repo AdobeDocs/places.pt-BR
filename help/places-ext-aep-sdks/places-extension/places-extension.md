@@ -5,14 +5,12 @@ feature: Mobile SDK
 exl-id: 09c02753-09b3-4e07-82b2-b6c72c4e0e42
 source-git-commit: 9f2c6fee6e0d6d075b662cc0b6cbee49cf05ee55
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '38'
 ht-degree: 0%
-
 ---
-
 # Extensão do Places {#places-extension}
 
-Navegue até o portal do desenvolvedor do Adobe para exibir a documentação das [extensões do SDK do Places](https://developer.adobe.com/client-sdks/documentation/places/).
+Navegue até o portal do desenvolvedor do Adobe para exibir a documentação das [Extensões do Places SDK](https://developer.adobe.com/client-sdks/documentation/places/).
 
 <!-- 
 
