@@ -2,13 +2,14 @@
 title: Obter a classificação de uma biblioteca
 description: Obtenha a classificação de uma biblioteca usando a API REST do Places.
 exl-id: c0abedd0-5ff4-4a01-9f8d-e3d17ea53a97
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
 source-wordcount: '41'
 ht-degree: 4%
-
 ---
-
 # Obter a classificação de uma biblioteca {#get-library-rank}
 
 Um método GET que permite classificar bibliotecas.

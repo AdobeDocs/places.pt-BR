@@ -2,13 +2,14 @@
 title: Atualizar vários POIs
 description: Use as APIs em lote para atualizar vários POIs.
 exl-id: 194027fb-eafd-4207-9190-47125ebf3bc3
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 5%
-
 ---
-
 # Atualizar vários POIs {#update-multiple-pois}
 
 Um método POST que permite atualizar vários POIs.

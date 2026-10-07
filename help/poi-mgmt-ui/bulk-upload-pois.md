@@ -5,24 +5,31 @@ exl-id: 72704bfc-5837-4439-bdb2-e77ddf935639
 TQID: https://experienceleague.adobe.com/FVZzn3FwSAFgnRBjkiFwHG8Zl2I-I4fPrqax-zGNclk
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
   - id: f002a92a-b99f-47a4-90c8-65e0e415bc7a
+    internal-label: Pass
 feature_v2:
   - id: bef6f891-2e8a-425e-8f99-7ddf22070daa
+    internal-label: APIs
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+    internal-label: Data collection
 subfeature_v2:
   - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+    internal-label: Places
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
+    internal-label: Data collection
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
-source-wordcount: 854
+source-wordcount: '854'
 ht-degree: 0%
-
 ---
-
 # Upload em massa de POIs {#bulk-upload-pois}
 
 O botão **Importar POIs** no Serviço do Places pode ser usado para carregar novos POIs em massa usando um arquivo CSV. Um modelo de planilha de exemplo é fornecido para mostrar quais colunas de dados são necessárias e como adicionar metadados personalizados opcionais.
@@ -37,7 +44,7 @@ Veja este vídeo que mostra o processo de importação e edição de itens em ma
 
 ## Scripts da API Python
 
-Um conjunto de scripts Python foi criado para simplificar a importação em lote de POIs de um arquivo .csv para um banco de dados de POI usando as APIs de serviço da Web. Estes scripts podem ser baixados deste repositório Git de código aberto [1&rbrace;.](https://github.com/adobe/places-scripts)
+Um conjunto de scripts Python foi criado para simplificar a importação em lote de POIs de um arquivo .csv para um banco de dados de POI usando as APIs de serviço da Web. Estes scripts podem ser baixados deste repositório Git de código aberto [1}.](https://github.com/adobe/places-scripts)
 
 Antes de executar esses scripts, para acessar as APIs de serviços Web, consulte *Pré-requisitos para acesso do usuário* em [Visão geral e pré-requisitos de integração](/help/web-service-api/adobe-i-o-integration.md).
 
@@ -78,20 +85,20 @@ Esta é uma lista das colunas e dos valores que você precisa usar:
 Os valores das seguintes colunas são usados na interface do usuário do Places Service:
 
 * cor, usada como a cor do pino que representa o local do POI no mapa da interface do usuário do Places Service.
-   * Os valores válidos são &quot;&quot;, #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B, #3DC8DE e &quot;&quot;.
-   * Se o valor for deixado em branco, a interface do usuário do Places Service usará azul como a cor padrão.
+  * Os valores válidos são &quot;&quot;, #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B, #3DC8DE e &quot;&quot;.
+  * Se o valor for deixado em branco, a interface do usuário do Places Service usará azul como a cor padrão.
 
-     Os valores correspondem a azul (#3E76D0), roxo (#AA99E8), fuschia (#DC2ABA), laranja (#FC685B), laranja claro (#FC962E), amarelo (#F6C436), verde claro (#BECE5D), verde (#61B56B) e azul claro (#3DC8DE), respectivamente.
+    Os valores correspondem a azul (#3E76D0), roxo (#AA99E8), fuschia (#DC2ABA), laranja (#FC685B), laranja claro (#FC962E), amarelo (#F6C436), verde claro (#BECE5D), verde (#61B56B) e azul claro (#3DC8DE), respectivamente.
 
 * ícone, que é usado como o ícone no pino que representa o local do POI no mapa da interface do usuário do Places Service.
 
-   * Os valores válidos são &quot;&quot;, loja, cama de hotel, carro, avião, trem, navio, estádio, parque de diversões, âncora, béquer, sino, lance, livro, caixa, pasta, navegação, escova, edifício, calculadora, câmera, relógio, educação, lanterna, seguir, jogo, feminino, masculino, presente, martelo, coração, casa, chave, lançamento, lâmpada, caixa de correio, dinheiro, pin, promover, fita, carrinho de compras, estrela, alvo, bule, thumbDown, thumbUp, armadilha, troféu, chave inglesa.
+  * Os valores válidos são &quot;&quot;, loja, cama de hotel, carro, avião, trem, navio, estádio, parque de diversões, âncora, béquer, sino, lance, livro, caixa, pasta, navegação, escova, edifício, calculadora, câmera, relógio, educação, lanterna, seguir, jogo, feminino, masculino, presente, martelo, coração, casa, chave, lançamento, lâmpada, caixa de correio, dinheiro, pin, promover, fita, carrinho de compras, estrela, alvo, bule, thumbDown, thumbUp, armadilha, troféu, chave inglesa.
 
-     Os valores de ícone são listados na ordem em que aparecem na seguinte ilustração:
+    Os valores de ícone são listados na ordem em que aparecem na seguinte ilustração:
 
-     ![ícones na interface do usuário](/help/assets/UI_icons.png)
+    ![ícones na interface do usuário](/help/assets/UI_icons.png)
 
-   * Se o valor for deixado em branco, a interface do usuário usará estrela como ícone padrão.
+  * Se o valor for deixado em branco, a interface do usuário usará estrela como ícone padrão.
 
 * As colunas que não são mencionadas podem ser deixadas em branco.
 
@@ -112,7 +119,7 @@ Os valores das seguintes colunas são usados na interface do usuário do Places 
 
    * `org_id`
 
-     A orgID do Experience Cloud para a qual os POIs devem ser importados. Para obter informações sobre como obter a ID da organização, consulte *Pré-requisitos para acesso do usuário* em [Visão geral e pré-requisitos de integração](/help/web-service-api/adobe-i-o-integration.md).
+     A Experience Cloud orgID para a qual os POIs devem ser importados. Para obter informações sobre como obter a ID da organização, consulte *Pré-requisitos para acesso do usuário* em [Visão geral e pré-requisitos de integração](/help/web-service-api/adobe-i-o-integration.md).
 
    * `api_key`
 

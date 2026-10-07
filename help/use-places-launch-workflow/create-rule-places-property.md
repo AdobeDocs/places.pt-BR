@@ -5,23 +5,29 @@ exl-id: dd5aa7ac-55f9-44dc-8632-e483ef3b91a0
 TQID: https://experienceleague.adobe.com/jyGVmk-oKX6-5vxZBx6Mz-QF8SBYxAWssvAxJ0QLYWQ
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 feature_v2:
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+    internal-label: Data collection
 subfeature_v2:
   - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+    internal-label: Places
   - id: f9a2105e-7a47-4e85-9193-31a519a2cb83
+    internal-label: Data elements
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
+    internal-label: Data collection
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
-source-wordcount: 939
+source-wordcount: '939'
 ht-degree: 12%
-
 ---
-
 # Criar regras de entrada e saída {#create-entry-exit-rules}
 
 Com a extensão Places e uma solução de monitoramento de região instalada em seu aplicativo móvel, você pode criar regras no Adobe Experience Platform Launch que são acionadas ou condicionadas pelos dados de localização, incluindo eventos de entrada e saída de localização.
@@ -67,7 +73,7 @@ As ações definem o que o aplicativo fará em resposta à condição para que a
 
 >[!CAUTION]
 >
->Este exemplo pressupõe que você criou uma biblioteca de POI de todas as cafeterias dos Estados Unidos. Para obter mais informações sobre a criação de POIs e bibliotecas, consulte [Criar um POI](/help/poi-mgmt-ui/create-a-poi-ui.md) e *Criar uma Biblioteca* em [Gerenciar várias bibliotecas](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html?lang=pt-BR).
+>Este exemplo pressupõe que você criou uma biblioteca de POI de todas as cafeterias dos Estados Unidos. Para obter mais informações sobre a criação de POIs e bibliotecas, consulte [Criar um POI](/help/poi-mgmt-ui/create-a-poi-ui.md) e *Criar uma Biblioteca* em [Gerenciar várias bibliotecas](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
 
 O procedimento a seguir é um exemplo de como criar uma regra que envia uma publicação para a Slack quando você entra em uma cafeteria em São Francisco.
 
@@ -137,7 +143,7 @@ Para criar um elemento de dados no Experience Platform Launch:
 
 ### Publicar a regra
 
-1. Para ativar a regra, você deve publicá-la. Para obter mais informações sobre como publicar sua regra no Experience Platform Launch, consulte [Publicação](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=pt-BR).
+1. Para ativar a regra, você deve publicá-la. Para obter mais informações sobre como publicar sua regra no Experience Platform Launch, consulte [Publicação](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html).
 
 ### Pensar além de entradas e saídas
 

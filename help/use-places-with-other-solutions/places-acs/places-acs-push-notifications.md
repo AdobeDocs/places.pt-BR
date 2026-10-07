@@ -5,23 +5,29 @@ exl-id: 4b50f552-deb8-49cd-9221-fbbf33aaa5f9
 TQID: https://experienceleague.adobe.com/tjJD7Qn27sp8wnNcNdjnANIveyzjG1PZ--3C3rCjrMQ
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 feature_v2:
   - id: c132d929-fa62-4271-803e-b823be07b914
+    internal-label: Profile
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+    internal-label: Data collection
 subfeature_v2:
   - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+    internal-label: Places
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
+    internal-label: Data collection
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
-source-wordcount: 1026
+source-wordcount: '1026'
 ht-degree: 1%
-
 ---
-
 # Notificações por push com o serviço de Places {#push-notifications}
 
 Nesta seção, você aprenderá a usar informações históricas de localização geográfica para direcionar notificações por push enviadas pelo Adobe Campaign Standard.
@@ -61,7 +67,7 @@ Além dos elementos de dados para o Places Service, crie elementos de dados prin
 
 ## Criar uma regra para enviar dados de localização ao Adobe Campaign Standard
 
-As regras no Experience Platform Launch permitem criar fluxos de trabalho complexos de várias soluções com base em acionadores de eventos. Com regras de, você pode criar novas regras ou modificar as existentes e implantar as atualizações dinamicamente nos aplicativos móveis. No exemplo a seguir, a regra será acionada quando um usuário inserir um POI com geosfera. Depois que a regra é acionada, uma atualização é enviada ao Campaign Standard para registrar uma entrada para um POI específico para um usuário específico com base na Experience Cloud ID.
+As regras no Experience Platform Launch permitem criar fluxos de trabalho complexos de várias soluções com base em acionadores de eventos. Com regras de, você pode criar novas regras ou modificar as existentes e implantar as atualizações dinamicamente nos aplicativos móveis. No exemplo a seguir, a regra será acionada quando um usuário inserir um POI com geosfera. Depois que a regra é acionada, uma atualização é enviada ao Campaign Standard para registrar uma entrada em um POI específico para um usuário específico com base na Experience Cloud ID.
 
 1. Na propriedade móvel do Experience Platform Launch, na guia **[!UICONTROL Regras]**, clique em **[!UICONTROL Adicionar regra]**.
 1. Na seção **[!UICONTROL Eventos]**, clique em **[!UICONTROL +]** e selecione **[!UICONTROL Places Service]** como extensão.
@@ -77,7 +83,7 @@ As regras no Experience Platform Launch permitem criar fluxos de trabalho comple
 1. Em **[!UICONTROL URL]**, você precisa construir seu ponto de extremidade de locais do Campaign Standard.
 
    A URL deve ser semelhante a `https:///rest/head/mobileAppV5//locations/`.
-Certifique-se de usar os elementos de dados corretos criados anteriormente para o servidor e a pKey do Campaign.
+   Certifique-se de usar os elementos de dados corretos criados anteriormente para o servidor e a pKey do Campaign.
 
 1. Clique na caixa para adicionar um corpo de publicação e enviar o seguinte:
 
