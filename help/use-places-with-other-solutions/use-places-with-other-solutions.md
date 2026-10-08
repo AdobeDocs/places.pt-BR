@@ -1,13 +1,14 @@
 ---
 title: Uso do Places Service com outras soluções da Adobe
 description: Esta seção mostra como usar o Places Service com outras soluções da Adobe.
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
-
 ---
-
 
 # Usar o Places Service com outras soluções da Adobe {#use-places-other-solutions}
 

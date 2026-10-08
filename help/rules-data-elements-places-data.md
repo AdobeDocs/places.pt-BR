@@ -1,13 +1,14 @@
 ---
 title: Uso de regras e elementos de dados do Experience Platform Launch com dados do Places.
 description: Informações sobre regras e elementos de dados e dados do Places.
-source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 35%
-
 ---
-
 
 # Uso de regras e elementos de dados do Experience Platform Launch com dados do Places
 
